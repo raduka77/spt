@@ -227,7 +227,7 @@ const createDBFiles = function () {
         const x = {
           ...player,
           playerSlug: playerSlug,
-          dbLocation: teamFullPath,
+          dbLocation: `${teamFullPath}/${player.id}.json`,
         };
         fs.writeFileSync(
           `${teamFullPath}/${player.id}.json`,
@@ -241,7 +241,7 @@ const createDBFiles = function () {
         const x = {
           ...player,
           playerSlug: playerSlug,
-          dbLocation: teamFullPath,
+          dbLocation: `${teamFullPath}/${player.id}.json`,
         };
 
         fs.writeFileSync(
