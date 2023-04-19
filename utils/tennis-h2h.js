@@ -222,7 +222,7 @@ const createDBFiles = function () {
       if (!fs.existsSync(teamFullPath)) {
         //// make dir if dir doesnt exist and write file
         console.log(`directory doesn't exist, making dir, writing file`);
-        fs.mkdirSync(teamFullPath);
+        fs.mkdirSync(teamFullPath, { recursive: true });
         fs.writeFileSync(
           `${teamFullPath}/${player.id}.json`,
           JSON.stringify(player, null, 2),
