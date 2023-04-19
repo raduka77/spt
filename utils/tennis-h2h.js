@@ -205,6 +205,7 @@ const createDBFiles = function () {
     const theSlug = playersATPSlugs.find(e => e.id == player.id);
 
     if (theSlug) {
+      let teamPath = '';
       const playerSlug = theSlug.slug;
 
       const lettersTeam = playerSlug.slice(0, 2);
