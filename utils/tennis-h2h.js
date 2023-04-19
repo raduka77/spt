@@ -223,17 +223,30 @@ const createDBFiles = function () {
         //// make dir if dir doesnt exist and write file
         console.log(`directory doesn't exist, making dir, writing file`);
         fs.mkdirSync(teamFullPath, { recursive: true });
+
+        const x = {
+          ...player,
+          playerSlug: playerSlug,
+          dbLocation: teamFullPath,
+        };
         fs.writeFileSync(
           `${teamFullPath}/${player.id}.json`,
-          JSON.stringify(player, null, 2),
+          JSON.stringify(x, null, 2),
           'utf-8'
         );
       } else {
         /// just write file
         console.log(`directory EXIST, just writing file`);
+
+        const x = {
+          ...player,
+          playerSlug: playerSlug,
+          dbLocation: teamFullPath,
+        };
+
         fs.writeFileSync(
           `${teamFullPath}/${player.id}.json`,
-          JSON.stringify(player, null, 2),
+          JSON.stringify(x, null, 2),
           'utf-8'
         );
       }
