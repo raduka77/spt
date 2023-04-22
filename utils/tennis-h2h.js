@@ -3331,7 +3331,7 @@ const makePlayerStats = function (playerId) {
     grassStats: GrassStats,
   };
 
-  console.log(x);
+  console.log('making stats for ' + playerId);
 
   // console.log(HOStats);
   // console.log(HIStats);
