@@ -3350,7 +3350,10 @@ const CreateDBFiles = async () => {
     fs.readFileSync('../json_tennis/atp-players.json', 'utf8')
   );
 
-  playersATP.forEach(player => {
+  playersATP.forEach((player, index, arr) => {
+    console.log(
+      `Player: ${player.properName} (id: ${player.id}), item ${index} from ${arr.length}`
+    );
     const theSlug = playersATPSlugs.find(e => e.id == player.id);
 
     if (theSlug) {
