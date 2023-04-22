@@ -3332,7 +3332,7 @@ const makePlayerStats = function (playerId) {
   };
 
   console.log('making stats for ' + playerId);
-
+  return x;
   // console.log(HOStats);
   // console.log(HIStats);
   MongoConnection.close();
