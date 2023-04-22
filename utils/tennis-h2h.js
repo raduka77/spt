@@ -3341,6 +3341,7 @@ const makePlayerStats = function (playerId) {
 //// create db files
 
 const CreateDBFiles = async () => {
+  let internalFile = [];
   const playersATPSlugs = JSON.parse(
     fs.readFileSync('../slugs/atp-players-slugs.json', 'utf8')
   );
@@ -3368,7 +3369,7 @@ const CreateDBFiles = async () => {
       let teamFullPath = `${teamPath}/${player.id}`;
 
       if (!fs.existsSync(teamFullPath)) {
-        //// make dir if dir doesnt exist and write file
+        //// make dir if dir doesn't exist and write file
         console.log(`directory doesn't exist, making dir, writing file`);
         fs.mkdirSync(teamFullPath, { recursive: true });
 
@@ -3378,11 +3379,8 @@ const CreateDBFiles = async () => {
           playerSlug: playerSlug,
           dbLocation: `${teamFullPath}/${player.id}.json`,
         };
-        fs.writeFileSync(
-          `${teamFullPath}/${player.id}.json`,
-          JSON.stringify(x, null, 2),
-          'utf-8'
-        );
+
+        internalFile.push(x);
       } else {
         /// just write file
         console.log(`directory EXIST, just writing file`);
@@ -3393,7 +3391,7 @@ const CreateDBFiles = async () => {
           playerSlug: playerSlug,
           dbLocation: `${teamFullPath}/${player.id}.json`,
         };
-
+        internalFile.push(x);
         fs.writeFileSync(
           `${teamFullPath}/${player.id}.json`,
           JSON.stringify(x, null, 2),
@@ -3402,7 +3400,11 @@ const CreateDBFiles = async () => {
       }
     }
   });
-
+  fs.writeFileSync(
+    `../json_tennis/internal-players-db.json`,
+    JSON.stringify(internalFile, null, 2),
+    'utf-8'
+  );
   MongoConnection.close();
 };
 
@@ -3560,9 +3562,9 @@ const FetchPlayers = async () => {
 // makePlayerStats(163504);
 // makePlayerStats(136042);
 
-// await CreateDBFiles();
+await CreateDBFiles();
 
-await FetchMatches();
+// await FetchMatches();
 
 // makeCheckSlugsATP();
 
