@@ -3562,9 +3562,9 @@ const FetchPlayers = async () => {
 
 // await CreateDBFiles();
 
-// await FetchMatches();
+await FetchMatches();
 
-makeCheckSlugsATP();
+// makeCheckSlugsATP();
 
 // await FetchPlayers();
 
