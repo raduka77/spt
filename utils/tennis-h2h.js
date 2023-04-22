@@ -3383,7 +3383,13 @@ const CreateDBFiles = async () => {
           dbLocation: `${teamFullPath}/${player.id}.json`,
         };
 
-        internalFile.push(x);
+        /// internal object
+        const y = {
+          id: player.id,
+          name: player.properName,
+          dbLocation: `${teamFullPath}/${player.id}.json`,
+        };
+        internalFile.push(y);
       } else {
         /// just write file
         console.log(`directory EXIST, just writing file`);
@@ -3394,7 +3400,13 @@ const CreateDBFiles = async () => {
           playerSlug: playerSlug,
           dbLocation: `${teamFullPath}/${player.id}.json`,
         };
-        internalFile.push(x);
+        /// internal object
+        const y = {
+          id: player.id,
+          name: player.properName,
+          dbLocation: `${teamFullPath}/${player.id}.json`,
+        };
+        internalFile.push(y);
         fs.writeFileSync(
           `${teamFullPath}/${player.id}.json`,
           JSON.stringify(x, null, 2),
