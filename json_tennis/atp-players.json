@@ -246,7 +246,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -255,7 +255,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 15456,
+    "userCount": 15453,
     "playerTeamInfo": {
       "residence": "Monte Carlo, Monaco",
       "birthplace": "Lausanne, Switzerland",
@@ -360,7 +360,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -369,7 +369,7 @@
       "priority": 0,
       "id": 97050
     },
-    "userCount": 1686,
+    "userCount": 1685,
     "playerTeamInfo": {
       "residence": "Paris, France",
       "birthplace": "Amiens, France",
@@ -482,7 +482,7 @@
       "priority": 0,
       "id": 102432
     },
-    "userCount": 5292,
+    "userCount": 5284,
     "playerTeamInfo": {
       "residence": "Neuchatel, Switzerland",
       "birthplace": "Beziers, France",
@@ -694,7 +694,7 @@
       "priority": 0,
       "id": 102433
     },
-    "userCount": 5842,
+    "userCount": 5865,
     "playerTeamInfo": {
       "residence": "Birmingham, England",
       "birthplace": "Birmingham, England",
@@ -793,7 +793,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 4880,
+    "userCount": 4872,
     "playerTeamInfo": {
       "residence": "Nieuw Vennep, Netherlands",
       "birthplace": "Haarlem, Netherlands",
@@ -813,7 +813,7 @@
         "value": 1746752,
         "currency": "EUR"
       },
-      "currentRanking": 33
+      "currentRanking": 34
     },
     "nameCode": "GRI",
     "ranking": 34,
@@ -997,7 +997,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1300,
+        "userCount": 1301,
         "id": 2413,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -1006,7 +1006,7 @@
       "priority": 0,
       "id": 98810
     },
-    "userCount": 3368,
+    "userCount": 3371,
     "playerTeamInfo": {
       "residence": "Santanyi, Mallorca, Spain",
       "birthplace": "Santanyi, Mallorca, Spain",
@@ -1315,7 +1315,7 @@
       "priority": 0,
       "id": 101857
     },
-    "userCount": 2261,
+    "userCount": 2538,
     "playerTeamInfo": {
       "birthplace": "Woluwe St Lambert",
       "height": 1.78,
@@ -1363,6 +1363,7 @@
         "gender": "M"
       }
     ],
+    "disabled": false,
     "properName": "Luca Van Assche",
     "firstName": "Luca",
     "lastName": "Van Assche"
@@ -1425,7 +1426,7 @@
       "priority": 0,
       "id": 101854
     },
-    "userCount": 3972,
+    "userCount": 4015,
     "playerTeamInfo": {
       "residence": "Mie, Japan",
       "birthplace": "Mie, Japan",
@@ -1445,7 +1446,7 @@
         "value": 3976898,
         "currency": "EUR"
       },
-      "currentRanking": 34
+      "currentRanking": 33
     },
     "nameCode": "NIS",
     "ranking": 35,
@@ -1619,7 +1620,7 @@
       "priority": 0,
       "id": 98812
     },
-    "userCount": 2920,
+    "userCount": 2921,
     "playerTeamInfo": {
       "residence": "Rüschlikon, Switzerland",
       "birthplace": "Zurich, Switzerland",
@@ -1723,7 +1724,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -1732,7 +1733,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 9699,
+    "userCount": 9703,
     "playerTeamInfo": {
       "residence": "Monte Carlo, Monaco",
       "birthplace": "Rocourt, Belgium",
@@ -1836,7 +1837,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1300,
+        "userCount": 1301,
         "id": 2413,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -1845,7 +1846,7 @@
       "priority": 0,
       "id": 98811
     },
-    "userCount": 6499,
+    "userCount": 6520,
     "playerTeamInfo": {
       "residence": "Argentina, Buenos Aires",
       "birthplace": "Buenos Aires, Argentina",
@@ -1864,7 +1865,7 @@
         "value": 1814063,
         "currency": "EUR"
       },
-      "currentRanking": 31
+      "currentRanking": 30
     },
     "nameCode": "CER",
     "ranking": 32,
@@ -1944,7 +1945,7 @@
       "priority": 0,
       "id": 101851
     },
-    "userCount": 1379,
+    "userCount": 1376,
     "playerTeamInfo": {
       "residence": "Paris, France",
       "birthplace": "Paris, France",
@@ -1964,7 +1965,7 @@
         "value": 486111,
         "currency": "EUR"
       },
-      "currentRanking": 170
+      "currentRanking": 172
     },
     "nameCode": "BLA",
     "ranking": 175,
@@ -2057,7 +2058,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 2435,
+    "userCount": 2438,
     "playerTeamInfo": {
       "residence": "Thousand Oaks,California,USA",
       "birthplace": "Thousand Oaks, CA, USA",
@@ -2077,7 +2078,7 @@
         "value": 2398468,
         "currency": "EUR"
       },
-      "currentRanking": 63
+      "currentRanking": 64
     },
     "nameCode": "GIR",
     "ranking": 68,
@@ -2479,7 +2480,7 @@
       "priority": 0,
       "id": 101839
     },
-    "userCount": 33885,
+    "userCount": 33898,
     "playerTeamInfo": {
       "residence": "Lichtenwörth, Austria",
       "birthplace": "Wiener Neustadt, Austria",
@@ -2693,7 +2694,7 @@
       "priority": 0,
       "id": 96945
     },
-    "userCount": 11704,
+    "userCount": 11751,
     "playerTeamInfo": {
       "residence": "Dubai, UAE",
       "birthplace": "Moscow, Russia",
@@ -2798,7 +2799,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -2807,7 +2808,7 @@
       "priority": 0,
       "id": 93944
     },
-    "userCount": 16461,
+    "userCount": 16483,
     "playerTeamInfo": {
       "residence": "Buenos Aires, Argentina",
       "birthplace": "Buenos Aires, Argentina",
@@ -3512,7 +3513,7 @@
       "priority": 0,
       "id": 103294
     },
-    "userCount": 499,
+    "userCount": 498,
     "playerTeamInfo": {
       "residence": "Detmold, Germany",
       "birthplace": "Bielefeld, Germany",
@@ -3531,7 +3532,7 @@
         "value": 126697,
         "currency": "EUR"
       },
-      "currentRanking": 284
+      "currentRanking": 285
     },
     "nameCode": "WES",
     "ranking": 289,
@@ -4720,7 +4721,7 @@
       "priority": 0,
       "id": 102663
     },
-    "userCount": 3328,
+    "userCount": 3354,
     "playerTeamInfo": {
       "residence": "Sydney, Australia",
       "birthplace": "Sydney, Australia",
@@ -4740,7 +4741,7 @@
         "value": 2444039,
         "currency": "EUR"
       },
-      "currentRanking": 73
+      "currentRanking": 74
     },
     "nameCode": "POP",
     "ranking": 81,
@@ -4833,7 +4834,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 5512,
+    "userCount": 5523,
     "playerTeamInfo": {
       "residence": "Stara Pazova, Serbia",
       "birthplace": "Belgrade, Serbia",
@@ -4853,7 +4854,7 @@
         "value": 6772283,
         "currency": "EUR"
       },
-      "currentRanking": 67
+      "currentRanking": 68
     },
     "nameCode": "LAJ",
     "ranking": 70,
@@ -4938,7 +4939,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -4947,7 +4948,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 7825,
+    "userCount": 7826,
     "playerTeamInfo": {
       "residence": "Fuengirola",
       "birthplace": "Malaga, Spain",
@@ -5061,7 +5062,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 2595,
+    "userCount": 2593,
     "playerTeamInfo": {
       "residence": "Sydney, Australia",
       "birthplace": "Sydney, Australia",
@@ -5081,7 +5082,7 @@
         "value": 3664368,
         "currency": "EUR"
       },
-      "currentRanking": 89
+      "currentRanking": 90
     },
     "nameCode": "THO",
     "ranking": 91,
@@ -5194,7 +5195,7 @@
         "value": 8394845,
         "currency": "EUR"
       },
-      "currentRanking": 157
+      "currentRanking": 158
     },
     "nameCode": "PAI",
     "ranking": 159,
@@ -5278,7 +5279,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 83,
+        "userCount": 82,
         "id": 2463,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -5287,7 +5288,7 @@
       "priority": 0,
       "id": 96943
     },
-    "userCount": 9836,
+    "userCount": 9873,
     "playerTeamInfo": {
       "residence": "Alicante, Spain",
       "birthplace": "Sydney, Australia",
@@ -5307,7 +5308,7 @@
         "value": 7290083,
         "currency": "EUR"
       },
-      "currentRanking": 18
+      "currentRanking": 19
     },
     "nameCode": "DE",
     "ranking": 19,
@@ -5585,7 +5586,7 @@
       "priority": 0,
       "id": 101836
     },
-    "userCount": 966,
+    "userCount": 974,
     "playerTeamInfo": {
       "residence": "Bratislava, Slovakia",
       "birthplace": "Bratislava, Slovakia",
@@ -5797,7 +5798,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 20100,
+    "userCount": 20196,
     "playerTeamInfo": {
       "residence": "Carrara",
       "birthplace": "Carrara, Italy",
@@ -5817,7 +5818,7 @@
         "value": 2775208,
         "currency": "EUR"
       },
-      "currentRanking": 20
+      "currentRanking": 18
     },
     "nameCode": "MUS",
     "ranking": 20,
@@ -5897,7 +5898,7 @@
       "priority": 0,
       "id": 96983
     },
-    "userCount": 13504,
+    "userCount": 13501,
     "playerTeamInfo": {
       "residence": "Orlando, FL, USA",
       "birthplace": "Hyattsville, MD, USA",
@@ -6198,7 +6199,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1024,
+        "userCount": 1025,
         "id": 2447,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -6207,7 +6208,7 @@
       "priority": 0,
       "id": 98814
     },
-    "userCount": 1858,
+    "userCount": 1857,
     "playerTeamInfo": {
       "residence": "Stockport, Great Britain",
       "birthplace": "Stockport, England",
@@ -6227,7 +6228,7 @@
         "value": 1267046,
         "currency": "EUR"
       },
-      "currentRanking": 131
+      "currentRanking": 132
     },
     "nameCode": "BRO",
     "ranking": 132,
@@ -6453,7 +6454,7 @@
         "value": 6692738,
         "currency": "EUR"
       },
-      "currentRanking": 62
+      "currentRanking": 63
     },
     "nameCode": "STR",
     "ranking": 64,
@@ -6538,7 +6539,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1300,
+        "userCount": 1301,
         "id": 2413,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -6547,7 +6548,7 @@
       "priority": 0,
       "id": 98811
     },
-    "userCount": 4030,
+    "userCount": 4029,
     "playerTeamInfo": {
       "residence": "La Massana, Andorra",
       "birthplace": "Barcelona, Spain",
@@ -6651,7 +6652,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1300,
+        "userCount": 1301,
         "id": 2413,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -6660,7 +6661,7 @@
       "priority": 0,
       "id": 98811
     },
-    "userCount": 21697,
+    "userCount": 21786,
     "playerTeamInfo": {
       "residence": "Charlottenlund, Denmark",
       "birthplace": "Gentofte, Denmark",
@@ -6764,7 +6765,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1895,
+        "userCount": 1893,
         "id": 2483,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -6773,7 +6774,7 @@
       "priority": 0,
       "id": 96948
     },
-    "userCount": 5812,
+    "userCount": 5822,
     "playerTeamInfo": {
       "residence": "Budapest, Hungary",
       "birthplace": "Nyiregyhaza, Hungary",
@@ -6976,7 +6977,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1300,
+        "userCount": 1301,
         "id": 2413,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -6985,7 +6986,7 @@
       "priority": 0,
       "id": 98810
     },
-    "userCount": 2193,
+    "userCount": 2197,
     "playerTeamInfo": {
       "residence": "Munich, Germany",
       "birthplace": "Karlsruhe, Germany",
@@ -7296,7 +7297,7 @@
       "priority": 0,
       "id": 101857
     },
-    "userCount": 2830,
+    "userCount": 2828,
     "playerTeamInfo": {
       "residence": "Valencia, Spain",
       "birthplace": "Valencia, Spain",
@@ -7400,7 +7401,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -7409,7 +7410,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 48318,
+    "userCount": 48487,
     "playerTeamInfo": {
       "residence": "Sesto",
       "birthplace": "San Candido, Italy",
@@ -7500,7 +7501,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -7509,7 +7510,7 @@
       "priority": 0,
       "id": 93944
     },
-    "userCount": 7878,
+    "userCount": 7877,
     "playerTeamInfo": {
       "residence": "Santiago, Chile",
       "birthplace": "Santiago, Chile",
@@ -7920,7 +7921,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 2157,
+    "userCount": 2156,
     "playerTeamInfo": {
       "residence": "Madrid, Spain",
       "birthplace": "Toledo, Spain",
@@ -8033,7 +8034,7 @@
       "priority": 0,
       "id": 96958
     },
-    "userCount": 10079,
+    "userCount": 10088,
     "playerTeamInfo": {
       "residence": "Castellon de la Plana, Spain",
       "birthplace": "Castellon de la Plana, Spain",
@@ -8237,7 +8238,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 2482,
+        "userCount": 2484,
         "id": 2494,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -8246,7 +8247,7 @@
       "priority": 0,
       "id": 96954
     },
-    "userCount": 4381,
+    "userCount": 4387,
     "playerTeamInfo": {
       "residence": "Helsinki, Finland",
       "birthplace": "Helsinki, Finland",
@@ -8359,7 +8360,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 5024,
+    "userCount": 5008,
     "playerTeamInfo": {
       "residence": "Luxembourg",
       "birthplace": "Metz, France",
@@ -8562,7 +8563,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -8571,7 +8572,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 12771,
+    "userCount": 12818,
     "playerTeamInfo": {
       "residence": "London, England",
       "birthplace": "Johannesburg, South Africa",
@@ -8685,7 +8686,7 @@
       "priority": 0,
       "id": 101860
     },
-    "userCount": 3726,
+    "userCount": 3728,
     "playerTeamInfo": {
       "birthplace": "Pesaro",
       "height": 1.85,
@@ -8787,7 +8788,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1300,
+        "userCount": 1301,
         "id": 2413,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -8796,7 +8797,7 @@
       "priority": 0,
       "id": 98811
     },
-    "userCount": 3189,
+    "userCount": 3187,
     "playerTeamInfo": {
       "residence": "Buenos Aires, Argentina",
       "birthplace": "Rosario, Argentina",
@@ -8909,7 +8910,7 @@
       "priority": 0,
       "id": 102432
     },
-    "userCount": 2146,
+    "userCount": 2150,
     "playerTeamInfo": {
       "residence": "Valencia, Spain",
       "birthplace": "Cuenca, Spain",
@@ -8929,7 +8930,7 @@
         "value": 5845748,
         "currency": "EUR"
       },
-      "currentRanking": 322
+      "currentRanking": 323
     },
     "nameCode": "AND",
     "ranking": 323,
@@ -9311,7 +9312,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1210,
+        "userCount": 1211,
         "id": 2387,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -9320,7 +9321,7 @@
       "priority": 0,
       "id": 96945
     },
-    "userCount": 15367,
+    "userCount": 15408,
     "playerTeamInfo": {
       "residence": "Rancho Palos Verdes, CA, USA",
       "birthplace": "Rancho Santa Fe, CA, USA",
@@ -9905,7 +9906,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -9914,7 +9915,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 16813,
+    "userCount": 16833,
     "playerTeamInfo": {
       "residence": "Monte Carlo, Monaco",
       "birthplace": "Haskovo, Bulgaria",
@@ -10199,7 +10200,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -10208,7 +10209,7 @@
       "priority": 0,
       "id": 97050
     },
-    "userCount": 2073,
+    "userCount": 2089,
     "playerTeamInfo": {
       "residence": "Saint Maur Des Fosses",
       "birthplace": "Charenton-le-Pont, France",
@@ -10228,7 +10229,7 @@
         "value": 1627903,
         "currency": "EUR"
       },
-      "currentRanking": 56
+      "currentRanking": 55
     },
     "nameCode": "BAR",
     "ranking": 57,
@@ -10806,7 +10807,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1543,
+        "userCount": 1544,
         "id": 2362,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -10815,7 +10816,7 @@
       "priority": 0,
       "id": 96961
     },
-    "userCount": 14440,
+    "userCount": 14452,
     "playerTeamInfo": {
       "residence": "Turin, Italy",
       "birthplace": "Turin, Italy",
@@ -11217,7 +11218,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -11226,7 +11227,7 @@
       "priority": 0,
       "id": 93593
     },
-    "userCount": 1233,
+    "userCount": 1234,
     "playerTeamInfo": {
       "residence": "Ordino, Andorra",
       "birthplace": "Santiago del Estero, Argentina",
@@ -11246,7 +11247,7 @@
         "value": 1237238,
         "currency": "EUR"
       },
-      "currentRanking": 232
+      "currentRanking": 233
     },
     "nameCode": "TRU",
     "ranking": 240,
@@ -11625,7 +11626,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 2470,
+        "userCount": 2468,
         "id": 2428,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -11634,7 +11635,7 @@
       "priority": 0,
       "id": 77312
     },
-    "userCount": 2538,
+    "userCount": 2539,
     "playerTeamInfo": {
       "residence": "Nassau, Bahamas",
       "birthplace": "Johannesburg, South Africa",
@@ -12342,7 +12343,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -12351,7 +12352,7 @@
       "priority": 0,
       "id": 93944
     },
-    "userCount": 3324,
+    "userCount": 3325,
     "playerTeamInfo": {
       "residence": "Orlando, FL, USA",
       "birthplace": "Piedmont, CA, USA",
@@ -12456,7 +12457,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1300,
+        "userCount": 1301,
         "id": 2413,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -12465,7 +12466,7 @@
       "priority": 0,
       "id": 98810
     },
-    "userCount": 5683,
+    "userCount": 5687,
     "playerTeamInfo": {
       "residence": "Santiago, Chile",
       "birthplace": "Santiago, Chile",
@@ -12669,7 +12670,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1501,
+        "userCount": 1502,
         "id": 2498,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -12678,7 +12679,7 @@
       "priority": 0,
       "id": 96942
     },
-    "userCount": 14163,
+    "userCount": 14188,
     "playerTeamInfo": {
       "residence": "Switzerland",
       "birthplace": "Paris, France",
@@ -12698,7 +12699,7 @@
         "value": 17519073,
         "currency": "EUR"
       },
-      "currentRanking": 321
+      "currentRanking": 322
     },
     "nameCode": "MON",
     "ranking": 322,
@@ -12729,6 +12730,7 @@
         "gender": "M"
       }
     ],
+    "disabled": false,
     "properName": "Gaël Monfils",
     "firstName": "Gaël",
     "lastName": "Monfils"
@@ -12782,7 +12784,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 83,
+        "userCount": 82,
         "id": 2463,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -12791,7 +12793,7 @@
       "priority": 0,
       "id": 96943
     },
-    "userCount": 3299,
+    "userCount": 3296,
     "playerTeamInfo": {
       "residence": "Minsk, Belarus",
       "birthplace": "Minsk, Belarus",
@@ -12896,7 +12898,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 83,
+        "userCount": 82,
         "id": 2463,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -12905,7 +12907,7 @@
       "priority": 0,
       "id": 96943
     },
-    "userCount": 1489,
+    "userCount": 1486,
     "playerTeamInfo": {
       "residence": "Turnhout, Belgium",
       "birthplace": "The Hague, The Netherlands",
@@ -13706,7 +13708,7 @@
       "priority": 0,
       "id": 101838
     },
-    "userCount": 345,
+    "userCount": 344,
     "playerTeamInfo": {
       "residence": "Brusells",
       "birthplace": "Sarajevo, Bosnia & Herzegovina",
@@ -13919,7 +13921,7 @@
       "priority": 0,
       "id": 96946
     },
-    "userCount": 63190,
+    "userCount": 63238,
     "playerTeamInfo": {
       "residence": "Nicosia, Cyprus",
       "birthplace": "Athens, Greece",
@@ -14773,7 +14775,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1895,
+        "userCount": 1893,
         "id": 2483,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -14782,7 +14784,7 @@
       "priority": 0,
       "id": 96948
     },
-    "userCount": 15882,
+    "userCount": 15897,
     "playerTeamInfo": {
       "residence": "Nassau, Bahamas",
       "birthplace": "Tel Aviv, Israel",
@@ -14802,7 +14804,7 @@
         "value": 8744942,
         "currency": "EUR"
       },
-      "currentRanking": 28
+      "currentRanking": 26
     },
     "nameCode": "SHA",
     "ranking": 28,
@@ -15683,7 +15685,7 @@
       "priority": 0,
       "id": 96957
     },
-    "userCount": 2703,
+    "userCount": 2695,
     "playerTeamInfo": {
       "residence": "Boulogne-Billancourt, France",
       "birthplace": "Bondy, France",
@@ -15703,7 +15705,7 @@
         "value": 1779250,
         "currency": "EUR"
       },
-      "currentRanking": 64
+      "currentRanking": 65
     },
     "nameCode": "HAL",
     "ranking": 65,
@@ -15797,7 +15799,7 @@
       "priority": 0,
       "id": 101859
     },
-    "userCount": 608,
+    "userCount": 609,
     "playerTeamInfo": {
       "residence": "Volgograd, Russia",
       "birthplace": "Volgograd, Russia",
@@ -15817,7 +15819,7 @@
         "value": 476073,
         "currency": "EUR"
       },
-      "currentRanking": 316
+      "currentRanking": 317
     },
     "nameCode": "VAT",
     "ranking": 318,
@@ -17163,7 +17165,7 @@
       "priority": 0,
       "id": 96958
     },
-    "userCount": 2563,
+    "userCount": 2564,
     "playerTeamInfo": {
       "residence": "Bradenton, FL, USA",
       "birthplace": "New York, NY, USA",
@@ -18374,7 +18376,7 @@
       "priority": 0,
       "id": 101845
     },
-    "userCount": 2010,
+    "userCount": 2034,
     "playerTeamInfo": {
       "residence": "Sydney, Australia",
       "birthplace": "Sydney, Australia",
@@ -18425,6 +18427,7 @@
         "gender": "M"
       }
     ],
+    "disabled": false,
     "properName": "Christopher O'Connell",
     "firstName": "Christopher",
     "lastName": "O'Connell"
@@ -19177,7 +19180,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 2087,
+    "userCount": 2085,
     "playerTeamInfo": {
       "residence": "Chisinau, Moldova",
       "birthplace": "Chisinau, Moldova",
@@ -20172,7 +20175,7 @@
       "priority": 0,
       "id": 98812
     },
-    "userCount": 2606,
+    "userCount": 2599,
     "playerTeamInfo": {
       "residence": "Stockholm, Sweden",
       "birthplace": "Skara, Sweden",
@@ -21055,7 +21058,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 5378,
+    "userCount": 5376,
     "playerTeamInfo": {
       "residence": "Gatchina, Russia",
       "birthplace": "Gatchina, Russia",
@@ -21533,7 +21536,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -21542,7 +21545,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 7604,
+    "userCount": 7597,
     "playerTeamInfo": {
       "residence": "Bradenton, FL, USA",
       "birthplace": "Belgrade, Serbia",
@@ -24417,7 +24420,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1543,
+        "userCount": 1544,
         "id": 2362,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -24426,7 +24429,7 @@
       "priority": 0,
       "id": 96961
     },
-    "userCount": 4592,
+    "userCount": 4596,
     "playerTeamInfo": {
       "residence": "Rio de Janeiro, Brazil",
       "birthplace": "Fortaleza, Brazil",
@@ -31620,7 +31623,7 @@
       "priority": 0,
       "id": 101851
     },
-    "userCount": 4020,
+    "userCount": 4075,
     "playerTeamInfo": {
       "residence": "Knezmost, Czech Republic",
       "birthplace": "Mlada Boleslav, Czech Republic",
@@ -32089,7 +32092,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47693,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -32098,7 +32101,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 27001,
+    "userCount": 27392,
     "playerTeamInfo": {
       "residence": "Moscow, Russia",
       "birthplace": "Moscow, Russia",
@@ -32106,16 +32109,16 @@
       "weight": 70,
       "plays": "right-handed",
       "turnedPro": "2014",
-      "prizeCurrent": 787521,
-      "prizeTotal": 13299371,
+      "prizeCurrent": 1598067,
+      "prizeTotal": 14121168,
       "id": 125,
       "birthDateTimestamp": 877305600,
       "prizeCurrentRaw": {
-        "value": 787521,
+        "value": 1598067,
         "currency": "EUR"
       },
       "prizeTotalRaw": {
-        "value": 13299371,
+        "value": 14121168,
         "currency": "EUR"
       },
       "currentRanking": 6
@@ -32289,7 +32292,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -32298,7 +32301,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 183556,
+    "userCount": 183602,
     "playerTeamInfo": {
       "residence": "Monte Carlo, Monaco",
       "birthplace": "Belgrade, Serbia",
@@ -32403,7 +32406,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -32412,7 +32415,7 @@
       "priority": 0,
       "id": 97049
     },
-    "userCount": 2297,
+    "userCount": 2312,
     "playerTeamInfo": {
       "residence": "Brisbane, Australia",
       "birthplace": "Brisbane, Australia",
@@ -32811,7 +32814,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -32820,7 +32823,7 @@
       "priority": 0,
       "id": 97050
     },
-    "userCount": 2247,
+    "userCount": 2276,
     "playerTeamInfo": {
       "residence": "Bell Ville, Argentina",
       "birthplace": "Bell Ville, Argentina",
@@ -32840,7 +32843,7 @@
         "value": 813368,
         "currency": "EUR"
       },
-      "currentRanking": 65
+      "currentRanking": 66
     },
     "nameCode": "CAC",
     "ranking": 69,
@@ -32871,6 +32874,7 @@
         "gender": "M"
       }
     ],
+    "disabled": false,
     "properName": "Pedro Cachin",
     "firstName": "Pedro",
     "lastName": "Cachin"
@@ -33024,7 +33028,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1300,
+        "userCount": 1301,
         "id": 2413,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -33033,7 +33037,7 @@
       "priority": 0,
       "id": 98810
     },
-    "userCount": 3102,
+    "userCount": 3126,
     "playerTeamInfo": {
       "residence": "Lima, Peru",
       "birthplace": "Lima, Peru",
@@ -33052,7 +33056,7 @@
         "value": 619298,
         "currency": "EUR"
       },
-      "currentRanking": 90
+      "currentRanking": 86
     },
     "nameCode": "VAR",
     "ranking": 92,
@@ -33136,7 +33140,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -33145,7 +33149,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 48934,
+    "userCount": 48993,
     "playerTeamInfo": {
       "residence": "Monte Carlo, Monaco",
       "birthplace": "Hamburg, Germany",
@@ -33343,7 +33347,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 26025,
+    "userCount": 26076,
     "playerTeamInfo": {
       "residence": "Oslo, Norway",
       "birthplace": "Oslo, Norway",
@@ -33547,7 +33551,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -33966,7 +33970,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 5384,
+    "userCount": 5434,
     "playerTeamInfo": {
       "residence": "Senta, Serbia",
       "birthplace": "Senta, Serbia",
@@ -33986,7 +33990,7 @@
         "value": 3497529,
         "currency": "EUR"
       },
-      "currentRanking": 77
+      "currentRanking": 70
     },
     "nameCode": "DJE",
     "ranking": 78,
@@ -34563,7 +34567,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1300,
+        "userCount": 1301,
         "id": 2413,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -34684,7 +34688,7 @@
       "priority": 0,
       "id": 96950
     },
-    "userCount": 2856,
+    "userCount": 2907,
     "playerTeamInfo": {
       "residence": "Presov Slovak Republic",
       "birthplace": "Presov, Slovakia",
@@ -34703,7 +34707,7 @@
         "value": 1394749,
         "currency": "EUR"
       },
-      "currentRanking": 69
+      "currentRanking": 62
     },
     "nameCode": "MOL",
     "ranking": 73,
@@ -34896,7 +34900,7 @@
       "priority": 0,
       "id": 98812
     },
-    "userCount": 1568,
+    "userCount": 1577,
     "playerTeamInfo": {
       "residence": "Russia",
       "birthplace": "Moscow, Russia",
@@ -35095,7 +35099,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1895,
+        "userCount": 1893,
         "id": 2483,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -35104,7 +35108,7 @@
       "priority": 0,
       "id": 96947
     },
-    "userCount": 1662,
+    "userCount": 1660,
     "playerTeamInfo": {
       "residence": "Podolsk, Russia",
       "birthplace": "Podolsk, Russia",
@@ -35217,7 +35221,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 2466,
+    "userCount": 2537,
     "playerTeamInfo": {
       "residence": "Kempen, Germany",
       "birthplace": "Kempen, Germany",
@@ -35428,7 +35432,7 @@
       "priority": 0,
       "id": 101860
     },
-    "userCount": 1304,
+    "userCount": 1306,
     "playerTeamInfo": {
       "residence": "Jávea",
       "birthplace": "Torre del Greco, Italy",
@@ -35638,7 +35642,7 @@
       "priority": 0,
       "id": 101854
     },
-    "userCount": 1328,
+    "userCount": 1342,
     "playerTeamInfo": {
       "residence": "Guayaquil",
       "birthplace": "Guayaquil, Ecuador",
@@ -35658,7 +35662,7 @@
         "value": 773928,
         "currency": "EUR"
       },
-      "currentRanking": 114
+      "currentRanking": 115
     },
     "nameCode": "GOM",
     "ranking": 120,
@@ -35949,7 +35953,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 6005,
+    "userCount": 5999,
     "playerTeamInfo": {
       "residence": "Buenos Aires",
       "birthplace": "Buenos Aires, Argentina",
@@ -36062,7 +36066,7 @@
       "priority": 0,
       "id": 102435
     },
-    "userCount": 11994,
+    "userCount": 12014,
     "playerTeamInfo": {
       "residence": "Dubai, UAE",
       "birthplace": "Zagreb, Croatia",
@@ -36082,7 +36086,7 @@
         "value": 8762318,
         "currency": "EUR"
       },
-      "currentRanking": 19
+      "currentRanking": 20
     },
     "nameCode": "COR",
     "ranking": 21,
@@ -36181,7 +36185,7 @@
         "value": 557843,
         "currency": "EUR"
       },
-      "currentRanking": 72
+      "currentRanking": 73
     },
     "nameCode": "BOR",
     "ranking": 79,
@@ -36365,7 +36369,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -36374,7 +36378,7 @@
       "priority": 0,
       "id": 97050
     },
-    "userCount": 2609,
+    "userCount": 2676,
     "playerTeamInfo": {
       "birthplace": "Sanremo, Italy",
       "height": 1.85,
@@ -36580,7 +36584,7 @@
       "priority": 0,
       "id": 101860
     },
-    "userCount": 1836,
+    "userCount": 1840,
     "playerTeamInfo": {
       "birthplace": "Busto Arsizio",
       "height": 1.78,
@@ -36885,7 +36889,7 @@
       "priority": 0,
       "id": 101852
     },
-    "userCount": 776,
+    "userCount": 773,
     "playerTeamInfo": {
       "birthplace": "Kiev",
       "height": 1.85,
@@ -36902,7 +36906,7 @@
         "value": 151608,
         "currency": "EUR"
       },
-      "currentRanking": 178
+      "currentRanking": 179
     },
     "nameCode": "KRU",
     "ranking": 180,
@@ -37501,7 +37505,7 @@
       "priority": 0,
       "id": 96946
     },
-    "userCount": 5568,
+    "userCount": 5618,
     "playerTeamInfo": {
       "birthplace": "Vladikavkaz, Russia",
       "height": 1.85,
@@ -37613,7 +37617,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 3415,
+    "userCount": 3474,
     "playerTeamInfo": {
       "residence": "Cologne, Germany",
       "birthplace": "Cologne, Germany",
@@ -37726,7 +37730,7 @@
       "priority": 0,
       "id": 103302
     },
-    "userCount": 3752,
+    "userCount": 3749,
     "playerTeamInfo": {
       "residence": "Hangzhou, China",
       "birthplace": "Hangzhou, China",
@@ -37746,7 +37750,7 @@
         "value": 567420,
         "currency": "EUR"
       },
-      "currentRanking": 55
+      "currentRanking": 56
     },
     "nameCode": "YIB",
     "ranking": 56,
@@ -37926,7 +37930,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -37935,7 +37939,7 @@
       "priority": 0,
       "id": 97049
     },
-    "userCount": 955,
+    "userCount": 956,
     "playerTeamInfo": {
       "residence": "Spišská Nová Ves",
       "birthplace": "Spisska Nova Ves, Slovakia",
@@ -38137,7 +38141,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -38146,7 +38150,7 @@
       "priority": 0,
       "id": 93593
     },
-    "userCount": 1907,
+    "userCount": 1932,
     "playerTeamInfo": {
       "residence": "Sarajevo, Bosnia-Herzegovina",
       "birthplace": "Sarajevo, Bosnia-Herzegovina",
@@ -38166,7 +38170,7 @@
         "value": 3950313,
         "currency": "EUR"
       },
-      "currentRanking": 202
+      "currentRanking": 193
     },
     "nameCode": "DZU",
     "ranking": 202,
@@ -38348,7 +38352,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 1024,
+        "userCount": 1025,
         "id": 2447,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -38357,7 +38361,7 @@
       "priority": 0,
       "id": 98813
     },
-    "userCount": 2025,
+    "userCount": 2024,
     "playerTeamInfo": {
       "residence": "Netherlands",
       "birthplace": "Houston, TX, USA",
@@ -38469,7 +38473,7 @@
       "priority": 0,
       "id": 101848
     },
-    "userCount": 2609,
+    "userCount": 2657,
     "playerTeamInfo": {
       "birthplace": "Perugia, Italy",
       "height": 1.8,
@@ -38570,7 +38574,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -38890,7 +38894,7 @@
       "priority": 0,
       "id": 97047
     },
-    "userCount": 4348,
+    "userCount": 4354,
     "playerTeamInfo": {
       "residence": "Fonsorbes",
       "birthplace": "Toulouse, France",
@@ -39091,7 +39095,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -39100,7 +39104,7 @@
       "priority": 0,
       "id": 97050
     },
-    "userCount": 3116,
+    "userCount": 3120,
     "playerTeamInfo": {
       "residence": "Latina Italy",
       "birthplace": "Rome, Italy",
@@ -39312,7 +39316,7 @@
       "priority": 0,
       "id": 101836
     },
-    "userCount": 1638,
+    "userCount": 1636,
     "playerTeamInfo": {
       "residence": "Stein, Germany",
       "birthplace": "Nuremberg, Germany",
@@ -40002,7 +40006,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -40011,7 +40015,7 @@
       "priority": 0,
       "id": 97050
     },
-    "userCount": 2827,
+    "userCount": 2864,
     "playerTeamInfo": {
       "residence": "Rome",
       "birthplace": "Florence, Italy",
@@ -41098,7 +41102,7 @@
       "priority": 0,
       "id": 102885
     },
-    "userCount": 955,
+    "userCount": 954,
     "playerTeamInfo": {
       "birthplace": "Budapest, Hungary",
       "height": 1.93,
@@ -41402,7 +41406,7 @@
       "priority": 0,
       "id": 101842
     },
-    "userCount": 712,
+    "userCount": 713,
     "playerTeamInfo": {
       "residence": "Belgrade, Serbia",
       "birthplace": "Belgrade, Serbia",
@@ -41421,7 +41425,7 @@
         "value": 318977,
         "currency": "EUR"
       },
-      "currentRanking": 256
+      "currentRanking": 257
     },
     "nameCode": "ZEK",
     "ranking": 258,
@@ -41514,7 +41518,7 @@
       "priority": 0,
       "id": 102489
     },
-    "userCount": 1169,
+    "userCount": 1164,
     "playerTeamInfo": {
       "residence": "Astana, Kazakhstan",
       "birthplace": "Petropavlovsk, Kazakhstan",
@@ -41724,7 +41728,7 @@
       "priority": 0,
       "id": 101860
     },
-    "userCount": 1643,
+    "userCount": 1644,
     "playerTeamInfo": {
       "birthplace": "Pisa, Italy",
       "height": 1.96,
@@ -42220,7 +42224,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -42333,7 +42337,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -42342,7 +42346,7 @@
       "priority": 0,
       "id": 97049
     },
-    "userCount": 990,
+    "userCount": 998,
     "playerTeamInfo": {
       "residence": "USA",
       "birthplace": "Zurich, Switzerland",
@@ -42745,7 +42749,7 @@
       "priority": 0,
       "id": 101836
     },
-    "userCount": 5333,
+    "userCount": 5329,
     "playerTeamInfo": {
       "residence": "Palermo, Italy",
       "birthplace": "Palermo, Italy",
@@ -42949,7 +42953,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -42958,7 +42962,7 @@
       "priority": 0,
       "id": 97050
     },
-    "userCount": 1074,
+    "userCount": 1075,
     "playerTeamInfo": {
       "residence": "Fulnek",
       "birthplace": "Bilovec, Czech Republic",
@@ -42977,7 +42981,7 @@
         "value": 298148,
         "currency": "EUR"
       },
-      "currentRanking": 163
+      "currentRanking": 164
     },
     "nameCode": "KOP",
     "ranking": 165,
@@ -43380,7 +43384,7 @@
         "value": 135145,
         "currency": "EUR"
       },
-      "currentRanking": 113
+      "currentRanking": 114
     },
     "nameCode": "VIR",
     "ranking": 116,
@@ -43464,7 +43468,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -43473,7 +43477,7 @@
       "priority": 0,
       "id": 93468
     },
-    "userCount": 80935,
+    "userCount": 81041,
     "playerTeamInfo": {
       "residence": "El Palmar, Murcia, Spain",
       "birthplace": "El Palmar, Murcia, Spain",
@@ -43578,7 +43582,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -43587,7 +43591,7 @@
       "priority": 0,
       "id": 97050
     },
-    "userCount": 1343,
+    "userCount": 1348,
     "playerTeamInfo": {
       "residence": "Azzano Decimo, Italy",
       "birthplace": "San Vito al Tagliamento, Italy",
@@ -43606,7 +43610,7 @@
         "value": 282681,
         "currency": "EUR"
       },
-      "currentRanking": 177
+      "currentRanking": 178
     },
     "nameCode": "BON",
     "ranking": 179,
@@ -43690,7 +43694,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47350,
+        "userCount": 47348,
         "id": 2361,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -43699,7 +43703,7 @@
       "priority": 0,
       "id": 97049
     },
-    "userCount": 657,
+    "userCount": 653,
     "playerTeamInfo": {
       "residence": "Spain",
       "birthplace": "New York City",
@@ -45501,7 +45505,7 @@
       "priority": 0,
       "id": 101852
     },
-    "userCount": 1080,
+    "userCount": 1079,
     "playerTeamInfo": {
       "residence": "Bystrice nad Pernstejnem, CZE",
       "birthplace": "Bystrice nad Pernstejnem, CZE",
@@ -45521,7 +45525,7 @@
         "value": 687398,
         "currency": "EUR"
       },
-      "currentRanking": 202
+      "currentRanking": 205
     },
     "nameCode": "KOL",
     "ranking": 206,
@@ -46207,7 +46211,7 @@
       "priority": 0,
       "id": 101857
     },
-    "userCount": 840,
+    "userCount": 843,
     "playerTeamInfo": {
       "residence": "Munich, Germany",
       "birthplace": "Bueckeburg, Germany",
@@ -46227,7 +46231,7 @@
         "value": 535503,
         "currency": "EUR"
       },
-      "currentRanking": 268
+      "currentRanking": 269
     },
     "nameCode": "MAS",
     "ranking": 271,
@@ -47308,7 +47312,7 @@
       "priority": 0,
       "id": 101859
     },
-    "userCount": 1333,
+    "userCount": 1331,
     "playerTeamInfo": {
       "residence": "Naples, Italy",
       "birthplace": "Naples, Italy",
@@ -47619,7 +47623,7 @@
       "priority": 0,
       "id": 99442
     },
-    "userCount": 896,
+    "userCount": 897,
     "playerTeamInfo": {
       "residence": "Budapest, Hungary",
       "birthplace": "Budapest, Hungary",
@@ -57840,7 +57844,7 @@
       "priority": 0,
       "id": 101835
     },
-    "userCount": 591,
+    "userCount": 588,
     "playerTeamInfo": {
       "residence": "Santa Coloma de Gramenet",
       "birthplace": "Barcelona",
@@ -80758,7 +80762,7 @@
       "priority": 0,
       "id": 103754
     },
-    "userCount": 830,
+    "userCount": 828,
     "playerTeamInfo": {
       "birthplace": "Madrid",
       "height": 1.85,
@@ -80775,7 +80779,7 @@
         "value": 49852,
         "currency": "EUR"
       },
-      "currentRanking": 298
+      "currentRanking": 299
     },
     "nameCode": "RIN",
     "ranking": 300,
@@ -82524,7 +82528,7 @@
       "priority": 0,
       "id": 98810
     },
-    "userCount": 705,
+    "userCount": 703,
     "playerTeamInfo": {
       "residence": "Barcelona, Spain",
       "birthplace": "Orkdal, Norway",
@@ -87884,7 +87888,7 @@
       "priority": 0,
       "id": 101859
     },
-    "userCount": 1654,
+    "userCount": 1663,
     "playerTeamInfo": {
       "birthplace": "Novi Pazar, Serbia",
       "height": 1.85,
@@ -93821,7 +93825,7 @@
           "id": 3,
           "flag": "atp"
         },
-        "userCount": 47747,
+        "userCount": 47746,
         "id": 2480,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -93830,7 +93834,7 @@
       "priority": 0,
       "id": 93593
     },
-    "userCount": 1442,
+    "userCount": 1441,
     "playerTeamInfo": {
       "birthplace": "Montpellier, France",
       "height": 1.83,
@@ -94233,7 +94237,7 @@
       "priority": 0,
       "id": 101857
     },
-    "userCount": 2979,
+    "userCount": 2984,
     "playerTeamInfo": {
       "birthplace": "France",
       "height": 1.85,
@@ -102452,7 +102456,7 @@
       "priority": 0,
       "id": 103772
     },
-    "userCount": 537,
+    "userCount": 540,
     "playerTeamInfo": {
       "birthplace": "Munich",
       "height": 1.83,
@@ -102660,7 +102664,7 @@
       "priority": 0,
       "id": 101836
     },
-    "userCount": 727,
+    "userCount": 729,
     "playerTeamInfo": {
       "birthplace": "Grafelfing, Germany",
       "height": 1.88,
@@ -110071,7 +110075,7 @@
       "priority": 0,
       "id": 102435
     },
-    "userCount": 713,
+    "userCount": 711,
     "playerTeamInfo": {
       "residence": "Sarajevo, Bosnia & Herzegovina",
       "birthplace": "Sarajevo, Bosnia & Herzegovina",
@@ -110709,7 +110713,7 @@
       "priority": 0,
       "id": 103761
     },
-    "userCount": 464,
+    "userCount": 463,
     "playerTeamInfo": {
       "residence": "Barcelona, Spain",
       "birthplace": "Barcelona, Spain",
@@ -113629,7 +113633,7 @@
       "priority": 0,
       "id": 102885
     },
-    "userCount": 908,
+    "userCount": 906,
     "playerTeamInfo": {
       "birthplace": "Kawasaki, Japan",
       "plays": "right-handed",
@@ -114539,7 +114543,7 @@
       "priority": 0,
       "id": 99424
     },
-    "userCount": 478,
+    "userCount": 476,
     "playerTeamInfo": {
       "birthplace": "Monaco",
       "height": 1.93,
@@ -120247,7 +120251,7 @@
       "priority": 0,
       "id": 101860
     },
-    "userCount": 1419,
+    "userCount": 1418,
     "playerTeamInfo": {
       "birthplace": "Rome",
       "height": 1.8,
@@ -127289,7 +127293,7 @@
           "id": 1474,
           "flag": "juniors"
         },
-        "userCount": 124,
+        "userCount": 123,
         "id": 10402,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -127298,7 +127302,7 @@
       "priority": 0,
       "id": 103339
     },
-    "userCount": 1537,
+    "userCount": 1546,
     "playerTeamInfo": {
       "birthplace": "Split, Croatia",
       "height": 1.85,
@@ -127315,7 +127319,7 @@
         "value": 25068,
         "currency": "EUR"
       },
-      "currentRanking": 328
+      "currentRanking": 329
     },
     "nameCode": "PRI",
     "ranking": 342,
@@ -158967,7 +158971,7 @@
       "priority": 0,
       "id": 103786
     },
-    "userCount": 976,
+    "userCount": 996,
     "playerTeamInfo": {
       "birthplace": "Amman",
       "height": 1.8,
@@ -158983,7 +158987,7 @@
         "value": 45569,
         "currency": "EUR"
       },
-      "currentRanking": 240
+      "currentRanking": 242
     },
     "nameCode": "SHE",
     "ranking": 267,
@@ -161604,7 +161608,7 @@
           "id": 1474,
           "flag": "juniors"
         },
-        "userCount": 124,
+        "userCount": 123,
         "id": 10402,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -174902,7 +174906,7 @@
           "id": 785,
           "flag": "itf-men"
         },
-        "userCount": 12,
+        "userCount": 11,
         "id": 12432,
         "country": {},
         "hasPerformanceGraphFeature": false,
@@ -174912,7 +174916,7 @@
       "id": 103766
     },
     "type": 1,
-    "userCount": 349,
+    "userCount": 350,
     "teamRankings": [
       {
         "position": 384,
@@ -174971,7 +174975,7 @@
         "value": 71498,
         "currency": "EUR"
       },
-      "currentRanking": 250
+      "currentRanking": 251
     },
     "ranking": 251,
     "shortName": "Martín Tiffón P.",
@@ -175014,7 +175018,7 @@
           "id": 785,
           "flag": "itf-men"
         },
-        "userCount": 12,
+        "userCount": 11,
         "id": 12432,
         "country": {},
         "hasPerformanceGraphFeature": false,
