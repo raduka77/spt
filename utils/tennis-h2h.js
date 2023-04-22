@@ -193,7 +193,7 @@ const AtpH2H = async (homeTeam, awayTeam) => {
 };
 
 const ausOpen = function (statsArr, isHome) {
-  console.log('function received something');
+  // console.log('function received something');
   let matchStat = [];
   let noOfSets = statsArr.length - 1;
 
