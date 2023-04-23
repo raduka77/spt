@@ -3335,7 +3335,7 @@ const makePlayerStats = function (playerId) {
   return x;
   // console.log(HOStats);
   // console.log(HIStats);
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 
 //// create db files
@@ -3488,7 +3488,7 @@ const makeCheckSlugsATP = function () {
       checkSlug(player.id, player.properName);
     }
   });
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 
 /// fetch all season matches
@@ -3525,7 +3525,7 @@ const FetchMatches = async () => {
     'utf-8'
   );
 
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 
 /// fetch all players
@@ -3572,7 +3572,7 @@ const FetchPlayers = async () => {
     );
   });
 
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 // makePlayerStats(163504);
 // makePlayerStats(136042);
