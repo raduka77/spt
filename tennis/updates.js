@@ -10,10 +10,6 @@ import makeCheckSlugsATP from '../utils/tennis-utils.js';
 import FetchMatches from '../utils/tennis-utils.js';
 import CreateDBFiles from '../utils/tennis-utils.js';
 
-await CreateDBFiles();
-
-await FetchMatches();
-
 await FetchPlayers();
 
 makeCheckSlugsATP();
