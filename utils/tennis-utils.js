@@ -3579,7 +3579,7 @@ const FetchPlayers = async () => {
 
 // await CreateDBFiles();
 
-await FetchMatches();
+// await FetchMatches();
 
 // makeCheckSlugsATP();
 
@@ -3587,4 +3587,4 @@ await FetchMatches();
 
 // AtpH2H(101101, 14486);
 
-// export { AtpH2H };
+export { AtpH2H, FetchPlayers, makeCheckSlugsATP, FetchMatches, CreateDBFiles };
