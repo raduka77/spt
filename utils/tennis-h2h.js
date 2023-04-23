@@ -3577,13 +3577,13 @@ const FetchPlayers = async () => {
 // makePlayerStats(163504);
 // makePlayerStats(136042);
 
-await CreateDBFiles();
+// await CreateDBFiles();
 
 // await FetchMatches();
 
 // makeCheckSlugsATP();
 
-// await FetchPlayers();
+await FetchPlayers();
 
 // AtpH2H(101101, 14486);
 
