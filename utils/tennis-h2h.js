@@ -3581,9 +3581,9 @@ const FetchPlayers = async () => {
 
 // await FetchMatches();
 
-// makeCheckSlugsATP();
+makeCheckSlugsATP();
 
-await FetchPlayers();
+// await FetchPlayers();
 
 // AtpH2H(101101, 14486);
 
