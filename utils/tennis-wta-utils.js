@@ -589,7 +589,7 @@ const ausOpen = function (statsArr, isHome) {
 const makePlayerStats = function (playerId) {
   let playerMatches = [];
   const seasonMatches = JSON.parse(
-    fs.readFileSync('../json_tennis/atp-matches.json', 'utf8')
+    fs.readFileSync('../json_tennis/wta-matches.json', 'utf8')
   );
 
   // get player matches from all matches
@@ -3342,19 +3342,19 @@ const makePlayerStats = function (playerId) {
 
 const CreateDBFiles = async () => {
   let internalFile = [];
-  const playersATPSlugs = JSON.parse(
-    fs.readFileSync('../slugs/atp-players-slugs.json', 'utf8')
+  const playersWTASlugs = JSON.parse(
+    fs.readFileSync('../slugs/wta-players-slugs.json', 'utf8')
   );
 
-  const playersATP = JSON.parse(
-    fs.readFileSync('../json_tennis/atp-players.json', 'utf8')
+  const playersWTA = JSON.parse(
+    fs.readFileSync('../json_tennis/wta-players.json', 'utf8')
   );
 
-  playersATP.forEach((player, index, arr) => {
+  playersWTA.forEach((player, index, arr) => {
     console.log(
       `Player: ${player.properName} (id: ${player.id}), item ${index} from ${arr.length}`
     );
-    const theSlug = playersATPSlugs.find(e => e.id == player.id);
+    const theSlug = playersWTASlugs.find(e => e.id == player.id);
 
     if (theSlug) {
       let teamPath = '';
@@ -3364,9 +3364,9 @@ const CreateDBFiles = async () => {
       console.log(lettersTeam);
       //// taie "-" din path (de obicei e al doilea caracter)
       if (lettersTeam.includes('-')) {
-        teamPath = `/db/tennis/teams/${lettersTeam[0]}`;
+        teamPath = `/db/tennis/teams-wta/${lettersTeam[0]}`;
       } else {
-        teamPath = `/db/tennis/teams/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
+        teamPath = `/db/tennis/teams-wta/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
       }
 
       let teamFullPath = `${teamPath}/${player.id}`;
@@ -3413,6 +3413,7 @@ const CreateDBFiles = async () => {
           dbLocation: `${teamFullPath}/${player.id}.json`,
         };
         internalFile.push(y);
+
         //// write db file
         fs.writeFileSync(
           `${teamFullPath}/${player.id}.json`,
@@ -3423,7 +3424,7 @@ const CreateDBFiles = async () => {
     }
   });
   fs.writeFileSync(
-    `../json_tennis/internal-players-db.json`,
+    `../json_tennis/wta-internal-players-db.json`,
     JSON.stringify(internalFile, null, 2),
     'utf-8'
   );
@@ -3583,11 +3584,11 @@ const FetchPlayers = async () => {
 // makePlayerStats(163504);
 // makePlayerStats(136042);
 
-// await CreateDBFiles();
+await CreateDBFiles();
 
 // await FetchMatches();
 
-makeCheckSlugsWTA();
+// makeCheckSlugsWTA();
 
 // await FetchPlayers();
 
