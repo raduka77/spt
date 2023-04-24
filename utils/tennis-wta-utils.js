@@ -3589,7 +3589,7 @@ const FetchPlayers = async () => {
 
 // makeCheckSlugsWTA();
 
-// await FetchPlayers();
+await FetchPlayers();
 
 // AtpH2H(101101, 14486);
 
