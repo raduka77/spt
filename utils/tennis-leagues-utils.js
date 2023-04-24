@@ -174,7 +174,7 @@ const CreateDBFiles = function () {
   });
 
   fs.writeFileSync(
-    `../json_tennis/internal-players-db.json`,
+    `../json_tennis/internal-leagues-db.json`,
     JSON.stringify(internalFile, null, 2),
     'utf-8'
   );
