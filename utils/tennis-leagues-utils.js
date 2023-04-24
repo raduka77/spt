@@ -6,7 +6,7 @@ import requests from 'sync-request';
 import { DateTime } from 'luxon';
 import slugify from 'slugify';
 
-const CreateDBFiles = async () => {
+const CreateDBFiles = function () {
   let internalFile = [];
 
   /// load tournaments
@@ -104,7 +104,7 @@ const CreateDBFiles = async () => {
     console.log(
       `League: ${league.properName} (id: ${league.id}), item ${index} from ${arr.length}`
     );
-    const theSlug = atpToursSlugs.find(e => e.id == league.id);
+    const theSlug = wtaToursSlugs.find(e => e.id == league.id);
 
     if (theSlug) {
       let teamPath = '';
@@ -447,4 +447,4 @@ const FetchATPLeagues = async () => {
 // await FetchWTALeagues();
 // await FetchATPLeagues();
 // makeCheckSlugs();
-await CreateDBFiles();
+CreateDBFiles();
