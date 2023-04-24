@@ -3383,6 +3383,12 @@ const CreateDBFiles = async () => {
           dbLocation: `${teamFullPath}/${player.id}.json`,
         };
 
+        //// write db file
+        fs.writeFileSync(
+          `${teamFullPath}/${player.id}.json`,
+          JSON.stringify(x, null, 2),
+          'utf-8'
+        );
         /// internal object
         const y = {
           id: player.id,
@@ -3407,6 +3413,7 @@ const CreateDBFiles = async () => {
           dbLocation: `${teamFullPath}/${player.id}.json`,
         };
         internalFile.push(y);
+        //// write db file
         fs.writeFileSync(
           `${teamFullPath}/${player.id}.json`,
           JSON.stringify(x, null, 2),

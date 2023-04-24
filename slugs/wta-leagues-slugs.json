@@ -1,0 +1,598 @@
+[
+  {
+    "id": 13828,
+    "slug": "wta-new-york"
+  },
+  {
+    "id": 2594,
+    "slug": "wta-s-hertogenbosch"
+  },
+  {
+    "id": 2554,
+    "slug": "wta-auckland"
+  },
+  {
+    "id": 2613,
+    "slug": "wta-acapulco"
+  },
+  {
+    "id": 2727,
+    "slug": "wta-acura-classic"
+  },
+  {
+    "id": 2716,
+    "slug": "wta-amelia-island-qualifiers"
+  },
+  {
+    "id": 2726,
+    "slug": "wta-proximus-diamond-games"
+  },
+  {
+    "id": 2571,
+    "slug": "wta-australian-open"
+  },
+  {
+    "id": 10132,
+    "slug": "wta-australian-open-asia-pacific-wildcard-playoff"
+  },
+  {
+    "id": 10130,
+    "slug": "wta-australian-open-australian-wildcard-playoff"
+  },
+  {
+    "id": 2561,
+    "slug": "wta-bad-gastein"
+  },
+  {
+    "id": 2690,
+    "slug": "wta-baku"
+  },
+  {
+    "id": 2715,
+    "slug": "wta-bali"
+  },
+  {
+    "id": 2633,
+    "slug": "wta-bangalore-open-2008"
+  },
+  {
+    "id": 2610,
+    "slug": "wta-san-jose"
+  },
+  {
+    "id": 2625,
+    "slug": "wta-barcelona"
+  },
+  {
+    "id": 2612,
+    "slug": "wta-dubai"
+  },
+  {
+    "id": 2552,
+    "slug": "wta-bastad"
+  },
+  {
+    "id": 2557,
+    "slug": "wta-beijing"
+  },
+  {
+    "id": 2606,
+    "slug": "wta-quebec-city"
+  },
+  {
+    "id": 2580,
+    "slug": "wta-berlin-qualifiers"
+  },
+  {
+    "id": 10128,
+    "slug": "wta-biel"
+  },
+  {
+    "id": 2573,
+    "slug": "wta-birmingham"
+  },
+  {
+    "id": 2560,
+    "slug": "wta-bogota"
+  },
+  {
+    "id": 2644,
+    "slug": "wta-brisbane"
+  },
+  {
+    "id": 2628,
+    "slug": "wta-brussels"
+  },
+  {
+    "id": 2563,
+    "slug": "wta-bucharest"
+  },
+  {
+    "id": 2597,
+    "slug": "wta-budapest"
+  },
+  {
+    "id": 2586,
+    "slug": "wta-cachantun-cup"
+  },
+  {
+    "id": 2701,
+    "slug": "wta-carlsbad"
+  },
+  {
+    "id": 2622,
+    "slug": "wta-charleston"
+  },
+  {
+    "id": 2548,
+    "slug": "wta-cincinnati"
+  },
+  {
+    "id": 2699,
+    "slug": "wta-copenhagen"
+  },
+  {
+    "id": 2711,
+    "slug": "wta-dallas"
+  },
+  {
+    "id": 2693,
+    "slug": "wta-doha"
+  },
+  {
+    "id": 11864,
+    "slug": "wta-finals"
+  },
+  {
+    "id": 2572,
+    "slug": "wta-tour-finals-singapore"
+  },
+  {
+    "id": 2592,
+    "slug": "wta-prague"
+  },
+  {
+    "id": 2614,
+    "slug": "wta-los-angeles"
+  },
+  {
+    "id": 2596,
+    "slug": "wta-eastbourne"
+  },
+  {
+    "id": 2709,
+    "slug": "wta-elite-trophy"
+  },
+  {
+    "id": 2608,
+    "slug": "wta-estoril"
+  },
+  {
+    "id": 2647,
+    "slug": "wta-luxembourg"
+  },
+  {
+    "id": 2627,
+    "slug": "wta-fes"
+  },
+  {
+    "id": 2652,
+    "slug": "wta-florianopolis"
+  },
+  {
+    "id": 2713,
+    "slug": "wta-forest-hills"
+  },
+  {
+    "id": 2577,
+    "slug": "wta-roland-garros"
+  },
+  {
+    "id": 2583,
+    "slug": "wta-linz"
+  },
+  {
+    "id": 9405,
+    "slug": "wta-lausanne"
+  },
+  {
+    "id": 11867,
+    "slug": "wta-lausanne"
+  },
+  {
+    "id": 2579,
+    "slug": "wta-guangzhou"
+  },
+  {
+    "id": 2604,
+    "slug": "wta-seoul"
+  },
+  {
+    "id": 10762,
+    "slug": "wta-hiroshima"
+  },
+  {
+    "id": 2567,
+    "slug": "wta-hobart"
+  },
+  {
+    "id": 2575,
+    "slug": "wta-hong-kong"
+  },
+  {
+    "id": 11725,
+    "slug": "wta-hua-hin"
+  },
+  {
+    "id": 2619,
+    "slug": "wta-indian-wells"
+  },
+  {
+    "id": 2591,
+    "slug": "wta-strasbourg"
+  },
+  {
+    "id": 2639,
+    "slug": "wta-palermo"
+  },
+  {
+    "id": 2585,
+    "slug": "wta-istanbul"
+  },
+  {
+    "id": 2725,
+    "slug": "wta-jands-cup"
+  },
+  {
+    "id": 11869,
+    "slug": "wta-jurmala"
+  },
+  {
+    "id": 2695,
+    "slug": "wta-kaohsiung"
+  },
+  {
+    "id": 2623,
+    "slug": "wta-katowice"
+  },
+  {
+    "id": 2550,
+    "slug": "wta-moscow"
+  },
+  {
+    "id": 2658,
+    "slug": "wta-kuala-lumpur"
+  },
+  {
+    "id": 2707,
+    "slug": "wta-louisville"
+  },
+  {
+    "id": 10764,
+    "slug": "wta-lugano"
+  },
+  {
+    "id": 2607,
+    "slug": "wta-madrid"
+  },
+  {
+    "id": 2704,
+    "slug": "wta-mallorca"
+  },
+  {
+    "id": 2626,
+    "slug": "wta-marbella"
+  },
+  {
+    "id": 2566,
+    "slug": "wta-sydney"
+  },
+  {
+    "id": 2578,
+    "slug": "wta-memphis"
+  },
+  {
+    "id": 2587,
+    "slug": "wta-miami-open"
+  },
+  {
+    "id": 2729,
+    "slug": "wta-mondial-australian-women-s-hardcourts"
+  },
+  {
+    "id": 2562,
+    "slug": "wta-monterrey"
+  },
+  {
+    "id": 2624,
+    "slug": "wta-montreal"
+  },
+  {
+    "id": 10763,
+    "slug": "wta-moscow"
+  },
+  {
+    "id": 2706,
+    "slug": "wta-nanchang"
+  },
+  {
+    "id": 2602,
+    "slug": "wta-new-heaven"
+  },
+  {
+    "id": 2689,
+    "slug": "wta-nottingham"
+  },
+  {
+    "id": 2702,
+    "slug": "wta-nuremberg"
+  },
+  {
+    "id": 11860,
+    "slug": "womens-olympic-tournament"
+  },
+  {
+    "id": 2656,
+    "slug": "wta-paris"
+  },
+  {
+    "id": 2570,
+    "slug": "wta-osaka"
+  },
+  {
+    "id": 2731,
+    "slug": "wta-ptt-bangkok-open"
+  },
+  {
+    "id": 2556,
+    "slug": "wta-pattaya-city"
+  },
+  {
+    "id": 2732,
+    "slug": "wta-ponte-vedra-beach"
+  },
+  {
+    "id": 2549,
+    "slug": "wta-stuttgart"
+  },
+  {
+    "id": 2599,
+    "slug": "wta-portoroz"
+  },
+  {
+    "id": 2682,
+    "slug": "wta-rabat"
+  },
+  {
+    "id": 2637,
+    "slug": "wta-rio-de-janeiro"
+  },
+  {
+    "id": 2615,
+    "slug": "wta-toronto"
+  },
+  {
+    "id": 2569,
+    "slug": "wta-rome"
+  },
+  {
+    "id": 2700,
+    "slug": "wta-shenzhen"
+  },
+  {
+    "id": 11859,
+    "slug": "wta-chship-intern-series"
+  },
+  {
+    "id": 2694,
+    "slug": "wta-st-petersburg"
+  },
+  {
+    "id": 2730,
+    "slug": "wta-sunfest-open"
+  },
+  {
+    "id": 10127,
+    "slug": "wta-taipei"
+  },
+  {
+    "id": 2646,
+    "slug": "wta-tashkent"
+  },
+  {
+    "id": 2698,
+    "slug": "wta-tianjin"
+  },
+  {
+    "id": 2582,
+    "slug": "wta-tokyo"
+  },
+  {
+    "id": 11862,
+    "slug": "wta-tokyo"
+  },
+  {
+    "id": 2601,
+    "slug": "wta-us-open"
+  },
+  {
+    "id": 14585,
+    "slug": "wta-slam-2020"
+  },
+  {
+    "id": 2653,
+    "slug": "wta-washington"
+  },
+  {
+    "id": 2728,
+    "slug": "wta-watsons-water-challenge"
+  },
+  {
+    "id": 2600,
+    "slug": "wta-wimbledon"
+  },
+  {
+    "id": 2666,
+    "slug": "wta-wuhan"
+  },
+  {
+    "id": 13493,
+    "slug": "wta-zhengzhou"
+  },
+  {
+    "id": 2712,
+    "slug": "wta-zurich"
+  },
+  {
+    "id": 16520,
+    "slug": "wta-abu-dhabi"
+  },
+  {
+    "id": 14504,
+    "slug": "wta-adelaide"
+  },
+  {
+    "id": 18378,
+    "slug": "wta-adelaide-2"
+  },
+  {
+    "id": 14503,
+    "slug": "wta-albany"
+  },
+  {
+    "id": 16571,
+    "slug": "wta-anning-china"
+  },
+  {
+    "id": 20016,
+    "slug": "wta-austin"
+  },
+  {
+    "id": 14506,
+    "slug": "wta-bad-homburg"
+  },
+  {
+    "id": 16852,
+    "slug": "wta-belgrade"
+  },
+  {
+    "id": 3233,
+    "slug": "wta-berlin"
+  },
+  {
+    "id": 3235,
+    "slug": "wta-berlin-2"
+  },
+  {
+    "id": 16867,
+    "slug": "wta-charleston-2"
+  },
+  {
+    "id": 19246,
+    "slug": "wta-chennai"
+  },
+  {
+    "id": 17028,
+    "slug": "wta-chicago"
+  },
+  {
+    "id": 17093,
+    "slug": "wta-chicago-2"
+  },
+  {
+    "id": 16899,
+    "slug": "wta-cleveland"
+  },
+  {
+    "id": 16941,
+    "slug": "wta-cluj-napoca"
+  },
+  {
+    "id": 17144,
+    "slug": "wta-cluj-napoca-2"
+  },
+  {
+    "id": 16570,
+    "slug": "wta-cologne-germany"
+  },
+  {
+    "id": 17097,
+    "slug": "wta-courmayeur"
+  },
+  {
+    "id": 16897,
+    "slug": "wta-gdynia"
+  },
+  {
+    "id": 18556,
+    "slug": "wta-granby"
+  },
+  {
+    "id": 16559,
+    "slug": "wta-guadalajara"
+  },
+  {
+    "id": 19504,
+    "slug": "wta-guadalajara-2"
+  },
+  {
+    "id": 16922,
+    "slug": "wta-hamburg"
+  },
+  {
+    "id": 14509,
+    "slug": "wta-jurmala"
+  },
+  {
+    "id": 15075,
+    "slug": "wta-lexington"
+  },
+  {
+    "id": 14513,
+    "slug": "wta-lyon"
+  },
+  {
+    "id": 16516,
+    "slug": "wta-melbourne"
+  },
+  {
+    "id": 16518,
+    "slug": "wta-melbourne-2"
+  },
+  {
+    "id": 16590,
+    "slug": "wta-melbourne-3"
+  },
+  {
+    "id": 16623,
+    "slug": "wta-melbourne-3"
+  },
+  {
+    "id": 19352,
+    "slug": "wta-monastir"
+  },
+  {
+    "id": 19976,
+    "slug": "wta-merida"
+  },
+  {
+    "id": 17249,
+    "slug": "wta-nur-sultan"
+  },
+  {
+    "id": 15957,
+    "slug": "wta-ostrava"
+  },
+  {
+    "id": 16920,
+    "slug": "wta-parma"
+  },
+  {
+    "id": 19309,
+    "slug": "wta-tallinn"
+  },
+  {
+    "id": 17095,
+    "slug": "wta-tenerife"
+  }
+]

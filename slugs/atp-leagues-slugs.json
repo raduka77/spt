@@ -1,0 +1,514 @@
+[
+  {
+    "id": 2742,
+    "slug": "atp-antwerp"
+  },
+  {
+    "id": 2448,
+    "slug": "atp-atlanta"
+  },
+  {
+    "id": 2363,
+    "slug": "atp-australian-open"
+  },
+  {
+    "id": 2407,
+    "slug": "atp-barcelona"
+  },
+  {
+    "id": 2406,
+    "slug": "atp-basel"
+  },
+  {
+    "id": 2413,
+    "slug": "atp-bastad"
+  },
+  {
+    "id": 2436,
+    "slug": "atp-beijing"
+  },
+  {
+    "id": 2507,
+    "slug": "atp-belgrade"
+  },
+  {
+    "id": 16711,
+    "slug": "atp-cagliari"
+  },
+  {
+    "id": 9402,
+    "slug": "atp-chengdu"
+  },
+  {
+    "id": 2373,
+    "slug": "atp-cincinnati"
+  },
+  {
+    "id": 2362,
+    "slug": "atp-eastbourne"
+  },
+  {
+    "id": 2541,
+    "slug": "atp-estoril"
+  },
+  {
+    "id": 2480,
+    "slug": "atp-roland-garros"
+  },
+  {
+    "id": 2531,
+    "slug": "atp-geneva"
+  },
+  {
+    "id": 2416,
+    "slug": "atp-gstaad"
+  },
+  {
+    "id": 2493,
+    "slug": "atp-halle"
+  },
+  {
+    "id": 2405,
+    "slug": "atp-hamburg"
+  },
+  {
+    "id": 2409,
+    "slug": "atp-houston"
+  },
+  {
+    "id": 2501,
+    "slug": "atp-kitzbuhel"
+  },
+  {
+    "id": 2494,
+    "slug": "atp-london"
+  },
+  {
+    "id": 2369,
+    "slug": "atp-los-cabos"
+  },
+  {
+    "id": 2498,
+    "slug": "atp-lyon"
+  },
+  {
+    "id": 2374,
+    "slug": "atp-madrid"
+  },
+  {
+    "id": 14548,
+    "slug": "atp-mallorca"
+  },
+  {
+    "id": 16617,
+    "slug": "atp-marbella"
+  },
+  {
+    "id": 6794,
+    "slug": "atp-marrakech"
+  },
+  {
+    "id": 2496,
+    "slug": "atp-metz"
+  },
+  {
+    "id": 2430,
+    "slug": "atp-miami-open"
+  },
+  {
+    "id": 2391,
+    "slug": "atp-monte-carlo"
+  },
+  {
+    "id": 2399,
+    "slug": "atp-moscow"
+  },
+  {
+    "id": 2491,
+    "slug": "atp-munich"
+  },
+  {
+    "id": 2447,
+    "slug": "atp-newport"
+  },
+  {
+    "id": 10122,
+    "slug": "atp-next-gen-finals-milan"
+  },
+  {
+    "id": 11852,
+    "slug": "mens-olympic-tournament"
+  },
+  {
+    "id": 2404,
+    "slug": "atp-paris"
+  },
+  {
+    "id": 2488,
+    "slug": "atp-rome"
+  },
+  {
+    "id": 2519,
+    "slug": "atp-shanghai"
+  },
+  {
+    "id": 2539,
+    "slug": "atp-sofia"
+  },
+  {
+    "id": 2499,
+    "slug": "atp-st-petersburg"
+  },
+  {
+    "id": 2382,
+    "slug": "atp-stockholm"
+  },
+  {
+    "id": 2483,
+    "slug": "atp-stuttgart"
+  },
+  {
+    "id": 2435,
+    "slug": "atp-tokyo"
+  },
+  {
+    "id": 2510,
+    "slug": "atp-toronto"
+  },
+  {
+    "id": 2517,
+    "slug": "atp-finals"
+  },
+  {
+    "id": 2426,
+    "slug": "atp-umag"
+  },
+  {
+    "id": 2428,
+    "slug": "atp-vienna"
+  },
+  {
+    "id": 2368,
+    "slug": "atp-washington"
+  },
+  {
+    "id": 2361,
+    "slug": "atp-wimbledon"
+  },
+  {
+    "id": 2439,
+    "slug": "atp-winston-salem"
+  },
+  {
+    "id": 11856,
+    "slug": "atp-zhuhai"
+  },
+  {
+    "id": 2387,
+    "slug": "atp-s-hertogenbosch"
+  },
+  {
+    "id": 2444,
+    "slug": "atp-rotterdam"
+  },
+  {
+    "id": 2408,
+    "slug": "atp-world-team-cup"
+  },
+  {
+    "id": 14491,
+    "slug": "atp-cup"
+  },
+  {
+    "id": 14584,
+    "slug": "atp-slam-2020"
+  },
+  {
+    "id": 2366,
+    "slug": "atp-acapulco"
+  },
+  {
+    "id": 14522,
+    "slug": "atp-adelaide"
+  },
+  {
+    "id": 18372,
+    "slug": "atp-adelaide-2"
+  },
+  {
+    "id": 13791,
+    "slug": "atp-dutch-open-tennis-amersfoort"
+  },
+  {
+    "id": 10119,
+    "slug": "atp-antalya"
+  },
+  {
+    "id": 15952,
+    "slug": "atp-astana"
+  },
+  {
+    "id": 2481,
+    "slug": "atp-auckland"
+  },
+  {
+    "id": 10125,
+    "slug": "atp-australian-open-asia-pacific-wildcard-playoff"
+  },
+  {
+    "id": 10124,
+    "slug": "atp-australian-open-australian-playoff"
+  },
+  {
+    "id": 2431,
+    "slug": "atp-bucharest"
+  },
+  {
+    "id": 2497,
+    "slug": "atp-thailand-open"
+  },
+  {
+    "id": 16908,
+    "slug": "atp-belgrade-2"
+  },
+  {
+    "id": 2401,
+    "slug": "atp-bogota"
+  },
+  {
+    "id": 2484,
+    "slug": "atp-brasil-open"
+  },
+  {
+    "id": 2437,
+    "slug": "atp-brisbane"
+  },
+  {
+    "id": 10753,
+    "slug": "atp-budapest"
+  },
+  {
+    "id": 2383,
+    "slug": "atp-buenos-aires"
+  },
+  {
+    "id": 2388,
+    "slug": "atp-casablanca"
+  },
+  {
+    "id": 2450,
+    "slug": "atp-chennai"
+  },
+  {
+    "id": 15948,
+    "slug": "atp-cologne-germany"
+  },
+  {
+    "id": 15949,
+    "slug": "atp-cologne-ii-germany"
+  },
+  {
+    "id": 11717,
+    "slug": "atp-cordoba"
+  },
+  {
+    "id": 2418,
+    "slug": "atp-los-angeles"
+  },
+  {
+    "id": 18377,
+    "slug": "atp-dallas"
+  },
+  {
+    "id": 2506,
+    "slug": "atp-delray-beach"
+  },
+  {
+    "id": 2420,
+    "slug": "atp-doha"
+  },
+  {
+    "id": 2389,
+    "slug": "atp-dubai"
+  },
+  {
+    "id": 2392,
+    "slug": "atp-dusseldorf"
+  },
+  {
+    "id": 2489,
+    "slug": "atp-estoril"
+  },
+  {
+    "id": 19396,
+    "slug": "atp-florence"
+  },
+  {
+    "id": 19400,
+    "slug": "atp-gijon"
+  },
+  {
+    "id": 2487,
+    "slug": "atp-indian-wells"
+  },
+  {
+    "id": 2495,
+    "slug": "atp-indianopolis"
+  },
+  {
+    "id": 2542,
+    "slug": "atp-istanbul"
+  },
+  {
+    "id": 2545,
+    "slug": "atp-johannesburg"
+  },
+  {
+    "id": 2502,
+    "slug": "atp-kingfisher-airlines-open"
+  },
+  {
+    "id": 2372,
+    "slug": "atp-kuala-lumpur"
+  },
+  {
+    "id": 2486,
+    "slug": "atp-marseille"
+  },
+  {
+    "id": 16501,
+    "slug": "atp-melbourne"
+  },
+  {
+    "id": 2397,
+    "slug": "atp-memphis"
+  },
+  {
+    "id": 2421,
+    "slug": "atp-montpellier"
+  },
+  {
+    "id": 2390,
+    "slug": "atp-montreal"
+  },
+  {
+    "id": 2370,
+    "slug": "atp-vina-del-mar"
+  },
+  {
+    "id": 19441,
+    "slug": "atp-naples"
+  },
+  {
+    "id": 2505,
+    "slug": "atp-pilot-pen-tennis"
+  },
+  {
+    "id": 10757,
+    "slug": "atp-new-york"
+  },
+  {
+    "id": 2412,
+    "slug": "atp-nice"
+  },
+  {
+    "id": 2414,
+    "slug": "atp-nottingham"
+  },
+  {
+    "id": 14550,
+    "slug": "atp-olympic-tournament-tokyo-japan"
+  },
+  {
+    "id": 2500,
+    "slug": "atp-open-de-tenis-valencia"
+  },
+  {
+    "id": 2503,
+    "slug": "atp-orange-prokom-open"
+  },
+  {
+    "id": 2509,
+    "slug": "atp-warsaw"
+  },
+  {
+    "id": 2445,
+    "slug": "atp-zagreb"
+  },
+  {
+    "id": 16886,
+    "slug": "atp-parma"
+  },
+  {
+    "id": 2492,
+    "slug": "atp-portschach"
+  },
+  {
+    "id": 10755,
+    "slug": "atp-pune"
+  },
+  {
+    "id": 2540,
+    "slug": "atp-quito"
+  },
+  {
+    "id": 2433,
+    "slug": "atp-rio-de-janeiro"
+  },
+  {
+    "id": 2429,
+    "slug": "atp-san-jose"
+  },
+  {
+    "id": 17134,
+    "slug": "atp-san-diego"
+  },
+  {
+    "id": 2523,
+    "slug": "atp-santiago"
+  },
+  {
+    "id": 2425,
+    "slug": "atp-sao-paulo"
+  },
+  {
+    "id": 15950,
+    "slug": "atp-sardinia"
+  },
+  {
+    "id": 19303,
+    "slug": "atp-seoul"
+  },
+  {
+    "id": 2527,
+    "slug": "atp-shenzhen"
+  },
+  {
+    "id": 16615,
+    "slug": "atp-singapore"
+  },
+  {
+    "id": 2482,
+    "slug": "atp-sydney"
+  },
+  {
+    "id": 19307,
+    "slug": "atp-tel-aviv"
+  },
+  {
+    "id": 2504,
+    "slug": "atp-the-tennis-channel-open-elimination"
+  },
+  {
+    "id": 2449,
+    "slug": "atp-us-open"
+  },
+  {
+    "id": 11851,
+    "slug": "atp-world-team-cup-dusseldorf"
+  },
+  {
+    "id": 20218,
+    "slug": "atp-srpska-open"
+  }
+]
