@@ -3469,7 +3469,7 @@ const makeCheckSlugsWTA = function () {
         'utf-8'
       );
     } else {
-      console.log(`OK`);
+      console.log(`slug for ${playerName} (${playerId}) - OK`);
     }
   };
 
