@@ -446,5 +446,5 @@ const FetchATPLeagues = async () => {
 };
 // await FetchWTALeagues();
 // await FetchATPLeagues();
-makeCheckSlugs();
-// await CreateDBFiles();
+// makeCheckSlugs();
+await CreateDBFiles();
