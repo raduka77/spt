@@ -3585,11 +3585,11 @@ const FetchPlayers = async () => {
 
 // await CreateDBFiles();
 
-// await FetchMatches();
+await FetchMatches();
 
 // makeCheckSlugsWTA();
 
-await FetchPlayers();
+// await FetchPlayers();
 
 // AtpH2H(101101, 14486);
 
