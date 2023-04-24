@@ -3585,9 +3585,9 @@ const FetchPlayers = async () => {
 
 // await CreateDBFiles();
 
-await FetchMatches();
+// await FetchMatches();
 
-// makeCheckSlugsWTA();
+makeCheckSlugsWTA();
 
 // await FetchPlayers();
 
