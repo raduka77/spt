@@ -587,6 +587,10 @@ const ausOpen = function (statsArr, isHome) {
 /// Generate Stats
 
 const makePlayerStats = function (playerId) {
+  const wtaToursSlugs = JSON.parse(
+    fs.readFileSync('../slugs/wta-leagues-slugs.json', 'utf8')
+  );
+
   let playerMatches = [];
   const seasonMatches = JSON.parse(
     fs.readFileSync('../json_tennis/wta-matches.json', 'utf8')
@@ -652,10 +656,22 @@ const makePlayerStats = function (playerId) {
             playerMatch.roundInfo.name === 'Final' &&
             playerMatch.winnerCode == 1
           ) {
-            const title = {
-              titleName: playerMatch.tournament.uniqueTournament.name,
-            };
-            HOTitles.push(title);
+            const theTitle = wtaToursSlugs.find(
+              e => e.id == playerMatch.tournament.uniqueTournament.id
+            );
+            if (theTitle) {
+              const title = {
+                titleId: theTitle.id,
+                titleSlug: theTitle.slug,
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              HOTitles.push(title);
+            } else {
+              const title = {
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              HOTitles.push(title);
+            }
           }
           /// add win/loss
 
@@ -903,10 +919,22 @@ const makePlayerStats = function (playerId) {
             playerMatch.roundInfo.name === 'Final' &&
             playerMatch.winnerCode == 2
           ) {
-            const title = {
-              titleName: playerMatch.tournament.uniqueTournament.name,
-            };
-            HOTitles.push(title);
+            const theTitle = wtaToursSlugs.find(
+              e => e.id == playerMatch.tournament.uniqueTournament.id
+            );
+            if (theTitle) {
+              const title = {
+                titleId: theTitle.id,
+                titleSlug: theTitle.slug,
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              HOTitles.push(title);
+            } else {
+              const title = {
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              HOTitles.push(title);
+            }
           }
           /// add win/loss
           if (playerMatch.winnerCode == 2) {
@@ -1185,10 +1213,22 @@ const makePlayerStats = function (playerId) {
             playerMatch.roundInfo.name === 'Final' &&
             playerMatch.winnerCode == 1
           ) {
-            const title = {
-              titleName: playerMatch.tournament.uniqueTournament.name,
-            };
-            HITitles.push(title);
+            const theTitle = wtaToursSlugs.find(
+              e => e.id == playerMatch.tournament.uniqueTournament.id
+            );
+            if (theTitle) {
+              const title = {
+                titleId: theTitle.id,
+                titleSlug: theTitle.slug,
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              HITitles.push(title);
+            } else {
+              const title = {
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              HITitles.push(title);
+            }
           }
           /// add win/loss
 
@@ -1436,10 +1476,22 @@ const makePlayerStats = function (playerId) {
             playerMatch.roundInfo.name === 'Final' &&
             playerMatch.winnerCode == 2
           ) {
-            const title = {
-              titleName: playerMatch.tournament.uniqueTournament.name,
-            };
-            HITitles.push(title);
+            const theTitle = wtaToursSlugs.find(
+              e => e.id == playerMatch.tournament.uniqueTournament.id
+            );
+            if (theTitle) {
+              const title = {
+                titleId: theTitle.id,
+                titleSlug: theTitle.slug,
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              HITitles.push(title);
+            } else {
+              const title = {
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              HITitles.push(title);
+            }
           }
           /// add win/loss
           if (playerMatch.winnerCode == 2) {
@@ -1721,10 +1773,22 @@ const makePlayerStats = function (playerId) {
             playerMatch.roundInfo.name === 'Final' &&
             playerMatch.winnerCode == 1
           ) {
-            const title = {
-              titleName: playerMatch.tournament.uniqueTournament.name,
-            };
-            ClayTitles.push(title);
+            const theTitle = wtaToursSlugs.find(
+              e => e.id == playerMatch.tournament.uniqueTournament.id
+            );
+            if (theTitle) {
+              const title = {
+                titleId: theTitle.id,
+                titleSlug: theTitle.slug,
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              ClayTitles.push(title);
+            } else {
+              const title = {
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              ClayTitles.push(title);
+            }
           }
           /// add win/loss
 
@@ -1961,7 +2025,8 @@ const makePlayerStats = function (playerId) {
         /////// GROUND HardCourts Outdoor
         if (
           playerMatch.groundType === 'Clay' ||
-          playerMatch.groundType === 'Red clay'
+          playerMatch.groundType === 'Red clay' ||
+          playerMatch.groundType === 'Red clay indoor'
         ) {
           /// add titles
           if (
@@ -1970,10 +2035,22 @@ const makePlayerStats = function (playerId) {
             playerMatch.roundInfo.name === 'Final' &&
             playerMatch.winnerCode == 2
           ) {
-            const title = {
-              titleName: playerMatch.tournament.uniqueTournament.name,
-            };
-            ClayTitles.push(title);
+            const theTitle = wtaToursSlugs.find(
+              e => e.id == playerMatch.tournament.uniqueTournament.id
+            );
+            if (theTitle) {
+              const title = {
+                titleId: theTitle.id,
+                titleSlug: theTitle.slug,
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              ClayTitles.push(title);
+            } else {
+              const title = {
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              ClayTitles.push(title);
+            }
           }
           /// add win/loss
           if (playerMatch.winnerCode == 2) {
@@ -2247,10 +2324,22 @@ const makePlayerStats = function (playerId) {
             playerMatch.roundInfo.name === 'Final' &&
             playerMatch.winnerCode == 1
           ) {
-            const title = {
-              titleName: playerMatch.tournament.uniqueTournament.name,
-            };
-            GrassTitles.push(title);
+            const theTitle = wtaToursSlugs.find(
+              e => e.id == playerMatch.tournament.uniqueTournament.id
+            );
+            if (theTitle) {
+              const title = {
+                titleId: theTitle.id,
+                titleSlug: theTitle.slug,
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              GrassTitles.push(title);
+            } else {
+              const title = {
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              GrassTitles.push(title);
+            }
           }
           /// add win/loss
 
@@ -2493,10 +2582,22 @@ const makePlayerStats = function (playerId) {
             playerMatch.roundInfo.name === 'Final' &&
             playerMatch.winnerCode == 2
           ) {
-            const title = {
-              titleName: playerMatch.tournament.uniqueTournament.name,
-            };
-            GrassTitles.push(title);
+            const theTitle = wtaToursSlugs.find(
+              e => e.id == playerMatch.tournament.uniqueTournament.id
+            );
+            if (theTitle) {
+              const title = {
+                titleId: theTitle.id,
+                titleSlug: theTitle.slug,
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              GrassTitles.push(title);
+            } else {
+              const title = {
+                titleName: playerMatch.tournament.uniqueTournament.name,
+              };
+              GrassTitles.push(title);
+            }
           }
           /// add win/loss
           if (playerMatch.winnerCode == 2) {
