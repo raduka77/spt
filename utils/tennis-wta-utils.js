@@ -3529,7 +3529,7 @@ const CreateDBFiles = async () => {
     JSON.stringify(internalFile, null, 2),
     'utf-8'
   );
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 
 //// make check slugs
@@ -3596,7 +3596,7 @@ const makeCheckSlugsWTA = function () {
       checkSlug(player.id, player.properName);
     }
   });
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 
 /// fetch all season matches
@@ -3633,7 +3633,7 @@ const FetchMatches = async () => {
     'utf-8'
   );
 
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 
 /// fetch all players
@@ -3680,12 +3680,12 @@ const FetchPlayers = async () => {
     );
   });
 
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 // makePlayerStats(163504);
 // makePlayerStats(136042);
 
-await CreateDBFiles();
+// await CreateDBFiles();
 
 // await FetchMatches();
 
@@ -3695,4 +3695,4 @@ await CreateDBFiles();
 
 // AtpH2H(101101, 14486);
 
-// export { WtaH2H, FetchPlayers, makeCheckSlugsWTA, FetchMatches, CreateDBFiles };
+export { WtaH2H, FetchPlayers, makeCheckSlugsWTA, FetchMatches, CreateDBFiles };

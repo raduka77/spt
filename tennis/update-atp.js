@@ -19,3 +19,5 @@ makeCheckSlugsATP();
 await FetchMatches();
 
 await CreateDBFiles();
+
+await MongoConnection.close();
