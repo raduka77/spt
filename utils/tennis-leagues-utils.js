@@ -178,7 +178,7 @@ const CreateDBFiles = function () {
     JSON.stringify(internalFile, null, 2),
     'utf-8'
   );
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 
 const makeCheckSlugs = function () {
@@ -272,7 +272,7 @@ const makeCheckSlugs = function () {
     checkSlug(league.id, league.properName, wtaToursSlugs, 'wta');
   });
 
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 
 const FetchWTALeagues = async () => {
@@ -355,7 +355,7 @@ const FetchWTALeagues = async () => {
     'utf-8'
   );
 
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 
 const FetchATPLeagues = async () => {
@@ -442,9 +442,11 @@ const FetchATPLeagues = async () => {
     'utf-8'
   );
 
-  MongoConnection.close();
+  // MongoConnection.close();
 };
-// await FetchWTALeagues();
-// await FetchATPLeagues();
-// makeCheckSlugs();
+
+await FetchWTALeagues();
+await FetchATPLeagues();
+makeCheckSlugs();
 CreateDBFiles();
+await MongoConnection.close();
