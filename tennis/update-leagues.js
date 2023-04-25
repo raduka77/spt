@@ -9,7 +9,7 @@ import {
   FetchATPLeagues,
   makeCheckSlugs,
   CreateDBFiles,
-} from '../utils/tennis-league-utils.js';
+} from '../utils/tennis-leagues-utils.js';
 
 await FetchWTALeagues();
 await FetchATPLeagues();
