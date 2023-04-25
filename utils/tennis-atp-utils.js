@@ -3522,11 +3522,11 @@ const CreateDBFiles = async () => {
     }
   });
   fs.writeFileSync(
-    `../json_tennis/internal-players-db.json`,
+    `../json_tennis/atp-internal-players-db.json`,
     JSON.stringify(internalFile, null, 2),
     'utf-8'
   );
-  MongoConnection.close();
+  // MongoConnection.close();
 };
 
 //// make check slugs
@@ -3683,7 +3683,7 @@ const FetchPlayers = async () => {
 // makePlayerStats(163504);
 // makePlayerStats(136042);
 
-await CreateDBFiles();
+// await CreateDBFiles();
 
 // await FetchMatches();
 
