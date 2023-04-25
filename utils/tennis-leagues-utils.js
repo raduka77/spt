@@ -445,8 +445,4 @@ const FetchATPLeagues = async () => {
   // MongoConnection.close();
 };
 
-await FetchWTALeagues();
-await FetchATPLeagues();
-makeCheckSlugs();
-CreateDBFiles();
-await MongoConnection.close();
+export { FetchWTALeagues, FetchATPLeagues, makeCheckSlugs, CreateDBFiles };
