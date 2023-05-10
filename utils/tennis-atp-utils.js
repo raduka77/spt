@@ -1,195 +1,22 @@
 // import fetch from 'node-fetch';
 import fs from 'fs';
 import { MongoConnection, MongoDbName } from './mongo-tennis.js';
-import async, { all } from 'async';
-import requests from 'sync-request';
 import { DateTime } from 'luxon';
 import slugify from 'slugify';
+import { path } from '../paths.js';
 
 const year2023Start = 1672531200;
 const year2023End = 1704067199;
 
 const CalculateEpoch = current => {
   const matchDate = DateTime.fromSeconds(current, { zone: 'utc' }).toFormat(
-    'yyyy-MM-dd',
+    'dd-MMM-yyyy',
     {
       setZone: true,
     }
   );
 
   return matchDate;
-};
-
-const AtpH2H = async (homeTeam, awayTeam) => {
-  const db = MongoConnection.db(MongoDbName);
-  const col = db.collection('atpMatches');
-  let matches = [];
-  const options = {
-    projection: {
-      'homeTeam.id': 1,
-      'awayTeam.id': 1,
-      startTimestamp: 1,
-      tournament: 1,
-      roundInfo: 1,
-      groundType: 1,
-      customId: 1,
-      id: 1,
-      winnerCode: 1,
-      _id: 0,
-    },
-  };
-  let walkout = 0;
-  let homeTeamWins = 0;
-  let awayTeamWins = 0;
-
-  let homeWinsClay = 0;
-  let homeWinsGrass = 0;
-  let homeWinsOutHard = 0;
-  let homeWinsIndHard = 0;
-  let homeWinsInFinals = 0;
-
-  let awayWinsClay = 0;
-  let awayWinsGrass = 0;
-  let awayWinsOutHard = 0;
-  let awayWinsIndHard = 0;
-  let awayWinsInFinals = 0;
-
-  await col
-    .find(
-      {
-        $or: [
-          { $and: [{ 'homeTeam.id': homeTeam }, { 'awayTeam.id': awayTeam }] },
-          { $and: [{ 'homeTeam.id': awayTeam }, { 'awayTeam.id': homeTeam }] },
-        ],
-      },
-      options
-    )
-    .forEach(doc => {
-      if (typeof doc.roundInfo !== 'undefined') {
-        console.log(
-          `${doc.id} - ${CalculateEpoch(doc.startTimestamp)} - ${
-            doc.tournament.name
-          } ${doc.roundInfo.name}`
-        );
-      } else {
-        console.log(
-          `${doc.id} - ${CalculateEpoch(doc.startTimestamp)} - ${
-            doc.tournament.name
-          } no round`
-        );
-      }
-
-      if (doc.homeTeam.id === homeTeam && doc.awayTeam.id === awayTeam) {
-        if (doc.winnerCode === 0) {
-          walkout++;
-        }
-        if (doc.winnerCode === 1) {
-          if (doc.groundType === 'Clay' || doc.groundType === 'Red clay') {
-            homeWinsClay++;
-          }
-
-          if (doc.groundType === 'Hardcourt indoor') {
-            homeWinsIndHard++;
-          }
-
-          if (doc.groundType === 'Hardcourt outdoor') {
-            homeWinsOutHard++;
-          }
-
-          if (doc.groundType === 'Grass') {
-            homeWinsGrass++;
-          }
-          if (typeof doc.roundInfo !== 'undefined') {
-            if (doc.roundInfo.name === 'Final') {
-              homeWinsInFinals++;
-            }
-          }
-          homeTeamWins++;
-        }
-        if (doc.winnerCode === 2) {
-          if (doc.groundType === 'Clay' || doc.groundType === 'Red clay') {
-            awayWinsClay++;
-          }
-
-          if (doc.groundType === 'Hardcourt indoor') {
-            awayWinsIndHard++;
-          }
-
-          if (doc.groundType === 'Hardcourt outdoor') {
-            awayWinsOutHard++;
-          }
-
-          if (doc.groundType === 'Grass') {
-            awayWinsGrass++;
-          }
-          if (typeof doc.roundInfo !== 'undefined') {
-            if (doc.roundInfo.name === 'Final') {
-              awayWinsInFinals++;
-            }
-          }
-          awayTeamWins++;
-        }
-      }
-
-      if (doc.homeTeam.id === awayTeam && doc.awayTeam.id === homeTeam) {
-        if (doc.winnerCode === 0) {
-          walkout++;
-        }
-        if (doc.winnerCode === 1) {
-          if (doc.groundType === 'Clay' || doc.groundType === 'Red clay') {
-            awayWinsClay++;
-          }
-
-          if (doc.groundType === 'Hardcourt indoor') {
-            awayWinsIndHard++;
-          }
-
-          if (doc.groundType === 'Hardcourt outdoor') {
-            awayWinsOutHard++;
-          }
-
-          if (doc.groundType === 'Grass') {
-            awayWinsGrass++;
-          }
-          if (typeof doc.roundInfo !== 'undefined') {
-            if (doc.roundInfo.name === 'Final') {
-              awayWinsInFinals++;
-            }
-          }
-          awayTeamWins++;
-        }
-        if (doc.winnerCode === 2) {
-          if (doc.groundType === 'Clay' || doc.groundType === 'Red clay') {
-            homeWinsClay++;
-          }
-
-          if (doc.groundType === 'Hardcourt indoor') {
-            homeWinsIndHard++;
-          }
-
-          if (doc.groundType === 'Hardcourt outdoor') {
-            homeWinsOutHard++;
-          }
-
-          if (doc.groundType === 'Grass') {
-            homeWinsGrass++;
-          }
-          if (typeof doc.roundInfo !== 'undefined') {
-            if (doc.roundInfo.name === 'Final') {
-              homeWinsInFinals++;
-            }
-          }
-          homeTeamWins++;
-        }
-      }
-    });
-
-  console.log(
-    `Player ${homeTeam} won ${homeTeamWins} - Clay ${homeWinsClay}, Hard Outdoor ${homeWinsOutHard}, Hard Indoor ${homeWinsIndHard}, Grass ${homeWinsGrass}. Finals Win: ${homeWinsInFinals}`
-  );
-  console.log(
-    `Player ${awayTeam} won ${awayTeamWins} - Clay ${awayWinsClay}, Hard Outdoor ${awayWinsOutHard}, Hard Indoor ${awayWinsIndHard}, Grass ${awayWinsGrass}. Finals Win: ${awayWinsInFinals}`
-  );
 };
 
 const ausOpen = function (statsArr, isHome) {
@@ -3463,9 +3290,9 @@ const CreateDBFiles = async () => {
       console.log(lettersTeam);
       //// taie "-" din path (de obicei e al doilea caracter)
       if (lettersTeam.includes('-')) {
-        teamPath = `/db/tennis/teams/${lettersTeam[0]}`;
+        teamPath = `${path}/tennis/teams/${lettersTeam[0]}`;
       } else {
-        teamPath = `/db/tennis/teams/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
+        teamPath = `${path}/tennis/teams/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
       }
 
       let teamFullPath = `${teamPath}/${player.id}`;
@@ -3480,6 +3307,7 @@ const CreateDBFiles = async () => {
           ...makePlayerStats(player.id),
           playerSlug: playerSlug,
           dbLocation: `${teamFullPath}/${player.id}.json`,
+          dbFolder: `${teamFullPath}`,
         };
 
         //// write db file
@@ -3493,6 +3321,7 @@ const CreateDBFiles = async () => {
           id: player.id,
           name: player.properName,
           dbLocation: `${teamFullPath}/${player.id}.json`,
+          dbFolder: `${teamFullPath}`,
         };
         internalFile.push(y);
       } else {
@@ -3504,12 +3333,14 @@ const CreateDBFiles = async () => {
           ...makePlayerStats(player.id),
           playerSlug: playerSlug,
           dbLocation: `${teamFullPath}/${player.id}.json`,
+          dbFolder: `${teamFullPath}`,
         };
         /// internal object
         const y = {
           id: player.id,
           name: player.properName,
           dbLocation: `${teamFullPath}/${player.id}.json`,
+          dbFolder: `${teamFullPath}`,
         };
         internalFile.push(y);
         //// write db file
@@ -3526,7 +3357,7 @@ const CreateDBFiles = async () => {
     JSON.stringify(internalFile, null, 2),
     'utf-8'
   );
-  // MongoConnection.close();
+  await MongoConnection.close();
 };
 
 //// make check slugs
@@ -3623,7 +3454,7 @@ const FetchMatches = async () => {
       matches.push(doc);
     });
 
-  console.log(matches);
+  console.log('total matches: ' + matches.length);
 
   fs.writeFileSync(
     `../json_tennis/atp-matches.json`,
@@ -3644,8 +3475,6 @@ const FetchPlayers = async () => {
   const options = {
     projection: {
       _id: 0,
-      recentForm: 0,
-      nearEvents: 0,
     },
   };
 
@@ -3653,9 +3482,10 @@ const FetchPlayers = async () => {
     players.push(doc);
   });
 
-  console.log(players);
+  console.log(players.length);
 
   players.forEach(player => {
+    let recentMatches = [];
     let theFullName = '';
     if (player.fullName.includes(',')) {
       theFullName = player.fullName.split(', ');
@@ -3663,34 +3493,37 @@ const FetchPlayers = async () => {
       theFullName = player.fullName.split(' ');
     }
 
+    if (
+      typeof player.recentForm !== 'undefined' &&
+      player.recentForm !== null &&
+      player.recentForm.length > 0
+    ) {
+      player.recentForm.forEach(playerMatch => {
+        if (playerMatch.homeTeam.type == 1 && playerMatch.homeTeam.type == 1) {
+          recentMatches.push(playerMatch.id);
+        }
+      });
+    }
+
+    delete player.recentForm;
+
     const x = {
       ...player,
       properName: `${theFullName[1]} ${theFullName[0]}`,
       firstName: theFullName[1],
       lastName: theFullName[0],
+      recentMatches: recentMatches,
     };
 
     newPlayers.push(x);
-    fs.writeFileSync(
-      `../json_tennis/atp-players.json`,
-      JSON.stringify(newPlayers, null, 2),
-      'utf-8'
-    );
   });
-
+  console.log('writing file...');
+  fs.writeFileSync(
+    `../json_tennis/atp-players.json`,
+    JSON.stringify(newPlayers, null, 2),
+    'utf-8'
+  );
   // MongoConnection.close();
 };
-// makePlayerStats(163504);
-// makePlayerStats(136042);
 
-// await CreateDBFiles();
-
-// await FetchMatches();
-
-// makeCheckSlugsATP();
-
-// await FetchPlayers();
-
-// AtpH2H(101101, 14486);
-
-export { AtpH2H, FetchPlayers, makeCheckSlugsATP, FetchMatches, CreateDBFiles };
+export { FetchPlayers, makeCheckSlugsATP, FetchMatches, CreateDBFiles };

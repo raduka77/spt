@@ -1,0 +1,223 @@
+sending Carlos Alcaraz
+sending Emil Ruusuvuori
+{
+  totalMatches: 14,
+  won: 13,
+  lost: 1,
+  winPerc: 92.86,
+  titles: [
+    {
+      titleId: 2383,
+      titleSlug: 'atp-buenos-aires',
+      titleName: 'Buenos Aires'
+    },
+    {
+      titleId: 2407,
+      titleSlug: 'atp-barcelona',
+      titleName: 'Barcelona'
+    }
+  ],
+  acesTotal: 38,
+  acesAvg: 2.71,
+  doubleFaultsTotal: 27,
+  doubleFaultsAvg: 1.93,
+  breakPointsTotal: 66,
+  breaksConvAvg: 4.71,
+  firstServeTotal: 972,
+  firstServeIn: 722,
+  firstServePerc: 74.57,
+  secondServeTotal: 250,
+  secondServeIn: 223,
+  secondServePerc: 79,
+  firstServePointsTotal: 722,
+  firstServePointsWon: 476,
+  firstServePointsPerc: 68.36,
+  secondServePointsTotal: 250,
+  secondServePointsWon: 148,
+  secondServePointsPerc: 91.71,
+  breakPointsAgainst: 80,
+  breakPointsSaved: 49,
+  breakPointsSavedPerc: 61.25,
+  tieBreaks: 2
+}
+{
+  totalMatches: 7,
+  won: 4,
+  lost: 3,
+  winPerc: 57.14,
+  titles: [],
+  acesTotal: 24,
+  acesAvg: 3.43,
+  doubleFaultsTotal: 8,
+  doubleFaultsAvg: 1.14,
+  breakPointsTotal: 14,
+  breaksConvAvg: 2,
+  firstServeTotal: 362,
+  firstServeIn: 236,
+  firstServePerc: 46,
+  secondServeTotal: 126,
+  secondServeIn: 118,
+  secondServePerc: 67.57,
+  firstServePointsTotal: 236,
+  firstServePointsWon: 164,
+  firstServePointsPerc: 50.14,
+  secondServePointsTotal: 126,
+  secondServePointsWon: 65,
+  secondServePointsPerc: 38.14,
+  breakPointsAgainst: 36,
+  breakPointsSaved: 23,
+  breakPointsSavedPerc: 63.89,
+  tieBreaks: 2
+}
+
+
+of.homeForm_RO =``;
+of.homeForm_IT =``;
+of.homeForm_ES =``;
+of.homeForm_PT =``;
+of.homeForm_FR =``;
+of.homeForm_DE =``;
+of.homeForm_CZ =``;
+of.homeForm_PL =``;
+
+of.homeForm_RO =of.homeForm_RO + ``;
+of.homeForm_IT = of.homeForm_IT + ``;
+of.homeForm_ES =of.homeForm_ES + ``;
+of.homeForm_PT =of.homeForm_PT + ``;
+of.homeForm_FR =of.homeForm_FR + ``;
+of.homeForm_DE =of.homeForm_DE + ``;
+of.homeForm_CZ =of.homeForm_CZ + ``;
+of.homeForm_PL =of.homeForm_PL + ``;
+
+
+of.awayForm_RO =``;
+of.awayForm_IT =``;
+of.awayForm_ES =``;
+of.awayForm_PT =``;
+of.awayForm_FR =``;
+of.awayForm_DE =``;
+of.awayForm_CZ =``;
+of.awayForm_PL =``;
+
+of.awayForm_RO =of.awayForm_RO + ``;
+of.awayForm_IT =of.awayForm_IT + ``;
+of.awayForm_ES =of.awayForm_ES + ``;
+of.awayForm_PT =of.awayForm_PT + ``;
+of.awayForm_FR =of.awayForm_FR + ``;
+of.awayForm_DE =of.awayForm_DE + ``;
+of.awayForm_CZ =of.awayForm_CZ + ``;
+of.awayForm_PL =of.awayForm_PL + ``;
+
+
+lst.lastMatch = ``;
+lst.lastMatch_RO = ``;
+lst.lastMatch_IT = ``;
+lst.lastMatch_ES = ``;
+lst.lastMatch_PT = ``;
+lst.lastMatch_FR = ``;
+lst.lastMatch_DE = ``;
+lst.lastMatch_CZ = ``;
+lst.lastMatch_PL = ``;
+
+lst.lastMatch = lst.lastMatch + ``;
+lst.lastMatch_RO = lst.lastMatch_RO + ``;
+lst.lastMatch_IT = lst.lastMatch_IT + ``;
+lst.lastMatch_ES = lst.lastMatch_ES + ``;
+lst.lastMatch_PT = lst.lastMatch_PT + ``;
+lst.lastMatch_FR = lst.lastMatch_FR + ``;
+lst.lastMatch_DE = lst.lastMatch_DE + ``;
+lst.lastMatch_CZ = lst.lastMatch_CZ + ``;
+lst.lastMatch_PL = lst.lastMatch_PL + ``;
+
+grass courts
+
+    pr.rank = ``;
+   pr.rank_RO = ``;
+   pr.rank_IT = ``;
+   pr.rank_ES = ``;
+   pr.rank_PT = ``;
+   pr.rank_FR = ``;
+   pr.rank_DE = ``;
+   pr.rank_CZ = ``;
+   pr.rank_PS = ``;
+
+
+
+
+Additionally, ${awayData.lastName} has accomplished the remarkable feat of securing ${awayFormOnClay.titles.length} titles on clay this season (${titles.join(', ')}).
+
+of.homeForm_FR = `${homeData.properName} n'a pas encore joué de matchs sur terre battue, nous ne pouvons donc pas afficher de statistiques pour le moment.`;
+
+of.homeForm_FR = `${
+  homeData.properName
+} n'a joué que ${converter.toWords(
+  homeFormOnClay.totalMatches
+)} sur terre battue cette saison, ce qui n'est pas beaucoup, mais nous pouvons tout de même en tirer quelques statistiques.`;
+
+of.homeForm_FR = `Le pourcentage de victoire de ${homeData.lastName} sur terre battue, qui est actuellement de ${homeFormOnClay.winPerc}%, indique un bon début de saison sur cette surface. Cependant, il reste à voir s'il peut maintenir ce niveau de performance au fur et à mesure que la saison avance.`;
+
+of.homeForm_FR = of.homeForm_FR + ` Le pourcentage de victoire de ${homeData.lastName} sur terre battue, qui est actuellement de ${homeFormOnClay.winPerc}%, indique un début de saison prometteur sur cette surface. Néanmoins, la question reste de savoir s'il peut maintenir ce niveau de performance jusqu'à la fin de la saison.`;
+
+of.homeForm_FR =
+            of.homeForm_FR +
+            ` Le pourcentage de victoire actuel de ${homeData.properName} de ${homeFormOnClay.winPerc}% sur terre battue suggère un début de saison difficile sur cette surface. Cependant, l'incertitude persiste quant à sa capacité à se rétablir et à afficher un meilleur niveau de performance lors des prochains matches de la saison.`;
+
+
+            of.homeForm_FR =
+            of.homeForm_FR +
+            ` Le pourcentage de victoire actuel de ${homeData.lastName} de ${homeFormOnClay.winPerc}% sur terre battue suggère un début de saison décevant sur cette surface. Afin d'améliorer ses résultats, il doit intensifier son jeu et se montrer plus performant.`;
+
+
+
+       of.homeForm_FR = `Au cours de la saison actuelle, ${homeData.properName} a joué un nombre suffisant de matches sur terre battue, ce qui permet une analyse complète de sa forme sur cette surface.`;
+
+
+       of.homeForm_FR =
+       of.homeForm_FR +
+       ` Son taux de victoire sur terre battue s'élève actuellement à un impressionnant ${
+         homeFormOnClay.winPerc
+       }%, après avoir remporté ${converter.toWords(
+         homeFormOnClay.won
+       )} et subi des défaites dans ${converter.toWords(
+         homeFormOnClay.lost
+       )}. Cette performance peut certainement être considérée comme excellente.`;
+
+       of.homeForm_FR = of.homeForm_FR + ` De plus, ${homeData.lastName} a réussi à remporter un titre sur terre battue cette saison (${homeFormOnClay.titles[0].titleName}).`;
+
+
+       of.homeForm_FR =
+       of.homeForm_FR +
+       ` De plus, ${
+         homeData.properName
+       } a réussi l'exploit d'atteindre ${
+         homeFormOnClay.titles.length
+       } sur terre battue cette saison (${titles.join(', ')}).`;
+
+       of.homeForm_FR =
+       of.homeForm_FR +
+       ` La forme actuelle de ${homeData.properName} sur terre battue peut être considérée comme acceptable, bien qu'il y ait certainement une marge de progression.`;
+
+       of.awayForm_FR = `Pour l'instant, nous ne pouvons pas afficher de statistiques pour ${awayData.properName} car il n'a joué aucun match sur terre battue jusqu'à présent.`;
+
+       of.awayForm_FR =
+       of.awayForm_FR +
+       ` Il semble que ${awayData.lastName} ait connu un bon début de saison sur terre battue, comme l'indique son pourcentage de victoire actuel de ${awayFormOnClay.winPerc}%. Néanmoins, il reste à voir s'il peut maintenir ce niveau de performance tout au long de la saison.`;
+
+       of.awayForm_FR =
+       of.awayForm_FR +
+       ` Le pourcentage de victoire actuel de ${awayFormOnClay.winPerc}% sur terre battue de ${awayData.lastName} représente un début de saison prometteur sur cette surface. Néanmoins, la question se pose de savoir s'il peut maintenir ce niveau de performance pour le reste de la saison.`;
+
+       of.awayForm_FR =
+       of.awayForm_FR +
+       ` Le pourcentage de victoire de ${awayFormOnClay.winPerc}% sur terre battue de ${awayData.properName} témoigne d'un début de saison difficile sur cette surface. Néanmoins, l'incertitude demeure quant à sa capacité à rebondir et à réaliser de meilleures performances lors des prochains matches de la saison.`;
+
+       of.awayForm_FR =
+       of.awayForm_FR +
+       ` Il semble que ${awayData.lastName} ait connu un début de saison décourageant sur terre battue, avec un pourcentage de victoire actuel de ${awayFormOnClay.winPerc}%. Pour améliorer ses résultats, le joueur devra élever son niveau de jeu.`;
+
+
+
+
+
+
+       

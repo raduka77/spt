@@ -5,6 +5,7 @@ import async from 'async';
 import requests from 'sync-request';
 import { DateTime } from 'luxon';
 import slugify from 'slugify';
+import { path } from '../paths.js';
 
 const CreateDBFiles = function () {
   let internalFile = [];
@@ -44,9 +45,9 @@ const CreateDBFiles = function () {
       console.log(lettersTeam);
       //// taie "-" din path (de obicei e al doilea caracter)
       if (lettersTeam.includes('-')) {
-        teamPath = `/db/tennis/atp-leagues/${lettersTeam[0]}`;
+        teamPath = `${path}/tennis/atp-leagues/${lettersTeam[0]}`;
       } else {
-        teamPath = `/db/tennis/atp-leagues/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
+        teamPath = `${path}/tennis/atp-leagues/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
       }
 
       let teamFullPath = `${teamPath}/${league.id}`;
@@ -117,9 +118,9 @@ const CreateDBFiles = function () {
       console.log(lettersTeam);
       //// taie "-" din path (de obicei e al doilea caracter)
       if (lettersTeam.includes('-')) {
-        teamPath = `/db/tennis/wta-leagues/${lettersTeam[0]}`;
+        teamPath = `${path}/tennis/wta-leagues/${lettersTeam[0]}`;
       } else {
-        teamPath = `/db/tennis/wta-leagues/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
+        teamPath = `${path}/tennis/wta-leagues/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
       }
 
       let teamFullPath = `${teamPath}/${league.id}`;
