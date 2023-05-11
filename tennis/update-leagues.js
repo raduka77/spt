@@ -33,5 +33,5 @@ const RunUpdater = async ({ interval = 60, callback }) => {
 };
 
 RunUpdater({
-  interval: 60, // in seconds - 3600 - 1 hour
+  interval: 3600, // in seconds - 3600 - 1 hour
 });
