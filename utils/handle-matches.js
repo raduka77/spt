@@ -35,7 +35,9 @@ const handleNotStarted = async matchObj => {
   } else {
     /// just write file
     console.log(`directory EXIST, just writing file`);
-
+    console.log(
+      `Id: ${matchObj.match.id}, dir: ${matchFullPath}/${matchObj.awayPlayerData.id}.json`
+    );
     //// write db file
     fs.writeFileSync(
       `${matchFullPath}/${matchObj.awayPlayerData.id}.json`,
