@@ -8,12 +8,34 @@ import {
   CreateDBFiles,
 } from '../utils/tennis-wta-utils.js';
 
-await FetchPlayers();
+const Start = async () => {
+  await FetchPlayers();
 
-makeCheckSlugsWTA();
+  makeCheckSlugsWTA();
 
-await FetchMatches();
+  await FetchMatches();
 
-await CreateDBFiles();
+  await CreateDBFiles();
 
-await MongoConnection.close();
+  await MongoConnection.close();
+};
+
+const RunUpdater = async ({ interval = 60, callback }) => {
+  console.log(
+    `Started WTA match updater with interval of `,
+    interval,
+    ` seconds`
+  );
+  const MilisecondInterval = interval * 1000;
+
+  let timerId = setTimeout(async function tick() {
+    console.log(`Updating tennis leagues...`);
+    await Start();
+
+    timerId = setTimeout(tick, MilisecondInterval); // (*)
+  }, 1);
+};
+
+RunUpdater({
+  interval: 3600, // in seconds - 3600 - 1 hour
+});
