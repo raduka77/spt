@@ -21,6 +21,9 @@ const handleNotStarted = async matchObj => {
   if (!fs.existsSync(matchFullPath)) {
     //// make dir if dir doesn't exist and write file
     console.log(`directory doesn't exist, making dir, writing file`);
+    console.log(
+      `Id: ${matchObj.match.id}, dir: ${matchFullPath}/${matchObj.awayPlayerData.id}.json`
+    );
     fs.mkdirSync(matchFullPath, { recursive: true });
 
     //// write db file
@@ -32,7 +35,9 @@ const handleNotStarted = async matchObj => {
   } else {
     /// just write file
     console.log(`directory EXIST, just writing file`);
-
+    console.log(
+      `Id: ${matchObj.match.id}, dir: ${matchFullPath}/${matchObj.awayPlayerData.id}.json`
+    );
     //// write db file
     fs.writeFileSync(
       `${matchFullPath}/${matchObj.awayPlayerData.id}.json`,
