@@ -16,7 +16,7 @@ const handleNotStarted = async matchObj => {
     matchPath = `${path}/tennis/wta-matches/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
   }
 
-  let matchFullPath = `${matchPath}/${matchObj.homePlayerData.id}/`;
+  let matchFullPath = `${matchPath}/${matchObj.homePlayerData.id}`;
   // console.log(matchFullPath);
   if (!fs.existsSync(matchFullPath)) {
     //// make dir if dir doesn't exist and write file
