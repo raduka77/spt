@@ -59,40 +59,14 @@ const formOfPlayersOnClay = function (match, homeData, awayData) {
         } has only played ${converter.toWords(
           homeFormOnClay.totalMatches
         )} matches on clay this season, which isn't a lot, but we can still extract some statistics from them.`;
-        of.homeForm_RO = `${
-          homeData.properName
-        } a jucat doar ${converter.toWords(
-          homeFormOnClay.totalMatches
-        )} meciuri pe zgură în acest sezon, ceea ce nu este mult, dar putem totuși extrage câteva statistici din ele.`;
-        of.homeForm_IT = `${
-          homeData.properName
-        } ha giocato solo ${converter.toWords(
-          homeFormOnClay.totalMatches
-        )} partite sulla terra battuta in questa stagione, il che non è molto, ma possiamo comunque ricavarne alcune statistiche.`;
-        of.homeForm_ES = `${
-          homeData.properName
-        } sólo ha jugado ${converter.toWords(
-          homeFormOnClay.totalMatches
-        )} partidos en tierra batida esta temporada, lo que no es mucho, pero aún así podemos extraer algunas estadísticas de ellos.`;
-        of.homeForm_PT = `${homeData.properName} só jogou ${converter.toWords(
-          homeFormOnClay.totalMatches
-        )} jogos em terra batida esta época, o que não é muito, mas ainda assim podemos extrair algumas estatísticas deles.`;
-        of.homeForm_FR = `${
-          homeData.properName
-        } n'a joué que ${converter.toWords(
-          homeFormOnClay.totalMatches
-        )} sur terre battue cette saison, ce qui n'est pas beaucoup, mais nous pouvons tout de même en tirer quelques statistiques.`;
-        of.homeForm_DE = `${homeData.properName} spielt nur ${converter.toWords(
-          homeFormOnClay.totalMatches
-        )} Spiele auf Sand in dieser Saison bestritten, was nicht sehr viel ist, aber wir können dennoch einige Statistiken aus ihnen extrahieren.`;
-        of.homeForm_CZ = `${
-          homeData.properName
-        } přehrál pouze ${converter.toWords(
-          homeFormOnClay.totalMatches
-        )} zápasů na antuce v této sezóně, což není mnoho, ale přesto z nich můžeme získat nějaké statistiky.`;
-        of.homeForm_PL = `${homeData.properName} grał tylko ${converter.toWords(
-          homeFormOnClay.totalMatches
-        )} mecze na glinie w tym sezonie, co nie jest dużo, ale wciąż możemy wyciągnąć z nich kilka statystyk.`;
+        of.homeForm_RO = `${homeData.properName} a jucat doar ${homeFormOnClay.totalMatches} meciuri pe zgură în acest sezon, ceea ce nu este mult, dar putem totuși extrage câteva statistici din ele.`;
+        of.homeForm_IT = `${homeData.properName} ha giocato solo ${homeFormOnClay.totalMatches} partite sulla terra battuta in questa stagione, il che non è molto, ma possiamo comunque ricavarne alcune statistiche.`;
+        of.homeForm_ES = `${homeData.properName} sólo ha jugado ${homeFormOnClay.totalMatches} partidos en tierra batida esta temporada, lo que no es mucho, pero aún así podemos extraer algunas estadísticas de ellos.`;
+        of.homeForm_PT = `${homeData.properName} só jogou ${homeFormOnClay.totalMatches} jogos em terra batida esta época, o que não é muito, mas ainda assim podemos extrair algumas estatísticas deles.`;
+        of.homeForm_FR = `${homeData.properName} n'a joué que ${homeFormOnClay.totalMatches} sur terre battue cette saison, ce qui n'est pas beaucoup, mais nous pouvons tout de même en tirer quelques statistiques.`;
+        of.homeForm_DE = `${homeData.properName} spielt nur ${homeFormOnClay.totalMatches} Spiele auf Sand in dieser Saison bestritten, was nicht sehr viel ist, aber wir können dennoch einige Statistiken aus ihnen extrahieren.`;
+        of.homeForm_CZ = `${homeData.properName} přehrál pouze ${homeFormOnClay.totalMatches} zápasů na antuce v této sezóně, což není mnoho, ale přesto z nich můžeme získat nějaké statistiky.`;
+        of.homeForm_PL = `${homeData.properName} grał tylko ${homeFormOnClay.totalMatches} mecze na glinie w tym sezonie, co nie jest dużo, ale wciąż możemy wyciągnąć z nich kilka statystyk.`;
 
         if (homeFormOnClay.winPerc >= 75) {
           of.homeForm =
