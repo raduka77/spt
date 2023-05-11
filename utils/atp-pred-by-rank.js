@@ -239,7 +239,7 @@ const predictionByRank = function (homeData, awayData) {
       pr.rank_ES = `La clasificación ATP nos dice que ${awayData.lastName} probablemente tenga ventaja sobre ${homeData.lastName} en el partido de hoy.`;
       pr.rank_PT = `As classificações ATP dizem-nos que é provável que ${awayData.lastName} tenha vantagem sobre ${homeData.lastName} no jogo de hoje.`;
       pr.rank_FR = `Les classements ATP nous indiquent que ${awayData.lastName} est susceptible d'avoir l'avantage sur ${homeData.lastName} dans le match d'aujourd'hui.`;
-      pr.rank_DE = `Die ATP-Rangliste sagt uns, dass ${AuswärtsDaten.Nachname} im heutigen Spiel wahrscheinlich im Vorteil gegenüber ${HeimatDaten.Nachname} sein wird.`;
+      pr.rank_DE = `Die ATP-Rangliste sagt uns, dass ${awayData.lastName} im heutigen Spiel wahrscheinlich im Vorteil gegenüber ${homeData.lastName} sein wird.`;
       pr.rank_CZ = `Žebříček ATP nám říká, že ${awayData.lastName} bude mít v dnešním zápase pravděpodobně výhodu nad ${homeData.lastName}.`;
       pr.rank_PL = `Rankingi ATP mówią nam, że ${awayData.lastName} w dzisiejszym meczu prawdopodobnie będzie miał przewagę nad ${homeData.lastName}.`;
     }

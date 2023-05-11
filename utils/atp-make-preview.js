@@ -1,3 +1,5 @@
+'use strict';
+
 import { AtpH2H } from './make-h2h-atp.js';
 import { ATPProcessLastMatch } from './atp-process-last-match.js';
 import { predictionByRank } from './atp-pred-by-rank.js';

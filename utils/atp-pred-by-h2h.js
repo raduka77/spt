@@ -1,3 +1,5 @@
+'use strict';
+
 const predictionByH2H = function (h2h, homeData, awayData, ground) {
   let h2s = {
     byH2H: '',

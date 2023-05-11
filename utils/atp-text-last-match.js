@@ -1,4 +1,5 @@
 /// this function generates text for last match for any player
+'use strict';
 
 const TextForLastMatch = function (playerData, lastMatch) {
   let lst = {

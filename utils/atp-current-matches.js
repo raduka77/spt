@@ -1,3 +1,5 @@
+'use strict';
+
 import { DateTime } from 'luxon';
 import fs from 'fs';
 import { MongoConnection, MongoDbName } from './mongo-tennis.js';

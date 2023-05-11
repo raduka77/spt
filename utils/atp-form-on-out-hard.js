@@ -1,3 +1,5 @@
+'use strict';
+
 import fs from 'fs';
 import { DateTime } from 'luxon';
 import { default as converter } from 'number-to-words';
