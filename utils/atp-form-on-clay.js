@@ -4,7 +4,7 @@ import { DateTime } from 'luxon';
 import { default as converter } from 'number-to-words';
 
 const formOfPlayersOnClay = function (match, homeData, awayData) {
-  console.log('starting formOfPlayersOnClay');
+  // console.log('starting formOfPlayersOnClay');
   let of = {
     homeForm: '',
     homeForm_RO: '',
