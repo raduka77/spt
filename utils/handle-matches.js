@@ -130,6 +130,7 @@ const handleFinished = async (match, homeData, awayData) => {
     }
 
     if (!fs.existsSync(`${homeTeamPath}/matches.json`)) {
+      console.log(`Home path: ${homeTeamPath}/matches.json`);
       console.log('!!!! match file NOT found, creating one...');
       /// declaring match obj
       const hm = {
@@ -182,6 +183,7 @@ const handleFinished = async (match, homeData, awayData) => {
 
     if (!fs.existsSync(`${awayTeamPath}/matches.json`)) {
       console.log('!!!! match file NOT found, creating one...');
+      console.log(`Home path: ${awayTeamPath}/matches.json`);
       /// declaring match obj
       const am = {
         matchSlug: `${homeData.playerSlug}-vs-${awayData.playerSlug}`,
