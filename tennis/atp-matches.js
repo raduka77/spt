@@ -52,7 +52,7 @@ const RunUpdater = async ({ interval = 60, callback }) => {
   const MilisecondInterval = interval * 1000;
 
   let timerId = setTimeout(async function tick() {
-    console.log(`Updating tennis leagues...`);
+    console.log(`Updating ATP MATCHES...`);
     await Start();
 
     timerId = setTimeout(tick, MilisecondInterval); // (*)
