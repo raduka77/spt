@@ -13,6 +13,9 @@ import {
 } from '../utils/tennis-atp-utils.js';
 
 const Start = async () => {
+  console.log(
+    `\n******************\nstarting at ${new Date()}\n******************`
+  );
   await FetchPlayers();
 
   makeCheckSlugsATP();
@@ -20,6 +23,9 @@ const Start = async () => {
   await FetchMatches();
 
   await CreateDBFiles();
+  console.log(
+    `\n******************\nEnding at ${new Date()}\n******************`
+  );
 };
 
 const RunUpdater = async ({ interval = 60, callback }) => {

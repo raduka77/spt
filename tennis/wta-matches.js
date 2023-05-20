@@ -10,6 +10,9 @@ const playersWTAInternal = JSON.parse(
 );
 
 const Start = async () => {
+  console.log(
+    `\n******************\nStarting at ${new Date()}\n******************`
+  );
   const wtaMatches = await WTAFetchCurrentMatches();
 
   for await (const match of wtaMatches) {
@@ -40,6 +43,9 @@ const Start = async () => {
     }
   }
   console.log('finished');
+  console.log(
+    `\n******************\nEnding at ${new Date()}\n******************`
+  );
   MongoConnection.close();
 };
 

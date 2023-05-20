@@ -12,11 +12,16 @@ import {
 } from '../utils/tennis-leagues-utils.js';
 
 const Start = async () => {
+  console.log(
+    `\n******************\nStarting at ${new Date()}\n******************`
+  );
   await FetchWTALeagues();
   await FetchATPLeagues();
   makeCheckSlugs();
   CreateDBFiles();
-
+  console.log(
+    `\n******************\nEnding at ${new Date()}\n******************`
+  );
   await MongoConnection.close();
 };
 

@@ -10,6 +10,9 @@ const playersATPInternal = JSON.parse(
 );
 
 const Start = async () => {
+  console.log(
+    `\n******************\nstarting at ${new Date()}\n******************`
+  );
   const atpMatches = await ATPFetchCurrentMatches();
 
   for await (const match of atpMatches) {
@@ -40,6 +43,9 @@ const Start = async () => {
     }
   }
   console.log('finished');
+  console.log(
+    `\n******************\nEnding at ${new Date()}\n******************`
+  );
   MongoConnection.close();
 };
 

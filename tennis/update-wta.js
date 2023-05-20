@@ -9,6 +9,9 @@ import {
 } from '../utils/tennis-wta-utils.js';
 
 const Start = async () => {
+  console.log(
+    `\n******************\nStarting at ${new Date()}\n******************`
+  );
   await FetchPlayers();
 
   makeCheckSlugsWTA();
@@ -16,6 +19,9 @@ const Start = async () => {
   await FetchMatches();
 
   await CreateDBFiles();
+  console.log(
+    `\n******************\nEnding at ${new Date()}\n******************`
+  );
 };
 
 const RunUpdater = async ({ interval = 60, callback }) => {
