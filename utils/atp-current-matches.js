@@ -32,7 +32,7 @@ const CurrentTime = async () => {
 
 const currentTime = await CurrentTime();
 
-const startInterval = currentTime - 604800; //86400
+const startInterval = currentTime - 86400; //86400
 const endInterval = currentTime + 172800; // 172800
 
 const ATPFetchCurrentMatches = async () => {
