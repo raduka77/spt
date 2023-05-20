@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "developer_name": "NS",
+    "name": "Not Started",
+    "short_name": "NS",
+    "state": "NS"
+  },
+  {
+    "id": 2,
+    "developer_name": "INPLAY_1ST_HALF",
+    "name": "1st Half",
+    "short_name": "1st",
+    "state": "INPLAY_1ST_HALF"
+  },
+  {
+    "id": 3,
+    "developer_name": "HT",
+    "name": "Half Time",
+    "short_name": "HT",
+    "state": "HT"
+  },
+  {
+    "id": 4,
+    "developer_name": "BREAK",
+    "name": "Break",
+    "short_name": "BRK",
+    "state": "BREAK"
+  },
+  {
+    "id": 5,
+    "developer_name": "FT",
+    "name": "Full Time",
+    "short_name": "FT",
+    "state": "FT"
+  },
+  {
+    "id": 6,
+    "developer_name": "INPLAY_ET",
+    "name": "Extra Time",
+    "short_name": "et",
+    "state": "INPLAY_ET"
+  },
+  {
+    "id": 7,
+    "developer_name": "AET",
+    "name": "After Extra Time",
+    "short_name": "AET",
+    "state": "AET"
+  },
+  {
+    "id": 8,
+    "developer_name": "FT_PEN",
+    "name": "After Penalties",
+    "short_name": "FTP",
+    "state": "FT_PEN"
+  },
+  {
+    "id": 9,
+    "developer_name": "INPLAY_PENALTIES",
+    "name": "Penalties",
+    "short_name": "PEN",
+    "state": "INPLAY_PENALTIES"
+  },
+  {
+    "id": 10,
+    "developer_name": "POSTPONED",
+    "name": "Postponed",
+    "short_name": "POST",
+    "state": "POSTPONED"
+  },
+  {
+    "id": 11,
+    "developer_name": "SUSPENDED",
+    "name": "Suspended",
+    "short_name": "SUSP",
+    "state": "SUSPENDED"
+  },
+  {
+    "id": 12,
+    "developer_name": "CANCELLED",
+    "name": "Cancelled",
+    "short_name": "CANC",
+    "state": "CANCELLED"
+  },
+  {
+    "id": 13,
+    "developer_name": "TBA",
+    "name": "To Be Announced",
+    "short_name": "TBA",
+    "state": "TBA"
+  },
+  {
+    "id": 14,
+    "developer_name": "WO",
+    "name": "Walk Over",
+    "short_name": "WO",
+    "state": "WO"
+  },
+  {
+    "id": 15,
+    "developer_name": "ABANDONED",
+    "name": "Abandoned",
+    "short_name": "ABAN",
+    "state": "ABANDONED"
+  },
+  {
+    "id": 16,
+    "developer_name": "DELAYED",
+    "name": "Delayed",
+    "short_name": "DELA",
+    "state": "DELAYED"
+  },
+  {
+    "id": 17,
+    "developer_name": "AWARDED",
+    "name": "Awarded",
+    "short_name": "AWAR",
+    "state": "AWARDED"
+  },
+  {
+    "id": 18,
+    "developer_name": "INTERRUPTED",
+    "name": "Interrupted",
+    "short_name": "INT",
+    "state": "INTERRUPTED"
+  },
+  {
+    "id": 19,
+    "developer_name": "AWAITING_UPDATES",
+    "name": "Awaiting Updates",
+    "short_name": "AU",
+    "state": "AWAITING_UPDATES"
+  },
+  {
+    "id": 20,
+    "developer_name": "DELETED",
+    "name": "Deleted",
+    "short_name": "DEL",
+    "state": "DELETED"
+  },
+  {
+    "id": 21,
+    "developer_name": "EXTRA_TIME_BREAK",
+    "name": "Extra Time - Break",
+    "short_name": "ETB",
+    "state": "EXTRA_TIME_BREAK"
+  },
+  {
+    "id": 22,
+    "developer_name": "INPLAY_2ND_HALF",
+    "name": "2nd Half",
+    "short_name": "2nd",
+    "state": "INPLAY_2ND_HALF"
+  },
+  {
+    "id": 23,
+    "developer_name": "INPLAY_ET_2ND_HALF",
+    "name": "ET - 2nd Half",
+    "short_name": "2et",
+    "state": "INPLAY_ET_2ND_HALF"
+  },
+  {
+    "id": 25,
+    "developer_name": "PEN_BREAK",
+    "name": "Penalties - Break",
+    "short_name": "PENB",
+    "state": "PEN_BREAK"
+  },
+  {
+    "id": 26,
+    "developer_name": "PENDING",
+    "name": "Pending",
+    "short_name": "PEN",
+    "state": "PENDING"
+  }
+]

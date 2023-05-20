@@ -1,0 +1,1814 @@
+[
+  {
+    "id": 78,
+    "name": "Brighton & Hove Albion",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/78/78.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/78"
+  },
+  {
+    "id": 11,
+    "name": "Fulham",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fu/11/11.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fu/11"
+  },
+  {
+    "id": 8,
+    "name": "Liverpool",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/li/8/8.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/li/8"
+  },
+  {
+    "id": 19,
+    "name": "Arsenal",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ar/19/19.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ar/19"
+  },
+  {
+    "id": 42,
+    "name": "Leicester City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/42/42.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/42"
+  },
+  {
+    "id": 29,
+    "name": "Wolverhampton Wanderers",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wo/29/29.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wo/29"
+  },
+  {
+    "id": 71,
+    "name": "Leeds United",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/71/71.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/71"
+  },
+  {
+    "id": 51,
+    "name": "Crystal Palace",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cr/51/51.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cr/51"
+  },
+  {
+    "id": 14,
+    "name": "Manchester United",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/ma/14/14.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/ma/14"
+  },
+  {
+    "id": 236,
+    "name": "Brentford",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/236/236.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/236"
+  },
+  {
+    "id": 52,
+    "name": "AFC Bournemouth",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/af/52/52.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/af/52"
+  },
+  {
+    "id": 20,
+    "name": "Newcastle United",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/ne/20/20.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/ne/20"
+  },
+  {
+    "id": 63,
+    "name": "Nottingham Forest",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/no/63/63.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/no/63"
+  },
+  {
+    "id": 13,
+    "name": "Everton",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/ev/13/13.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/ev/13"
+  },
+  {
+    "id": 9,
+    "name": "Manchester City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/ma/9/9.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/ma/9"
+  },
+  {
+    "id": 1,
+    "name": "West Ham United",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/we/1/1.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/we/1"
+  },
+  {
+    "id": 65,
+    "name": "Southampton",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/so/65/65.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/so/65"
+  },
+  {
+    "id": 18,
+    "name": "Chelsea",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ch/18/18.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ch/18"
+  },
+  {
+    "id": 15,
+    "name": "Aston Villa",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/as/15/15.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/as/15"
+  },
+  {
+    "id": 6,
+    "name": "Tottenham Hotspur",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/to/6/6.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/to/6"
+  },
+  {
+    "id": 61,
+    "name": "AZ",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/az/61/61.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/az/61"
+  },
+  {
+    "id": 814,
+    "name": "RKC Waalwijk",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/rk/814/814.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/rk/814"
+  },
+  {
+    "id": 629,
+    "name": "Ajax",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/aj/629/629.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/aj/629"
+  },
+  {
+    "id": 94,
+    "name": "Vitesse",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vi/94/94.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vi/94"
+  },
+  {
+    "id": 2475,
+    "name": "FC Emmen",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/2475/2475.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/2475"
+  },
+  {
+    "id": 2345,
+    "name": "FC Groningen",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/2345/2345.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/2345"
+  },
+  {
+    "id": 1652,
+    "name": "Excelsior",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/ex/1652/1652.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/ex/1652"
+  },
+  {
+    "id": 919,
+    "name": "Sparta Rotterdam",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/919/919.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/919"
+  },
+  {
+    "id": 750,
+    "name": "FC Utrecht",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/750/750.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/750"
+  },
+  {
+    "id": 494,
+    "name": "NEC",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/ne/494/494.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/ne/494"
+  },
+  {
+    "id": 2396,
+    "name": "FC Volendam",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/2396/2396.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/2396"
+  },
+  {
+    "id": 664,
+    "name": "Go Ahead Eagles",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/go/664/664.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/go/664"
+  },
+  {
+    "id": 1053,
+    "name": "SC Heerenveen",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sc/1053/1053.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sc/1053"
+  },
+  {
+    "id": 1459,
+    "name": "Fortuna Sittard",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fo/1459/1459.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fo/1459"
+  },
+  {
+    "id": 593,
+    "name": "FC Twente",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/593/593.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/593"
+  },
+  {
+    "id": 1435,
+    "name": "SC Cambuur",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sc/1435/1435.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sc/1435"
+  },
+  {
+    "id": 682,
+    "name": "PSV",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/ps/682/682.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/ps/682"
+  },
+  {
+    "id": 73,
+    "name": "Feyenoord",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fe/73/73.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fe/73"
+  },
+  {
+    "id": 99,
+    "name": "Preston North End",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pr/99/99.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pr/99"
+  },
+  {
+    "id": 69,
+    "name": "Cardiff City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ca/69/69.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ca/69"
+  },
+  {
+    "id": 25,
+    "name": "Watford",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wa/25/25.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wa/25"
+  },
+  {
+    "id": 122,
+    "name": "Bristol City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/122/122.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/122"
+  },
+  {
+    "id": 117,
+    "name": "Coventry City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/co/117/117.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/co/117"
+  },
+  {
+    "id": 138,
+    "name": "Rotherham United",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ro/138/138.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ro/138"
+  },
+  {
+    "id": 30,
+    "name": "Swansea City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sw/30/30.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sw/30"
+  },
+  {
+    "id": 115,
+    "name": "Luton Town",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/lu/115/115.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/lu/115"
+  },
+  {
+    "id": 21,
+    "name": "Sheffield United",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sh/21/21.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sh/21"
+  },
+  {
+    "id": 47,
+    "name": "Queens Park Rangers",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/q/qu/47/47.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/q/qu/47"
+  },
+  {
+    "id": 3,
+    "name": "Sunderland",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/su/3/3.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/su/3"
+  },
+  {
+    "id": 17,
+    "name": "Wigan Athletic",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wi/17/17.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wi/17"
+  },
+  {
+    "id": 28,
+    "name": "Blackpool",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bl/28/28.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bl/28"
+  },
+  {
+    "id": 22,
+    "name": "Hull City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/hu/22/22.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/hu/22"
+  },
+  {
+    "id": 33,
+    "name": "Norwich City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/no/33/33.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/no/33"
+  },
+  {
+    "id": 10,
+    "name": "West Bromwich Albion",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/we/10/10.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/we/10"
+  },
+  {
+    "id": 7,
+    "name": "Middlesbrough",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/7/7.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/7"
+  },
+  {
+    "id": 251,
+    "name": "Huddersfield Town",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/hu/251/251.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/hu/251"
+  },
+  {
+    "id": 64,
+    "name": "Millwall",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/64/64.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/64"
+  },
+  {
+    "id": 2,
+    "name": "Blackburn Rovers",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bl/2/2.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bl/2"
+  },
+  {
+    "id": 260131,
+    "name": "TBC",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/tb/260131/260131.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/tb/260131"
+  },
+  {
+    "id": 26,
+    "name": "Stoke City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/26/26.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/26"
+  },
+  {
+    "id": 12,
+    "name": "Birmingham City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bi/12/12.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bi/12"
+  },
+  {
+    "id": 27,
+    "name": "Burnley",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bu/27/27.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bu/27"
+  },
+  {
+    "id": 23,
+    "name": "Reading",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/23/23.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/23"
+  },
+  {
+    "id": 56,
+    "name": "Sheffield Wednesday",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sh/56/56.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sh/56"
+  },
+  {
+    "id": 24,
+    "name": "Derby County",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/d/de/24/24.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/d/de/24"
+  },
+  {
+    "id": 351,
+    "name": "Cheltenham Town",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ch/351/351.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ch/351"
+  },
+  {
+    "id": 232,
+    "name": "Cambridge United",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ca/232/232.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ca/232"
+  },
+  {
+    "id": 116,
+    "name": "Ipswich Town",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/i/ip/116/116.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/i/ip/116"
+  },
+  {
+    "id": 772,
+    "name": "Morecambe",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mo/772/772.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mo/772"
+  },
+  {
+    "id": 305,
+    "name": "Lincoln City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/li/305/305.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/li/305"
+  },
+  {
+    "id": 54,
+    "name": "Barnsley",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/ba/54/54.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/ba/54"
+  },
+  {
+    "id": 154,
+    "name": "Shrewsbury Town",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sh/154/154.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sh/154"
+  },
+  {
+    "id": 4,
+    "name": "Charlton Athletic",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ch/4/4.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ch/4"
+  },
+  {
+    "id": 348,
+    "name": "Port Vale",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/po/348/348.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/po/348"
+  },
+  {
+    "id": 297,
+    "name": "Oxford United",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/o/ox/297/297.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/o/ox/297"
+  },
+  {
+    "id": 177,
+    "name": "Forest Green Rovers",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fo/177/177.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fo/177"
+  },
+  {
+    "id": 230,
+    "name": "Bristol Rovers",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/230/230.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/230"
+  },
+  {
+    "id": 341,
+    "name": "Milton Keynes Dons",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/341/341.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/341"
+  },
+  {
+    "id": 317,
+    "name": "Fleetwood Town",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fl/317/317.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fl/317"
+  },
+  {
+    "id": 395,
+    "name": "Accrington Stanley",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ac/395/395.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ac/395"
+  },
+  {
+    "id": 5,
+    "name": "Portsmouth",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/po/5/5.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/po/5"
+  },
+  {
+    "id": 183,
+    "name": "Wycombe Wanderers",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wy/183/183.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wy/183"
+  },
+  {
+    "id": 185,
+    "name": "Exeter City",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/ex/185/185.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/ex/185"
+  },
+  {
+    "id": 150,
+    "name": "Burton Albion",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bu/150/150.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bu/150"
+  },
+  {
+    "id": 110,
+    "name": "Plymouth Argyle",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pl/110/110.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pl/110"
+  },
+  {
+    "id": 16,
+    "name": "Bolton Wanderers",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/16/16.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/16"
+  },
+  {
+    "id": 254,
+    "name": "Peterborough United",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pe/254/254.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pe/254"
+  },
+  {
+    "id": 3317,
+    "name": "Hertha BSC",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/he/3317/3317.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/he/3317"
+  },
+  {
+    "id": 1079,
+    "name": "FC Union Berlin",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/1079/1079.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/1079"
+  },
+  {
+    "id": 510,
+    "name": "VfL Wolfsburg",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vf/510/510.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vf/510"
+  },
+  {
+    "id": 3321,
+    "name": "Bayer 04 Leverkusen",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/ba/3321/3321.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/ba/3321"
+  },
+  {
+    "id": 3543,
+    "name": "SC Freiburg",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sc/3543/3543.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sc/3543"
+  },
+  {
+    "id": 68,
+    "name": "Borussia Dortmund",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/68/68.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/68"
+  },
+  {
+    "id": 82,
+    "name": "Werder Bremen",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/we/82/82.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/we/82"
+  },
+  {
+    "id": 3320,
+    "name": "FC Köln",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/3320/3320.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/3320"
+  },
+  {
+    "id": 67,
+    "name": "Schalke 04",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sc/67/67.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sc/67"
+  },
+  {
+    "id": 277,
+    "name": "RB Leipzig",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/rb/277/277.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/rb/277"
+  },
+  {
+    "id": 90,
+    "name": "FC Augsburg",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/90/90.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/90"
+  },
+  {
+    "id": 683,
+    "name": "Borussia Mönchengladbach",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/683/683.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/683"
+  },
+  {
+    "id": 3319,
+    "name": "VfB Stuttgart",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vf/3319/3319.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vf/3319"
+  },
+  {
+    "id": 999,
+    "name": "VfL Bochum 1848",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vf/999/999.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vf/999"
+  },
+  {
+    "id": 2726,
+    "name": "TSG Hoffenheim",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/ts/2726/2726.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/ts/2726"
+  },
+  {
+    "id": 366,
+    "name": "Eintracht Frankfurt",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/ei/366/366.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/ei/366"
+  },
+  {
+    "id": 794,
+    "name": "FSV Mainz 05",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fs/794/794.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fs/794"
+  },
+  {
+    "id": 503,
+    "name": "FC Bayern München",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/503/503.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/503"
+  },
+  {
+    "id": 2412,
+    "name": "AS Eupen",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/as/2412/2412.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/as/2412"
+  },
+  {
+    "id": 1118,
+    "name": "Zulte-Waregem",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/z/zu/1118/1118.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/z/zu/1118"
+  },
+  {
+    "id": 2709,
+    "name": "Genk",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/ge/2709/2709.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/ge/2709"
+  },
+  {
+    "id": 1087,
+    "name": "Sporting Charleroi",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/1087/1087.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/1087"
+  },
+  {
+    "id": 2462,
+    "name": "KV Oostende",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/kv/2462/2462.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/kv/2462"
+  },
+  {
+    "id": 2555,
+    "name": "Anderlecht",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/an/2555/2555.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/an/2555"
+  },
+  {
+    "id": 700,
+    "name": "Standard Liège",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/700/700.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/700"
+  },
+  {
+    "id": 355,
+    "name": "Sint-Truiden",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/si/355/355.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/si/355"
+  },
+  {
+    "id": 340,
+    "name": "Club Brugge",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cl/340/340.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cl/340"
+  },
+  {
+    "id": 328,
+    "name": "Antwerp",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/an/328/328.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/an/328"
+  },
+  {
+    "id": 2402,
+    "name": "Gent",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/ge/2402/2402.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/ge/2402"
+  },
+  {
+    "id": 357,
+    "name": "Westerlo",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/we/357/357.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/we/357"
+  },
+  {
+    "id": 1674,
+    "name": "RFC Seraing",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/rf/1674/1674.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/rf/1674"
+  },
+  {
+    "id": 2938,
+    "name": "Mechelen",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/me/2938/2938.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/me/2938"
+  },
+  {
+    "id": 1947,
+    "name": "OH Leuven",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/o/oh/1947/1947.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/o/oh/1947"
+  },
+  {
+    "id": 3958,
+    "name": "Union Saint-Gilloise",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/un/3958/3958.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/un/3958"
+  },
+  {
+    "id": 1130,
+    "name": "Kortrijk",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ko/1130/1130.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ko/1130"
+  },
+  {
+    "id": 2641,
+    "name": "Cercle Brugge",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ce/2641/2641.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ce/2641"
+  },
+  {
+    "id": 463,
+    "name": "Slovan Liberec",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sl/463/463.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sl/463"
+  },
+  {
+    "id": 3350,
+    "name": "Zbrojovka Brno",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/z/zb/3350/3350.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/z/zb/3350"
+  },
+  {
+    "id": 3552,
+    "name": "Hradec Králové",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/hr/3552/3552.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/hr/3552"
+  },
+  {
+    "id": 2727,
+    "name": "Sparta Praha",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/2727/2727.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/2727"
+  },
+  {
+    "id": 234,
+    "name": "Slovácko",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sl/234/234.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sl/234"
+  },
+  {
+    "id": 3269,
+    "name": "Baník Ostrava",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/ba/3269/3269.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/ba/3269"
+  },
+  {
+    "id": 3097,
+    "name": "Sigma Olomouc",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/si/3097/3097.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/si/3097"
+  },
+  {
+    "id": 1745,
+    "name": "Zlín",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/z/zl/1745/1745.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/z/zl/1745"
+  },
+  {
+    "id": 1351,
+    "name": "Teplice",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/te/1351/1351.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/te/1351"
+  },
+  {
+    "id": 216,
+    "name": "Slavia Praha",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sl/216/216.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sl/216"
+  },
+  {
+    "id": 4484,
+    "name": "Pardubice",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pa/4484/4484.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pa/4484"
+  },
+  {
+    "id": 3487,
+    "name": "České Budějovice",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ce/3487/3487.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ce/3487"
+  },
+  {
+    "id": 187,
+    "name": "Mladá Boleslav",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/ml/187/187.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/ml/187"
+  },
+  {
+    "id": 3643,
+    "name": "Jablonec",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/j/ja/3643/3643.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/j/ja/3643"
+  },
+  {
+    "id": 3545,
+    "name": "Viktoria Plzeň",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vi/3545/3545.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vi/3545"
+  },
+  {
+    "id": 2488,
+    "name": "Bohemians 1905",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/2488/2488.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/2488"
+  },
+  {
+    "id": 44,
+    "name": "Olympique Marseille",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/o/ol/44/44.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/o/ol/44"
+  },
+  {
+    "id": 690,
+    "name": "Lille",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/li/690/690.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/li/690"
+  },
+  {
+    "id": 598,
+    "name": "Rennes",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/598/598.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/598"
+  },
+  {
+    "id": 1028,
+    "name": "Reims",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/1028/1028.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/1028"
+  },
+  {
+    "id": 6789,
+    "name": "Monaco",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mo/6789/6789.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mo/6789"
+  },
+  {
+    "id": 776,
+    "name": "Angers SCO",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/an/776/776.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/an/776"
+  },
+  {
+    "id": 524,
+    "name": "Ajaccio",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/aj/524/524.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/aj/524"
+  },
+  {
+    "id": 7047,
+    "name": "Troyes",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/tr/7047/7047.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/tr/7047"
+  },
+  {
+    "id": 686,
+    "name": "Strasbourg",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/686/686.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/686"
+  },
+  {
+    "id": 581,
+    "name": "Montpellier",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mo/581/581.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mo/581"
+  },
+  {
+    "id": 591,
+    "name": "Paris Saint Germain",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pa/591/591.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pa/591"
+  },
+  {
+    "id": 271,
+    "name": "Lens",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/271/271.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/271"
+  },
+  {
+    "id": 59,
+    "name": "Nantes",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/na/59/59.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/na/59"
+  },
+  {
+    "id": 289,
+    "name": "Toulouse",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/to/289/289.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/to/289"
+  },
+  {
+    "id": 266,
+    "name": "Brest",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/266/266.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/266"
+  },
+  {
+    "id": 9257,
+    "name": "Lorient",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/lo/9257/9257.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/lo/9257"
+  },
+  {
+    "id": 6898,
+    "name": "Clermont",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cl/6898/6898.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cl/6898"
+  },
+  {
+    "id": 450,
+    "name": "Nice",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/ni/450/450.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/ni/450"
+  },
+  {
+    "id": 3682,
+    "name": "Auxerre",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/au/3682/3682.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/au/3682"
+  },
+  {
+    "id": 79,
+    "name": "Olympique Lyonnais",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/o/ol/79/79.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/o/ol/79"
+  },
+  {
+    "id": 10722,
+    "name": "Cremonese",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cr/10722/10722.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cr/10722"
+  },
+  {
+    "id": 2930,
+    "name": "Inter",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/i/in/2930/2930.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/i/in/2930"
+  },
+  {
+    "id": 397,
+    "name": "Empoli",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/em/397/397.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/em/397"
+  },
+  {
+    "id": 522,
+    "name": "Sampdoria",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/522/522.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/522"
+  },
+  {
+    "id": 1123,
+    "name": "Hellas Verona",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/he/1123/1123.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/he/1123"
+  },
+  {
+    "id": 625,
+    "name": "Juventus",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/j/ju/625/625.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/j/ju/625"
+  },
+  {
+    "id": 345,
+    "name": "Spezia",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/345/345.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/345"
+  },
+  {
+    "id": 1628,
+    "name": "Monza",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mo/1628/1628.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mo/1628"
+  },
+  {
+    "id": 708,
+    "name": "Atalanta",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/at/708/708.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/at/708"
+  },
+  {
+    "id": 346,
+    "name": "Udinese",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/ud/346/346.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/ud/346"
+  },
+  {
+    "id": 7743,
+    "name": "Salernitana",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/7743/7743.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/7743"
+  },
+  {
+    "id": 113,
+    "name": "Milan",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/113/113.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/113"
+  },
+  {
+    "id": 109,
+    "name": "Fiorentina",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fi/109/109.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fi/109"
+  },
+  {
+    "id": 43,
+    "name": "Lazio",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/la/43/43.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/la/43"
+  },
+  {
+    "id": 37,
+    "name": "Roma",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ro/37/37.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ro/37"
+  },
+  {
+    "id": 613,
+    "name": "Torino",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/to/613/613.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/to/613"
+  },
+  {
+    "id": 7790,
+    "name": "Lecce",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/7790/7790.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/7790"
+  },
+  {
+    "id": 8513,
+    "name": "Bologna",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/8513/8513.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/8513"
+  },
+  {
+    "id": 2714,
+    "name": "Sassuolo",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/2714/2714.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/2714"
+  },
+  {
+    "id": 597,
+    "name": "Napoli",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/na/597/597.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/n/na/597"
+  },
+  {
+    "id": 244,
+    "name": "Miedź Legnica",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/244/244.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/244"
+  },
+  {
+    "id": 3260,
+    "name": "Korona Kielce",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ko/3260/3260.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ko/3260"
+  },
+  {
+    "id": 302,
+    "name": "Lech Poznań",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/302/302.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/302"
+  },
+  {
+    "id": 2778,
+    "name": "Wisła Płock",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wi/2778/2778.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wi/2778"
+  },
+  {
+    "id": 890,
+    "name": "Jagiellonia Białystok",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/j/ja/890/890.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/j/ja/890"
+  },
+  {
+    "id": 3962,
+    "name": "Śląsk Wrocław",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sl/3962/3962.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sl/3962"
+  },
+  {
+    "id": 3270,
+    "name": "Raków Częstochowa",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ra/3270/3270.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ra/3270"
+  },
+  {
+    "id": 808,
+    "name": "Pogoń Szczecin",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/po/808/808.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/po/808"
+  },
+  {
+    "id": 135,
+    "name": "Lechia Gdańsk",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/135/135.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/135"
+  },
+  {
+    "id": 1266,
+    "name": "Zagłębie Lubin",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/z/za/1266/1266.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/z/za/1266"
+  },
+  {
+    "id": 3191,
+    "name": "Radomiak Radom",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ra/3191/3191.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ra/3191"
+  },
+  {
+    "id": 2482,
+    "name": "Piast Gliwice",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pi/2482/2482.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pi/2482"
+  },
+  {
+    "id": 171,
+    "name": "Warta Poznań",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wa/171/171.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wa/171"
+  },
+  {
+    "id": 7216,
+    "name": "Stal Mielec",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/7216/7216.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/7216"
+  },
+  {
+    "id": 3781,
+    "name": "Górnik Zabrze",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/go/3781/3781.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/go/3781"
+  },
+  {
+    "id": 8761,
+    "name": "Widzew Lodz",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wi/8761/8761.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/w/wi/8761"
+  },
+  {
+    "id": 1069,
+    "name": "Cracovia Kraków",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cr/1069/1069.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cr/1069"
+  },
+  {
+    "id": 349,
+    "name": "Legia Warszawa",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/349/349.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/le/349"
+  },
+  {
+    "id": 2628,
+    "name": "Santa Clara",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/2628/2628.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/2628"
+  },
+  {
+    "id": 830,
+    "name": "Vitória SC",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vi/830/830.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vi/830"
+  },
+  {
+    "id": 3161,
+    "name": "Famalicão",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fa/3161/3161.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fa/3161"
+  },
+  {
+    "id": 8164,
+    "name": "Vizela",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vi/8164/8164.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vi/8164"
+  },
+  {
+    "id": 58,
+    "name": "Sporting CP",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/58/58.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/58"
+  },
+  {
+    "id": 988,
+    "name": "Chaves",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ch/988/988.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ch/988"
+  },
+  {
+    "id": 605,
+    "name": "Benfica",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/be/605/605.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/be/605"
+  },
+  {
+    "id": 6377,
+    "name": "Rio Ave",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ri/6377/6377.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ri/6377"
+  },
+  {
+    "id": 4092,
+    "name": "Arouca",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ar/4092/4092.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ar/4092"
+  },
+  {
+    "id": 652,
+    "name": "Porto",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/po/652/652.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/po/652"
+  },
+  {
+    "id": 5931,
+    "name": "Marítimo",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/ma/5931/5931.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/ma/5931"
+  },
+  {
+    "id": 1122,
+    "name": "Paços de Ferreira",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pa/1122/1122.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pa/1122"
+  },
+  {
+    "id": 1658,
+    "name": "Portimonense",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/po/1658/1658.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/po/1658"
+  },
+  {
+    "id": 1198,
+    "name": "Estoril",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/es/1198/1198.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/es/1198"
+  },
+  {
+    "id": 884,
+    "name": "Sporting Braga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/884/884.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sp/884"
+  },
+  {
+    "id": 11741,
+    "name": "Casa Pia",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ca/11741/11741.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ca/11741"
+  },
+  {
+    "id": 960,
+    "name": "Boavista",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/960/960.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/960"
+  },
+  {
+    "id": 364,
+    "name": "Gil Vicente",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/gi/364/364.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/gi/364"
+  },
+  {
+    "id": 12619,
+    "name": "Hermannstadt",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/he/12619/12619.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/he/12619"
+  },
+  {
+    "id": 12477,
+    "name": "Chindia Târgovişte",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ch/12477/12477.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ch/12477"
+  },
+  {
+    "id": 7773,
+    "name": "Rapid Bucuresti",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ra/7773/7773.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ra/7773"
+  },
+  {
+    "id": 134619,
+    "name": "SSC Farul",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/ss/134619/134619.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/ss/134619"
+  },
+  {
+    "id": 9426,
+    "name": "Universitatea Cluj",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/un/9426/9426.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/un/9426"
+  },
+  {
+    "id": 3488,
+    "name": "Voluntari",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vo/3488/3488.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vo/3488"
+  },
+  {
+    "id": 6157,
+    "name": "Mioveni",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/6157/6157.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mi/6157"
+  },
+  {
+    "id": 11676,
+    "name": "Universitatea Craiova",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/un/11676/11676.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/un/11676"
+  },
+  {
+    "id": 10238,
+    "name": "Sepsi",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/se/10238/10238.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/se/10238"
+  },
+  {
+    "id": 8474,
+    "name": "UTA Arad",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/ut/8474/8474.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/ut/8474"
+  },
+  {
+    "id": 10266,
+    "name": "Argeş",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ar/10266/10266.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ar/10266"
+  },
+  {
+    "id": 3444,
+    "name": "FCSB",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/3444/3444.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/3444"
+  },
+  {
+    "id": 3599,
+    "name": "CFR Cluj",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cf/3599/3599.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cf/3599"
+  },
+  {
+    "id": 228582,
+    "name": "U Craiova 1948",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/228582/228582.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/228582"
+  },
+  {
+    "id": 3195,
+    "name": "Botoşani",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/3195/3195.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/3195"
+  },
+  {
+    "id": 132584,
+    "name": "Petrolul 52",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pe/132584/132584.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pe/132584"
+  },
+  {
+    "id": 309,
+    "name": "Motherwell",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mo/309/309.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/mo/309"
+  },
+  {
+    "id": 180,
+    "name": "Kilmarnock",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ki/180/180.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ki/180"
+  },
+  {
+    "id": 273,
+    "name": "Aberdeen",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ab/273/273.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ab/273"
+  },
+  {
+    "id": 66,
+    "name": "Hibernian",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/hi/66/66.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/hi/66"
+  },
+  {
+    "id": 53,
+    "name": "Celtic",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ce/53/53.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ce/53"
+  },
+  {
+    "id": 258,
+    "name": "Livingston",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/li/258/258.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/l/li/258"
+  },
+  {
+    "id": 314,
+    "name": "Hearts",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/he/314/314.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/he/314"
+  },
+  {
+    "id": 62,
+    "name": "Rangers",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ra/62/62.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ra/62"
+  },
+  {
+    "id": 246,
+    "name": "Ross County",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ro/246/246.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ro/246"
+  },
+  {
+    "id": 282,
+    "name": "Dundee United",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/d/du/282/282.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/d/du/282"
+  },
+  {
+    "id": 496,
+    "name": "St. Mirren",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/496/496.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/496"
+  },
+  {
+    "id": 734,
+    "name": "St. Johnstone",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/734/734.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/st/734"
+  },
+  {
+    "id": 3477,
+    "name": "Villarreal",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vi/3477/3477.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/vi/3477"
+  },
+  {
+    "id": 3468,
+    "name": "Real Madrid",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/3468/3468.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/3468"
+  },
+  {
+    "id": 485,
+    "name": "Real Betis",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/485/485.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/485"
+  },
+  {
+    "id": 36,
+    "name": "Celta de Vigo",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ce/36/36.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ce/36"
+  },
+  {
+    "id": 1099,
+    "name": "Elche",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/el/1099/1099.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/el/1099"
+  },
+  {
+    "id": 361,
+    "name": "Real Valladolid",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/361/361.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/361"
+  },
+  {
+    "id": 6827,
+    "name": "Cádiz",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ca/6827/6827.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/ca/6827"
+  },
+  {
+    "id": 645,
+    "name": "Mallorca",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/ma/645/645.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/m/ma/645"
+  },
+  {
+    "id": 231,
+    "name": "Girona",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/gi/231/231.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/gi/231"
+  },
+  {
+    "id": 676,
+    "name": "Sevilla",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/se/676/676.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/se/676"
+  },
+  {
+    "id": 83,
+    "name": "FC Barcelona",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/83/83.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fc/83"
+  },
+  {
+    "id": 594,
+    "name": "Real Sociedad",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/594/594.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/re/594"
+  },
+  {
+    "id": 214,
+    "name": "Valencia",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/va/214/214.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/va/214"
+  },
+  {
+    "id": 7980,
+    "name": "Atlético Madrid",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/at/7980/7980.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/at/7980"
+  },
+  {
+    "id": 618,
+    "name": "Almería",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/al/618/618.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/al/618"
+  },
+  {
+    "id": 106,
+    "name": "Getafe",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/ge/106/106.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/ge/106"
+  },
+  {
+    "id": 13258,
+    "name": "Athletic Club",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/at/13258/13258.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/at/13258"
+  },
+  {
+    "id": 528,
+    "name": "Espanyol",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/es/528/528.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/e/es/528"
+  },
+  {
+    "id": 459,
+    "name": "Osasuna",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/o/os/459/459.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/o/os/459"
+  },
+  {
+    "id": 377,
+    "name": "Rayo Vallecano",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ra/377/377.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/r/ra/377"
+  },
+  {
+    "id": 3009,
+    "name": "İstanbulspor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/i/is/3009/3009.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/i/is/3009"
+  },
+  {
+    "id": 4192,
+    "name": "Gaziantep F.K.",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/ga/4192/4192.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/ga/4192"
+  },
+  {
+    "id": 81,
+    "name": "Antalyaspor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/an/81/81.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/an/81"
+  },
+  {
+    "id": 347,
+    "name": "Alanyaspor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/al/347/347.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/al/347"
+  },
+  {
+    "id": 88,
+    "name": "Fenerbahçe",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fe/88/88.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fe/88"
+  },
+  {
+    "id": 34,
+    "name": "Galatasaray",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/ga/34/34.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/ga/34"
+  },
+  {
+    "id": 365,
+    "name": "Sivasspor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/si/365/365.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/si/365"
+  },
+  {
+    "id": 6328,
+    "name": "Giresunspor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/gi/6328/6328.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/gi/6328"
+  },
+  {
+    "id": 936,
+    "name": "Ümraniyespor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/um/936/936.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/u/um/936"
+  },
+  {
+    "id": 688,
+    "name": "Trabzonspor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/tr/688/688.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/t/tr/688"
+  },
+  {
+    "id": 3990,
+    "name": "Fatih Karagümrük",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fa/3990/3990.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fa/3990"
+  },
+  {
+    "id": 3470,
+    "name": "Ankaragücü",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/an/3470/3470.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/an/3470"
+  },
+  {
+    "id": 1039,
+    "name": "Adana Demirspor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ad/1039/1039.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/ad/1039"
+  },
+  {
+    "id": 554,
+    "name": "Beşiktaş",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/be/554/554.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/be/554"
+  },
+  {
+    "id": 13833,
+    "name": "Hatayspor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/ha/13833/13833.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/h/ha/13833"
+  },
+  {
+    "id": 643,
+    "name": "Kayserispor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ka/643/643.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ka/643"
+  },
+  {
+    "id": 3702,
+    "name": "İstanbul Başakşehir",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/i/is/3702/3702.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/i/is/3702"
+  },
+  {
+    "id": 2632,
+    "name": "Konyaspor",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ko/2632/2632.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ko/2632"
+  },
+  {
+    "id": 1071,
+    "name": "Kasımpaşa",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ka/1071/1071.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/k/ka/1071"
+  },
+  {
+    "id": 3371,
+    "name": "Cruzeiro",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cr/3371/3371.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cr/3371"
+  },
+  {
+    "id": 6325,
+    "name": "América Mineiro",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/am/6325/6325.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/am/6325"
+  },
+  {
+    "id": 2696,
+    "name": "Internacional",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/i/in/2696/2696.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/i/in/2696"
+  },
+  {
+    "id": 6285,
+    "name": "Coritiba",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/co/6285/6285.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/co/6285"
+  },
+  {
+    "id": 3432,
+    "name": "Athletico PR",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/at/3432/3432.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/at/3432"
+  },
+  {
+    "id": 692,
+    "name": "Bahia",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/ba/692/692.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/ba/692"
+  },
+  {
+    "id": 3496,
+    "name": "São Paulo",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/3496/3496.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/3496"
+  },
+  {
+    "id": 303,
+    "name": "Corinthians",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/co/303/303.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/co/303"
+  },
+  {
+    "id": 2864,
+    "name": "Botafogo",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/2864/2864.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/bo/2864"
+  },
+  {
+    "id": 1024,
+    "name": "Flamengo",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fl/1024/1024.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fl/1024"
+  },
+  {
+    "id": 696,
+    "name": "Vasco da Gama",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/va/696/696.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/v/va/696"
+  },
+  {
+    "id": 3684,
+    "name": "Santos",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/3684/3684.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/s/sa/3684"
+  },
+  {
+    "id": 3621,
+    "name": "Fortaleza",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fo/3621/3621.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fo/3621"
+  },
+  {
+    "id": 7808,
+    "name": "Bragantino",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/7808/7808.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/b/br/7808"
+  },
+  {
+    "id": 2925,
+    "name": "Grêmio",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/gr/2925/2925.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/gr/2925"
+  },
+  {
+    "id": 5463,
+    "name": "Cuiabá",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cu/5463/5463.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/c/cu/5463"
+  },
+  {
+    "id": 3427,
+    "name": "Atlético Mineiro",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/at/3427/3427.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/a/at/3427"
+  },
+  {
+    "id": 1095,
+    "name": "Fluminense",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fl/1095/1095.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/f/fl/1095"
+  },
+  {
+    "id": 3422,
+    "name": "Palmeiras",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pa/3422/3422.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/p/pa/3422"
+  },
+  {
+    "id": 9323,
+    "name": "Goiás",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/go/9323/9323.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/teams/g/go/9323"
+  }
+]

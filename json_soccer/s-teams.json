@@ -1,0 +1,1210 @@
+[
+  {
+    "id": 78,
+    "slug": "brighton-and-hove-albion"
+  },
+  {
+    "id": 11,
+    "slug": "fulham"
+  },
+  {
+    "id": 8,
+    "slug": "liverpool"
+  },
+  {
+    "id": 19,
+    "slug": "arsenal"
+  },
+  {
+    "id": 42,
+    "slug": "leicester-city"
+  },
+  {
+    "id": 29,
+    "slug": "wolverhampton-wanderers"
+  },
+  {
+    "id": 71,
+    "slug": "leeds-united"
+  },
+  {
+    "id": 51,
+    "slug": "crystal-palace"
+  },
+  {
+    "id": 14,
+    "slug": "manchester-united"
+  },
+  {
+    "id": 236,
+    "slug": "brentford"
+  },
+  {
+    "id": 52,
+    "slug": "afc-bournemouth"
+  },
+  {
+    "id": 20,
+    "slug": "newcastle-united"
+  },
+  {
+    "id": 63,
+    "slug": "nottingham-forest"
+  },
+  {
+    "id": 13,
+    "slug": "everton"
+  },
+  {
+    "id": 9,
+    "slug": "manchester-city"
+  },
+  {
+    "id": 1,
+    "slug": "west-ham-united"
+  },
+  {
+    "id": 65,
+    "slug": "southampton"
+  },
+  {
+    "id": 18,
+    "slug": "chelsea"
+  },
+  {
+    "id": 15,
+    "slug": "aston-villa"
+  },
+  {
+    "id": 6,
+    "slug": "tottenham-hotspur"
+  },
+  {
+    "id": 61,
+    "slug": "az"
+  },
+  {
+    "id": 814,
+    "slug": "rkc-waalwijk"
+  },
+  {
+    "id": 629,
+    "slug": "ajax"
+  },
+  {
+    "id": 94,
+    "slug": "vitesse"
+  },
+  {
+    "id": 2475,
+    "slug": "fc-emmen"
+  },
+  {
+    "id": 2345,
+    "slug": "fc-groningen"
+  },
+  {
+    "id": 1652,
+    "slug": "excelsior"
+  },
+  {
+    "id": 919,
+    "slug": "sparta-rotterdam"
+  },
+  {
+    "id": 750,
+    "slug": "fc-utrecht"
+  },
+  {
+    "id": 494,
+    "slug": "nec"
+  },
+  {
+    "id": 2396,
+    "slug": "fc-volendam"
+  },
+  {
+    "id": 664,
+    "slug": "go-ahead-eagles"
+  },
+  {
+    "id": 1053,
+    "slug": "sc-heerenveen"
+  },
+  {
+    "id": 1459,
+    "slug": "fortuna-sittard"
+  },
+  {
+    "id": 593,
+    "slug": "fc-twente"
+  },
+  {
+    "id": 1435,
+    "slug": "sc-cambuur"
+  },
+  {
+    "id": 682,
+    "slug": "psv"
+  },
+  {
+    "id": 73,
+    "slug": "feyenoord"
+  },
+  {
+    "id": 99,
+    "slug": "preston-north-end"
+  },
+  {
+    "id": 69,
+    "slug": "cardiff-city"
+  },
+  {
+    "id": 25,
+    "slug": "watford"
+  },
+  {
+    "id": 122,
+    "slug": "bristol-city"
+  },
+  {
+    "id": 117,
+    "slug": "coventry-city"
+  },
+  {
+    "id": 138,
+    "slug": "rotherham-united"
+  },
+  {
+    "id": 30,
+    "slug": "swansea-city"
+  },
+  {
+    "id": 115,
+    "slug": "luton-town"
+  },
+  {
+    "id": 21,
+    "slug": "sheffield-united"
+  },
+  {
+    "id": 47,
+    "slug": "queens-park-rangers"
+  },
+  {
+    "id": 3,
+    "slug": "sunderland"
+  },
+  {
+    "id": 17,
+    "slug": "wigan-athletic"
+  },
+  {
+    "id": 28,
+    "slug": "blackpool"
+  },
+  {
+    "id": 22,
+    "slug": "hull-city"
+  },
+  {
+    "id": 33,
+    "slug": "norwich-city"
+  },
+  {
+    "id": 10,
+    "slug": "west-bromwich-albion"
+  },
+  {
+    "id": 7,
+    "slug": "middlesbrough"
+  },
+  {
+    "id": 251,
+    "slug": "huddersfield-town"
+  },
+  {
+    "id": 64,
+    "slug": "millwall"
+  },
+  {
+    "id": 2,
+    "slug": "blackburn-rovers"
+  },
+  {
+    "id": 260131,
+    "slug": "tbc"
+  },
+  {
+    "id": 26,
+    "slug": "stoke-city"
+  },
+  {
+    "id": 12,
+    "slug": "birmingham-city"
+  },
+  {
+    "id": 27,
+    "slug": "burnley"
+  },
+  {
+    "id": 23,
+    "slug": "reading"
+  },
+  {
+    "id": 56,
+    "slug": "sheffield-wednesday"
+  },
+  {
+    "id": 24,
+    "slug": "derby-county"
+  },
+  {
+    "id": 351,
+    "slug": "cheltenham-town"
+  },
+  {
+    "id": 232,
+    "slug": "cambridge-united"
+  },
+  {
+    "id": 116,
+    "slug": "ipswich-town"
+  },
+  {
+    "id": 772,
+    "slug": "morecambe"
+  },
+  {
+    "id": 305,
+    "slug": "lincoln-city"
+  },
+  {
+    "id": 54,
+    "slug": "barnsley"
+  },
+  {
+    "id": 154,
+    "slug": "shrewsbury-town"
+  },
+  {
+    "id": 4,
+    "slug": "charlton-athletic"
+  },
+  {
+    "id": 348,
+    "slug": "port-vale"
+  },
+  {
+    "id": 297,
+    "slug": "oxford-united"
+  },
+  {
+    "id": 177,
+    "slug": "forest-green-rovers"
+  },
+  {
+    "id": 230,
+    "slug": "bristol-rovers"
+  },
+  {
+    "id": 341,
+    "slug": "milton-keynes-dons"
+  },
+  {
+    "id": 317,
+    "slug": "fleetwood-town"
+  },
+  {
+    "id": 395,
+    "slug": "accrington-stanley"
+  },
+  {
+    "id": 5,
+    "slug": "portsmouth"
+  },
+  {
+    "id": 183,
+    "slug": "wycombe-wanderers"
+  },
+  {
+    "id": 185,
+    "slug": "exeter-city"
+  },
+  {
+    "id": 150,
+    "slug": "burton-albion"
+  },
+  {
+    "id": 110,
+    "slug": "plymouth-argyle"
+  },
+  {
+    "id": 16,
+    "slug": "bolton-wanderers"
+  },
+  {
+    "id": 254,
+    "slug": "peterborough-united"
+  },
+  {
+    "id": 3317,
+    "slug": "hertha-bsc"
+  },
+  {
+    "id": 1079,
+    "slug": "fc-union-berlin"
+  },
+  {
+    "id": 510,
+    "slug": "vfl-wolfsburg"
+  },
+  {
+    "id": 3321,
+    "slug": "bayer-04-leverkusen"
+  },
+  {
+    "id": 3543,
+    "slug": "sc-freiburg"
+  },
+  {
+    "id": 68,
+    "slug": "borussia-dortmund"
+  },
+  {
+    "id": 82,
+    "slug": "werder-bremen"
+  },
+  {
+    "id": 3320,
+    "slug": "fc-koln"
+  },
+  {
+    "id": 67,
+    "slug": "schalke-04"
+  },
+  {
+    "id": 277,
+    "slug": "rb-leipzig"
+  },
+  {
+    "id": 90,
+    "slug": "fc-augsburg"
+  },
+  {
+    "id": 683,
+    "slug": "borussia-monchengladbach"
+  },
+  {
+    "id": 3319,
+    "slug": "vfb-stuttgart"
+  },
+  {
+    "id": 999,
+    "slug": "vfl-bochum-1848"
+  },
+  {
+    "id": 2726,
+    "slug": "tsg-hoffenheim"
+  },
+  {
+    "id": 366,
+    "slug": "eintracht-frankfurt"
+  },
+  {
+    "id": 794,
+    "slug": "fsv-mainz-05"
+  },
+  {
+    "id": 503,
+    "slug": "fc-bayern-munchen"
+  },
+  {
+    "id": 2412,
+    "slug": "as-eupen"
+  },
+  {
+    "id": 1118,
+    "slug": "zulte-waregem"
+  },
+  {
+    "id": 2709,
+    "slug": "genk"
+  },
+  {
+    "id": 1087,
+    "slug": "sporting-charleroi"
+  },
+  {
+    "id": 2462,
+    "slug": "kv-oostende"
+  },
+  {
+    "id": 2555,
+    "slug": "anderlecht"
+  },
+  {
+    "id": 700,
+    "slug": "standard-liege"
+  },
+  {
+    "id": 355,
+    "slug": "sint-truiden"
+  },
+  {
+    "id": 340,
+    "slug": "club-brugge"
+  },
+  {
+    "id": 328,
+    "slug": "antwerp"
+  },
+  {
+    "id": 2402,
+    "slug": "gent"
+  },
+  {
+    "id": 357,
+    "slug": "westerlo"
+  },
+  {
+    "id": 1674,
+    "slug": "rfc-seraing"
+  },
+  {
+    "id": 2938,
+    "slug": "mechelen"
+  },
+  {
+    "id": 1947,
+    "slug": "oh-leuven"
+  },
+  {
+    "id": 3958,
+    "slug": "union-saint-gilloise"
+  },
+  {
+    "id": 1130,
+    "slug": "kortrijk"
+  },
+  {
+    "id": 2641,
+    "slug": "cercle-brugge"
+  },
+  {
+    "id": 463,
+    "slug": "slovan-liberec"
+  },
+  {
+    "id": 3350,
+    "slug": "zbrojovka-brno"
+  },
+  {
+    "id": 3552,
+    "slug": "hradec-kralove"
+  },
+  {
+    "id": 2727,
+    "slug": "sparta-praha"
+  },
+  {
+    "id": 234,
+    "slug": "slovacko"
+  },
+  {
+    "id": 3269,
+    "slug": "banik-ostrava"
+  },
+  {
+    "id": 3097,
+    "slug": "sigma-olomouc"
+  },
+  {
+    "id": 1745,
+    "slug": "zlin"
+  },
+  {
+    "id": 1351,
+    "slug": "teplice"
+  },
+  {
+    "id": 216,
+    "slug": "slavia-praha"
+  },
+  {
+    "id": 4484,
+    "slug": "pardubice"
+  },
+  {
+    "id": 3487,
+    "slug": "ceske-budejovice"
+  },
+  {
+    "id": 187,
+    "slug": "mlada-boleslav"
+  },
+  {
+    "id": 3643,
+    "slug": "jablonec"
+  },
+  {
+    "id": 3545,
+    "slug": "viktoria-plzen"
+  },
+  {
+    "id": 2488,
+    "slug": "bohemians-1905"
+  },
+  {
+    "id": 44,
+    "slug": "olympique-marseille"
+  },
+  {
+    "id": 690,
+    "slug": "lille-2"
+  },
+  {
+    "id": 598,
+    "slug": "rennes"
+  },
+  {
+    "id": 1028,
+    "slug": "reims"
+  },
+  {
+    "id": 6789,
+    "slug": "monaco"
+  },
+  {
+    "id": 776,
+    "slug": "angers-sco"
+  },
+  {
+    "id": 524,
+    "slug": "ajaccio"
+  },
+  {
+    "id": 7047,
+    "slug": "troyes"
+  },
+  {
+    "id": 686,
+    "slug": "strasbourg"
+  },
+  {
+    "id": 581,
+    "slug": "montpellier"
+  },
+  {
+    "id": 591,
+    "slug": "paris-saint-germain"
+  },
+  {
+    "id": 271,
+    "slug": "lens"
+  },
+  {
+    "id": 59,
+    "slug": "nantes"
+  },
+  {
+    "id": 289,
+    "slug": "toulouse"
+  },
+  {
+    "id": 266,
+    "slug": "brest"
+  },
+  {
+    "id": 9257,
+    "slug": "lorient"
+  },
+  {
+    "id": 6898,
+    "slug": "clermont"
+  },
+  {
+    "id": 450,
+    "slug": "nice"
+  },
+  {
+    "id": 3682,
+    "slug": "auxerre"
+  },
+  {
+    "id": 79,
+    "slug": "olympique-lyonnais"
+  },
+  {
+    "id": 10722,
+    "slug": "cremonese"
+  },
+  {
+    "id": 2930,
+    "slug": "inter"
+  },
+  {
+    "id": 397,
+    "slug": "empoli"
+  },
+  {
+    "id": 522,
+    "slug": "sampdoria"
+  },
+  {
+    "id": 1123,
+    "slug": "hellas-verona"
+  },
+  {
+    "id": 625,
+    "slug": "juventus"
+  },
+  {
+    "id": 345,
+    "slug": "spezia"
+  },
+  {
+    "id": 1628,
+    "slug": "monza"
+  },
+  {
+    "id": 708,
+    "slug": "atalanta"
+  },
+  {
+    "id": 346,
+    "slug": "udinese"
+  },
+  {
+    "id": 7743,
+    "slug": "salernitana"
+  },
+  {
+    "id": 113,
+    "slug": "milan"
+  },
+  {
+    "id": 109,
+    "slug": "fiorentina"
+  },
+  {
+    "id": 43,
+    "slug": "lazio"
+  },
+  {
+    "id": 37,
+    "slug": "roma"
+  },
+  {
+    "id": 613,
+    "slug": "torino"
+  },
+  {
+    "id": 7790,
+    "slug": "lecce"
+  },
+  {
+    "id": 8513,
+    "slug": "bologna"
+  },
+  {
+    "id": 2714,
+    "slug": "sassuolo"
+  },
+  {
+    "id": 597,
+    "slug": "napoli"
+  },
+  {
+    "id": 244,
+    "slug": "miedz-legnica"
+  },
+  {
+    "id": 3260,
+    "slug": "korona-kielce"
+  },
+  {
+    "id": 302,
+    "slug": "lech-poznan"
+  },
+  {
+    "id": 2778,
+    "slug": "wisla-plock"
+  },
+  {
+    "id": 890,
+    "slug": "jagiellonia-bialystok"
+  },
+  {
+    "id": 3962,
+    "slug": "slask-wroclaw"
+  },
+  {
+    "id": 3270,
+    "slug": "rakow-czestochowa"
+  },
+  {
+    "id": 808,
+    "slug": "pogon-szczecin"
+  },
+  {
+    "id": 135,
+    "slug": "lechia-gdansk"
+  },
+  {
+    "id": 1266,
+    "slug": "zaglebie-lubin"
+  },
+  {
+    "id": 3191,
+    "slug": "radomiak-radom"
+  },
+  {
+    "id": 2482,
+    "slug": "piast-gliwice"
+  },
+  {
+    "id": 171,
+    "slug": "warta-poznan"
+  },
+  {
+    "id": 7216,
+    "slug": "stal-mielec"
+  },
+  {
+    "id": 3781,
+    "slug": "gornik-zabrze"
+  },
+  {
+    "id": 8761,
+    "slug": "widzew-lodz"
+  },
+  {
+    "id": 1069,
+    "slug": "cracovia-krakow"
+  },
+  {
+    "id": 349,
+    "slug": "legia-warszawa"
+  },
+  {
+    "id": 2628,
+    "slug": "santa-clara"
+  },
+  {
+    "id": 830,
+    "slug": "vitoria-sc"
+  },
+  {
+    "id": 3161,
+    "slug": "famalicao"
+  },
+  {
+    "id": 8164,
+    "slug": "vizela"
+  },
+  {
+    "id": 58,
+    "slug": "sporting-cp"
+  },
+  {
+    "id": 988,
+    "slug": "chaves"
+  },
+  {
+    "id": 605,
+    "slug": "benfica"
+  },
+  {
+    "id": 6377,
+    "slug": "rio-ave"
+  },
+  {
+    "id": 4092,
+    "slug": "arouca"
+  },
+  {
+    "id": 652,
+    "slug": "porto"
+  },
+  {
+    "id": 5931,
+    "slug": "maritimo"
+  },
+  {
+    "id": 1122,
+    "slug": "pacos-de-ferreira"
+  },
+  {
+    "id": 1658,
+    "slug": "portimonense"
+  },
+  {
+    "id": 1198,
+    "slug": "estoril"
+  },
+  {
+    "id": 884,
+    "slug": "sporting-braga"
+  },
+  {
+    "id": 11741,
+    "slug": "casa-pia"
+  },
+  {
+    "id": 960,
+    "slug": "boavista"
+  },
+  {
+    "id": 364,
+    "slug": "gil-vicente"
+  },
+  {
+    "id": 12619,
+    "slug": "hermannstadt"
+  },
+  {
+    "id": 12477,
+    "slug": "chindia-targoviste"
+  },
+  {
+    "id": 7773,
+    "slug": "rapid-bucuresti"
+  },
+  {
+    "id": 134619,
+    "slug": "ssc-farul"
+  },
+  {
+    "id": 9426,
+    "slug": "universitatea-cluj"
+  },
+  {
+    "id": 3488,
+    "slug": "voluntari"
+  },
+  {
+    "id": 6157,
+    "slug": "mioveni"
+  },
+  {
+    "id": 11676,
+    "slug": "universitatea-craiova"
+  },
+  {
+    "id": 10238,
+    "slug": "sepsi"
+  },
+  {
+    "id": 8474,
+    "slug": "uta-arad"
+  },
+  {
+    "id": 10266,
+    "slug": "arges"
+  },
+  {
+    "id": 3444,
+    "slug": "fcsb"
+  },
+  {
+    "id": 3599,
+    "slug": "cfr-cluj"
+  },
+  {
+    "id": 228582,
+    "slug": "u-craiova-1948"
+  },
+  {
+    "id": 3195,
+    "slug": "botosani"
+  },
+  {
+    "id": 132584,
+    "slug": "petrolul-52"
+  },
+  {
+    "id": 309,
+    "slug": "motherwell"
+  },
+  {
+    "id": 180,
+    "slug": "kilmarnock"
+  },
+  {
+    "id": 273,
+    "slug": "aberdeen"
+  },
+  {
+    "id": 66,
+    "slug": "hibernian"
+  },
+  {
+    "id": 53,
+    "slug": "celtic"
+  },
+  {
+    "id": 258,
+    "slug": "livingston"
+  },
+  {
+    "id": 314,
+    "slug": "hearts"
+  },
+  {
+    "id": 62,
+    "slug": "rangers"
+  },
+  {
+    "id": 246,
+    "slug": "ross-county"
+  },
+  {
+    "id": 282,
+    "slug": "dundee-united"
+  },
+  {
+    "id": 496,
+    "slug": "st-mirren"
+  },
+  {
+    "id": 734,
+    "slug": "st-johnstone"
+  },
+  {
+    "id": 3477,
+    "slug": "villarreal"
+  },
+  {
+    "id": 3468,
+    "slug": "real-madrid"
+  },
+  {
+    "id": 485,
+    "slug": "real-betis"
+  },
+  {
+    "id": 36,
+    "slug": "celta-de-vigo"
+  },
+  {
+    "id": 1099,
+    "slug": "elche"
+  },
+  {
+    "id": 361,
+    "slug": "real-valladolid"
+  },
+  {
+    "id": 6827,
+    "slug": "cadiz"
+  },
+  {
+    "id": 645,
+    "slug": "mallorca"
+  },
+  {
+    "id": 231,
+    "slug": "girona"
+  },
+  {
+    "id": 676,
+    "slug": "sevilla"
+  },
+  {
+    "id": 83,
+    "slug": "fc-barcelona"
+  },
+  {
+    "id": 594,
+    "slug": "real-sociedad"
+  },
+  {
+    "id": 214,
+    "slug": "valencia"
+  },
+  {
+    "id": 7980,
+    "slug": "atletico-madrid"
+  },
+  {
+    "id": 618,
+    "slug": "almeria"
+  },
+  {
+    "id": 106,
+    "slug": "getafe"
+  },
+  {
+    "id": 13258,
+    "slug": "athletic-club"
+  },
+  {
+    "id": 528,
+    "slug": "espanyol"
+  },
+  {
+    "id": 459,
+    "slug": "osasuna"
+  },
+  {
+    "id": 377,
+    "slug": "rayo-vallecano"
+  },
+  {
+    "id": 3009,
+    "slug": "istanbulspor"
+  },
+  {
+    "id": 4192,
+    "slug": "gaziantep-fk"
+  },
+  {
+    "id": 81,
+    "slug": "antalyaspor"
+  },
+  {
+    "id": 347,
+    "slug": "alanyaspor"
+  },
+  {
+    "id": 88,
+    "slug": "fenerbahce"
+  },
+  {
+    "id": 34,
+    "slug": "galatasaray"
+  },
+  {
+    "id": 365,
+    "slug": "sivasspor"
+  },
+  {
+    "id": 6328,
+    "slug": "giresunspor"
+  },
+  {
+    "id": 936,
+    "slug": "umraniyespor"
+  },
+  {
+    "id": 688,
+    "slug": "trabzonspor"
+  },
+  {
+    "id": 3990,
+    "slug": "fatih-karagumruk"
+  },
+  {
+    "id": 3470,
+    "slug": "ankaragucu"
+  },
+  {
+    "id": 1039,
+    "slug": "adana-demirspor"
+  },
+  {
+    "id": 554,
+    "slug": "besiktas"
+  },
+  {
+    "id": 13833,
+    "slug": "hatayspor"
+  },
+  {
+    "id": 643,
+    "slug": "kayserispor"
+  },
+  {
+    "id": 3702,
+    "slug": "istanbul-basaksehir"
+  },
+  {
+    "id": 2632,
+    "slug": "konyaspor"
+  },
+  {
+    "id": 1071,
+    "slug": "kasimpasa"
+  },
+  {
+    "id": 3371,
+    "slug": "cruzeiro"
+  },
+  {
+    "id": 6325,
+    "slug": "america-mineiro"
+  },
+  {
+    "id": 2696,
+    "slug": "internacional"
+  },
+  {
+    "id": 6285,
+    "slug": "coritiba"
+  },
+  {
+    "id": 3432,
+    "slug": "athletico-pr"
+  },
+  {
+    "id": 692,
+    "slug": "bahia"
+  },
+  {
+    "id": 3496,
+    "slug": "sao-paulo"
+  },
+  {
+    "id": 303,
+    "slug": "corinthians"
+  },
+  {
+    "id": 2864,
+    "slug": "botafogo"
+  },
+  {
+    "id": 1024,
+    "slug": "flamengo"
+  },
+  {
+    "id": 696,
+    "slug": "vasco-da-gama"
+  },
+  {
+    "id": 3684,
+    "slug": "santos"
+  },
+  {
+    "id": 3621,
+    "slug": "fortaleza"
+  },
+  {
+    "id": 7808,
+    "slug": "bragantino"
+  },
+  {
+    "id": 2925,
+    "slug": "gremio"
+  },
+  {
+    "id": 5463,
+    "slug": "cuiaba"
+  },
+  {
+    "id": 3427,
+    "slug": "atletico-mineiro"
+  },
+  {
+    "id": 1095,
+    "slug": "fluminense"
+  },
+  {
+    "id": 3422,
+    "slug": "palmeiras"
+  },
+  {
+    "id": 9323,
+    "slug": "goias"
+  }
+]

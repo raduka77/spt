@@ -1,0 +1,882 @@
+[
+  {
+    "id": 2,
+    "slug": "europe-champions-league"
+  },
+  {
+    "id": 8,
+    "slug": "england-premier-league"
+  },
+  {
+    "id": 14,
+    "slug": "england-league-two"
+  },
+  {
+    "id": 23,
+    "slug": "england-community-shield"
+  },
+  {
+    "id": 17,
+    "slug": "england-national-league"
+  },
+  {
+    "id": 5,
+    "slug": "europe-europa-league"
+  },
+  {
+    "id": 72,
+    "slug": "netherlands-eredivisie"
+  },
+  {
+    "id": 74,
+    "slug": "netherlands-eerste-divisie"
+  },
+  {
+    "id": 9,
+    "slug": "england-championship"
+  },
+  {
+    "id": 12,
+    "slug": "england-league-one"
+  },
+  {
+    "id": 81,
+    "slug": "netherlands-super-cup"
+  },
+  {
+    "id": 78,
+    "slug": "netherlands-knvb-beker"
+  },
+  {
+    "id": 24,
+    "slug": "england-fa-cup"
+  },
+  {
+    "id": 82,
+    "slug": "germany-bundesliga"
+  },
+  {
+    "id": 85,
+    "slug": "germany-2-bundesliga"
+  },
+  {
+    "id": 163,
+    "slug": "germany-bundesliga-play-offs"
+  },
+  {
+    "id": 109,
+    "slug": "germany-dfb-pokal"
+  },
+  {
+    "id": 166,
+    "slug": "germany-2-bundesliga-play-offs"
+  },
+  {
+    "id": 175,
+    "slug": "armenia-premier-league"
+  },
+  {
+    "id": 184,
+    "slug": "austria-erste-liga"
+  },
+  {
+    "id": 187,
+    "slug": "austria-austrian-cup"
+  },
+  {
+    "id": 190,
+    "slug": "azerbaijan-premier-league"
+  },
+  {
+    "id": 193,
+    "slug": "azerbaijan-azerbaidjan-cup"
+  },
+  {
+    "id": 199,
+    "slug": "belarus-vysshaya-liga"
+  },
+  {
+    "id": 208,
+    "slug": "belgium-pro-league"
+  },
+  {
+    "id": 211,
+    "slug": "belgium-challenger-pro-league"
+  },
+  {
+    "id": 214,
+    "slug": "belgium-belgian-cup"
+  },
+  {
+    "id": 217,
+    "slug": "belgium-belgium-playoffs"
+  },
+  {
+    "id": 27,
+    "slug": "england-carabao-cup"
+  },
+  {
+    "id": 220,
+    "slug": "bosnia-and-herzegovina-premier-liga"
+  },
+  {
+    "id": 229,
+    "slug": "bulgaria-first-league"
+  },
+  {
+    "id": 235,
+    "slug": "bulgaria-second-league"
+  },
+  {
+    "id": 241,
+    "slug": "bulgaria-bulgarian-cup"
+  },
+  {
+    "id": 244,
+    "slug": "croatia-1-hnl"
+  },
+  {
+    "id": 247,
+    "slug": "croatia-2-hnl"
+  },
+  {
+    "id": 172,
+    "slug": "albania-superliga"
+  },
+  {
+    "id": 250,
+    "slug": "croatia-croatia-cup"
+  },
+  {
+    "id": 30,
+    "slug": "england-fa-trophy"
+  },
+  {
+    "id": 256,
+    "slug": "cyprus-2-division"
+  },
+  {
+    "id": 259,
+    "slug": "cyprus-cyprus-cup"
+  },
+  {
+    "id": 262,
+    "slug": "czech-republic-fortuna-liga"
+  },
+  {
+    "id": 265,
+    "slug": "czech-republic-2-liga-fnl"
+  },
+  {
+    "id": 181,
+    "slug": "austria-admiral-bundesliga"
+  },
+  {
+    "id": 271,
+    "slug": "denmark-superliga"
+  },
+  {
+    "id": 274,
+    "slug": "denmark-first-division"
+  },
+  {
+    "id": 286,
+    "slug": "estonia-meistriliiga"
+  },
+  {
+    "id": 277,
+    "slug": "denmark-landspokal-cup"
+  },
+  {
+    "id": 292,
+    "slug": "finland-veikkausliiga"
+  },
+  {
+    "id": 295,
+    "slug": "finland-ykkonen"
+  },
+  {
+    "id": 268,
+    "slug": "czech-republic-czech-cup"
+  },
+  {
+    "id": 298,
+    "slug": "finland-finland-cup"
+  },
+  {
+    "id": 301,
+    "slug": "france-ligue-1"
+  },
+  {
+    "id": 304,
+    "slug": "france-ligue-2"
+  },
+  {
+    "id": 307,
+    "slug": "france-coupe-de-france"
+  },
+  {
+    "id": 325,
+    "slug": "greece-super-league"
+  },
+  {
+    "id": 334,
+    "slug": "hungary-otp-bank-liga"
+  },
+  {
+    "id": 331,
+    "slug": "greece-greek-cup"
+  },
+  {
+    "id": 345,
+    "slug": "iceland-pepsideild"
+  },
+  {
+    "id": 337,
+    "slug": "hungary-hungarian-cup"
+  },
+  {
+    "id": 310,
+    "slug": "france-coupe-de-la-ligue"
+  },
+  {
+    "id": 360,
+    "slug": "ireland-premier-division"
+  },
+  {
+    "id": 369,
+    "slug": "ireland-league-cup"
+  },
+  {
+    "id": 366,
+    "slug": "ireland-fai-cup"
+  },
+  {
+    "id": 372,
+    "slug": "israel-ligat-haal"
+  },
+  {
+    "id": 378,
+    "slug": "israel-state-cup"
+  },
+  {
+    "id": 384,
+    "slug": "italy-serie-a"
+  },
+  {
+    "id": 387,
+    "slug": "italy-serie-b"
+  },
+  {
+    "id": 390,
+    "slug": "italy-coppa-italia"
+  },
+  {
+    "id": 393,
+    "slug": "kazakhstan-premier-league"
+  },
+  {
+    "id": 253,
+    "slug": "cyprus-1-division"
+  },
+  {
+    "id": 399,
+    "slug": "latvia-virsliga"
+  },
+  {
+    "id": 405,
+    "slug": "lithuania-a-lyga"
+  },
+  {
+    "id": 414,
+    "slug": "macedonia-first-league"
+  },
+  {
+    "id": 420,
+    "slug": "malta-premier-league"
+  },
+  {
+    "id": 426,
+    "slug": "moldova-national-division"
+  },
+  {
+    "id": 432,
+    "slug": "montenegro-first-league"
+  },
+  {
+    "id": 438,
+    "slug": "ireland-premiership"
+  },
+  {
+    "id": 444,
+    "slug": "norway-eliteserien"
+  },
+  {
+    "id": 453,
+    "slug": "poland-ekstraklasa"
+  },
+  {
+    "id": 456,
+    "slug": "poland-1-liga"
+  },
+  {
+    "id": 465,
+    "slug": "portugal-segunda-liga"
+  },
+  {
+    "id": 462,
+    "slug": "portugal-liga-portugal"
+  },
+  {
+    "id": 459,
+    "slug": "poland-polish-cup"
+  },
+  {
+    "id": 468,
+    "slug": "portugal-taca-de-portugal"
+  },
+  {
+    "id": 471,
+    "slug": "portugal-league-cup"
+  },
+  {
+    "id": 474,
+    "slug": "romania-liga-1"
+  },
+  {
+    "id": 450,
+    "slug": "norway-nm-cup"
+  },
+  {
+    "id": 483,
+    "slug": "romania-romania-cup"
+  },
+  {
+    "id": 486,
+    "slug": "russia-premier-league"
+  },
+  {
+    "id": 489,
+    "slug": "russia-fnl"
+  },
+  {
+    "id": 495,
+    "slug": "russia-premier-league-play-offs"
+  },
+  {
+    "id": 501,
+    "slug": "scotland-premiership"
+  },
+  {
+    "id": 492,
+    "slug": "russia-russian-cup"
+  },
+  {
+    "id": 504,
+    "slug": "scotland-championship"
+  },
+  {
+    "id": 507,
+    "slug": "scotland-scottish-cup"
+  },
+  {
+    "id": 525,
+    "slug": "scotland-championship-play-offs"
+  },
+  {
+    "id": 528,
+    "slug": "scotland-league-one-play-offs"
+  },
+  {
+    "id": 510,
+    "slug": "scotland-league-cup"
+  },
+  {
+    "id": 531,
+    "slug": "serbia-super-liga"
+  },
+  {
+    "id": 534,
+    "slug": "serbia-prva-liga"
+  },
+  {
+    "id": 540,
+    "slug": "slovakia-fortuna-liga"
+  },
+  {
+    "id": 543,
+    "slug": "slovakia-2-liga"
+  },
+  {
+    "id": 552,
+    "slug": "slovakia-slovakia-cup"
+  },
+  {
+    "id": 555,
+    "slug": "slovenia-1-snl"
+  },
+  {
+    "id": 558,
+    "slug": "slovenia-2-snl"
+  },
+  {
+    "id": 564,
+    "slug": "spain-la-liga"
+  },
+  {
+    "id": 567,
+    "slug": "spain-la-liga-2"
+  },
+  {
+    "id": 573,
+    "slug": "sweden-allsvenskan"
+  },
+  {
+    "id": 570,
+    "slug": "spain-copa-del-rey"
+  },
+  {
+    "id": 579,
+    "slug": "sweden-superettan"
+  },
+  {
+    "id": 582,
+    "slug": "sweden-svenska-cupen"
+  },
+  {
+    "id": 591,
+    "slug": "switzerland-super-league"
+  },
+  {
+    "id": 594,
+    "slug": "switzerland-challenge-league"
+  },
+  {
+    "id": 597,
+    "slug": "switzerland-swiss-cup"
+  },
+  {
+    "id": 600,
+    "slug": "turkey-super-lig"
+  },
+  {
+    "id": 603,
+    "slug": "turkey-1-lig"
+  },
+  {
+    "id": 606,
+    "slug": "turkey-turkish-cup"
+  },
+  {
+    "id": 609,
+    "slug": "ukraine-premier-league"
+  },
+  {
+    "id": 612,
+    "slug": "ukraine-persha-liga"
+  },
+  {
+    "id": 615,
+    "slug": "ukraine-ukrainian-cup"
+  },
+  {
+    "id": 624,
+    "slug": "wales-premier-league"
+  },
+  {
+    "id": 636,
+    "slug": "argentina-superliga"
+  },
+  {
+    "id": 639,
+    "slug": "argentina-torneo-federal-b-pampeana-norte"
+  },
+  {
+    "id": 648,
+    "slug": "brazil-serie-a"
+  },
+  {
+    "id": 651,
+    "slug": "brazil-serie-b"
+  },
+  {
+    "id": 642,
+    "slug": "argentina-copa-argentina"
+  },
+  {
+    "id": 654,
+    "slug": "brazil-copa-do-brasil"
+  },
+  {
+    "id": 663,
+    "slug": "chile-primera-division"
+  },
+  {
+    "id": 672,
+    "slug": "colombia-liga-betplay"
+  },
+  {
+    "id": 696,
+    "slug": "ecuador-liga-pro"
+  },
+  {
+    "id": 711,
+    "slug": "world-wc-qualification-africa"
+  },
+  {
+    "id": 714,
+    "slug": "world-wc-qualification-asia"
+  },
+  {
+    "id": 723,
+    "slug": "world-wc-qualification-oceania"
+  },
+  {
+    "id": 720,
+    "slug": "europe-wc-qualification-europe"
+  },
+  {
+    "id": 717,
+    "slug": "world-wc-qualification-concacaf"
+  },
+  {
+    "id": 726,
+    "slug": "world-wc-qualification-south-america"
+  },
+  {
+    "id": 729,
+    "slug": "world-wc-qualification-intercontinental-playoffs"
+  },
+  {
+    "id": 743,
+    "slug": "mexico-liga-mx"
+  },
+  {
+    "id": 746,
+    "slug": "mexico-copa-mx"
+  },
+  {
+    "id": 755,
+    "slug": "paraguay-division-1"
+  },
+  {
+    "id": 770,
+    "slug": "uruguay-primera-division"
+  },
+  {
+    "id": 779,
+    "slug": "united-states-major-league-soccer"
+  },
+  {
+    "id": 806,
+    "slug": "south-africa-premier-league"
+  },
+  {
+    "id": 782,
+    "slug": "united-states-us-open-cup"
+  },
+  {
+    "id": 809,
+    "slug": "algeria-ligue-1"
+  },
+  {
+    "id": 815,
+    "slug": "angola-girabola"
+  },
+  {
+    "id": 830,
+    "slug": "egypt-premier-league"
+  },
+  {
+    "id": 845,
+    "slug": "guinea-ligue-1"
+  },
+  {
+    "id": 836,
+    "slug": "ghana-premier-league"
+  },
+  {
+    "id": 860,
+    "slug": "morocco-botola-pro"
+  },
+  {
+    "id": 890,
+    "slug": "zambia-super-league"
+  },
+  {
+    "id": 944,
+    "slug": "saudi-arabia-pro-league"
+  },
+  {
+    "id": 956,
+    "slug": "tunisia-ligue-1"
+  },
+  {
+    "id": 959,
+    "slug": "united-arab-emirates-uae-league"
+  },
+  {
+    "id": 968,
+    "slug": "japan-j-league"
+  },
+  {
+    "id": 989,
+    "slug": "china-super-league"
+  },
+  {
+    "id": 1007,
+    "slug": "india-indian-super-league"
+  },
+  {
+    "id": 1022,
+    "slug": "japan-j2-league"
+  },
+  {
+    "id": 1028,
+    "slug": "japan-emperor-cup"
+  },
+  {
+    "id": 1034,
+    "slug": "south-korea-k-league-1"
+  },
+  {
+    "id": 1043,
+    "slug": "south-korea-korean-cup"
+  },
+  {
+    "id": 1055,
+    "slug": "new-zealand-premiership"
+  },
+  {
+    "id": 1073,
+    "slug": "vietnam-v-league"
+  },
+  {
+    "id": 1082,
+    "slug": "world-friendly-international"
+  },
+  {
+    "id": 1101,
+    "slug": "world-club-friendlies-1"
+  },
+  {
+    "id": 1085,
+    "slug": "asia-afc-champions-league"
+  },
+  {
+    "id": 1114,
+    "slug": "south-america-copa-america"
+  },
+  {
+    "id": 1117,
+    "slug": "world-africa-cup-of-nations"
+  },
+  {
+    "id": 1122,
+    "slug": "south-america-copa-libertadores"
+  },
+  {
+    "id": 1128,
+    "slug": "belgium-super-cup"
+  },
+  {
+    "id": 1176,
+    "slug": "france-super-cup"
+  },
+  {
+    "id": 1202,
+    "slug": "italy-super-cup"
+  },
+  {
+    "id": 1224,
+    "slug": "portugal-super-cup"
+  },
+  {
+    "id": 1251,
+    "slug": "spain-super-cup"
+  },
+  {
+    "id": 1236,
+    "slug": "romania-super-cup"
+  },
+  {
+    "id": 1325,
+    "slug": "europe-euro-qualification"
+  },
+  {
+    "id": 1326,
+    "slug": "europe-european-championship"
+  },
+  {
+    "id": 1353,
+    "slug": "netherlands-eredivisie-playoffs"
+  },
+  {
+    "id": 1356,
+    "slug": "australia-a-league-men"
+  },
+  {
+    "id": 1358,
+    "slug": "albania-1st-division"
+  },
+  {
+    "id": 1361,
+    "slug": "albania-albanian-cup"
+  },
+  {
+    "id": 1362,
+    "slug": "south-korea-k-league-2"
+  },
+  {
+    "id": 1364,
+    "slug": "world-world-cup-u20"
+  },
+  {
+    "id": 1371,
+    "slug": "belgium-uefa-europa-league-play-offs"
+  },
+  {
+    "id": 1384,
+    "slug": "poland-super-cup"
+  },
+  {
+    "id": 1374,
+    "slug": "estonia-estonian-cup"
+  },
+  {
+    "id": 1390,
+    "slug": "world-world-cup-u17"
+  },
+  {
+    "id": 1388,
+    "slug": "latvia-latvian-cup"
+  },
+  {
+    "id": 1403,
+    "slug": "turkey-super-cup"
+  },
+  {
+    "id": 1475,
+    "slug": "nigeria-npfl"
+  },
+  {
+    "id": 1488,
+    "slug": "kosovo-superliga"
+  },
+  {
+    "id": 1500,
+    "slug": "macedonia-macedonian-cup"
+  },
+  {
+    "id": 1501,
+    "slug": "serbia-serbian-cup"
+  },
+  {
+    "id": 1502,
+    "slug": "argentina-super-cup"
+  },
+  {
+    "id": 1504,
+    "slug": "luxembourg-national-division"
+  },
+  {
+    "id": 1508,
+    "slug": "kazakhstan-kazakhstan-cup"
+  },
+  {
+    "id": 1527,
+    "slug": "norway-super-cup"
+  },
+  {
+    "id": 1534,
+    "slug": "slovenia-slovenian-cup"
+  },
+  {
+    "id": 1538,
+    "slug": "europe-uefa-nations-league"
+  },
+  {
+    "id": 1541,
+    "slug": "lithuania-lithuanian-cup"
+  },
+  {
+    "id": 1544,
+    "slug": "republic-of-the-congo-ligue-1"
+  },
+  {
+    "id": 1636,
+    "slug": "romania-liga-2"
+  },
+  {
+    "id": 1676,
+    "slug": "albania-super-cup"
+  },
+  {
+    "id": 1706,
+    "slug": "bulgaria-super-cup"
+  },
+  {
+    "id": 1712,
+    "slug": "russia-super-cup"
+  },
+  {
+    "id": 1759,
+    "slug": "greece-super-league-2-north"
+  },
+  {
+    "id": 2286,
+    "slug": "europe-europa-conference-league"
+  },
+  {
+    "id": 1716,
+    "slug": "moldova-moldovan-cup"
+  },
+  {
+    "id": 2450,
+    "slug": "world-club-friendlies-2"
+  },
+  {
+    "id": 2451,
+    "slug": "world-club-friendlies-3"
+  },
+  {
+    "id": 2452,
+    "slug": "world-club-friendlies-4"
+  },
+  {
+    "id": 2462,
+    "slug": "argentina-torneo-federal-b-cuyo"
+  },
+  {
+    "id": 2469,
+    "slug": "argentina-torneo-federal-b-litoral-norte"
+  },
+  {
+    "id": 2470,
+    "slug": "argentina-torneo-federal-b-litoral-sur"
+  },
+  {
+    "id": 2479,
+    "slug": "greece-super-league-2-south"
+  },
+  {
+    "id": 2483,
+    "slug": "argentina-torneo-federal-b-norte"
+  },
+  {
+    "id": 2484,
+    "slug": "argentina-torneo-federal-b-patagonica"
+  },
+  {
+    "id": 2482,
+    "slug": "argentina-torneo-federal-b-pampeana-sur"
+  },
+  {
+    "id": 2509,
+    "slug": "greece-super-league-2-play-offs"
+  },
+  {
+    "id": 2503,
+    "slug": "argentina-torneo-federal-b-final-stages"
+  }
+]

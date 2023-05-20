@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 2,
+    "name": "Champions League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/2/2.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/2"
+  },
+  {
+    "id": 8,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/8/8.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/8"
+  },
+  {
+    "id": 14,
+    "name": "League Two",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/14/14.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/14"
+  },
+  {
+    "id": 23,
+    "name": "Community Shield",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/23/23.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/23"
+  },
+  {
+    "id": 17,
+    "name": "National League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/17/17.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/17"
+  },
+  {
+    "id": 5,
+    "name": "Europa League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/5/5.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/5"
+  },
+  {
+    "id": 72,
+    "name": "Eredivisie",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/72/72.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/72"
+  },
+  {
+    "id": 74,
+    "name": "Eerste Divisie",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/74/74.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/74"
+  },
+  {
+    "id": 9,
+    "name": "Championship",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/9/9.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/9"
+  },
+  {
+    "id": 12,
+    "name": "League One",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/12/12.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/12"
+  },
+  {
+    "id": 81,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/81/81.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/81"
+  },
+  {
+    "id": 78,
+    "name": "KNVB Beker",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/78/78.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/78"
+  },
+  {
+    "id": 24,
+    "name": "FA Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/24/24.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/24"
+  },
+  {
+    "id": 82,
+    "name": "Bundesliga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/ge/82/82.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/ge/82"
+  },
+  {
+    "id": 85,
+    "name": "2. Bundesliga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/ge/85/85.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/ge/85"
+  },
+  {
+    "id": 163,
+    "name": "Bundesliga Play-offs",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/ge/163/163.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/ge/163"
+  },
+  {
+    "id": 109,
+    "name": "DFB Pokal",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/ge/109/109.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/ge/109"
+  },
+  {
+    "id": 166,
+    "name": "2. Bundesliga Play-offs",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/ge/166/166.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/ge/166"
+  },
+  {
+    "id": 175,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/175/175.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/175"
+  },
+  {
+    "id": 184,
+    "name": "Erste Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/au/184/184.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/au/184"
+  },
+  {
+    "id": 187,
+    "name": "Austrian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/au/187/187.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/au/187"
+  },
+  {
+    "id": 190,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/az/190/190.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/az/190"
+  },
+  {
+    "id": 193,
+    "name": "Azerbaidjan Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/az/193/193.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/az/193"
+  },
+  {
+    "id": 199,
+    "name": "Vysshaya Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/199/199.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/199"
+  },
+  {
+    "id": 208,
+    "name": "Pro League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/208/208.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/208"
+  },
+  {
+    "id": 211,
+    "name": "Challenger Pro League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/211/211.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/211"
+  },
+  {
+    "id": 214,
+    "name": "Belgian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/214/214.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/214"
+  },
+  {
+    "id": 217,
+    "name": "Belgium Playoffs",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/217/217.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/217"
+  },
+  {
+    "id": 27,
+    "name": "Carabao Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/27/27.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/27"
+  },
+  {
+    "id": 220,
+    "name": "Premier Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/bo/220/220.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/bo/220"
+  },
+  {
+    "id": 229,
+    "name": "First League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/bu/229/229.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/bu/229"
+  },
+  {
+    "id": 235,
+    "name": "Second League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/bu/235/235.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/bu/235"
+  },
+  {
+    "id": 241,
+    "name": "Bulgarian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/bu/241/241.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/bu/241"
+  },
+  {
+    "id": 244,
+    "name": "1. HNL",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cr/244/244.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cr/244"
+  },
+  {
+    "id": 247,
+    "name": "2. HNL",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cr/247/247.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cr/247"
+  },
+  {
+    "id": 172,
+    "name": "Superliga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/al/172/172.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/al/172"
+  },
+  {
+    "id": 250,
+    "name": "Croatia Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cr/250/250.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cr/250"
+  },
+  {
+    "id": 30,
+    "name": "Fa Trophy",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/30/30.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/en/30"
+  },
+  {
+    "id": 256,
+    "name": "2. Division",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cy/256/256.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cy/256"
+  },
+  {
+    "id": 259,
+    "name": "Cyprus Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cy/259/259.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cy/259"
+  },
+  {
+    "id": 262,
+    "name": "Fortuna Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cz/262/262.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cz/262"
+  },
+  {
+    "id": 265,
+    "name": "2. Liga FNL",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cz/265/265.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cz/265"
+  },
+  {
+    "id": 181,
+    "name": "Admiral Bundesliga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/au/181/181.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/au/181"
+  },
+  {
+    "id": 271,
+    "name": "Superliga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/d/de/271/271.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/d/de/271"
+  },
+  {
+    "id": 274,
+    "name": "First Division",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/d/de/274/274.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/d/de/274"
+  },
+  {
+    "id": 286,
+    "name": "Meistriliiga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/es/286/286.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/es/286"
+  },
+  {
+    "id": 277,
+    "name": "Landspokal Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/d/de/277/277.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/d/de/277"
+  },
+  {
+    "id": 292,
+    "name": "Veikkausliiga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fi/292/292.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fi/292"
+  },
+  {
+    "id": 295,
+    "name": "Ykkonen",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fi/295/295.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fi/295"
+  },
+  {
+    "id": 268,
+    "name": "Czech Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cz/268/268.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cz/268"
+  },
+  {
+    "id": 298,
+    "name": "Finland Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fi/298/298.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fi/298"
+  },
+  {
+    "id": 301,
+    "name": "Ligue 1",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fr/301/301.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fr/301"
+  },
+  {
+    "id": 304,
+    "name": "Ligue 2",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fr/304/304.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fr/304"
+  },
+  {
+    "id": 307,
+    "name": "Coupe de France",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fr/307/307.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fr/307"
+  },
+  {
+    "id": 325,
+    "name": "Super League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gr/325/325.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gr/325"
+  },
+  {
+    "id": 334,
+    "name": "OTP Bank Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/h/hu/334/334.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/h/hu/334"
+  },
+  {
+    "id": 331,
+    "name": "Greek Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gr/331/331.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gr/331"
+  },
+  {
+    "id": 345,
+    "name": "Pepsideild",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/ic/345/345.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/ic/345"
+  },
+  {
+    "id": 337,
+    "name": "Hungarian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/h/hu/337/337.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/h/hu/337"
+  },
+  {
+    "id": 310,
+    "name": "Coupe de la Ligue",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fr/310/310.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fr/310"
+  },
+  {
+    "id": 360,
+    "name": "Premier Division",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/ir/360/360.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/ir/360"
+  },
+  {
+    "id": 369,
+    "name": "League Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/ir/369/369.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/ir/369"
+  },
+  {
+    "id": 366,
+    "name": "FAI Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/ir/366/366.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/ir/366"
+  },
+  {
+    "id": 372,
+    "name": "Ligat ha'Al",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/is/372/372.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/is/372"
+  },
+  {
+    "id": 378,
+    "name": "State Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/is/378/378.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/is/378"
+  },
+  {
+    "id": 384,
+    "name": "Serie A",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/it/384/384.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/it/384"
+  },
+  {
+    "id": 387,
+    "name": "Serie B",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/it/387/387.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/it/387"
+  },
+  {
+    "id": 390,
+    "name": "Coppa Italia",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/it/390/390.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/it/390"
+  },
+  {
+    "id": 393,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/k/ka/393/393.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/k/ka/393"
+  },
+  {
+    "id": 253,
+    "name": "1. Division",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cy/253/253.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/cy/253"
+  },
+  {
+    "id": 399,
+    "name": "Virsliga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/l/la/399/399.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/l/la/399"
+  },
+  {
+    "id": 405,
+    "name": "A Lyga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/l/li/405/405.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/l/li/405"
+  },
+  {
+    "id": 414,
+    "name": "First League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/ma/414/414.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/ma/414"
+  },
+  {
+    "id": 420,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/ma/420/420.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/ma/420"
+  },
+  {
+    "id": 426,
+    "name": "National Division",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/mo/426/426.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/mo/426"
+  },
+  {
+    "id": 432,
+    "name": "First League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/mo/432/432.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/mo/432"
+  },
+  {
+    "id": 438,
+    "name": "Premiership",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/ir/438/438.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/ir/438"
+  },
+  {
+    "id": 444,
+    "name": "Eliteserien",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/no/444/444.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/no/444"
+  },
+  {
+    "id": 453,
+    "name": "Ekstraklasa",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/453/453.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/453"
+  },
+  {
+    "id": 456,
+    "name": "1. Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/456/456.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/456"
+  },
+  {
+    "id": 465,
+    "name": "Segunda Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/465/465.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/465"
+  },
+  {
+    "id": 462,
+    "name": "Liga Portugal",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/462/462.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/462"
+  },
+  {
+    "id": 459,
+    "name": "Polish Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/459/459.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/459"
+  },
+  {
+    "id": 468,
+    "name": "Taça De Portugal",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/468/468.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/468"
+  },
+  {
+    "id": 471,
+    "name": "League Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/471/471.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/471"
+  },
+  {
+    "id": 474,
+    "name": "Liga 1",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ro/474/474.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ro/474"
+  },
+  {
+    "id": 450,
+    "name": "NM Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/no/450/450.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/no/450"
+  },
+  {
+    "id": 483,
+    "name": "Romania Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ro/483/483.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ro/483"
+  },
+  {
+    "id": 486,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ru/486/486.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ru/486"
+  },
+  {
+    "id": 489,
+    "name": "FNL",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ru/489/489.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ru/489"
+  },
+  {
+    "id": 495,
+    "name": "Premier League Play-offs",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ru/495/495.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ru/495"
+  },
+  {
+    "id": 501,
+    "name": "Premiership",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/501/501.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/501"
+  },
+  {
+    "id": 492,
+    "name": "Russian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ru/492/492.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ru/492"
+  },
+  {
+    "id": 504,
+    "name": "Championship",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/504/504.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/504"
+  },
+  {
+    "id": 507,
+    "name": "Scottish Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/507/507.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/507"
+  },
+  {
+    "id": 525,
+    "name": "Championship Play-Offs",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/525/525.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/525"
+  },
+  {
+    "id": 528,
+    "name": "League One Play-Offs",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/528/528.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/528"
+  },
+  {
+    "id": 510,
+    "name": "League Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/510/510.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sc/510"
+  },
+  {
+    "id": 531,
+    "name": "Super Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/se/531/531.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/se/531"
+  },
+  {
+    "id": 534,
+    "name": "Prva Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/se/534/534.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/se/534"
+  },
+  {
+    "id": 540,
+    "name": "Fortuna Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/540/540.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/540"
+  },
+  {
+    "id": 543,
+    "name": "2. Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/543/543.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/543"
+  },
+  {
+    "id": 552,
+    "name": "Slovakia Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/552/552.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/552"
+  },
+  {
+    "id": 555,
+    "name": "1. SNL",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/555/555.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/555"
+  },
+  {
+    "id": 558,
+    "name": "2. SNL",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/558/558.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/558"
+  },
+  {
+    "id": 564,
+    "name": "La Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sp/564/564.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sp/564"
+  },
+  {
+    "id": 567,
+    "name": "La Liga 2",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sp/567/567.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sp/567"
+  },
+  {
+    "id": 573,
+    "name": "Allsvenskan",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/573/573.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/573"
+  },
+  {
+    "id": 570,
+    "name": "Copa Del Rey",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sp/570/570.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sp/570"
+  },
+  {
+    "id": 579,
+    "name": "Superettan",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/579/579.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/579"
+  },
+  {
+    "id": 582,
+    "name": "Svenska Cupen",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/582/582.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/582"
+  },
+  {
+    "id": 591,
+    "name": "Super League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/591/591.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/591"
+  },
+  {
+    "id": 594,
+    "name": "Challenge League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/594/594.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/594"
+  },
+  {
+    "id": 597,
+    "name": "Swiss Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/597/597.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sw/597"
+  },
+  {
+    "id": 600,
+    "name": "Super Lig",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/t/tu/600/600.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/t/tu/600"
+  },
+  {
+    "id": 603,
+    "name": "1. Lig",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/t/tu/603/603.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/t/tu/603"
+  },
+  {
+    "id": 606,
+    "name": "Turkish Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/t/tu/606/606.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/t/tu/606"
+  },
+  {
+    "id": 609,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/uk/609/609.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/uk/609"
+  },
+  {
+    "id": 612,
+    "name": "Persha Liga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/uk/612/612.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/uk/612"
+  },
+  {
+    "id": 615,
+    "name": "Ukrainian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/uk/615/615.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/uk/615"
+  },
+  {
+    "id": 624,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wa/624/624.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wa/624"
+  },
+  {
+    "id": 636,
+    "name": "Superliga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/636/636.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/636"
+  },
+  {
+    "id": 639,
+    "name": "Torneo Federal B - Pampeana Norte",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/639/639.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/639"
+  },
+  {
+    "id": 648,
+    "name": "Serie A",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/br/648/648.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/br/648"
+  },
+  {
+    "id": 651,
+    "name": "Serie B",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/br/651/651.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/br/651"
+  },
+  {
+    "id": 642,
+    "name": "Copa Argentina",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/642/642.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/642"
+  },
+  {
+    "id": 654,
+    "name": "Copa do Brasil",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/br/654/654.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/br/654"
+  },
+  {
+    "id": 663,
+    "name": "Primera Division",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/ch/663/663.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/ch/663"
+  },
+  {
+    "id": 672,
+    "name": "Liga BetPlay",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/co/672/672.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/co/672"
+  },
+  {
+    "id": 696,
+    "name": "Liga Pro",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/ec/696/696.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/ec/696"
+  },
+  {
+    "id": 711,
+    "name": "WC Qualification Africa",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/711/711.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/711"
+  },
+  {
+    "id": 714,
+    "name": "WC Qualification Asia",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/714/714.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/714"
+  },
+  {
+    "id": 723,
+    "name": "WC Qualification Oceania",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/723/723.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/723"
+  },
+  {
+    "id": 720,
+    "name": "WC Qualification Europe",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/720/720.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/720"
+  },
+  {
+    "id": 717,
+    "name": "WC Qualification Concacaf",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/717/717.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/717"
+  },
+  {
+    "id": 726,
+    "name": "WC Qualification South America",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/726/726.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/726"
+  },
+  {
+    "id": 729,
+    "name": "WC Qualification Intercontinental Playoffs",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/729/729.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/729"
+  },
+  {
+    "id": 743,
+    "name": "Liga MX",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/me/743/743.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/me/743"
+  },
+  {
+    "id": 746,
+    "name": "Copa MX",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/me/746/746.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/me/746"
+  },
+  {
+    "id": 755,
+    "name": "Division 1",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/pa/755/755.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/pa/755"
+  },
+  {
+    "id": 770,
+    "name": "Primera Division",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/ur/770/770.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/ur/770"
+  },
+  {
+    "id": 779,
+    "name": "Major League Soccer",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/un/779/779.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/un/779"
+  },
+  {
+    "id": 806,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/806/806.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/806"
+  },
+  {
+    "id": 782,
+    "name": "US Open Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/un/782/782.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/un/782"
+  },
+  {
+    "id": 809,
+    "name": "Ligue 1",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/al/809/809.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/al/809"
+  },
+  {
+    "id": 815,
+    "name": "Girabola",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/an/815/815.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/an/815"
+  },
+  {
+    "id": 830,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eg/830/830.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eg/830"
+  },
+  {
+    "id": 845,
+    "name": "Ligue 1",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gu/845/845.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gu/845"
+  },
+  {
+    "id": 836,
+    "name": "Premier League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gh/836/836.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gh/836"
+  },
+  {
+    "id": 860,
+    "name": "Botola Pro",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/mo/860/860.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/mo/860"
+  },
+  {
+    "id": 890,
+    "name": "Super League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/z/za/890/890.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/z/za/890"
+  },
+  {
+    "id": 944,
+    "name": "Pro League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sa/944/944.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sa/944"
+  },
+  {
+    "id": 956,
+    "name": "Ligue 1",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/t/tu/956/956.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/t/tu/956"
+  },
+  {
+    "id": 959,
+    "name": "Uae League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/un/959/959.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/u/un/959"
+  },
+  {
+    "id": 968,
+    "name": "J-League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/j/ja/968/968.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/j/ja/968"
+  },
+  {
+    "id": 989,
+    "name": "Super League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/ch/989/989.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/c/ch/989"
+  },
+  {
+    "id": 1007,
+    "name": "Indian Super League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/in/1007/1007.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/in/1007"
+  },
+  {
+    "id": 1022,
+    "name": "J2-League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/j/ja/1022/1022.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/j/ja/1022"
+  },
+  {
+    "id": 1028,
+    "name": "Emperor Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/j/ja/1028/1028.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/j/ja/1028"
+  },
+  {
+    "id": 1034,
+    "name": "K-League 1",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/1034/1034.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/1034"
+  },
+  {
+    "id": 1043,
+    "name": "Korean Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/1043/1043.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/1043"
+  },
+  {
+    "id": 1055,
+    "name": "Premiership",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/1055/1055.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/1055"
+  },
+  {
+    "id": 1073,
+    "name": "V-League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/v/vi/1073/1073.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/v/vi/1073"
+  },
+  {
+    "id": 1082,
+    "name": "Friendly International",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/1082/1082.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/1082"
+  },
+  {
+    "id": 1101,
+    "name": "Club Friendlies 1",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/1101/1101.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/1101"
+  },
+  {
+    "id": 1085,
+    "name": "AFC Champions League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/as/1085/1085.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/as/1085"
+  },
+  {
+    "id": 1114,
+    "name": "Copa America",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/1114/1114.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/1114"
+  },
+  {
+    "id": 1117,
+    "name": "Africa Cup of Nations",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/1117/1117.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/1117"
+  },
+  {
+    "id": 1122,
+    "name": "Copa Libertadores",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/1122/1122.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/1122"
+  },
+  {
+    "id": 1128,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/1128/1128.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/1128"
+  },
+  {
+    "id": 1176,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fr/1176/1176.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/f/fr/1176"
+  },
+  {
+    "id": 1202,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/it/1202/1202.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/i/it/1202"
+  },
+  {
+    "id": 1224,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/1224/1224.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/1224"
+  },
+  {
+    "id": 1251,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sp/1251/1251.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sp/1251"
+  },
+  {
+    "id": 1236,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ro/1236/1236.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ro/1236"
+  },
+  {
+    "id": 1325,
+    "name": "Euro Qualification",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/1325/1325.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/1325"
+  },
+  {
+    "id": 1326,
+    "name": "European Championship",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/1326/1326.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/1326"
+  },
+  {
+    "id": 1353,
+    "name": "Eredivisie Playoffs",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/1353/1353.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ne/1353"
+  },
+  {
+    "id": 1356,
+    "name": "A-League Men",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/au/1356/1356.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/au/1356"
+  },
+  {
+    "id": 1358,
+    "name": "1st Division",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/al/1358/1358.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/al/1358"
+  },
+  {
+    "id": 1361,
+    "name": "Albanian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/al/1361/1361.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/al/1361"
+  },
+  {
+    "id": 1362,
+    "name": "K League 2",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/1362/1362.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/so/1362"
+  },
+  {
+    "id": 1364,
+    "name": "World Cup U20",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/1364/1364.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/1364"
+  },
+  {
+    "id": 1371,
+    "name": "UEFA Europa League Play-offs",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/1371/1371.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/be/1371"
+  },
+  {
+    "id": 1384,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/1384/1384.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/p/po/1384"
+  },
+  {
+    "id": 1374,
+    "name": "Estonian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/es/1374/1374.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/es/1374"
+  },
+  {
+    "id": 1390,
+    "name": "World Cup U17",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/1390/1390.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/1390"
+  },
+  {
+    "id": 1388,
+    "name": "Latvian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/l/la/1388/1388.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/l/la/1388"
+  },
+  {
+    "id": 1403,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/t/tu/1403/1403.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/t/tu/1403"
+  },
+  {
+    "id": 1475,
+    "name": "Npfl",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ni/1475/1475.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/ni/1475"
+  },
+  {
+    "id": 1488,
+    "name": "Superliga",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/k/ko/1488/1488.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/k/ko/1488"
+  },
+  {
+    "id": 1500,
+    "name": "Macedonian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/ma/1500/1500.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/ma/1500"
+  },
+  {
+    "id": 1501,
+    "name": "Serbian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/se/1501/1501.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/se/1501"
+  },
+  {
+    "id": 1502,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/1502/1502.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/1502"
+  },
+  {
+    "id": 1504,
+    "name": "National Division",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/l/lu/1504/1504.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/l/lu/1504"
+  },
+  {
+    "id": 1508,
+    "name": "Kazakhstan Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/k/ka/1508/1508.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/k/ka/1508"
+  },
+  {
+    "id": 1527,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/no/1527/1527.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/n/no/1527"
+  },
+  {
+    "id": 1534,
+    "name": "Slovenian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/1534/1534.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/s/sl/1534"
+  },
+  {
+    "id": 1538,
+    "name": "UEFA Nations League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/1538/1538.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/1538"
+  },
+  {
+    "id": 1541,
+    "name": "Lithuanian Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/l/li/1541/1541.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/l/li/1541"
+  },
+  {
+    "id": 1544,
+    "name": "Ligue 1",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/re/1544/1544.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/re/1544"
+  },
+  {
+    "id": 1636,
+    "name": "Liga 2",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ro/1636/1636.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ro/1636"
+  },
+  {
+    "id": 1676,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/al/1676/1676.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/al/1676"
+  },
+  {
+    "id": 1706,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/bu/1706/1706.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/b/bu/1706"
+  },
+  {
+    "id": 1712,
+    "name": "Super Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ru/1712/1712.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/r/ru/1712"
+  },
+  {
+    "id": 1759,
+    "name": "Super League 2 - North",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gr/1759/1759.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gr/1759"
+  },
+  {
+    "id": 2286,
+    "name": "Europa Conference League",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/2286/2286.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/e/eu/2286"
+  },
+  {
+    "id": 1716,
+    "name": "Moldovan Cup",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/mo/1716/1716.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/m/mo/1716"
+  },
+  {
+    "id": 2450,
+    "name": "Club Friendlies 2",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/2450/2450.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/2450"
+  },
+  {
+    "id": 2451,
+    "name": "Club Friendlies 3",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/2451/2451.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/2451"
+  },
+  {
+    "id": 2452,
+    "name": "Club Friendlies 4",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/2452/2452.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/w/wo/2452"
+  },
+  {
+    "id": 2462,
+    "name": "Torneo Federal B - Cuyo",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2462/2462.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2462"
+  },
+  {
+    "id": 2469,
+    "name": "Torneo Federal B - Litoral Norte",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2469/2469.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2469"
+  },
+  {
+    "id": 2470,
+    "name": "Torneo Federal B - Litoral Sur",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2470/2470.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2470"
+  },
+  {
+    "id": 2479,
+    "name": "Super League 2 - South",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gr/2479/2479.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gr/2479"
+  },
+  {
+    "id": 2483,
+    "name": "Torneo Federal B - Norte",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2483/2483.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2483"
+  },
+  {
+    "id": 2484,
+    "name": "Torneo Federal B - Patagonica",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2484/2484.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2484"
+  },
+  {
+    "id": 2482,
+    "name": "Torneo Federal B - Pampeana Sur",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2482/2482.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2482"
+  },
+  {
+    "id": 2509,
+    "name": "Super League 2 - Play-offs",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gr/2509/2509.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/g/gr/2509"
+  },
+  {
+    "id": 2503,
+    "name": "Torneo Federal B - Final Stages",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2503/2503.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/soccer/leagues/a/ar/2503"
+  }
+]

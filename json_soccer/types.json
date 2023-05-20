@@ -1,0 +1,5730 @@
+[
+  {
+    "id": 1,
+    "code": "1st-half",
+    "developer_name": "1ST_HALF",
+    "model_type": "period",
+    "name": "1st Half",
+    "stat_group": null
+  },
+  {
+    "id": 2,
+    "code": "2nd-half",
+    "developer_name": "2ND_HALF",
+    "model_type": "period",
+    "name": "2nd Half",
+    "stat_group": null
+  },
+  {
+    "id": 3,
+    "code": "extra-time",
+    "developer_name": "ET",
+    "model_type": "period",
+    "name": "Extra Time",
+    "stat_group": null
+  },
+  {
+    "id": 5,
+    "code": "penalties",
+    "developer_name": "PENALTY_SHOOTOUT",
+    "model_type": "period",
+    "name": "Penalties",
+    "stat_group": null
+  },
+  {
+    "id": 6,
+    "code": "referee",
+    "developer_name": "REFEREE",
+    "model_type": "referee",
+    "name": "Referee",
+    "stat_group": null
+  },
+  {
+    "id": 7,
+    "code": "1st_assistant",
+    "developer_name": "REFEREE_TWO",
+    "model_type": "referee",
+    "name": "1st Assistant",
+    "stat_group": null
+  },
+  {
+    "id": 8,
+    "code": "2nd_assistant",
+    "developer_name": "REFEREE_THREE",
+    "model_type": "referee",
+    "name": "2nd Assistant",
+    "stat_group": null
+  },
+  {
+    "id": 9,
+    "code": "4th_official",
+    "developer_name": "REFEREE_FOUR",
+    "model_type": "referee",
+    "name": "4th Official",
+    "stat_group": null
+  },
+  {
+    "id": 10,
+    "code": "VAR",
+    "developer_name": "VAR",
+    "model_type": "event",
+    "name": "VAR",
+    "stat_group": null
+  },
+  {
+    "id": 11,
+    "code": "lineup",
+    "developer_name": "LINEUP",
+    "model_type": "lineup",
+    "name": "Lineup",
+    "stat_group": null
+  },
+  {
+    "id": 12,
+    "code": "bench",
+    "developer_name": "BENCH",
+    "model_type": "lineup",
+    "name": "Bench",
+    "stat_group": null
+  },
+  {
+    "id": 13,
+    "code": "sidelined",
+    "developer_name": "SIDELINED",
+    "model_type": "lineup",
+    "name": "Sidelined",
+    "stat_group": null
+  },
+  {
+    "id": 14,
+    "code": "goal",
+    "developer_name": "GOAL",
+    "model_type": "event",
+    "name": "Goal",
+    "stat_group": null
+  },
+  {
+    "id": 15,
+    "code": "owngoal",
+    "developer_name": "OWNGOAL",
+    "model_type": "event",
+    "name": "Own Goal",
+    "stat_group": null
+  },
+  {
+    "id": 16,
+    "code": "penalty",
+    "developer_name": "PENALTY",
+    "model_type": "event",
+    "name": "Penalty",
+    "stat_group": null
+  },
+  {
+    "id": 17,
+    "code": "missed_penalty",
+    "developer_name": "MISSED_PENALTY",
+    "model_type": "event",
+    "name": "Missed Penalty",
+    "stat_group": null
+  },
+  {
+    "id": 18,
+    "code": "substitution",
+    "developer_name": "SUBSTITUTION",
+    "model_type": "event",
+    "name": "Substitution",
+    "stat_group": null
+  },
+  {
+    "id": 19,
+    "code": "yellowcard",
+    "developer_name": "YELLOWCARD",
+    "model_type": "event",
+    "name": "Yellowcard",
+    "stat_group": null
+  },
+  {
+    "id": 20,
+    "code": "redcard",
+    "developer_name": "REDCARD",
+    "model_type": "event",
+    "name": "Redcard",
+    "stat_group": null
+  },
+  {
+    "id": 21,
+    "code": "yellowredcard",
+    "developer_name": "YELLOWREDCARD",
+    "model_type": "event",
+    "name": "Yellow/Red card",
+    "stat_group": null
+  },
+  {
+    "id": 22,
+    "code": "pen_shootout_miss",
+    "developer_name": "PENALTY_SHOOTOUT_MISS",
+    "model_type": "event",
+    "name": "Penalty Shootout Missed",
+    "stat_group": null
+  },
+  {
+    "id": 23,
+    "code": "pen_shootout_goal",
+    "developer_name": "PENALTY_SHOOTOUT_GOAL",
+    "model_type": "event",
+    "name": "Penalty Shootout Goal",
+    "stat_group": null
+  },
+  {
+    "id": 24,
+    "code": "goalkeeper",
+    "developer_name": "GOALKEEPER",
+    "model_type": "position",
+    "name": "Goalkeeper",
+    "stat_group": null
+  },
+  {
+    "id": 25,
+    "code": "defender",
+    "developer_name": "DEFENDER",
+    "model_type": "position",
+    "name": "Defender",
+    "stat_group": null
+  },
+  {
+    "id": 26,
+    "code": "midfielder",
+    "developer_name": "MIDFIELDER",
+    "model_type": "position",
+    "name": "Midfielder",
+    "stat_group": null
+  },
+  {
+    "id": 27,
+    "code": "attacker",
+    "developer_name": "ATTACKER",
+    "model_type": "position",
+    "name": "Attacker",
+    "stat_group": null
+  },
+  {
+    "id": 28,
+    "code": "unknown",
+    "developer_name": "UNKNOWN",
+    "model_type": "position",
+    "name": "Unknown",
+    "stat_group": null
+  },
+  {
+    "id": 29,
+    "code": "video",
+    "developer_name": "VIDEO",
+    "model_type": "highlight",
+    "name": "Video",
+    "stat_group": null
+  },
+  {
+    "id": 30,
+    "code": "clip",
+    "developer_name": "CLIP",
+    "model_type": "highlight",
+    "name": "Clip",
+    "stat_group": null
+  },
+  {
+    "id": 31,
+    "code": "file",
+    "developer_name": "FILE",
+    "model_type": "highlight",
+    "name": "File",
+    "stat_group": null
+  },
+  {
+    "id": 32,
+    "code": "probability",
+    "developer_name": "PROBABILITY",
+    "model_type": "prediction",
+    "name": "Probability",
+    "stat_group": null
+  },
+  {
+    "id": 33,
+    "code": "valuebet",
+    "developer_name": "VALUEBET",
+    "model_type": "prediction",
+    "name": "Valuebet",
+    "stat_group": null
+  },
+  {
+    "id": 34,
+    "code": "corners",
+    "developer_name": "CORNERS",
+    "model_type": "statistic",
+    "name": "Corners",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 35,
+    "code": "neutral_venue",
+    "developer_name": "NEUTRAL_VENUE",
+    "model_type": "metadata",
+    "name": "Neutral Venue",
+    "stat_group": null
+  },
+  {
+    "id": 36,
+    "code": "kickoff",
+    "developer_name": "KICKOFF",
+    "model_type": "metadata",
+    "name": "Kickoff",
+    "stat_group": null
+  },
+  {
+    "id": 37,
+    "code": "match_details",
+    "developer_name": "MATCH_DETAILS",
+    "model_type": "metadata",
+    "name": "Match Details",
+    "stat_group": null
+  },
+  {
+    "id": 39,
+    "code": "extra-time-2nd-half",
+    "developer_name": "ET_2ND_HALF",
+    "model_type": "period",
+    "name": "Extra Time - 2nd Half",
+    "stat_group": null
+  },
+  {
+    "id": 40,
+    "code": "captain",
+    "developer_name": "CAPTAIN",
+    "model_type": "statistic",
+    "name": "Captain",
+    "stat_group": "overall"
+  },
+  {
+    "id": 41,
+    "code": "shots-off-target",
+    "developer_name": "SHOTS_OFF_TARGET",
+    "model_type": "statistic",
+    "name": "Shots Off Target",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 42,
+    "code": "shots-total",
+    "developer_name": "SHOTS_TOTAL",
+    "model_type": "statistic",
+    "name": "Shots Total",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 43,
+    "code": "attacks",
+    "developer_name": "ATTACKS",
+    "model_type": "statistic",
+    "name": "Attacks",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 44,
+    "code": "dangerous-attacks",
+    "developer_name": "DANGEROUS_ATTACKS",
+    "model_type": "statistic",
+    "name": "Dangerous Attacks",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 45,
+    "code": "ball-possession",
+    "developer_name": "BALL_POSSESSION",
+    "model_type": "statistic",
+    "name": "Ball Possession %",
+    "stat_group": "overall"
+  },
+  {
+    "id": 46,
+    "code": "ball-safe",
+    "developer_name": "BALL_SAFE",
+    "model_type": "statistic",
+    "name": "Ball Safe",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 47,
+    "code": "penalties",
+    "developer_name": "PENALTIES",
+    "model_type": "statistic",
+    "name": "Penalties",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 49,
+    "code": "shots-insidebox",
+    "developer_name": "SHOTS_INSIDEBOX",
+    "model_type": "statistic",
+    "name": "Shots Insidebox",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 50,
+    "code": "shots-outsidebox",
+    "developer_name": "SHOTS_OUTSIDEBOX",
+    "model_type": "statistic",
+    "name": "Shots Outsidebox",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 51,
+    "code": "offsides",
+    "developer_name": "OFFSIDES",
+    "model_type": "statistic",
+    "name": "Offsides",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 52,
+    "code": "goals",
+    "developer_name": "GOALS",
+    "model_type": "statistic",
+    "name": "Goals",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 53,
+    "code": "goals-kicks",
+    "developer_name": "GOAL_KICKS",
+    "model_type": "statistic",
+    "name": "Goal Kicks",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 54,
+    "code": "goal-attempts",
+    "developer_name": "GOAL_ATTEMPTS",
+    "model_type": "statistic",
+    "name": "Goal Attempts",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 55,
+    "code": "free-kicks",
+    "developer_name": "FREE_KICKS",
+    "model_type": "statistic",
+    "name": "Free Kicks",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 56,
+    "code": "fouls",
+    "developer_name": "FOULS",
+    "model_type": "statistic",
+    "name": "Fouls",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 57,
+    "code": "saves",
+    "developer_name": "SAVES",
+    "model_type": "statistic",
+    "name": "Saves",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 58,
+    "code": "shots-blocked",
+    "developer_name": "SHOTS_BLOCKED",
+    "model_type": "statistic",
+    "name": "Shots Blocked",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 59,
+    "code": "substitutions",
+    "developer_name": "SUBSTITUTIONS",
+    "model_type": "statistic",
+    "name": "Substitutions",
+    "stat_group": "overall"
+  },
+  {
+    "id": 60,
+    "code": "throwins",
+    "developer_name": "THROWINS",
+    "model_type": "statistic",
+    "name": "Throwins",
+    "stat_group": "overall"
+  },
+  {
+    "id": 61,
+    "code": "beats",
+    "developer_name": "BEATS",
+    "model_type": "statistic",
+    "name": "Beats",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 62,
+    "code": "long-passes",
+    "developer_name": "LONG_PASSES",
+    "model_type": "statistic",
+    "name": "Long Passes",
+    "stat_group": "overall"
+  },
+  {
+    "id": 63,
+    "code": "short-passes",
+    "developer_name": "SHORT_PASSES",
+    "model_type": "statistic",
+    "name": "Short Passes",
+    "stat_group": "overall"
+  },
+  {
+    "id": 64,
+    "code": "hit-woodwork",
+    "developer_name": "HIT_WOODWORK",
+    "model_type": "statistic",
+    "name": "Hit Woodwork",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 65,
+    "code": "successful-headers",
+    "developer_name": "SUCCESSFUL_HEADERS",
+    "model_type": "statistic",
+    "name": "Successful Headers",
+    "stat_group": "overall"
+  },
+  {
+    "id": 66,
+    "code": "successful-interceptions",
+    "developer_name": "SUCCESSFUL_INTERCEPTIONS",
+    "model_type": "statistic",
+    "name": "Successful Interceptions",
+    "stat_group": "overall"
+  },
+  {
+    "id": 67,
+    "code": "successful-centers",
+    "developer_name": "SUCCESSFUL_CENTERS",
+    "model_type": "statistic",
+    "name": "Successful Centers",
+    "stat_group": "overall"
+  },
+  {
+    "id": 68,
+    "code": "substitutions-overtime",
+    "developer_name": "SUBSTITUTIONS_OVERTIME",
+    "model_type": "statistic",
+    "name": "Substitutions Overtime",
+    "stat_group": "overall"
+  },
+  {
+    "id": 69,
+    "code": "offsides-overtime",
+    "developer_name": "OFFSIDES_OVERTIME",
+    "model_type": "statistic",
+    "name": "Offsides Overtime",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 70,
+    "code": "headers",
+    "developer_name": "HEADERS",
+    "model_type": "statistic",
+    "name": "Headers",
+    "stat_group": "overall"
+  },
+  {
+    "id": 71,
+    "code": "last-substituttion",
+    "developer_name": "LAST_SUBSTITUTION",
+    "model_type": "statistic",
+    "name": "Last Substituttion",
+    "stat_group": "overall"
+  },
+  {
+    "id": 72,
+    "code": "first-substitution",
+    "developer_name": "FIRST_SUBSTITUTION",
+    "model_type": "statistic",
+    "name": "First Substitution",
+    "stat_group": "overall"
+  },
+  {
+    "id": 73,
+    "code": "successful-center",
+    "developer_name": "SUCCESSFUL_CENTER",
+    "model_type": "statistic",
+    "name": "Successful Center",
+    "stat_group": "overall"
+  },
+  {
+    "id": 74,
+    "code": "yellowcards-overtime",
+    "developer_name": "YELLOWCARDS_OVERTIME",
+    "model_type": "statistic",
+    "name": "Yellowcards Overtime",
+    "stat_group": "overall"
+  },
+  {
+    "id": 75,
+    "code": "corners-overtime",
+    "developer_name": "CORNERS_OVERTIME",
+    "model_type": "statistic",
+    "name": "Corners Overtime",
+    "stat_group": "overall"
+  },
+  {
+    "id": 76,
+    "code": "goalkeeper-comes-out",
+    "developer_name": "GOALKEEPER_COME_OUTS",
+    "model_type": "statistic",
+    "name": "Goalkeeper Comes Out",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 77,
+    "code": "challenges",
+    "developer_name": "CHALLENGES",
+    "model_type": "statistic",
+    "name": "Challenges",
+    "stat_group": "overall"
+  },
+  {
+    "id": 78,
+    "code": "tackles",
+    "developer_name": "TACKLES",
+    "model_type": "statistic",
+    "name": "Tackles",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 79,
+    "code": "assists",
+    "developer_name": "ASSISTS",
+    "model_type": "statistic",
+    "name": "Assists",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 80,
+    "code": "passes",
+    "developer_name": "PASSES",
+    "model_type": "statistic",
+    "name": "Passes",
+    "stat_group": "overall"
+  },
+  {
+    "id": 81,
+    "code": "successful-passes",
+    "developer_name": "SUCCESSFUL_PASSES",
+    "model_type": "statistic",
+    "name": "Successful Passes",
+    "stat_group": "overall"
+  },
+  {
+    "id": 82,
+    "code": "successful-passes-percentage",
+    "developer_name": "SUCCESSFUL_PASSES_PERCENTAGE",
+    "model_type": "statistic",
+    "name": "Successful Passes Percentage",
+    "stat_group": "overall"
+  },
+  {
+    "id": 83,
+    "code": "redcards",
+    "developer_name": "REDCARDS",
+    "model_type": "statistic",
+    "name": "Redcards",
+    "stat_group": "overall"
+  },
+  {
+    "id": 84,
+    "code": "yellowcards",
+    "developer_name": "YELLOWCARDS",
+    "model_type": "statistic",
+    "name": "Yellowcards",
+    "stat_group": "overall"
+  },
+  {
+    "id": 85,
+    "code": "yellowred-cards",
+    "developer_name": "YELLOWRED_CARDS",
+    "model_type": "statistic",
+    "name": "Yellowred Cards",
+    "stat_group": "overall"
+  },
+  {
+    "id": 86,
+    "code": "shots-on-target",
+    "developer_name": "SHOTS_ON_TARGET",
+    "model_type": "statistic",
+    "name": "Shots On Target",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 87,
+    "code": "injuries",
+    "developer_name": "INJURIES",
+    "model_type": "statistic",
+    "name": "Injuries",
+    "stat_group": "overall"
+  },
+  {
+    "id": 88,
+    "code": "goals-conceded",
+    "developer_name": "GOALS_CONCEDED",
+    "model_type": "statistic",
+    "name": "Goals Conceded",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 91,
+    "code": "first-offside",
+    "developer_name": "FIRST_OFFSIDE",
+    "model_type": "statistic",
+    "name": "First Offside",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 92,
+    "code": "last-offside",
+    "developer_name": "LAST_OFFSIDE",
+    "model_type": "statistic",
+    "name": "Last Offside",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 94,
+    "code": "dispossessed",
+    "developer_name": "DISPOSSESSED",
+    "model_type": "statistic",
+    "name": "Dispossessed",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 95,
+    "code": "offsides-provoked",
+    "developer_name": "OFFSIDES_PROVOKED",
+    "model_type": "statistic",
+    "name": "Offsides Provoked",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 96,
+    "code": "fouls-drawn",
+    "developer_name": "FOULS_DRAWN",
+    "model_type": "statistic",
+    "name": "Fouls Drawn",
+    "stat_group": "overall"
+  },
+  {
+    "id": 97,
+    "code": "blocked-shots",
+    "developer_name": "BLOCKED_SHOTS",
+    "model_type": "statistic",
+    "name": "Blocked Shots",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 98,
+    "code": "total-crosses",
+    "developer_name": "TOTAL_CROSSES",
+    "model_type": "statistic",
+    "name": "Total Crosses",
+    "stat_group": "overall"
+  },
+  {
+    "id": 99,
+    "code": "accurate-crosses",
+    "developer_name": "ACCURATE_CROSSES",
+    "model_type": "statistic",
+    "name": "Accurate Crosses",
+    "stat_group": "overall"
+  },
+  {
+    "id": 100,
+    "code": "interceptions",
+    "developer_name": "INTERCEPTIONS",
+    "model_type": "statistic",
+    "name": "Interceptions",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 101,
+    "code": "clearances",
+    "developer_name": "CLEARANCES",
+    "model_type": "statistic",
+    "name": "Clearances",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 102,
+    "code": "clearances-won",
+    "developer_name": "CLEARANCES_WON",
+    "model_type": "statistic",
+    "name": "Clearances Won",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 103,
+    "code": "punches",
+    "developer_name": "PUNCHES",
+    "model_type": "statistic",
+    "name": "Punches",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 104,
+    "code": "saves-insidebox",
+    "developer_name": "SAVES_INSIDE_BOX",
+    "model_type": "statistic",
+    "name": "Saves Insidebox",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 105,
+    "code": "total-duels",
+    "developer_name": "TOTAL_DUELS",
+    "model_type": "statistic",
+    "name": "Total Duels",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 106,
+    "code": "duels-won",
+    "developer_name": "DUELS_WON",
+    "model_type": "statistic",
+    "name": "Duels Won",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 107,
+    "code": "aeriels-won",
+    "developer_name": "AERIALS_WON",
+    "model_type": "statistic",
+    "name": "Aerials Won",
+    "stat_group": "overall"
+  },
+  {
+    "id": 108,
+    "code": "dribble-attempts",
+    "developer_name": "DRIBBLED_ATTEMPTS",
+    "model_type": "statistic",
+    "name": "Dribble Attempts",
+    "stat_group": "overall"
+  },
+  {
+    "id": 109,
+    "code": "successful-dribbles",
+    "developer_name": "SUCCESSFUL_DRIBBLES",
+    "model_type": "statistic",
+    "name": "Successful Dribbles",
+    "stat_group": "overall"
+  },
+  {
+    "id": 110,
+    "code": "dribbled-past",
+    "developer_name": "DRIBBLED_PAST",
+    "model_type": "statistic",
+    "name": "Dribbled Past",
+    "stat_group": "overall"
+  },
+  {
+    "id": 111,
+    "code": "penalties-scored",
+    "developer_name": "PENALTIES_SCORED",
+    "model_type": "statistic",
+    "name": "Penalties Scored",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 112,
+    "code": "penalties-missed",
+    "developer_name": "PENALTIES_MISSES",
+    "model_type": "statistic",
+    "name": "Penalties Missed",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 113,
+    "code": "penalties-saved",
+    "developer_name": "PENALTIES_SAVED",
+    "model_type": "statistic",
+    "name": "Penalties Saved",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 114,
+    "code": "penalties-committed",
+    "developer_name": "PENALTIES_COMMITTED",
+    "model_type": "statistic",
+    "name": "Penalties Committed",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 115,
+    "code": "penalties-won",
+    "developer_name": "PENALTIES_WON",
+    "model_type": "statistic",
+    "name": "Penalties Won",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 116,
+    "code": "accurate-passes",
+    "developer_name": "ACCURATE_PASSES",
+    "model_type": "statistic",
+    "name": "Accurate Passes",
+    "stat_group": "overall"
+  },
+  {
+    "id": 117,
+    "code": "key-passes",
+    "developer_name": "KEY_PASSES",
+    "model_type": "statistic",
+    "name": "Key Passes",
+    "stat_group": "overall"
+  },
+  {
+    "id": 118,
+    "code": "rating",
+    "developer_name": "RATING",
+    "model_type": "statistic",
+    "name": "Rating",
+    "stat_group": "overall"
+  },
+  {
+    "id": 119,
+    "code": "minutes-played",
+    "developer_name": "MINUTES_PLAYED",
+    "model_type": "statistic",
+    "name": "Minutes Played",
+    "stat_group": "NULL"
+  },
+  {
+    "id": 120,
+    "code": "touches",
+    "developer_name": "TOUCHES",
+    "model_type": "statistic",
+    "name": "Touches",
+    "stat_group": "overall"
+  },
+  {
+    "id": 121,
+    "code": "turn-over",
+    "developer_name": "TURN_OVER",
+    "model_type": "statistic",
+    "name": "Turn Over",
+    "stat_group": "overall"
+  },
+  {
+    "id": 122,
+    "code": "long-balls",
+    "developer_name": "LONG_BALLS",
+    "model_type": "statistic",
+    "name": "Long Balls",
+    "stat_group": "overall"
+  },
+  {
+    "id": 123,
+    "code": "long-balls-won",
+    "developer_name": "LONG_BALLS_WON",
+    "model_type": "statistic",
+    "name": "Long Balls Won",
+    "stat_group": "overall"
+  },
+  {
+    "id": 124,
+    "code": "through-balls",
+    "developer_name": "THROUGH_BALLS",
+    "model_type": "statistic",
+    "name": "Through Balls",
+    "stat_group": "overall"
+  },
+  {
+    "id": 125,
+    "code": "through-balls-won",
+    "developer_name": "THROUGH_BALLS_WON",
+    "model_type": "statistic",
+    "name": "Through Balls Won",
+    "stat_group": "overall"
+  },
+  {
+    "id": 126,
+    "code": "corner",
+    "developer_name": "CORNER",
+    "model_type": "timeline",
+    "name": "Corner",
+    "stat_group": null
+  },
+  {
+    "id": 129,
+    "code": "overall-matches-played",
+    "developer_name": "OVERALL_MATCHES",
+    "model_type": "standings",
+    "name": "Overall Matched Played",
+    "stat_group": null
+  },
+  {
+    "id": 130,
+    "code": "overall-won",
+    "developer_name": "OVERALL_WINS",
+    "model_type": "standings",
+    "name": "Overall Won",
+    "stat_group": null
+  },
+  {
+    "id": 131,
+    "code": "overall-draw",
+    "developer_name": "OVERALL_DRAWS",
+    "model_type": "standings",
+    "name": "Overall Draw",
+    "stat_group": null
+  },
+  {
+    "id": 132,
+    "code": "overall-lost",
+    "developer_name": "OVERALL_LOST",
+    "model_type": "standings",
+    "name": "Overall Lost",
+    "stat_group": null
+  },
+  {
+    "id": 133,
+    "code": "overall-goals-for",
+    "developer_name": "OVERALL_SCORED",
+    "model_type": "standings",
+    "name": "Overal Goals Scored",
+    "stat_group": null
+  },
+  {
+    "id": 134,
+    "code": "overall-goals-against",
+    "developer_name": "OVERALL_CONCEDED",
+    "model_type": "standings",
+    "name": "Overall Goals Conceded",
+    "stat_group": null
+  },
+  {
+    "id": 135,
+    "code": "home-matches-played",
+    "developer_name": "HOME_MATCHES",
+    "model_type": "standings",
+    "name": "Home Matched Played",
+    "stat_group": null
+  },
+  {
+    "id": 136,
+    "code": "home-won",
+    "developer_name": "HOME_WINS",
+    "model_type": "standings",
+    "name": "Home Won",
+    "stat_group": null
+  },
+  {
+    "id": 137,
+    "code": "home-draw",
+    "developer_name": "HOME_DRAWS",
+    "model_type": "standings",
+    "name": "Home Draw",
+    "stat_group": null
+  },
+  {
+    "id": 138,
+    "code": "home-lost",
+    "developer_name": "HOME_LOST",
+    "model_type": "standings",
+    "name": "Home Lost",
+    "stat_group": null
+  },
+  {
+    "id": 139,
+    "code": "home-scored",
+    "developer_name": "HOME_SCORED",
+    "model_type": "standings",
+    "name": "Home Goals Scored",
+    "stat_group": null
+  },
+  {
+    "id": 140,
+    "code": "home-conceded",
+    "developer_name": "HOME_CONCEDED",
+    "model_type": "standings",
+    "name": "Home Goals Conceded",
+    "stat_group": null
+  },
+  {
+    "id": 141,
+    "code": "away-matches-played",
+    "developer_name": "AWAY_MATCHES",
+    "model_type": "standings",
+    "name": "Away Matched Played",
+    "stat_group": null
+  },
+  {
+    "id": 142,
+    "code": "away-won",
+    "developer_name": "AWAY_WINS",
+    "model_type": "standings",
+    "name": "Away Won",
+    "stat_group": null
+  },
+  {
+    "id": 143,
+    "code": "away-draw",
+    "developer_name": "AWAY_DRAWS",
+    "model_type": "standings",
+    "name": "Away Draw",
+    "stat_group": null
+  },
+  {
+    "id": 144,
+    "code": "away-lost",
+    "developer_name": "AWAY_LOST",
+    "model_type": "standings",
+    "name": "Away Lost",
+    "stat_group": null
+  },
+  {
+    "id": 145,
+    "code": "away-scored",
+    "developer_name": "AWAY_SCORED",
+    "model_type": "standings",
+    "name": "Away Goals Scored",
+    "stat_group": null
+  },
+  {
+    "id": 146,
+    "code": "away-conceded",
+    "developer_name": "AWAY_CONCEDED",
+    "model_type": "standings",
+    "name": "Away Goals Conceded",
+    "stat_group": null
+  },
+  {
+    "id": 147,
+    "code": "promotion",
+    "developer_name": "PROMOTION",
+    "model_type": "standing_rule",
+    "name": "Promotion",
+    "stat_group": null
+  },
+  {
+    "id": 148,
+    "code": "centre-back",
+    "developer_name": "CENTRE_BACK",
+    "model_type": "position",
+    "name": "Centre Back",
+    "stat_group": null
+  },
+  {
+    "id": 149,
+    "code": "defensive-midfied",
+    "developer_name": "DEFENSIVE_MIDFIELD",
+    "model_type": "position",
+    "name": "Defensive Midfield",
+    "stat_group": null
+  },
+  {
+    "id": 150,
+    "code": "attacking-midfied",
+    "developer_name": "ATTACKING_MIDFIELD",
+    "model_type": "position",
+    "name": "Attacking Midfield",
+    "stat_group": null
+  },
+  {
+    "id": 151,
+    "code": "centre-forward",
+    "developer_name": "CENTRE_FORWARD",
+    "model_type": "position",
+    "name": "Centre Forward",
+    "stat_group": null
+  },
+  {
+    "id": 152,
+    "code": "left-wing",
+    "developer_name": "LEFT_WING",
+    "model_type": "position",
+    "name": "Left Wing",
+    "stat_group": null
+  },
+  {
+    "id": 153,
+    "code": "central-midfied",
+    "developer_name": "CENTRAL_MIDFIELD",
+    "model_type": "position",
+    "name": "Central Midfield",
+    "stat_group": null
+  },
+  {
+    "id": 154,
+    "code": "right-back",
+    "developer_name": "RIGHT_BACK",
+    "model_type": "position",
+    "name": "Right Back",
+    "stat_group": null
+  },
+  {
+    "id": 155,
+    "code": "left-back",
+    "developer_name": "LEFT_BACK",
+    "model_type": "position",
+    "name": "Left Back",
+    "stat_group": null
+  },
+  {
+    "id": 156,
+    "code": "right-wing",
+    "developer_name": "RIGHT_WING",
+    "model_type": "position",
+    "name": "Right Wing",
+    "stat_group": null
+  },
+  {
+    "id": 157,
+    "code": "left-midfield",
+    "developer_name": "LEFT_MIDFIELD",
+    "model_type": "position",
+    "name": "Left Midfield",
+    "stat_group": null
+  },
+  {
+    "id": 158,
+    "code": "right-midfield",
+    "developer_name": "RIGHT_MIDFIELD",
+    "model_type": "position",
+    "name": "Right Midfield",
+    "stat_group": null
+  },
+  {
+    "id": 159,
+    "code": "formation",
+    "developer_name": "FORMATION",
+    "model_type": "metadata",
+    "name": "Formation",
+    "stat_group": null
+  },
+  {
+    "id": 160,
+    "code": "ball-coordinates",
+    "developer_name": "BALL_COORDINATES",
+    "model_type": "metadata",
+    "name": "Ball Coordinates",
+    "stat_group": null
+  },
+  {
+    "id": 161,
+    "code": "home-participany-colors",
+    "developer_name": "HOME_PARTICIPANT_COLORS",
+    "model_type": "metadata",
+    "name": "Home Participant Colors",
+    "stat_group": null
+  },
+  {
+    "id": 162,
+    "code": "away-participany-colors",
+    "developer_name": "AWAY_PARTICIPANT_COLORS",
+    "model_type": "metadata",
+    "name": "Away Participant Colors",
+    "stat_group": null
+  },
+  {
+    "id": 163,
+    "code": "secondary_striker",
+    "developer_name": "SECONDARY_STRIKER",
+    "model_type": "position",
+    "name": "Secondary Striker",
+    "stat_group": null
+  },
+  {
+    "id": 164,
+    "code": "has-standings",
+    "developer_name": "HAS_STANDING",
+    "model_type": "metadata",
+    "name": "Has Standings",
+    "stat_group": null
+  },
+  {
+    "id": 165,
+    "code": "has-topscorers",
+    "developer_name": "HAS_TOPSCORERS",
+    "model_type": "metadata",
+    "name": "Has Topscorers",
+    "stat_group": null
+  },
+  {
+    "id": 168,
+    "code": "8th-finals",
+    "developer_name": "8TH_FINALS",
+    "model_type": "standing_rule",
+    "name": "8th Finals",
+    "stat_group": null
+  },
+  {
+    "id": 169,
+    "code": "points",
+    "developer_name": "POINTS",
+    "model_type": "tie_breaker_rule",
+    "name": "Points",
+    "stat_group": null
+  },
+  {
+    "id": 170,
+    "code": "head-to-head",
+    "developer_name": "HEAD_TO_HEAD",
+    "model_type": "tie_breaker_rule",
+    "name": "Head to Head",
+    "stat_group": null
+  },
+  {
+    "id": 171,
+    "code": "goal-difference",
+    "developer_name": "GOAL_DIFFERENCE",
+    "model_type": "tie_breaker_rule",
+    "name": "Goal Difference, Matches Played, Goals Scored",
+    "stat_group": null
+  },
+  {
+    "id": 172,
+    "code": "split-points-rule",
+    "developer_name": "SPLIT_POINTS_RULE",
+    "model_type": "metadata",
+    "name": "Split Points Rule",
+    "stat_group": null
+  },
+  {
+    "id": 173,
+    "code": "points",
+    "developer_name": "POINTS",
+    "model_type": "standing_correction",
+    "name": "Points",
+    "stat_group": null
+  },
+  {
+    "id": 174,
+    "code": "goals-for",
+    "developer_name": "GOALS_FOR",
+    "model_type": "standing_correction",
+    "name": "Goals For",
+    "stat_group": null
+  },
+  {
+    "id": 175,
+    "code": "goals-aginst",
+    "developer_name": "GOALS_AGAINST",
+    "model_type": "standing_correction",
+    "name": "Goals Against",
+    "stat_group": null
+  },
+  {
+    "id": 176,
+    "code": "streak",
+    "developer_name": "STREAK",
+    "model_type": "standings",
+    "name": "Streak",
+    "stat_group": null
+  },
+  {
+    "id": 179,
+    "code": "goal-difference",
+    "developer_name": "OVERALL_GOAL_DIFFERENCE",
+    "model_type": "standings",
+    "name": "Goal Difference",
+    "stat_group": null
+  },
+  {
+    "id": 180,
+    "code": "uefa-champions-league",
+    "developer_name": "UEFA_CHAMPIONS_LEAGUE",
+    "model_type": "standing_rule",
+    "name": "UEFA Champions League",
+    "stat_group": null
+  },
+  {
+    "id": 181,
+    "code": "uefa-europa-league",
+    "developer_name": "UEFA_EUROPA_LEAGUE",
+    "model_type": "standing_rule",
+    "name": "UEFA Europa League",
+    "stat_group": null
+  },
+  {
+    "id": 182,
+    "code": "relegation",
+    "developer_name": "RELEGATION",
+    "model_type": "standing_rule",
+    "name": "Relegation",
+    "stat_group": null
+  },
+  {
+    "id": 183,
+    "code": "championship-round",
+    "developer_name": "CHAMPIONSHIP_ROUND",
+    "model_type": "standing_rule",
+    "name": "Championship Round",
+    "stat_group": null
+  },
+  {
+    "id": 184,
+    "code": "relegation-round",
+    "developer_name": "RELEGATION_ROUND",
+    "model_type": "standing_rule",
+    "name": "Relegation Round",
+    "stat_group": null
+  },
+  {
+    "id": 185,
+    "code": "home-points",
+    "developer_name": "HOME_POINTS",
+    "model_type": "standings",
+    "name": "Home Points",
+    "stat_group": null
+  },
+  {
+    "id": 186,
+    "code": "away-points",
+    "developer_name": "AWAY_POINTS",
+    "model_type": "standings",
+    "name": "Away Points",
+    "stat_group": null
+  },
+  {
+    "id": 187,
+    "code": "overall-points",
+    "developer_name": "TOTAL_POINTS",
+    "model_type": "standings",
+    "name": "Overall Points",
+    "stat_group": null
+  },
+  {
+    "id": 188,
+    "code": "matches",
+    "developer_name": "MATCHES",
+    "model_type": "statistic",
+    "name": "Season Matches",
+    "stat_group": null
+  },
+  {
+    "id": 189,
+    "code": "total-teams",
+    "developer_name": "TOTAL_TEAMS",
+    "model_type": "statistic",
+    "name": "Season Teams",
+    "stat_group": null
+  },
+  {
+    "id": 190,
+    "code": "matches-ended-in-draw",
+    "developer_name": "MATCHES_ENDED_IN_DRAW",
+    "model_type": "statistic",
+    "name": "Matches Ended In Draw",
+    "stat_group": null
+  },
+  {
+    "id": 191,
+    "code": "number-of-goals",
+    "developer_name": "NUMBER_OF_GOALS",
+    "model_type": "statistic",
+    "name": "Number Of Goals",
+    "stat_group": null
+  },
+  {
+    "id": 192,
+    "code": "btts",
+    "developer_name": "BTTS",
+    "model_type": "statistic",
+    "name": "Both Teams To Score",
+    "stat_group": null
+  },
+  {
+    "id": 193,
+    "code": "cards",
+    "developer_name": "CARDS",
+    "model_type": "statistic",
+    "name": "Cards",
+    "stat_group": null
+  },
+  {
+    "id": 194,
+    "code": "cleansheets",
+    "developer_name": "CLEANSHEET",
+    "model_type": "statistic",
+    "name": "Cleansheets",
+    "stat_group": null
+  },
+  {
+    "id": 195,
+    "code": "goalkeeper-cleansheets",
+    "developer_name": "GOALKEEPER_CLEANSHEET",
+    "model_type": "statistic",
+    "name": "Goalkeeper Cleansheets",
+    "stat_group": null
+  },
+  {
+    "id": 196,
+    "code": "scoring-minutes",
+    "developer_name": "SCORING_MINUTES",
+    "model_type": "statistic",
+    "name": "Scoring Minutes",
+    "stat_group": null
+  },
+  {
+    "id": 197,
+    "code": "goal-line",
+    "developer_name": "GOAL_LINE",
+    "model_type": "statistic",
+    "name": "Goal Line",
+    "stat_group": null
+  },
+  {
+    "id": 201,
+    "code": "win-percentage",
+    "developer_name": "WIN_PERCENTAGE",
+    "model_type": "statistic",
+    "name": "Win Percentage",
+    "stat_group": null
+  },
+  {
+    "id": 202,
+    "code": "defeat-percentage",
+    "developer_name": "DEFEAT_PERCENTAGE",
+    "model_type": "statistic",
+    "name": "Defeat Percentage",
+    "stat_group": null
+  },
+  {
+    "id": 203,
+    "code": "draw-percentage",
+    "developer_name": "DRAW_PERCENTAGE",
+    "model_type": "statistic",
+    "name": "Draw Percentage",
+    "stat_group": null
+  },
+  {
+    "id": 204,
+    "code": "participant-most-scored",
+    "developer_name": "PARTICIPANT_MOST_SCORED",
+    "model_type": "statistic",
+    "name": "Most Scored",
+    "stat_group": null
+  },
+  {
+    "id": 205,
+    "code": "participant-most-conceded",
+    "developer_name": "PARTICIPANT_MOST_CONCEDED",
+    "model_type": "statistic",
+    "name": "Most Conceded",
+    "stat_group": null
+  },
+  {
+    "id": 206,
+    "code": "participant-most-scored-per-match",
+    "developer_name": "PARTICIPANT_MOST_SCORED_PER_MATCH",
+    "model_type": "statistic",
+    "name": "Most Scored Per Match",
+    "stat_group": null
+  },
+  {
+    "id": 207,
+    "code": "participant-most-conceded-per-match",
+    "developer_name": "PARTICIPANT_MOST_CONCEDED_PER_MATCH",
+    "model_type": "statistic",
+    "name": "Most Conceded Per Match",
+    "stat_group": null
+  },
+  {
+    "id": 208,
+    "code": "goal-topscorer",
+    "developer_name": "GOAL_TOPSCORER",
+    "model_type": "statistic",
+    "name": "Goal Topscorer",
+    "stat_group": null
+  },
+  {
+    "id": 209,
+    "code": "assist-topscorer",
+    "developer_name": "ASSIST_TOPSCORER",
+    "model_type": "statistic",
+    "name": "Assist Topscorer",
+    "stat_group": null
+  },
+  {
+    "id": 210,
+    "code": "card-topscorer",
+    "developer_name": "CARD_TOPSCORER",
+    "model_type": "statistic",
+    "name": "Card Topscorer",
+    "stat_group": null
+  },
+  {
+    "id": 211,
+    "code": "highest-rated-player",
+    "developer_name": "HIGHEST_RATED_PLAYER",
+    "model_type": "statistic",
+    "name": "Highest Rated Player",
+    "stat_group": null
+  },
+  {
+    "id": 212,
+    "code": "highest-rated-team",
+    "developer_name": "HIGHEST_RATED_TEAM",
+    "model_type": "statistic",
+    "name": "Highest Rated Team",
+    "stat_group": null
+  },
+  {
+    "id": 213,
+    "code": "conceded-scoring-minutes",
+    "developer_name": "CONCEDED_SCORING_MINUTES",
+    "model_type": "statistic",
+    "name": "Conceded Scoring Minutes",
+    "stat_group": null
+  },
+  {
+    "id": 214,
+    "code": "team-wins",
+    "developer_name": "WIN",
+    "model_type": "statistic",
+    "name": "Team Wins",
+    "stat_group": null
+  },
+  {
+    "id": 215,
+    "code": "team-draws",
+    "developer_name": "DRAW",
+    "model_type": "statistic",
+    "name": "Team Draws",
+    "stat_group": null
+  },
+  {
+    "id": 216,
+    "code": "team-lost",
+    "developer_name": "LOST",
+    "model_type": "statistic",
+    "name": "Team Lost",
+    "stat_group": null
+  },
+  {
+    "id": 217,
+    "code": "major-league",
+    "developer_name": "MAJOR_LEAGUE",
+    "model_type": "metadata",
+    "name": "Major League",
+    "stat_group": null
+  },
+  {
+    "id": 218,
+    "code": "loan-transfer",
+    "developer_name": "LOAN_TRANSFER",
+    "model_type": "transfer",
+    "name": "Loan",
+    "stat_group": null
+  },
+  {
+    "id": 219,
+    "code": "transfer",
+    "developer_name": "TRANSFER",
+    "model_type": "transfer",
+    "name": "Transfer",
+    "stat_group": null
+  },
+  {
+    "id": 220,
+    "code": "free-transfer",
+    "developer_name": "FREE_TRANSFER",
+    "model_type": "transfer",
+    "name": "Free Transfer",
+    "stat_group": null
+  },
+  {
+    "id": 221,
+    "code": "coach",
+    "developer_name": "COACH",
+    "model_type": "position",
+    "name": "Coach",
+    "stat_group": null
+  },
+  {
+    "id": 222,
+    "code": "provides-news",
+    "developer_name": "PROVIDES_NEWS",
+    "model_type": "metadata",
+    "name": "Provides News",
+    "stat_group": null
+  },
+  {
+    "id": 223,
+    "code": "group-stage",
+    "developer_name": "GROUP_STAGE",
+    "model_type": "stage_type",
+    "name": "Group Stage",
+    "stat_group": null
+  },
+  {
+    "id": 224,
+    "code": "knock-out",
+    "developer_name": "KNOCK_OUT",
+    "model_type": "stage_type",
+    "name": "Knock Out",
+    "stat_group": null
+  },
+  {
+    "id": 225,
+    "code": "qualifying",
+    "developer_name": "QUALIFYING",
+    "model_type": "stage_type",
+    "name": "Qualifying",
+    "stat_group": null
+  },
+  {
+    "id": 226,
+    "code": "assistant-coach",
+    "developer_name": "ASSISTANT_COACH",
+    "model_type": "position",
+    "name": "Assistant Coach",
+    "stat_group": null
+  },
+  {
+    "id": 227,
+    "code": "goalkeeping-coach",
+    "developer_name": "GOALKEEPING_COACH",
+    "model_type": "position",
+    "name": "Goalkeeping Coach",
+    "stat_group": null
+  },
+  {
+    "id": 228,
+    "code": "forward-coach",
+    "developer_name": "FORWARD_COACH",
+    "model_type": "position",
+    "name": "Forward Coach",
+    "stat_group": null
+  },
+  {
+    "id": 229,
+    "code": "preferred-foot",
+    "developer_name": "PREFERRED_FOOT",
+    "model_type": "metadata",
+    "name": "Preferred Foot",
+    "stat_group": null
+  },
+  {
+    "id": 230,
+    "code": "rule-color",
+    "developer_name": "RULE_COLOR",
+    "model_type": "metadata",
+    "name": "Rule Color",
+    "stat_group": null
+  },
+  {
+    "id": 231,
+    "code": "both-teams-to-score-probability",
+    "developer_name": "BTTS_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Both Teams To Score Probability",
+    "stat_group": null
+  },
+  {
+    "id": 232,
+    "code": "half-time-full-time-probability",
+    "developer_name": "HTFT_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Half Time/Full Time Probability",
+    "stat_group": null
+  },
+  {
+    "id": 233,
+    "code": "first-half-winner",
+    "developer_name": "FIRST_HALF_WINNER_PROBABILITY",
+    "model_type": "prediction",
+    "name": "First Half Winner Probability",
+    "stat_group": null
+  },
+  {
+    "id": 234,
+    "code": "over-under-1_5-probability",
+    "developer_name": "OVER_UNDER_1_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Over/Under 1.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 235,
+    "code": "over-under-2_5-probability",
+    "developer_name": "OVER_UNDER_2_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Over/Under 2.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 236,
+    "code": "over-under-3_5_probability",
+    "developer_name": "OVER_UNDER_3_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Over/Under 3.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 237,
+    "code": "fulltime-result-probability",
+    "developer_name": "FULLTIME_RESULT_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Fulltime Result Probability",
+    "stat_group": null
+  },
+  {
+    "id": 238,
+    "code": "team_to_score_first-probability",
+    "developer_name": "TEAM_TO_SCORE_FIRST_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Team To Score First Probability",
+    "stat_group": null
+  },
+  {
+    "id": 239,
+    "code": "double_chance-probability",
+    "developer_name": "DOUBLE_CHANCE_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Double Chance Probability",
+    "stat_group": null
+  },
+  {
+    "id": 240,
+    "code": "correct-score-probability",
+    "developer_name": "CORRECT_SCORE_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Correct Score Probability",
+    "stat_group": null
+  },
+  {
+    "id": 241,
+    "code": "historical-log-loss",
+    "developer_name": "HISTORICAL_LOG_LOSS",
+    "model_type": "prediction",
+    "name": "Historical Log Loss",
+    "stat_group": null
+  },
+  {
+    "id": 242,
+    "code": "model-hit-ratio",
+    "developer_name": "MODEL_HIT_RATIO",
+    "model_type": "prediction",
+    "name": "Model Hit Ratio",
+    "stat_group": null
+  },
+  {
+    "id": 243,
+    "code": "model-predictability",
+    "developer_name": "MODEL_PREDICTABILITY",
+    "model_type": "prediction",
+    "name": "Model Predictability",
+    "stat_group": null
+  },
+  {
+    "id": 244,
+    "code": "model-predictive-power",
+    "developer_name": "MODEL_PREDICTIVE_POWER",
+    "model_type": "prediction",
+    "name": "Model Predictive Power",
+    "stat_group": null
+  },
+  {
+    "id": 245,
+    "code": "models-log-loss",
+    "developer_name": "MODELS_LOG_LOSS",
+    "model_type": "prediction",
+    "name": "Models Log Loss",
+    "stat_group": null
+  },
+  {
+    "id": 246,
+    "code": "uefa-champions-league-qualifiers",
+    "developer_name": "UEFA_CHAMPIONS_LEAGUE_QUALIFIERS",
+    "model_type": "standing_rule",
+    "name": "UEFA Champions League Qualifiers",
+    "stat_group": null
+  },
+  {
+    "id": 247,
+    "code": "uefa-cup",
+    "developer_name": "UEFA_CUP",
+    "model_type": "standing_rule",
+    "name": "UEFA Cup",
+    "stat_group": null
+  },
+  {
+    "id": 248,
+    "code": "intertoto-cup",
+    "developer_name": "INTERTOTO_CUP",
+    "model_type": "standing_rule",
+    "name": "Intertoto Cup",
+    "stat_group": null
+  },
+  {
+    "id": 249,
+    "code": "relegation-play-off",
+    "developer_name": "RELEGATION_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Relegation Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 250,
+    "code": "possible-relegation",
+    "developer_name": "POSSIBLE__RELEGATION",
+    "model_type": "standing_rule",
+    "name": "Possible Relegation",
+    "stat_group": null
+  },
+  {
+    "id": 251,
+    "code": "promotion-group",
+    "developer_name": "PROMOTION_GROUP",
+    "model_type": "standing_rule",
+    "name": "Promotion Group",
+    "stat_group": null
+  },
+  {
+    "id": 252,
+    "code": "relegation-group",
+    "developer_name": "RELEGATION_GROUP",
+    "model_type": "standing_rule",
+    "name": "Relegation Group",
+    "stat_group": null
+  },
+  {
+    "id": 254,
+    "code": "champions-league-qualifiers-play-off",
+    "developer_name": "CHAMPIONS_LEAGUE_QUALIFIERS_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Champions League Qualifiers Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 255,
+    "code": "next-round",
+    "developer_name": "NEXT_ROUND",
+    "model_type": "standing_rule",
+    "name": "Next Round",
+    "stat_group": null
+  },
+  {
+    "id": 256,
+    "code": "semi-finals",
+    "developer_name": "SEMI_FINALS",
+    "model_type": "standing_rule",
+    "name": "Semi-finals",
+    "stat_group": null
+  },
+  {
+    "id": 257,
+    "code": "final-tournament",
+    "developer_name": "FINAL_TOURNAMENT",
+    "model_type": "standing_rule",
+    "name": "Final Tournament",
+    "stat_group": null
+  },
+  {
+    "id": 258,
+    "code": "intercontinental-play-off",
+    "developer_name": "INTERCONTINENTAL_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Intercontinental Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 259,
+    "code": "final-tournament-or-play-offs",
+    "developer_name": "FINAL_TOURNAMENT_OR_PLAY_OFFS",
+    "model_type": "standing_rule",
+    "name": "Final Tournament or Play-offs",
+    "stat_group": null
+  },
+  {
+    "id": 260,
+    "code": "afc-champions-league-qualifiers",
+    "developer_name": "AFC_CHAMPIONS_LEAGUE_QUALIFIERS",
+    "model_type": "standing_rule",
+    "name": "AFC Champions League Qualifiers",
+    "stat_group": null
+  },
+  {
+    "id": 261,
+    "code": "afc-cup",
+    "developer_name": "AFC_CUP",
+    "model_type": "standing_rule",
+    "name": "AFC Cup",
+    "stat_group": null
+  },
+  {
+    "id": 262,
+    "code": "possible-8th-finals",
+    "developer_name": "POSSIBLE_8TH_FINALS",
+    "model_type": "standing_rule",
+    "name": "Possible 8th Finals",
+    "stat_group": null
+  },
+  {
+    "id": 263,
+    "code": "uefa-europa-league-play-off",
+    "developer_name": "UEFA_EUROPA_LEAGUE_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "UEFA Europa League Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 264,
+    "code": "promotion-play-off",
+    "developer_name": "PROMOTION_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Promotion Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 265,
+    "code": "uefa-europa-league-qualifiers",
+    "developer_name": "UEFA_EUROPA_LEAGUE_QUALIFIERS",
+    "model_type": "standing_rule",
+    "name": "UEFA Europa League Qualifiers",
+    "stat_group": null
+  },
+  {
+    "id": 266,
+    "code": "middle-play-off",
+    "developer_name": "MIDDLE_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Middle Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 267,
+    "code": "champion",
+    "developer_name": "CHAMPION",
+    "model_type": "standing_rule",
+    "name": "Champion",
+    "stat_group": null
+  },
+  {
+    "id": 268,
+    "code": "conmebol-libertadores",
+    "developer_name": "CONMEBOL_LIBERTADORES",
+    "model_type": "standing_rule",
+    "name": "CONMEBOL Libertadores",
+    "stat_group": null
+  },
+  {
+    "id": 269,
+    "code": "final-series-play-offs",
+    "developer_name": "FINAL_SERIES_PLAY_OFFS",
+    "model_type": "standing_rule",
+    "name": "Final Series Play-offs",
+    "stat_group": null
+  },
+  {
+    "id": 270,
+    "code": "possible-final",
+    "developer_name": "POSSIBLE_FINAL",
+    "model_type": "standing_rule",
+    "name": "Possible Final",
+    "stat_group": null
+  },
+  {
+    "id": 271,
+    "code": "possible-final-tournament",
+    "developer_name": "POSSIBLE_FINAL_TOURNAMENT",
+    "model_type": "standing_rule",
+    "name": "Possible Final Tournament",
+    "stat_group": null
+  },
+  {
+    "id": 272,
+    "code": "possible-next-round",
+    "developer_name": "POSSIBLE_NEXT_ROUND",
+    "model_type": "standing_rule",
+    "name": "Possible Next Round",
+    "stat_group": null
+  },
+  {
+    "id": 273,
+    "code": "caf-champions-league",
+    "developer_name": "CAF_CHAMPIONS_LEAGUE",
+    "model_type": "standing_rule",
+    "name": "CAF Champions League",
+    "stat_group": null
+  },
+  {
+    "id": 274,
+    "code": "caf-confederation-cup",
+    "developer_name": "CAF_CONFEDERATION_CUP",
+    "model_type": "standing_rule",
+    "name": "CAF Confederation Cup",
+    "stat_group": null
+  },
+  {
+    "id": 275,
+    "code": "quarter-finals",
+    "developer_name": "QUARTER_FINALS",
+    "model_type": "standing_rule",
+    "name": "Quarter-finals",
+    "stat_group": null
+  },
+  {
+    "id": 276,
+    "code": "possible-semi-finals",
+    "developer_name": "POSSIBLE_SEMI_FINALS",
+    "model_type": "standing_rule",
+    "name": "Possible Semi-finals",
+    "stat_group": null
+  },
+  {
+    "id": 277,
+    "code": "world-cup",
+    "developer_name": "WORLD_CUP",
+    "model_type": "standing_rule",
+    "name": "World Cup",
+    "stat_group": null
+  },
+  {
+    "id": 278,
+    "code": "play-off",
+    "developer_name": "PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 279,
+    "code": "final-series",
+    "developer_name": "FINAL_SERIES",
+    "model_type": "standing_rule",
+    "name": "Final Series",
+    "stat_group": null
+  },
+  {
+    "id": 280,
+    "code": "final",
+    "developer_name": "FINAL",
+    "model_type": "standing_rule",
+    "name": "Final",
+    "stat_group": null
+  },
+  {
+    "id": 281,
+    "code": "concacaf-champions-league",
+    "developer_name": "CONCACAF_CHAMPIONS_LEAGUE",
+    "model_type": "standing_rule",
+    "name": "CONCACAF Champions League",
+    "stat_group": null
+  },
+  {
+    "id": 282,
+    "code": "lower-table-round",
+    "developer_name": "LOWER_TABLE_ROUND",
+    "model_type": "standing_rule",
+    "name": "Lower Table Round",
+    "stat_group": null
+  },
+  {
+    "id": 283,
+    "code": "caf-champions-league-qualifiers",
+    "developer_name": "CAF_CHAMPIONS_LEAGUE_QUALIFIERS",
+    "model_type": "standing_rule",
+    "name": "CAF Champions League Qualifiers",
+    "stat_group": null
+  },
+  {
+    "id": 284,
+    "code": "afc-champions-league",
+    "developer_name": "AFC_CHAMPIONS_LEAGUE",
+    "model_type": "standing_rule",
+    "name": "AFC Champions League",
+    "stat_group": null
+  },
+  {
+    "id": 285,
+    "code": "cfu-club-championship",
+    "developer_name": "CFU_CLUB_CHAMPIONSHIP",
+    "model_type": "standing_rule",
+    "name": "CFU Club Championship",
+    "stat_group": null
+  },
+  {
+    "id": 286,
+    "code": "conmebol-libertadores-qualifiers",
+    "developer_name": "CONMEBOL_LIBERTADORES_QUALIFIERS",
+    "model_type": "standing_rule",
+    "name": "CONMEBOL Libertadores Qualifiers",
+    "stat_group": null
+  },
+  {
+    "id": 287,
+    "code": "conmebol-sudamericana",
+    "developer_name": "CONMEBOL_SUDAMERICANA",
+    "model_type": "standing_rule",
+    "name": "CONMEBOL Sudamericana",
+    "stat_group": null
+  },
+  {
+    "id": 288,
+    "code": "champion-play-off",
+    "developer_name": "CHAMPION_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Champion Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 289,
+    "code": "uefa-conference-league-qualifiers",
+    "developer_name": "UEFA_CONFERENCE_LEAGUE_QUALIFIERS",
+    "model_type": "standing_rule",
+    "name": "UEFA Conference League Qualifiers",
+    "stat_group": null
+  },
+  {
+    "id": 290,
+    "code": "afc-cup-play-offs",
+    "developer_name": "AFC_CUP_PLAY_OFFS",
+    "model_type": "standing_rule",
+    "name": "AFC Cup Play-offs",
+    "stat_group": null
+  },
+  {
+    "id": 291,
+    "code": "championship-round-play-offs",
+    "developer_name": "CHAMPIONSHIP_ROUND_PLAY_OFFS",
+    "model_type": "standing_rule",
+    "name": "Championship Round Play-offs",
+    "stat_group": null
+  },
+  {
+    "id": 292,
+    "code": "possible-promotion-play-off",
+    "developer_name": "POSSIBLE_PROMOTION_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Possible Promotion Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 293,
+    "code": "uefa-conference-league-play-offs",
+    "developer_name": "UEFA_CONFERENCE_LEAGUE_PLAY_OFFS",
+    "model_type": "standing_rule",
+    "name": "UEFA Conference League Play-offs",
+    "stat_group": null
+  },
+  {
+    "id": 294,
+    "code": "3rd-place-final",
+    "developer_name": "3RD_PLACE_FINAL",
+    "model_type": "standing_rule",
+    "name": "3rd Place Final",
+    "stat_group": null
+  },
+  {
+    "id": 295,
+    "code": "bottom-play-offs",
+    "developer_name": "BOTTOM_PLAY_OFFS",
+    "model_type": "standing_rule",
+    "name": "Bottom Play-offs",
+    "stat_group": null
+  },
+  {
+    "id": 296,
+    "code": "ofc-champions-league",
+    "developer_name": "OFC_CHAMPIONS_LEAGUE",
+    "model_type": "standing_rule",
+    "name": "OFC Champions League",
+    "stat_group": null
+  },
+  {
+    "id": 297,
+    "code": "possible-quarter-finals",
+    "developer_name": "POSSIBLE_QUARTER_FINALS",
+    "model_type": "standing_rule",
+    "name": "Possible Quarter-finals",
+    "stat_group": null
+  },
+  {
+    "id": 298,
+    "code": "16th-finals",
+    "developer_name": "16TH_FINALS",
+    "model_type": "standing_rule",
+    "name": "16th Finals",
+    "stat_group": null
+  },
+  {
+    "id": 299,
+    "code": "uefa-conference-league-qualifiers-play-off",
+    "developer_name": "UEFA_CONFERENCE_LEAGUE_QUALIFIERS_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "UEFA Conference League Qualifiers Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 300,
+    "code": "preliminary-promotion-play-off",
+    "developer_name": "PRELIMINARY_PROMOTION_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Preliminary Promotion Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 301,
+    "code": "final-round-play-off",
+    "developer_name": "FINAL_ROUND_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Final Round Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 302,
+    "code": "caf-confederation-cup-qualifiers",
+    "developer_name": "CAF_CONFEDERATION_CUP_QUALIFIERS",
+    "model_type": "standing_rule",
+    "name": "CAF Confederation Cup Qualifiers",
+    "stat_group": null
+  },
+  {
+    "id": 303,
+    "code": "5th-8th-place-play-offs",
+    "developer_name": "5TH_8TH_PLACE_PLAY_OFFS",
+    "model_type": "standing_rule",
+    "name": "5th-8th Place Play-offs",
+    "stat_group": null
+  },
+  {
+    "id": 304,
+    "code": "5th-place-final",
+    "developer_name": "5TH_PLACE_FINAL",
+    "model_type": "standing_rule",
+    "name": "5th Place Final",
+    "stat_group": null
+  },
+  {
+    "id": 305,
+    "code": "7th-place-final",
+    "developer_name": "7TH_PLACE_FINAL",
+    "model_type": "standing_rule",
+    "name": "7th Place Final",
+    "stat_group": null
+  },
+  {
+    "id": 306,
+    "code": "final-serie",
+    "developer_name": "FINAL_SERIE",
+    "model_type": "standing_rule",
+    "name": "Final Serie",
+    "stat_group": null
+  },
+  {
+    "id": 307,
+    "code": "play-offs",
+    "developer_name": "PLAY_OFFS",
+    "model_type": "standing_rule",
+    "name": "Play-offs",
+    "stat_group": null
+  },
+  {
+    "id": 308,
+    "code": "9th-place-final",
+    "developer_name": "9TH_PLACE_FINAL",
+    "model_type": "standing_rule",
+    "name": "9th Place Final",
+    "stat_group": null
+  },
+  {
+    "id": 309,
+    "code": "11th-place-final",
+    "developer_name": "11TH_PLACE_FINAL",
+    "model_type": "standing_rule",
+    "name": "11th Place Final",
+    "stat_group": null
+  },
+  {
+    "id": 310,
+    "code": "possible-final-series",
+    "developer_name": "POSSIBLE_FINAL_SERIES",
+    "model_type": "standing_rule",
+    "name": "Possible Final Series",
+    "stat_group": null
+  },
+  {
+    "id": 311,
+    "code": "possible-play-off",
+    "developer_name": "POSSIBLE_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Possible Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 312,
+    "code": "possible-relegation-play-off",
+    "developer_name": "POSSIBLE_RELEGATION_PLAY_OFF",
+    "model_type": "standing_rule",
+    "name": "Possible Relegation Play-off",
+    "stat_group": null
+  },
+  {
+    "id": 313,
+    "code": "possible-promotion",
+    "developer_name": "POSSIBLE_PROMOTION",
+    "model_type": "standing_rule",
+    "name": "Possible Promotion",
+    "stat_group": null
+  },
+  {
+    "id": 314,
+    "code": "var-moments",
+    "developer_name": "VAR_MOMENTS",
+    "model_type": "statistic",
+    "name": "VAR Moments",
+    "stat_group": null
+  },
+  {
+    "id": 315,
+    "code": "outgroup-matches",
+    "developer_name": "OUTGROUP_MATCHES",
+    "model_type": "metadata",
+    "name": "Has Outgroup Matches",
+    "stat_group": null
+  },
+  {
+    "id": 316,
+    "code": "championship-round-relegation-round",
+    "developer_name": "CHAMPIONSHIP_ROUND_RELEGATION_ROUND",
+    "model_type": "standing_rule",
+    "name": "Championship Round Relegation Round",
+    "stat_group": null
+  },
+  {
+    "id": 321,
+    "code": "appearances",
+    "developer_name": "APPEARANCES",
+    "model_type": "statistic",
+    "name": "Appearances",
+    "stat_group": null
+  },
+  {
+    "id": 322,
+    "code": "lineups",
+    "developer_name": "LINEUPS",
+    "model_type": "statistic",
+    "name": "Lineups",
+    "stat_group": null
+  },
+  {
+    "id": 323,
+    "code": "bench",
+    "developer_name": "BENCH",
+    "model_type": "statistic",
+    "name": "Bench",
+    "stat_group": null
+  },
+  {
+    "id": 324,
+    "code": "own-goals",
+    "developer_name": "OWN_GOALS",
+    "model_type": "statistic",
+    "name": "Own Goals",
+    "stat_group": null
+  },
+  {
+    "id": 326,
+    "code": "home-over-under-3_5_probability",
+    "developer_name": "HOME_OVER_UNDER_3_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Home Over/Under 3.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 327,
+    "code": "away-over-under-3_5_probability",
+    "developer_name": "AWAY_OVER_UNDER_3_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Away Over/Under 3.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 328,
+    "code": "away-over-under-2_5_probability",
+    "developer_name": "AWAY_OVER_UNDER_2_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Away Over/Under 2.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 330,
+    "code": "home-over-under-2_5_probability",
+    "developer_name": "HOME_OVER_UNDER_2_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Home Over/Under 2.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 331,
+    "code": "home-over-under-1_5_probability",
+    "developer_name": "HOME_OVER_UNDER_1_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Home Over/Under 1.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 332,
+    "code": "away-over-under-1_5_probability",
+    "developer_name": "AWAY_OVER_UNDER_1_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Away Over/Under 1.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 333,
+    "code": "away-over-under-0_5_probability",
+    "developer_name": "AWAY_OVER_UNDER_0_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Away Over/Under 0.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 334,
+    "code": "home-over-under-0_5_probability",
+    "developer_name": "HOME_OVER_UNDER_0_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Home Over/Under 0.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 335,
+    "code": "over-under-0_5-probability",
+    "developer_name": "OVER_UNDER_0_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Over/Under 0.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 336,
+    "code": "ill",
+    "developer_name": "ILL",
+    "model_type": "injury_suspension",
+    "name": "Ill",
+    "stat_group": null
+  },
+  {
+    "id": 337,
+    "code": "cruciate-ligament-rupture",
+    "developer_name": "CRUCIATE_LIGAMENT_RUPTURE",
+    "model_type": "injury_suspension",
+    "name": "Cruciate Ligament Rupture",
+    "stat_group": null
+  },
+  {
+    "id": 339,
+    "code": "groin-injury",
+    "developer_name": "GROIN_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Groin Injury",
+    "stat_group": null
+  },
+  {
+    "id": 531,
+    "code": "knock",
+    "developer_name": "KNOCK",
+    "model_type": "injury_suspension",
+    "name": "Knock",
+    "stat_group": null
+  },
+  {
+    "id": 532,
+    "code": "calf-injury",
+    "developer_name": "CALF_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Calf Injury",
+    "stat_group": null
+  },
+  {
+    "id": 533,
+    "code": "thigh-problems",
+    "developer_name": "THIGH_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Thigh Problems",
+    "stat_group": null
+  },
+  {
+    "id": 534,
+    "code": "fibula-fracture",
+    "developer_name": "FIBULA_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Fibula Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 535,
+    "code": "hamstring-injury",
+    "developer_name": "HAMSTRING_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Hamstring Injury",
+    "stat_group": null
+  },
+  {
+    "id": 536,
+    "code": "knee-injury",
+    "developer_name": "KNEE_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Knee Injury",
+    "stat_group": null
+  },
+  {
+    "id": 537,
+    "code": "ankle-injury",
+    "developer_name": "ANKLE_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Ankle Injury",
+    "stat_group": null
+  },
+  {
+    "id": 538,
+    "code": "covid-19",
+    "developer_name": "COVID_19",
+    "model_type": "injury_suspension",
+    "name": "COVID 19",
+    "stat_group": null
+  },
+  {
+    "id": 540,
+    "code": "knee-surgery",
+    "developer_name": "KNEE_SURGERY",
+    "model_type": "injury_suspension",
+    "name": "Knee Surgery",
+    "stat_group": null
+  },
+  {
+    "id": 541,
+    "code": "ankle-fracture",
+    "developer_name": "ANKLE_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Ankle Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 542,
+    "code": "metatarsal-fracture",
+    "developer_name": "METATARSAL_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Metatarsal Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 543,
+    "code": "pubitis",
+    "developer_name": "PUBITIS",
+    "model_type": "injury_suspension",
+    "name": "Pubitis",
+    "stat_group": null
+  },
+  {
+    "id": 544,
+    "code": "thigh-muscle-rupture",
+    "developer_name": "THIGH_MUSCLE_RUPTURE",
+    "model_type": "injury_suspension",
+    "name": "Thigh muscle rupture",
+    "stat_group": null
+  },
+  {
+    "id": 545,
+    "code": "shoulder-injury",
+    "developer_name": "SHOULDER_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Shoulder Injury",
+    "stat_group": null
+  },
+  {
+    "id": 546,
+    "code": "ruptured-cruciate-ligament",
+    "developer_name": "RUPTURED_CRUCIATE_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Ruptured cruciate ligament",
+    "stat_group": null
+  },
+  {
+    "id": 547,
+    "code": "fitness",
+    "developer_name": "FITNESS",
+    "model_type": "injury_suspension",
+    "name": "Fitness",
+    "stat_group": null
+  },
+  {
+    "id": 548,
+    "code": "groin-surgery",
+    "developer_name": "GROIN_SURGERY",
+    "model_type": "injury_suspension",
+    "name": "Groin Surgery",
+    "stat_group": null
+  },
+  {
+    "id": 549,
+    "code": "foot-injury",
+    "developer_name": "FOOT_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Foot Injury",
+    "stat_group": null
+  },
+  {
+    "id": 550,
+    "code": "concussion",
+    "developer_name": "CONCUSSION",
+    "model_type": "injury_suspension",
+    "name": "Concussion",
+    "stat_group": null
+  },
+  {
+    "id": 551,
+    "code": "hip-injury",
+    "developer_name": "HIP_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Hip Injury",
+    "stat_group": null
+  },
+  {
+    "id": 552,
+    "code": "leg-injury",
+    "developer_name": "LEG_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Leg Injury",
+    "stat_group": null
+  },
+  {
+    "id": 553,
+    "code": "inguinal-hernia",
+    "developer_name": "INGUINAL_HERNIA",
+    "model_type": "injury_suspension",
+    "name": "Inguinal Hernia",
+    "stat_group": null
+  },
+  {
+    "id": 554,
+    "code": "muscle-injury",
+    "developer_name": "MUSCLE_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Muscle Injury",
+    "stat_group": null
+  },
+  {
+    "id": 555,
+    "code": "thumb-injury",
+    "developer_name": "THUMB_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Thumb Injury",
+    "stat_group": null
+  },
+  {
+    "id": 556,
+    "code": "heart-condition",
+    "developer_name": "HEART_CONDITION",
+    "model_type": "injury_suspension",
+    "name": "Heart Condition",
+    "stat_group": null
+  },
+  {
+    "id": 557,
+    "code": "cruciate-ligament-injury",
+    "developer_name": "CRUCIATE_LIGAMENT_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Cruciate Ligament Injury",
+    "stat_group": null
+  },
+  {
+    "id": 558,
+    "code": "foot-surgery",
+    "developer_name": "FOOT_SURGERY",
+    "model_type": "injury_suspension",
+    "name": "Foot surgery",
+    "stat_group": null
+  },
+  {
+    "id": 559,
+    "code": "calculates_thropies",
+    "developer_name": "CALCULATES_TROPHIES",
+    "model_type": "metadata",
+    "name": "Calculates Trophies",
+    "stat_group": null
+  },
+  {
+    "id": 560,
+    "code": "caretaker-manager",
+    "developer_name": "CARETAKER_MANAGER",
+    "model_type": "position",
+    "name": "Caretaker Manager",
+    "stat_group": null
+  },
+  {
+    "id": 561,
+    "code": "suspended",
+    "developer_name": "SUSPENDED",
+    "model_type": "injury_suspension",
+    "name": "Suspended",
+    "stat_group": null
+  },
+  {
+    "id": 562,
+    "code": "twisted-knee",
+    "developer_name": "TWISTED_KNEE",
+    "model_type": "injury_suspension",
+    "name": "Twisted knee",
+    "stat_group": null
+  },
+  {
+    "id": 563,
+    "code": "skip-season-topscorer-calculation",
+    "developer_name": "SKIP_SEASON_TOPSCORERS_CALCULATION",
+    "model_type": "metadata",
+    "name": "Skip Season Topscorer Calculation",
+    "stat_group": null
+  },
+  {
+    "id": 567,
+    "code": "pitch",
+    "developer_name": "PITCH",
+    "model_type": "metadata",
+    "name": "Pitch",
+    "stat_group": null
+  },
+  {
+    "id": 568,
+    "code": "offside",
+    "developer_name": "OFFSIDE",
+    "model_type": "timeline",
+    "name": "Offside",
+    "stat_group": null
+  },
+  {
+    "id": 569,
+    "code": "shot-on-target",
+    "developer_name": "SHOT_ON_TARGET",
+    "model_type": "timeline",
+    "name": "Shot On Target",
+    "stat_group": null
+  },
+  {
+    "id": 570,
+    "code": "shot-off-target",
+    "developer_name": "SHOT_OFF_TARGET",
+    "model_type": "timeline",
+    "name": "Shots Off Target",
+    "stat_group": null
+  },
+  {
+    "id": 571,
+    "code": "error-lead-to-goal",
+    "developer_name": "ERROR_LEAD_TO_GOAL",
+    "model_type": "statistic",
+    "name": "Error Lead To Goal",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 573,
+    "code": "none",
+    "developer_name": "NONE",
+    "model_type": "tie_breaker_rule",
+    "name": "None",
+    "stat_group": null
+  },
+  {
+    "id": 574,
+    "code": "referees",
+    "developer_name": "REFEREES",
+    "model_type": "statistic",
+    "name": "Referees",
+    "stat_group": null
+  },
+  {
+    "id": 575,
+    "code": "failed-toscore",
+    "developer_name": "FAILED_TO_SCORE",
+    "model_type": "statistic",
+    "name": "Failed To Score",
+    "stat_group": null
+  },
+  {
+    "id": 578,
+    "code": "attendance",
+    "developer_name": "ATTENDANCE",
+    "model_type": "metadata",
+    "name": "Attendance",
+    "stat_group": null
+  },
+  {
+    "id": 580,
+    "code": "big-chances-created",
+    "developer_name": "BIG_CHANCES_CREATED",
+    "model_type": "statistic",
+    "name": "Big Chances Created",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 581,
+    "code": "big-chances-missed",
+    "developer_name": "BIG_CHANCES_MISSED",
+    "model_type": "statistic",
+    "name": "Big Chances Missed",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 582,
+    "code": "clearance-offline",
+    "developer_name": "CLEARANCE_OFFLINE",
+    "model_type": "statistic",
+    "name": "Clearance Offline",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 583,
+    "code": "last-man-tackle",
+    "developer_name": "LAST_MAN_TACKLE",
+    "model_type": "statistic",
+    "name": "Last Man Tackle",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 584,
+    "code": "good-high-claim",
+    "developer_name": "GOOD_HIGH_CLAIM",
+    "model_type": "statistic",
+    "name": "Good High Claim",
+    "stat_group": "overall"
+  },
+  {
+    "id": 585,
+    "code": "team-in-joint-capsule",
+    "developer_name": "TEAR_IN_JOINT_CAPSULE",
+    "model_type": "injury_suspension",
+    "name": "Tear in a joint capsule",
+    "stat_group": null
+  },
+  {
+    "id": 587,
+    "code": "unknown-injury",
+    "developer_name": "UNKNOWN_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Unknown Injury",
+    "stat_group": null
+  },
+  {
+    "id": 588,
+    "code": "adductor-problems",
+    "developer_name": "ADDUCTOR_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Adductor problems",
+    "stat_group": null
+  },
+  {
+    "id": 589,
+    "code": "muscle-fatigue",
+    "developer_name": "MUSCLE_FATIGUE",
+    "model_type": "injury_suspension",
+    "name": "Muscle Fatigue",
+    "stat_group": null
+  },
+  {
+    "id": 590,
+    "code": "rest",
+    "developer_name": "REST",
+    "model_type": "injury_suspension",
+    "name": "Rest",
+    "stat_group": null
+  },
+  {
+    "id": 591,
+    "code": "distortion-of-the-ankle",
+    "developer_name": "DISTORTION_OF_THE_ANKLE",
+    "model_type": "injury_suspension",
+    "name": "Distortion of the ankle",
+    "stat_group": null
+  },
+  {
+    "id": 592,
+    "code": "ruptured-intraarticular-ligament-initiation-in-knee",
+    "developer_name": "RUPTURED_NKEE_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Ruptured intraarticular ligament initiation in knee",
+    "stat_group": null
+  },
+  {
+    "id": 593,
+    "code": "thigh-muscle-strain",
+    "developer_name": "THIGH_MUSCLE_STRAIN",
+    "model_type": "injury_suspension",
+    "name": "Thigh Muscle Strain",
+    "stat_group": null
+  },
+  {
+    "id": 594,
+    "code": "meniscal-injury",
+    "developer_name": "MENSICAL_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Meniscal Injury",
+    "stat_group": null
+  },
+  {
+    "id": 595,
+    "code": "back-injury",
+    "developer_name": "BACK_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Back Injury",
+    "stat_group": null
+  },
+  {
+    "id": 596,
+    "code": "biceps-femoris-muscle-injury",
+    "developer_name": "BICEPS_FEMORIS_MUSCLE_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Biceps femoris muscle injury",
+    "stat_group": null
+  },
+  {
+    "id": 597,
+    "code": "tear-in-abductor-muscle",
+    "developer_name": "TEAR_IN_ABDUCTOR_MUSCLE",
+    "model_type": "injury_suspension",
+    "name": "Tear in the abductor muscle",
+    "stat_group": null
+  },
+  {
+    "id": 598,
+    "code": "muscular-problems",
+    "developer_name": "MUSCULAR_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Muscular problems",
+    "stat_group": null
+  },
+  {
+    "id": 599,
+    "code": "torn-muscle-blend",
+    "developer_name": "TORN_MUSCLE_BLEND",
+    "model_type": "injury_suspension",
+    "name": "Torn muscle bundle",
+    "stat_group": null
+  },
+  {
+    "id": 600,
+    "code": "dead-leg",
+    "developer_name": "DEAD_LEG",
+    "model_type": "injury_suspension",
+    "name": "Dead Leg",
+    "stat_group": null
+  },
+  {
+    "id": 601,
+    "code": "abdominal-Influenza",
+    "developer_name": "ABDOMINAL_INFLUENZA",
+    "model_type": "injury_suspension",
+    "name": "Abdominal Influenza",
+    "stat_group": null
+  },
+  {
+    "id": 602,
+    "code": "femoral-fracture",
+    "developer_name": "FEMORAL_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Femoral fracture",
+    "stat_group": null
+  },
+  {
+    "id": 603,
+    "code": "achilles-tendon-problems",
+    "developer_name": "ACHILLES_TENDON_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Achilles tendon problems",
+    "stat_group": null
+  },
+  {
+    "id": 604,
+    "code": "achilles-tendon-rupture",
+    "developer_name": "ACHILLES_TENDON_RUPTURE",
+    "model_type": "injury_suspension",
+    "name": "Achilles tendon rupture",
+    "stat_group": null
+  },
+  {
+    "id": 605,
+    "code": "hip-problems",
+    "developer_name": "HIP_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Hip problems",
+    "stat_group": null
+  },
+  {
+    "id": 606,
+    "code": "fractured-finger",
+    "developer_name": "FRACTURED_FINGER",
+    "model_type": "injury_suspension",
+    "name": "Fractured Finger",
+    "stat_group": null
+  },
+  {
+    "id": 607,
+    "code": "bruised-foot",
+    "developer_name": "BRUISED_FOOT",
+    "model_type": "injury_suspension",
+    "name": "Bruised Foot",
+    "stat_group": null
+  },
+  {
+    "id": 608,
+    "code": "surgery",
+    "developer_name": "SURGERY",
+    "model_type": "injury_suspension",
+    "name": "Surgery",
+    "stat_group": null
+  },
+  {
+    "id": 609,
+    "code": "torn-knee-ligament",
+    "developer_name": "TORN_KNEE_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Torn Knee Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 610,
+    "code": "flu",
+    "developer_name": "FLU",
+    "model_type": "injury_suspension",
+    "name": "Flu",
+    "stat_group": null
+  },
+  {
+    "id": 611,
+    "code": "fractured-jaw",
+    "developer_name": "FRACTURED_JAW",
+    "model_type": "injury_suspension",
+    "name": "Fractured Jaw",
+    "stat_group": null
+  },
+  {
+    "id": 612,
+    "code": "heel-bone-injury",
+    "developer_name": "HEEL_BONE_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Heel Bone Injury",
+    "stat_group": null
+  },
+  {
+    "id": 613,
+    "code": "hashtag",
+    "developer_name": "HASHTAG",
+    "model_type": "metadata",
+    "name": "Hashtag",
+    "stat_group": null
+  },
+  {
+    "id": 614,
+    "code": "herniated-disc",
+    "developer_name": "HERNIATED_DISC",
+    "model_type": "injury_suspension",
+    "name": "Herniated Disc",
+    "stat_group": null
+  },
+  {
+    "id": 615,
+    "code": "peroneus-tendon-injury",
+    "developer_name": "PERONEUS_TENDON_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Peroneus Tendon Injury",
+    "stat_group": null
+  },
+  {
+    "id": 616,
+    "code": "fractured-eye-socket",
+    "developer_name": "FRACTURED_EYE_SOCKET",
+    "model_type": "injury_suspension",
+    "name": "Fractures Eye Socket",
+    "stat_group": null
+  },
+  {
+    "id": 618,
+    "code": "ruptured-knee-ligament",
+    "developer_name": "RUPTURED_KNEE_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Knee Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 619,
+    "code": "back-trouble",
+    "developer_name": "BACK_TROUBLE",
+    "model_type": "injury_suspension",
+    "name": "Back Trouble",
+    "stat_group": null
+  },
+  {
+    "id": 620,
+    "code": "ruptured-ankle",
+    "developer_name": "RUPTURED_ANKLE",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Ankle",
+    "stat_group": null
+  },
+  {
+    "id": 621,
+    "code": "syndesmotic-ligament-tear",
+    "developer_name": "SYNDESMOTIC_LIGAMENT_TEAR",
+    "model_type": "injury_suspension",
+    "name": "Syndesmotic Ligament Tear",
+    "stat_group": null
+  },
+  {
+    "id": 622,
+    "code": "pulled-hamstring-at-adductors",
+    "developer_name": "PULLED_HAMSTRING_AT_ADDUCTORS",
+    "model_type": "injury_suspension",
+    "name": "Pulled Hamstring At Adductors",
+    "stat_group": null
+  },
+  {
+    "id": 623,
+    "code": "fractured-toe",
+    "developer_name": "FRACTURED_TOE",
+    "model_type": "injury_suspension",
+    "name": "Fractured Toe",
+    "stat_group": null
+  },
+  {
+    "id": 624,
+    "code": "facial-fractures",
+    "developer_name": "FACIAL_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Facial Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 625,
+    "code": "acromioclavicular-separation",
+    "developer_name": "ACROMIOCLAVICULAR_SEPARATION",
+    "model_type": "injury_suspension",
+    "name": "Acromioclavicular Saparation",
+    "stat_group": null
+  },
+  {
+    "id": 626,
+    "code": "frontal-bone-fracture",
+    "developer_name": "FRONTAL_BONE_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Frontal Bone Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 627,
+    "code": "cancer",
+    "developer_name": "CANCER",
+    "model_type": "injury_suspension",
+    "name": "Cancer",
+    "stat_group": null
+  },
+  {
+    "id": 628,
+    "code": "fractured-leg",
+    "developer_name": "FRACTURED_LEG",
+    "model_type": "injury_suspension",
+    "name": "Fractured Leg",
+    "stat_group": null
+  },
+  {
+    "id": 629,
+    "code": "injury",
+    "developer_name": "INJURY",
+    "model_type": "injury_suspension",
+    "name": "Injury",
+    "stat_group": null
+  },
+  {
+    "id": 630,
+    "code": "head-injury",
+    "developer_name": "HEAD_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Head Injury",
+    "stat_group": null
+  },
+  {
+    "id": 631,
+    "code": "cheekbone-fracture",
+    "developer_name": "CHEEKBONE_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Cheekbone Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 632,
+    "code": "torn-muscle-fibre",
+    "developer_name": "TORN_MUSCLE_FIBRE",
+    "model_type": "injury_suspension",
+    "name": "Torn Muscle Fibre",
+    "stat_group": null
+  },
+  {
+    "id": 633,
+    "code": "cartilage-damage",
+    "developer_name": "CARTILAGE_DAMAGE",
+    "model_type": "injury_suspension",
+    "name": "Cartilage Damage",
+    "stat_group": null
+  },
+  {
+    "id": 636,
+    "code": "ruptured-minuscis",
+    "developer_name": "RUPTURED_MENISCUS",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Meniscus",
+    "stat_group": null
+  },
+  {
+    "id": 637,
+    "code": "inflammation",
+    "developer_name": "INFLAMMATION",
+    "model_type": "injury_suspension",
+    "name": "Inflammation",
+    "stat_group": null
+  },
+  {
+    "id": 638,
+    "code": "fractured-arm",
+    "developer_name": "FRACTURED_ARM",
+    "model_type": "injury_suspension",
+    "name": "Fractured Arm",
+    "stat_group": null
+  },
+  {
+    "id": 639,
+    "code": "arthroscopie",
+    "developer_name": "ARTHROSCOPIE",
+    "model_type": "injury_suspension",
+    "name": "Arthroscopie",
+    "stat_group": null
+  },
+  {
+    "id": 640,
+    "code": "lumbago",
+    "developer_name": "LUMBAGO",
+    "model_type": "injury_suspension",
+    "name": "Lumbago",
+    "stat_group": null
+  },
+  {
+    "id": 641,
+    "code": "lymphoma",
+    "developer_name": "LYMPHOMA",
+    "model_type": "injury_suspension",
+    "name": "Lymphome",
+    "stat_group": null
+  },
+  {
+    "id": 642,
+    "code": "pubalgia",
+    "developer_name": "PUBALGIA",
+    "model_type": "injury_suspension",
+    "name": "Pubalgia",
+    "stat_group": null
+  },
+  {
+    "id": 643,
+    "code": "tibia-fracture",
+    "developer_name": "TIBIA_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Tibia Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 644,
+    "code": "mensical-laceration",
+    "developer_name": "MENSICAL_LACERATION",
+    "model_type": "injury_suspension",
+    "name": "Mensical Laceration",
+    "stat_group": null
+  },
+  {
+    "id": 645,
+    "code": "patella-ruptire",
+    "developer_name": "PATELLA_RUPTURE",
+    "model_type": "injury_suspension",
+    "name": "Patella Rupture",
+    "stat_group": null
+  },
+  {
+    "id": 646,
+    "code": "forearm-fracture",
+    "developer_name": "FOREARM_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Forearm Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 647,
+    "code": "disrupted-calf-muscle",
+    "developer_name": "DISRUPTED_CALF_MUSCLE",
+    "model_type": "injury_suspension",
+    "name": "Disrupted Calf Muscle",
+    "stat_group": null
+  },
+  {
+    "id": 648,
+    "code": "medial-collateral-ligament-injury",
+    "developer_name": "MEDIAL_COLLATERAL_LIGAMENT_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Medial Collateral Ligament Injury",
+    "stat_group": null
+  },
+  {
+    "id": 649,
+    "code": "fractured-rib",
+    "developer_name": "FRACTURED_RIB",
+    "model_type": "injury_suspension",
+    "name": "Fractured Rib",
+    "stat_group": null
+  },
+  {
+    "id": 650,
+    "code": "bruised-rib",
+    "developer_name": "BRUISED_RIB",
+    "model_type": "injury_suspension",
+    "name": "Bruised Rib",
+    "stat_group": null
+  },
+  {
+    "id": 651,
+    "code": "sideband-tear-in-knee",
+    "developer_name": "SIDEBAND_TEAR_IN_KNEE",
+    "model_type": "injury_suspension",
+    "name": "Sideband Team in Knee",
+    "stat_group": null
+  },
+  {
+    "id": 652,
+    "code": "cold",
+    "developer_name": "COLD",
+    "model_type": "injury_suspension",
+    "name": "Cold",
+    "stat_group": null
+  },
+  {
+    "id": 653,
+    "code": "gastric-problems",
+    "developer_name": "GASTRIC_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Gastric Problems",
+    "stat_group": null
+  },
+  {
+    "id": 654,
+    "code": "virus-infection",
+    "developer_name": "VIRUS_INFECTION",
+    "model_type": "injury_suspension",
+    "name": "Virus Infection",
+    "stat_group": null
+  },
+  {
+    "id": 655,
+    "code": "traffic-accident",
+    "developer_name": "TRAFFIC_ACCIDENT",
+    "model_type": "injury_suspension",
+    "name": "Traffic Accident",
+    "stat_group": null
+  },
+  {
+    "id": 656,
+    "code": "shinbone-injury",
+    "developer_name": "SHINBONE_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Shinbone Injury",
+    "stat_group": null
+  },
+  {
+    "id": 658,
+    "code": "bruise",
+    "developer_name": "BRUISE",
+    "model_type": "injury_suspension",
+    "name": "Bruise",
+    "stat_group": null
+  },
+  {
+    "id": 659,
+    "code": "nose-surgery",
+    "developer_name": "NOSE_SURGERY",
+    "model_type": "injury_suspension",
+    "name": "Nose Surgery",
+    "stat_group": null
+  },
+  {
+    "id": 660,
+    "code": "nose-injury",
+    "developer_name": "NOSE_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Nose Injury",
+    "stat_group": null
+  },
+  {
+    "id": 661,
+    "code": "calf-problems",
+    "developer_name": "CALF_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Calf Problems",
+    "stat_group": null
+  },
+  {
+    "id": 662,
+    "code": "back-bruise",
+    "developer_name": "BACK_BRUISE",
+    "model_type": "injury_suspension",
+    "name": "Back Bruise",
+    "stat_group": null
+  },
+  {
+    "id": 663,
+    "code": "pneumonia",
+    "developer_name": "PNEUMONIA",
+    "model_type": "injury_suspension",
+    "name": "Pneumonia",
+    "stat_group": null
+  },
+  {
+    "id": 664,
+    "code": "hand-injury",
+    "developer_name": "HAND_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Hand Injury",
+    "stat_group": null
+  },
+  {
+    "id": 665,
+    "code": "quarantine",
+    "developer_name": "QUARANTINE",
+    "model_type": "injury_suspension",
+    "name": "Quarantine",
+    "stat_group": null
+  },
+  {
+    "id": 666,
+    "code": "collarbone-fracture",
+    "developer_name": "COLLARBONE_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Collarbone Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 667,
+    "code": "torn-muscle-bundle",
+    "developer_name": "TORN_MUSCLE_BUNDLE",
+    "model_type": "injury_suspension",
+    "name": "Torn Muscle Bundle",
+    "stat_group": null
+  },
+  {
+    "id": 669,
+    "code": "abscess",
+    "developer_name": "ABSCESS",
+    "model_type": "injury_suspension",
+    "name": "Abscess",
+    "stat_group": null
+  },
+  {
+    "id": 670,
+    "code": "medial-collateral-ligament-tear",
+    "developer_name": "MEDIAL_COLLATERAL_LIGAMENT_TEAR",
+    "model_type": "injury_suspension",
+    "name": "Medial Collateral Ligament Tear",
+    "stat_group": null
+  },
+  {
+    "id": 671,
+    "code": "ankle-surgery",
+    "developer_name": "ANKLE_SURGERY",
+    "model_type": "injury_suspension",
+    "name": "Ankle Surgery",
+    "stat_group": null
+  },
+  {
+    "id": 672,
+    "code": "ankle-problems",
+    "developer_name": "ANKLE_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Ankle Problems",
+    "stat_group": null
+  },
+  {
+    "id": 673,
+    "code": "toe-injury",
+    "developer_name": "TOE_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Toe Injury",
+    "stat_group": null
+  },
+  {
+    "id": 674,
+    "code": "cals-sclerosis",
+    "developer_name": "CALS_SCLEROSIS",
+    "model_type": "injury_suspension",
+    "name": "Cals Sclerosis",
+    "stat_group": null
+  },
+  {
+    "id": 675,
+    "code": "appendectomy",
+    "developer_name": "APPENDECTOMY",
+    "model_type": "injury_suspension",
+    "name": "Appendectomy",
+    "stat_group": null
+  },
+  {
+    "id": 676,
+    "code": "eye-injury",
+    "developer_name": "EYE_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Eye Injury",
+    "stat_group": null
+  },
+  {
+    "id": 677,
+    "code": "minor-knock",
+    "developer_name": "MINOR_KNOCK",
+    "model_type": "injury_suspension",
+    "name": "Minor Knock",
+    "stat_group": null
+  },
+  {
+    "id": 678,
+    "code": "overstretching",
+    "developer_name": "OVERSTRETCHING",
+    "model_type": "injury_suspension",
+    "name": "Overstretching",
+    "stat_group": null
+  },
+  {
+    "id": 679,
+    "code": "knee-inflammation",
+    "developer_name": "KNEE_INFLAMMATION",
+    "model_type": "injury_suspension",
+    "name": "Knee Inflammation",
+    "stat_group": null
+  },
+  {
+    "id": 680,
+    "code": "fatigue-fracture",
+    "developer_name": "FATIGUE_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Fatigue Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 681,
+    "code": "inflamed-ligaments-of-the-knee",
+    "developer_name": "INFLAMED_LIGAMENTS_OF_THE_KNEE",
+    "model_type": "injury_suspension",
+    "name": "Inflamed Ligaments Of The Knee",
+    "stat_group": null
+  },
+  {
+    "id": 682,
+    "code": "sprain",
+    "developer_name": "SPRAIN",
+    "model_type": "injury_suspension",
+    "name": "Sprain",
+    "stat_group": null
+  },
+  {
+    "id": 683,
+    "code": "bruised-knee",
+    "developer_name": "BRUISED_KNEE",
+    "model_type": "injury_suspension",
+    "name": "Bruised Knee",
+    "stat_group": null
+  },
+  {
+    "id": 684,
+    "code": "chickenpox",
+    "developer_name": "CHICKENPOX",
+    "model_type": "injury_suspension",
+    "name": "Chickenpox",
+    "stat_group": null
+  },
+  {
+    "id": 687,
+    "code": "knee-problems",
+    "developer_name": "KNEE_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Knee Problems",
+    "stat_group": null
+  },
+  {
+    "id": 688,
+    "code": "heelspur",
+    "developer_name": "HEELSPUR",
+    "model_type": "injury_suspension",
+    "name": "Heelspur",
+    "stat_group": null
+  },
+  {
+    "id": 690,
+    "code": "tendon-irritation",
+    "developer_name": "TENDON_IRRITATION",
+    "model_type": "injury_suspension",
+    "name": "Tendon Irritation",
+    "stat_group": null
+  },
+  {
+    "id": 691,
+    "code": "fever",
+    "developer_name": "FEVER",
+    "model_type": "injury_suspension",
+    "name": "Fever",
+    "stat_group": null
+  },
+  {
+    "id": 692,
+    "code": "arch-pain",
+    "developer_name": "ARCH_PAIN",
+    "model_type": "injury_suspension",
+    "name": "Arch Pain",
+    "stat_group": null
+  },
+  {
+    "id": 693,
+    "code": "achilles-irritation",
+    "developer_name": "ACHILLES_IRRITATION",
+    "model_type": "injury_suspension",
+    "name": "Achilles Irritation",
+    "stat_group": null
+  },
+  {
+    "id": 694,
+    "code": "muscle-fiber-tear",
+    "developer_name": "MUSCLE_FIBER_TEAR",
+    "model_type": "injury_suspension",
+    "name": "Muscle Fiber Tear",
+    "stat_group": null
+  },
+  {
+    "id": 695,
+    "code": "flesh-wound",
+    "developer_name": "FLESH_WOUND",
+    "model_type": "injury_suspension",
+    "name": "Flesh Wound",
+    "stat_group": null
+  },
+  {
+    "id": 696,
+    "code": "meniscus-damage",
+    "developer_name": "MENISCUS_DAMAGE",
+    "model_type": "injury_suspension",
+    "name": "Meniscus Damage",
+    "stat_group": null
+  },
+  {
+    "id": 697,
+    "code": "calf-muscle-strain",
+    "developer_name": "CALF_MUSCLE_STRAIN",
+    "model_type": "injury_suspension",
+    "name": "Calf Muscle Strain",
+    "stat_group": null
+  },
+  {
+    "id": 700,
+    "code": "fractured-hand",
+    "developer_name": "FRACTURED_HAND",
+    "model_type": "injury_suspension",
+    "name": "Fractured Hand",
+    "stat_group": null
+  },
+  {
+    "id": 701,
+    "code": "fractured-foot",
+    "developer_name": "FRACTURED_FOOT",
+    "model_type": "injury_suspension",
+    "name": "Fractured Foot",
+    "stat_group": null
+  },
+  {
+    "id": 702,
+    "code": "stretched-ligament",
+    "developer_name": "STRETCHED_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Stretched Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 703,
+    "code": "compression-of-spinal",
+    "developer_name": "COMPRESSION_OF_SPINAL",
+    "model_type": "injury_suspension",
+    "name": "Compression Of Spinal",
+    "stat_group": null
+  },
+  {
+    "id": 704,
+    "code": "bone-bruise",
+    "developer_name": "BONE_BRUISE",
+    "model_type": "injury_suspension",
+    "name": "Bone Bruise",
+    "stat_group": null
+  },
+  {
+    "id": 705,
+    "code": "torn-collateral-ligament",
+    "developer_name": "TORN_COLLATERAL_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Torn Collateral Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 706,
+    "code": "sprained-ankle",
+    "developer_name": "SPRAINED_ANKLE",
+    "model_type": "injury_suspension",
+    "name": "Sprained Ankle",
+    "stat_group": null
+  },
+  {
+    "id": 708,
+    "code": "torn-muscle",
+    "developer_name": "TORN_MUSCLE",
+    "model_type": "injury_suspension",
+    "name": "Torn Muscle",
+    "stat_group": null
+  },
+  {
+    "id": 709,
+    "code": "arm-injury",
+    "developer_name": "ARM_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Arm Injury",
+    "stat_group": null
+  },
+  {
+    "id": 711,
+    "code": "heel-pain",
+    "developer_name": "HEEL_PAIN",
+    "model_type": "injury_suspension",
+    "name": "Heel Pain",
+    "stat_group": null
+  },
+  {
+    "id": 712,
+    "code": "metatarsal-bone-bruise",
+    "developer_name": "METATARSAL_BONE_BRUISE",
+    "model_type": "injury_suspension",
+    "name": "Metatarsal Bone Bruise",
+    "stat_group": null
+  },
+  {
+    "id": 713,
+    "code": "finger-injury",
+    "developer_name": "FINGER_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Finger Injury",
+    "stat_group": null
+  },
+  {
+    "id": 714,
+    "code": "partial-damage-to-the-cruciate-ligament",
+    "developer_name": "PARTIAL_DAMAGE_TO_THE_CRUCIATE_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Partial Damage To The Cruciate Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 715,
+    "code": "torn-meniscus",
+    "developer_name": "TORN_MENISCUS",
+    "model_type": "injury_suspension",
+    "name": "Torn Meniscus",
+    "stat_group": null
+  },
+  {
+    "id": 716,
+    "code": "pelvis-injury",
+    "developer_name": "PELVIS_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Pelvis Injury",
+    "stat_group": null
+  },
+  {
+    "id": 717,
+    "code": "ruptured-ankle-aigament",
+    "developer_name": "RUPTURED_ANKLE_AIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Ankle Aigament",
+    "stat_group": null
+  },
+  {
+    "id": 718,
+    "code": "torn-tendon",
+    "developer_name": "TORN_TENDON",
+    "model_type": "injury_suspension",
+    "name": "Torn Tendon",
+    "stat_group": null
+  },
+  {
+    "id": 720,
+    "code": "fibula-shaft-fractures",
+    "developer_name": "FIBULA_SHAFT_FRACTURES",
+    "model_type": "injury_suspension",
+    "name": "Fibula Shaft Fractures",
+    "stat_group": null
+  },
+  {
+    "id": 721,
+    "code": "stomach-complaints",
+    "developer_name": "STOMACH_COMPLAINTS",
+    "model_type": "injury_suspension",
+    "name": "Stomach Complaints",
+    "stat_group": null
+  },
+  {
+    "id": 722,
+    "code": "dental-surgery",
+    "developer_name": "DENTAL_SURGERY",
+    "model_type": "injury_suspension",
+    "name": "Dental Surgery",
+    "stat_group": null
+  },
+  {
+    "id": 723,
+    "code": "whiplash",
+    "developer_name": "WHIPLASH",
+    "model_type": "injury_suspension",
+    "name": "Whiplash",
+    "stat_group": null
+  },
+  {
+    "id": 724,
+    "code": "pubis-bone-irritation",
+    "developer_name": "PUBIS_BONE_IRRITATION",
+    "model_type": "injury_suspension",
+    "name": "Pubis Bone Irritation",
+    "stat_group": null
+  },
+  {
+    "id": 726,
+    "code": "shoulder-fracture",
+    "developer_name": "SHOULDER_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Shoulder Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 728,
+    "code": "torn-ligament",
+    "developer_name": "TORN_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Torn Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 729,
+    "code": "nasal-bone-fracture",
+    "developer_name": "NASAL_BONE_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Nasal Bone Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 730,
+    "code": "mononucleosis",
+    "developer_name": "MONONUCLEOSIS",
+    "model_type": "injury_suspension",
+    "name": "Mononucleosis",
+    "stat_group": null
+  },
+  {
+    "id": 731,
+    "code": "bone-chipping",
+    "developer_name": "BONE_CHIPPING",
+    "model_type": "injury_suspension",
+    "name": "Bone Chipping",
+    "stat_group": null
+  },
+  {
+    "id": 733,
+    "code": "vertebra-injury",
+    "developer_name": "VERTEBRA_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Vertebra Injury",
+    "stat_group": null
+  },
+  {
+    "id": 734,
+    "code": "pubis-bone-contusion",
+    "developer_name": "PUBIS_BONE_CONTUSION",
+    "model_type": "injury_suspension",
+    "name": "Pubis Bone Contusion",
+    "stat_group": null
+  },
+  {
+    "id": 735,
+    "code": "fracture-of-the-orbit",
+    "developer_name": "FRACTURE_OF_THE_ORBIT",
+    "model_type": "injury_suspension",
+    "name": "Fracture Of The Orbit",
+    "stat_group": null
+  },
+  {
+    "id": 736,
+    "code": "stress-response-of-the-bone",
+    "developer_name": "STRESS_RESPONSE_OF_THE_BONE",
+    "model_type": "injury_suspension",
+    "name": "Stress Response Of The Bone",
+    "stat_group": null
+  },
+  {
+    "id": 737,
+    "code": "infection",
+    "developer_name": "INFECTION",
+    "model_type": "injury_suspension",
+    "name": "Infection",
+    "stat_group": null
+  },
+  {
+    "id": 738,
+    "code": "umbilical-hernia",
+    "developer_name": "UMBILICAL_HERNIA",
+    "model_type": "injury_suspension",
+    "name": "Umbilical Hernia",
+    "stat_group": null
+  },
+  {
+    "id": 739,
+    "code": "hamstring-contusion",
+    "developer_name": "HAMSTRING_CONTUSION",
+    "model_type": "injury_suspension",
+    "name": "Hamstring Contusion",
+    "stat_group": null
+  },
+  {
+    "id": 740,
+    "code": "adductors-avulsion",
+    "developer_name": "ADDUCTORS_AVULSION",
+    "model_type": "injury_suspension",
+    "name": "Adductors Avulsion",
+    "stat_group": null
+  },
+  {
+    "id": 741,
+    "code": "hand-fracture",
+    "developer_name": "HAND_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Hand Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 742,
+    "code": "fissure-of-the-fibula",
+    "developer_name": "FISSURE_OF_THE_FIBULA",
+    "model_type": "injury_suspension",
+    "name": "Fissure Of The Fibula",
+    "stat_group": null
+  },
+  {
+    "id": 743,
+    "code": "appendicitis",
+    "developer_name": "APPENDICITIS",
+    "model_type": "injury_suspension",
+    "name": "Appendicitis",
+    "stat_group": null
+  },
+  {
+    "id": 744,
+    "code": "contracture",
+    "developer_name": "CONTRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Contracture",
+    "stat_group": null
+  },
+  {
+    "id": 745,
+    "code": "neck-injury",
+    "developer_name": "NECK_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Neck Injury",
+    "stat_group": null
+  },
+  {
+    "id": 746,
+    "code": "navicular-bone-fracture",
+    "developer_name": "NAVICULAR_BONE_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Navicular Bone Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 747,
+    "code": "scaphoid-operation",
+    "developer_name": "SCAPHOID_OPERATION",
+    "model_type": "injury_suspension",
+    "name": "Scaphoid Operation",
+    "stat_group": null
+  },
+  {
+    "id": 748,
+    "code": "fracture",
+    "developer_name": "FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 750,
+    "code": "ligament-problems",
+    "developer_name": "LIGAMENT_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Ligament Problems",
+    "stat_group": null
+  },
+  {
+    "id": 752,
+    "code": "facial-injury",
+    "developer_name": "FACIAL_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Facial Injury",
+    "stat_group": null
+  },
+  {
+    "id": 753,
+    "code": "abdominal-muscles-injury",
+    "developer_name": "ABDOMINAL_MUSCLES_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Abdominal Muscles Injury",
+    "stat_group": null
+  },
+  {
+    "id": 755,
+    "code": "elbow-injury",
+    "developer_name": "ELBOW_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Elbow Injury",
+    "stat_group": null
+  },
+  {
+    "id": 756,
+    "code": "double-torn-ligament",
+    "developer_name": "DOUBLE_TORN_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Double Torn Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 757,
+    "code": "food-poisoning",
+    "developer_name": "FOOD_POISONING",
+    "model_type": "injury_suspension",
+    "name": "Food Poisoning",
+    "stat_group": null
+  },
+  {
+    "id": 758,
+    "code": "bruised-hip",
+    "developer_name": "BRUISED_HIP",
+    "model_type": "injury_suspension",
+    "name": "Bruised Hip",
+    "stat_group": null
+  },
+  {
+    "id": 759,
+    "code": "bruised-ankle",
+    "developer_name": "BRUISED_ANKLE",
+    "model_type": "injury_suspension",
+    "name": "Bruised Ankle",
+    "stat_group": null
+  },
+  {
+    "id": 760,
+    "code": "torn-lateral-collateral-ligament",
+    "developer_name": "TORN_LATERAL_COLLATERAL_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Torn Lateral Collateral Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 761,
+    "code": "capsular-rupture-in-the-ankle",
+    "developer_name": "CAPSULAR_RUPTURE_IN_THE_ANKLE",
+    "model_type": "injury_suspension",
+    "name": "Capsular Rupture In The Ankle",
+    "stat_group": null
+  },
+  {
+    "id": 762,
+    "code": "tonsillitis",
+    "developer_name": "TONSILLITIS",
+    "model_type": "injury_suspension",
+    "name": "Tonsillitis",
+    "stat_group": null
+  },
+  {
+    "id": 764,
+    "code": "insect-bite",
+    "developer_name": "INSECT_BITE",
+    "model_type": "injury_suspension",
+    "name": "Insect Bite",
+    "stat_group": null
+  },
+  {
+    "id": 767,
+    "code": "patella-problems",
+    "developer_name": "PATELLA_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Patella Problems",
+    "stat_group": null
+  },
+  {
+    "id": 768,
+    "code": "intraarticular-ligament-fissure",
+    "developer_name": "INTRAARTICULAR_LIGAMENT_FISSURE",
+    "model_type": "injury_suspension",
+    "name": "Intraarticular Ligament Fissure",
+    "stat_group": null
+  },
+  {
+    "id": 769,
+    "code": "hairline-crack-in-the-foot",
+    "developer_name": "HAIRLINE_CRACK_IN_THE_FOOT",
+    "model_type": "injury_suspension",
+    "name": "Hairline Crack In The Foot",
+    "stat_group": null
+  },
+  {
+    "id": 770,
+    "code": "problems-with-the-right-hip-flexor",
+    "developer_name": "PROBLEMS_WITH_THE_RIGHT_HIP_FLEXOR",
+    "model_type": "injury_suspension",
+    "name": "Problems With The Right Hip Flexor",
+    "stat_group": null
+  },
+  {
+    "id": 771,
+    "code": "lumbar-vertebrae-problems",
+    "developer_name": "LUMBAR_VERTEBRAE_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Lumbar Vertebrae Problems",
+    "stat_group": null
+  },
+  {
+    "id": 773,
+    "code": "angina",
+    "developer_name": "ANGINA",
+    "model_type": "injury_suspension",
+    "name": "Angina",
+    "stat_group": null
+  },
+  {
+    "id": 774,
+    "code": "tarsal-rupture",
+    "developer_name": "TARSAL_RUPTURE",
+    "model_type": "injury_suspension",
+    "name": "Tarsal Rupture",
+    "stat_group": null
+  },
+  {
+    "id": 775,
+    "code": "medial-collateral-ligament-avulsion",
+    "developer_name": "MEDIAL_COLLATERAL_LIGAMENT_AVULSION",
+    "model_type": "injury_suspension",
+    "name": "Medial Collateral Ligament Avulsion",
+    "stat_group": null
+  },
+  {
+    "id": 776,
+    "code": "abdominal-strain",
+    "developer_name": "ABDOMINAL_STRAIN",
+    "model_type": "injury_suspension",
+    "name": "Abdominal Strain",
+    "stat_group": null
+  },
+  {
+    "id": 777,
+    "code": "ruptured-lateral-collateral-ligament",
+    "developer_name": "RUPTURED_LATERAL_COLLATERAL_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Lateral Collateral Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 779,
+    "code": "plantar-fascia",
+    "developer_name": "PLANTAR_FASCIA",
+    "model_type": "injury_suspension",
+    "name": "Plantar Fascia",
+    "stat_group": null
+  },
+  {
+    "id": 782,
+    "code": "sideband-strain-in-the-knee",
+    "developer_name": "SIDEBAND_STRAIN_IN_THE_KNEE",
+    "model_type": "injury_suspension",
+    "name": "Sideband Strain In The Knee",
+    "stat_group": null
+  },
+  {
+    "id": 784,
+    "code": "cervical-spine-injury",
+    "developer_name": "CERVICAL_SPINE_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Cervical Spine Injury",
+    "stat_group": null
+  },
+  {
+    "id": 785,
+    "code": "ruptured-syndesmotic-ligament",
+    "developer_name": "RUPTURED_SYNDESMOTIC_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Syndesmotic Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 786,
+    "code": "cheek-bone-contusion",
+    "developer_name": "CHEEK_BONE_CONTUSION",
+    "model_type": "injury_suspension",
+    "name": "Cheek Bone Contusion",
+    "stat_group": null
+  },
+  {
+    "id": 787,
+    "code": "laceration",
+    "developer_name": "LACERATION",
+    "model_type": "injury_suspension",
+    "name": "Laceration",
+    "stat_group": null
+  },
+  {
+    "id": 788,
+    "code": "wirst-injury",
+    "developer_name": "WIRST_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Wirst Injury",
+    "stat_group": null
+  },
+  {
+    "id": 789,
+    "code": "shin-bone-bruise",
+    "developer_name": "SHIN_BONE_BRUISE",
+    "model_type": "injury_suspension",
+    "name": "Shin Bone Bruise",
+    "stat_group": null
+  },
+  {
+    "id": 790,
+    "code": "sinus-fracture",
+    "developer_name": "SINUS_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Sinus Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 791,
+    "code": "ruptured-sideband-in-the-knee",
+    "developer_name": "RUPTURED_SIDEBAND_IN_THE_KNEE",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Sideband In The Knee",
+    "stat_group": null
+  },
+  {
+    "id": 792,
+    "code": "broken-wrist",
+    "developer_name": "BROKEN_WRIST",
+    "model_type": "injury_suspension",
+    "name": "Broken Wrist",
+    "stat_group": null
+  },
+  {
+    "id": 793,
+    "code": "pinched-nerve",
+    "developer_name": "PINCHED_NERVE",
+    "model_type": "injury_suspension",
+    "name": "Pinched Nerve",
+    "stat_group": null
+  },
+  {
+    "id": 794,
+    "code": "bronchitis",
+    "developer_name": "BRONCHITIS",
+    "model_type": "injury_suspension",
+    "name": "Bronchitis",
+    "stat_group": null
+  },
+  {
+    "id": 795,
+    "code": "cheekbone-surgery",
+    "developer_name": "CHEEKBONE_SURGERY",
+    "model_type": "injury_suspension",
+    "name": "Cheekbone Surgery",
+    "stat_group": null
+  },
+  {
+    "id": 796,
+    "code": "fractured-skull",
+    "developer_name": "FRACTURED_SKULL",
+    "model_type": "injury_suspension",
+    "name": "Fractured Skull",
+    "stat_group": null
+  },
+  {
+    "id": 797,
+    "code": "ruptured-intraarticular-ligament-initiation-in-the-ankle",
+    "developer_name": "RUPTURED_INTRAARTICULAR_LIGAMENT_INITIATION_IN_THE_ANKLE",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Intraarticular Ligament Initiation In The Ankle",
+    "stat_group": null
+  },
+  {
+    "id": 798,
+    "code": "tendonitis",
+    "developer_name": "TENDONITIS",
+    "model_type": "injury_suspension",
+    "name": "Tendonitis",
+    "stat_group": null
+  },
+  {
+    "id": 799,
+    "code": "sideband-tear",
+    "developer_name": "SIDEBAND_TEAR",
+    "model_type": "injury_suspension",
+    "name": "Sideband Tear",
+    "stat_group": null
+  },
+  {
+    "id": 800,
+    "code": "edema-in-the-knee",
+    "developer_name": "EDEMA_IN_THE_KNEE",
+    "model_type": "injury_suspension",
+    "name": "Edema In The Knee",
+    "stat_group": null
+  },
+  {
+    "id": 801,
+    "code": "rupture-of-the-timpanum",
+    "developer_name": "RUPTURE_OF_THE_TIMPANUM",
+    "model_type": "injury_suspension",
+    "name": "Rupture Of The Timpanum",
+    "stat_group": null
+  },
+  {
+    "id": 804,
+    "code": "tendon-crack",
+    "developer_name": "TENDON_CRACK",
+    "model_type": "injury_suspension",
+    "name": "Tendon Crack",
+    "stat_group": null
+  },
+  {
+    "id": 805,
+    "code": "ruptured-ligaments",
+    "developer_name": "RUPTURED_LIGAMENTS",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Ligaments",
+    "stat_group": null
+  },
+  {
+    "id": 806,
+    "code": "muscle-bruise",
+    "developer_name": "MUSCLE_BRUISE",
+    "model_type": "injury_suspension",
+    "name": "Muscle Bruise",
+    "stat_group": null
+  },
+  {
+    "id": 807,
+    "code": "bone-inflammation",
+    "developer_name": "BONE_INFLAMMATION",
+    "model_type": "injury_suspension",
+    "name": "Bone Inflammation",
+    "stat_group": null
+  },
+  {
+    "id": 808,
+    "code": "cracked-lung",
+    "developer_name": "CRACKED_LUNG",
+    "model_type": "injury_suspension",
+    "name": "Cracked Lung",
+    "stat_group": null
+  },
+  {
+    "id": 809,
+    "code": "compartment-syndrome",
+    "developer_name": "COMPARTMENT_SYNDROME",
+    "model_type": "injury_suspension",
+    "name": "Compartment Syndrome",
+    "stat_group": null
+  },
+  {
+    "id": 810,
+    "code": "sideband-injury",
+    "developer_name": "SIDEBAND_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Sideband Injury",
+    "stat_group": null
+  },
+  {
+    "id": 811,
+    "code": "bursitis",
+    "developer_name": "BURSITIS",
+    "model_type": "injury_suspension",
+    "name": "Bursitis",
+    "stat_group": null
+  },
+  {
+    "id": 812,
+    "code": "lumbar-vertebra-fracture",
+    "developer_name": "LUMBAR_VERTEBRA_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Lumbar Vertebra Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 814,
+    "code": "muscle-partial-avulsion",
+    "developer_name": "MUSCLE_PARTIAL_AVULSION",
+    "model_type": "injury_suspension",
+    "name": "Muscle Partial Avulsion",
+    "stat_group": null
+  },
+  {
+    "id": 815,
+    "code": "tibia-and-fibula-fracture",
+    "developer_name": "TIBIA_AND_FIBULA_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Tibia And Fibula Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 816,
+    "code": "pneumothorax",
+    "developer_name": "PNEUMOTHORAX",
+    "model_type": "injury_suspension",
+    "name": "Pneumothorax",
+    "stat_group": null
+  },
+  {
+    "id": 817,
+    "code": "testicular-cancer",
+    "developer_name": "TESTICULAR_CANCER",
+    "model_type": "injury_suspension",
+    "name": "Testicular Cancer",
+    "stat_group": null
+  },
+  {
+    "id": 818,
+    "code": "ruptured-sideband",
+    "developer_name": "RUPTURED_SIDEBAND",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Sideband",
+    "stat_group": null
+  },
+  {
+    "id": 819,
+    "code": "contused-laceration",
+    "developer_name": "CONTUSED_LACERATION",
+    "model_type": "injury_suspension",
+    "name": "Contused Laceration",
+    "stat_group": null
+  },
+  {
+    "id": 821,
+    "code": "patella-tendon-irritation",
+    "developer_name": "PATELLA_TENDON_IRRITATION",
+    "model_type": "injury_suspension",
+    "name": "Patella Tendon Irritation",
+    "stat_group": null
+  },
+  {
+    "id": 822,
+    "code": "cruciate-ligament-stretch",
+    "developer_name": "CRUCIATE_LIGAMENT_STRETCH",
+    "model_type": "injury_suspension",
+    "name": "Cruciate Ligament Stretch",
+    "stat_group": null
+  },
+  {
+    "id": 824,
+    "code": "problems-with-the-left-hip-flexor",
+    "developer_name": "PROBLEMS_WITH_THE_LEFT_HIP_FLEXOR",
+    "model_type": "injury_suspension",
+    "name": "Problems With The Left Hip Flexor",
+    "stat_group": null
+  },
+  {
+    "id": 825,
+    "code": "bone-buckling",
+    "developer_name": "BONE_BUCKLING",
+    "model_type": "injury_suspension",
+    "name": "Bone Buckling",
+    "stat_group": null
+  },
+  {
+    "id": 826,
+    "code": "fractured-thumb",
+    "developer_name": "FRACTURED_THUMB",
+    "model_type": "injury_suspension",
+    "name": "Fractured Thumb",
+    "stat_group": null
+  },
+  {
+    "id": 828,
+    "code": "fractured-kneecap",
+    "developer_name": "FRACTURED_KNEECAP",
+    "model_type": "injury_suspension",
+    "name": "Fractured Kneecap",
+    "stat_group": null
+  },
+  {
+    "id": 829,
+    "code": "problems-with-the-hip-flexor",
+    "developer_name": "PROBLEMS_WITH_THE_HIP_FLEXOR",
+    "model_type": "injury_suspension",
+    "name": "Problems With The Hip Flexor",
+    "stat_group": null
+  },
+  {
+    "id": 830,
+    "code": "screwsnails-removal",
+    "developer_name": "SCREWS_NAILS_REMOVAL",
+    "model_type": "injury_suspension",
+    "name": "Screwsnails Removal",
+    "stat_group": null
+  },
+  {
+    "id": 831,
+    "code": "infected-wound",
+    "developer_name": "INFECTED_WOUND",
+    "model_type": "injury_suspension",
+    "name": "Infected Wound",
+    "stat_group": null
+  },
+  {
+    "id": 832,
+    "code": "toothache",
+    "developer_name": "TOOTHACHE",
+    "model_type": "injury_suspension",
+    "name": "Toothache",
+    "stat_group": null
+  },
+  {
+    "id": 833,
+    "code": "rupture-of-the-pattella",
+    "developer_name": "RUPTURE_OF_THE_PATTELLA",
+    "model_type": "injury_suspension",
+    "name": "Rupture Of The Pattella",
+    "stat_group": null
+  },
+  {
+    "id": 835,
+    "code": "muscular-hairline-crack",
+    "developer_name": "MUSCULAR_HAIRLINE_CRACK",
+    "model_type": "injury_suspension",
+    "name": "Muscular Hairline Crack",
+    "stat_group": null
+  },
+  {
+    "id": 836,
+    "code": "chest-injury",
+    "developer_name": "CHEST_INJURY",
+    "model_type": "injury_suspension",
+    "name": "Chest Injury",
+    "stat_group": null
+  },
+  {
+    "id": 837,
+    "code": "intestial-virus",
+    "developer_name": "INTESTIAL_VIRUS",
+    "model_type": "injury_suspension",
+    "name": "Intestial Virus",
+    "stat_group": null
+  },
+  {
+    "id": 839,
+    "code": "cruciate-ligament-strain",
+    "developer_name": "CRUCIATE_LIGAMENT_STRAIN",
+    "model_type": "injury_suspension",
+    "name": "Cruciate Ligament Strain",
+    "stat_group": null
+  },
+  {
+    "id": 842,
+    "code": "pelvic-tumor",
+    "developer_name": "PELVIC_TUMOR",
+    "model_type": "injury_suspension",
+    "name": "Pelvic Tumor",
+    "stat_group": null
+  },
+  {
+    "id": 843,
+    "code": "meniscus-irritation",
+    "developer_name": "MENISCUS_IRRITATION",
+    "model_type": "injury_suspension",
+    "name": "Meniscus Irritation",
+    "stat_group": null
+  },
+  {
+    "id": 844,
+    "code": "skin-disease",
+    "developer_name": "SKIN_DISEASE",
+    "model_type": "injury_suspension",
+    "name": "Skin Disease",
+    "stat_group": null
+  },
+  {
+    "id": 846,
+    "code": "strain-in-the-thigh-and-gluteal-muscles",
+    "developer_name": "STRAIN_IN_THE_THIGH_AND_GLUTEAL_MUSCLES",
+    "model_type": "injury_suspension",
+    "name": "Strain In The Thigh And Gluteal Muscles",
+    "stat_group": null
+  },
+  {
+    "id": 847,
+    "code": "ankle-inflammation",
+    "developer_name": "ANKLE_INFLAMMATION",
+    "model_type": "injury_suspension",
+    "name": "Ankle Inflammation",
+    "stat_group": null
+  },
+  {
+    "id": 849,
+    "code": "impingement-syndrome",
+    "developer_name": "IMPINGEMENT_SYNDROME",
+    "model_type": "injury_suspension",
+    "name": "Impingement Syndrome",
+    "stat_group": null
+  },
+  {
+    "id": 851,
+    "code": "fracture-dislocation-of-the-ankle",
+    "developer_name": "FRACTURE_DISLOCATION_OF_THE_ANKLE",
+    "model_type": "injury_suspension",
+    "name": "Fracture Dislocation Of The Ankle",
+    "stat_group": null
+  },
+  {
+    "id": 853,
+    "code": "cut",
+    "developer_name": "CUT",
+    "model_type": "injury_suspension",
+    "name": "Cut",
+    "stat_group": null
+  },
+  {
+    "id": 854,
+    "code": "capsular-tear",
+    "developer_name": "CAPSULAR_TEAR",
+    "model_type": "injury_suspension",
+    "name": "Capsular Tear",
+    "stat_group": null
+  },
+  {
+    "id": 855,
+    "code": "coccyx-contusion",
+    "developer_name": "COCCYX_CONTUSION",
+    "model_type": "injury_suspension",
+    "name": "Coccyx Contusion",
+    "stat_group": null
+  },
+  {
+    "id": 856,
+    "code": "sciatic-problem",
+    "developer_name": "SCIATIC_PROBLEM",
+    "model_type": "injury_suspension",
+    "name": "Sciatic Problem",
+    "stat_group": null
+  },
+  {
+    "id": 858,
+    "code": "blockade-in-the-spinal",
+    "developer_name": "BLOCKADE_IN_THE_SPINAL",
+    "model_type": "injury_suspension",
+    "name": "Blockade In The Spinal",
+    "stat_group": null
+  },
+  {
+    "id": 859,
+    "code": "laceration-of-the-capsule",
+    "developer_name": "LACERATION_OF_THE_CAPSULE",
+    "model_type": "injury_suspension",
+    "name": "Laceration Of The Capsule",
+    "stat_group": null
+  },
+  {
+    "id": 860,
+    "code": "fracture-of-the-lower-leg",
+    "developer_name": "FRACTURE_OF_THE_LOWER_LEG",
+    "model_type": "injury_suspension",
+    "name": "Fracture Of The Lower Leg",
+    "stat_group": null
+  },
+  {
+    "id": 861,
+    "code": "burns",
+    "developer_name": "BURNS",
+    "model_type": "injury_suspension",
+    "name": "Burns",
+    "stat_group": null
+  },
+  {
+    "id": 862,
+    "code": "dislocation-of-the-patella",
+    "developer_name": "DISLOCATION_OF_THE_PATELLA",
+    "model_type": "injury_suspension",
+    "name": "Dislocation Of The Patella",
+    "stat_group": null
+  },
+  {
+    "id": 864,
+    "code": "cervical-fracture",
+    "developer_name": "CERVICAL_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Cervical Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 865,
+    "code": "ruptured-sideband-in-the-ankle",
+    "developer_name": "RUPTURED_SIDEBAND_IN_THE_ANKLE",
+    "model_type": "injury_suspension",
+    "name": "Ruptured Sideband In The Ankle",
+    "stat_group": null
+  },
+  {
+    "id": 866,
+    "code": "midface-fracture",
+    "developer_name": "MIDFACE_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Midface Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 867,
+    "code": "meningitis",
+    "developer_name": "MENINGITIS",
+    "model_type": "injury_suspension",
+    "name": "Meningitis",
+    "stat_group": null
+  },
+  {
+    "id": 868,
+    "code": "kidney-problems",
+    "developer_name": "KIDNEY_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Kidney Problems",
+    "stat_group": null
+  },
+  {
+    "id": 869,
+    "code": "testicular-disruption",
+    "developer_name": "TESTICULAR_DISRUPTION",
+    "model_type": "injury_suspension",
+    "name": "Testicular Disruption",
+    "stat_group": null
+  },
+  {
+    "id": 870,
+    "code": "inflamation-of-biceps",
+    "developer_name": "INFLAMATION_OF_BICEPS",
+    "model_type": "injury_suspension",
+    "name": "Inflamation Of Biceps",
+    "stat_group": null
+  },
+  {
+    "id": 872,
+    "code": "bullet-wound",
+    "developer_name": "BULLET_WOUND",
+    "model_type": "injury_suspension",
+    "name": "Bullet Wound",
+    "stat_group": null
+  },
+  {
+    "id": 874,
+    "code": "hairline-crack-in-calfbone",
+    "developer_name": "HAIRLINE_CRACK_IN_CALFBONE",
+    "model_type": "injury_suspension",
+    "name": "Hairline Crack In Calfbone",
+    "stat_group": null
+  },
+  {
+    "id": 875,
+    "code": "femoral-neck-fracture",
+    "developer_name": "FEMORAL_NECK_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Femoral Neck Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 876,
+    "code": "periostitis",
+    "developer_name": "PERIOSTITIS",
+    "model_type": "injury_suspension",
+    "name": "Periostitis",
+    "stat_group": null
+  },
+  {
+    "id": 877,
+    "code": "collapsed-lung",
+    "developer_name": "COLLAPSED_LUNG",
+    "model_type": "injury_suspension",
+    "name": "Collapsed Lung",
+    "stat_group": null
+  },
+  {
+    "id": 878,
+    "code": "internal-bleeding-in-the-thigh",
+    "developer_name": "INTERNAL_BLEEDING_IN_THE_THIGH",
+    "model_type": "injury_suspension",
+    "name": "Internal Bleeding In The Thigh",
+    "stat_group": null
+  },
+  {
+    "id": 879,
+    "code": "tooth-inflammation",
+    "developer_name": "TOOTH_INFLAMMATION",
+    "model_type": "injury_suspension",
+    "name": "Tooth Inflammation",
+    "stat_group": null
+  },
+  {
+    "id": 883,
+    "code": "circulation-problems",
+    "developer_name": "CIRCULATION_PROBLEMS",
+    "model_type": "injury_suspension",
+    "name": "Circulation Problems",
+    "stat_group": null
+  },
+  {
+    "id": 885,
+    "code": "sepsis",
+    "developer_name": "SEPSIS",
+    "model_type": "injury_suspension",
+    "name": "Sepsis",
+    "stat_group": null
+  },
+  {
+    "id": 886,
+    "code": "strain-of-the-patella",
+    "developer_name": "STRAIN_OF_THE_PATELLA",
+    "model_type": "injury_suspension",
+    "name": "Strain Of The Patella",
+    "stat_group": null
+  },
+  {
+    "id": 889,
+    "code": "marrow-bulge",
+    "developer_name": "MARROW_BULGE",
+    "model_type": "injury_suspension",
+    "name": "Marrow Bulge",
+    "stat_group": null
+  },
+  {
+    "id": 890,
+    "code": "tibial-plateau-contusion",
+    "developer_name": "TIBIAL_PLATEAU_CONTUSION",
+    "model_type": "injury_suspension",
+    "name": "Tibial Plateau Contusion",
+    "stat_group": null
+  },
+  {
+    "id": 892,
+    "code": "malaria",
+    "developer_name": "MALARIA",
+    "model_type": "injury_suspension",
+    "name": "Malaria",
+    "stat_group": null
+  },
+  {
+    "id": 893,
+    "code": "jumpers-knee",
+    "developer_name": "JUMPERS_KNEE",
+    "model_type": "injury_suspension",
+    "name": "Jumpers Knee",
+    "stat_group": null
+  },
+  {
+    "id": 894,
+    "code": "blood-clot-in-the-lungs",
+    "developer_name": "BLOOD_CLOT_IN_THE_LUNGS",
+    "model_type": "injury_suspension",
+    "name": "Blood Clot In The Lungs",
+    "stat_group": null
+  },
+  {
+    "id": 895,
+    "code": "open-wound",
+    "developer_name": "OPEN_WOUND",
+    "model_type": "injury_suspension",
+    "name": "Open Wound",
+    "stat_group": null
+  },
+  {
+    "id": 896,
+    "code": "bruise-on-ankle",
+    "developer_name": "BRUISE_ON_ANKLE",
+    "model_type": "injury_suspension",
+    "name": "Bruise On Ankle",
+    "stat_group": null
+  },
+  {
+    "id": 901,
+    "code": "hearing-impairment",
+    "developer_name": "HEARING_IMPAIRMENT",
+    "model_type": "injury_suspension",
+    "name": "Hearing Impairment",
+    "stat_group": null
+  },
+  {
+    "id": 905,
+    "code": "ulnar-fracture",
+    "developer_name": "ULNAR_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Ulnar Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 908,
+    "code": "intraarticular-ligament-crack-in-the-ankle",
+    "developer_name": "INTRAARTICULAR_LIGAMENT_CRACK_IN_THE_ANKLE",
+    "model_type": "injury_suspension",
+    "name": "Intraarticular Ligament Crack In The Ankle",
+    "stat_group": null
+  },
+  {
+    "id": 909,
+    "code": "overstretching-of-the-syndesmotic-ligament",
+    "developer_name": "OVERSTRETCHING_OF_THE_SYNDESMOTIC_LIGAMENT",
+    "model_type": "injury_suspension",
+    "name": "Overstretching Of The Syndesmotic Ligament",
+    "stat_group": null
+  },
+  {
+    "id": 915,
+    "code": "longitudinal-crack-in-the-tendon",
+    "developer_name": "LONGITUDINAL_CRACK_IN_THE_TENDON",
+    "model_type": "injury_suspension",
+    "name": "Longitudinal Crack In The Tendon",
+    "stat_group": null
+  },
+  {
+    "id": 918,
+    "code": "knee-cyst",
+    "developer_name": "KNEE_CYST",
+    "model_type": "injury_suspension",
+    "name": "Knee Cyst",
+    "stat_group": null
+  },
+  {
+    "id": 919,
+    "code": "bowel-surgery",
+    "developer_name": "BOWEL_SURGERY",
+    "model_type": "injury_suspension",
+    "name": "Bowel Surgery",
+    "stat_group": null
+  },
+  {
+    "id": 920,
+    "code": "inflamed-head-of-fibula",
+    "developer_name": "INFLAMED_HEAD_OF_FIBULA",
+    "model_type": "injury_suspension",
+    "name": "Inflamed Head Of Fibula",
+    "stat_group": null
+  },
+  {
+    "id": 922,
+    "code": "fracture-of-the-humerus-head",
+    "developer_name": "FRACTURE_OF_THE_HUMERUS_HEAD",
+    "model_type": "injury_suspension",
+    "name": "Fracture Of The Humerus Head",
+    "stat_group": null
+  },
+  {
+    "id": 923,
+    "code": "cyst-on-the-paw",
+    "developer_name": "CYST_ON_THE_PAW",
+    "model_type": "injury_suspension",
+    "name": "Cyst On The Paw",
+    "stat_group": null
+  },
+  {
+    "id": 924,
+    "code": "stroke",
+    "developer_name": "STROKE",
+    "model_type": "injury_suspension",
+    "name": "Stroke",
+    "stat_group": null
+  },
+  {
+    "id": 926,
+    "code": "allergic-reaction",
+    "developer_name": "ALLERGIC_REACTION",
+    "model_type": "injury_suspension",
+    "name": "Allergic Reaction",
+    "stat_group": null
+  },
+  {
+    "id": 927,
+    "code": "bruise-on-the-shin",
+    "developer_name": "BRUISE_ON_THE_SHIN",
+    "model_type": "injury_suspension",
+    "name": "Bruise On The Shin",
+    "stat_group": null
+  },
+  {
+    "id": 929,
+    "code": "stiffness",
+    "developer_name": "STIFFNESS",
+    "model_type": "injury_suspension",
+    "name": "Stiffness",
+    "stat_group": null
+  },
+  {
+    "id": 937,
+    "code": "patella-tendon-luxation",
+    "developer_name": "PATELLA_TENDON_LUXATION",
+    "model_type": "injury_suspension",
+    "name": "Patella Tendon Luxation",
+    "stat_group": null
+  },
+  {
+    "id": 944,
+    "code": "varicose-veins",
+    "developer_name": "VARICOSE_VEINS",
+    "model_type": "injury_suspension",
+    "name": "Varicose Veins",
+    "stat_group": null
+  },
+  {
+    "id": 945,
+    "code": "lung-contusion",
+    "developer_name": "LUNG_CONTUSION",
+    "model_type": "injury_suspension",
+    "name": "Lung Contusion",
+    "stat_group": null
+  },
+  {
+    "id": 947,
+    "code": "bone-bruise-syndrom",
+    "developer_name": "BONE_BRUISE_SYNDROM",
+    "model_type": "injury_suspension",
+    "name": "Bone Bruise Syndrom",
+    "stat_group": null
+  },
+  {
+    "id": 948,
+    "code": "bruised-acromioclavicular",
+    "developer_name": "BRUISED_ACROMIOCLAVICULAR",
+    "model_type": "injury_suspension",
+    "name": "Bruised Acromioclavicular",
+    "stat_group": null
+  },
+  {
+    "id": 950,
+    "code": "venous-occlusion",
+    "developer_name": "VENOUS_OCCLUSION",
+    "model_type": "injury_suspension",
+    "name": "Venous Occlusion",
+    "stat_group": null
+  },
+  {
+    "id": 957,
+    "code": "inflammation-in-spine",
+    "developer_name": "INFLAMMATION_IN_SPINE",
+    "model_type": "injury_suspension",
+    "name": "Inflammation In Spine",
+    "stat_group": null
+  },
+  {
+    "id": 958,
+    "code": "shingles",
+    "developer_name": "SHINGLES",
+    "model_type": "injury_suspension",
+    "name": "Shingles",
+    "stat_group": null
+  },
+  {
+    "id": 967,
+    "code": "heel-cyst",
+    "developer_name": "HEEL_CYST",
+    "model_type": "injury_suspension",
+    "name": "Heel Cyst",
+    "stat_group": null
+  },
+  {
+    "id": 968,
+    "code": "depression",
+    "developer_name": "DEPRESSION",
+    "model_type": "injury_suspension",
+    "name": "Depression",
+    "stat_group": null
+  },
+  {
+    "id": 972,
+    "code": "vestibular-disorder",
+    "developer_name": "VESTIBULAR_DISORDER",
+    "model_type": "injury_suspension",
+    "name": "Vestibular Disorder",
+    "stat_group": null
+  },
+  {
+    "id": 974,
+    "code": "splenic-infarct",
+    "developer_name": "SPLENIC_INFARCT",
+    "model_type": "injury_suspension",
+    "name": "Splenic Infarct",
+    "stat_group": null
+  },
+  {
+    "id": 978,
+    "code": "swine-flu",
+    "developer_name": "SWINE_FLU",
+    "model_type": "injury_suspension",
+    "name": "Swine Flu",
+    "stat_group": null
+  },
+  {
+    "id": 982,
+    "code": "pancratitis",
+    "developer_name": "PANCRATITIS",
+    "model_type": "injury_suspension",
+    "name": "Pancratitis",
+    "stat_group": null
+  },
+  {
+    "id": 983,
+    "code": "basal-skull-fracture",
+    "developer_name": "BASAL_SKULL_FRACTURE",
+    "model_type": "injury_suspension",
+    "name": "Basal Skull Fracture",
+    "stat_group": null
+  },
+  {
+    "id": 984,
+    "code": "partial-demolition-of-the-plantar-fascia",
+    "developer_name": "PARTIAL_DEMOLITION_OF_THE_PLANTAR_FASCIA",
+    "model_type": "injury_suspension",
+    "name": "Partial Demolition Of The Plantar Fascia",
+    "stat_group": null
+  },
+  {
+    "id": 985,
+    "code": "coma",
+    "developer_name": "COMA",
+    "model_type": "injury_suspension",
+    "name": "Coma",
+    "stat_group": null
+  },
+  {
+    "id": 986,
+    "code": "hailrine-crack-in-lumbar-vertebra",
+    "developer_name": "HAILRINE_CRACK_IN_LUMBAR_VERTEBRA",
+    "model_type": "injury_suspension",
+    "name": "Hailrine Crack In Lumbar Vertebra",
+    "stat_group": null
+  },
+  {
+    "id": 987,
+    "code": "kidney-tumour",
+    "developer_name": "KIDNEY_TUMOUR",
+    "model_type": "injury_suspension",
+    "name": "Kidney Tumour",
+    "stat_group": null
+  },
+  {
+    "id": 989,
+    "code": "pelvic-obliquity",
+    "developer_name": "PELVIC_OBLIQUITY",
+    "model_type": "injury_suspension",
+    "name": "Pelvic Obliquity",
+    "stat_group": null
+  },
+  {
+    "id": 991,
+    "code": "kidney-stone-surgery",
+    "developer_name": "KIDNEY_STONE_SURGERY",
+    "model_type": "injury_suspension",
+    "name": "Kidney Stone Surgery",
+    "stat_group": null
+  },
+  {
+    "id": 994,
+    "code": "brain-haemorrhage",
+    "developer_name": "BRAIN_HAEMORRHAGE",
+    "model_type": "injury_suspension",
+    "name": "Brain Haemorrhage",
+    "stat_group": null
+  },
+  {
+    "id": 995,
+    "code": "bruised-pelvis",
+    "developer_name": "BRUISED_PELVIS",
+    "model_type": "injury_suspension",
+    "name": "Bruised Pelvis",
+    "stat_group": null
+  },
+  {
+    "id": 1000,
+    "code": "neuropathy",
+    "developer_name": "NEUROPATHY",
+    "model_type": "injury_suspension",
+    "name": "Neuropathy",
+    "stat_group": null
+  },
+  {
+    "id": 1003,
+    "code": "hole-in-the-eardrum",
+    "developer_name": "HOLE_IN_THE_EARDRUM",
+    "model_type": "injury_suspension",
+    "name": "Hole In The Eardrum",
+    "stat_group": null
+  },
+  {
+    "id": 1009,
+    "code": "scissure",
+    "developer_name": "SCISSURE",
+    "model_type": "injury_suspension",
+    "name": "Scissure",
+    "stat_group": null
+  },
+  {
+    "id": 1017,
+    "code": "neck-bruise",
+    "developer_name": "NECK_BRUISE",
+    "model_type": "injury_suspension",
+    "name": "Neck Bruise",
+    "stat_group": null
+  },
+  {
+    "id": 1020,
+    "code": "hearing-trauma",
+    "developer_name": "HEARING_TRAUMA",
+    "model_type": "injury_suspension",
+    "name": "Hearing Trauma",
+    "stat_group": null
+  },
+  {
+    "id": 1043,
+    "code": "corn",
+    "developer_name": "CORN",
+    "model_type": "injury_suspension",
+    "name": "Corn",
+    "stat_group": null
+  },
+  {
+    "id": 1068,
+    "code": "craze-in-the-middle-finger",
+    "developer_name": "CRAZE_IN_THE_MIDDLE_FINGER",
+    "model_type": "injury_suspension",
+    "name": "Craze In The Middle Finger",
+    "stat_group": null
+  },
+  {
+    "id": 1083,
+    "code": "coccyx-fistula",
+    "developer_name": "COCCYX_FISTULA",
+    "model_type": "injury_suspension",
+    "name": "Coccyx Fistula",
+    "stat_group": null
+  },
+  {
+    "id": 1488,
+    "code": "accurate-pass-percentage",
+    "developer_name": "ACCURATE_PASS_PERCENTAGE",
+    "model_type": "statistic",
+    "name": "Accurate Pass Percentage",
+    "stat_group": "overall"
+  },
+  {
+    "id": 1489,
+    "code": "treatment",
+    "developer_name": "TREATMENTS",
+    "model_type": "statistic",
+    "name": "Treatments",
+    "stat_group": "overall"
+  },
+  {
+    "id": 1490,
+    "code": "man-of-match",
+    "developer_name": "MAN_OF_MATCH",
+    "model_type": "statistic",
+    "name": "Man of Match",
+    "stat_group": "overall"
+  },
+  {
+    "id": 1491,
+    "code": "duels-lost",
+    "developer_name": "DUELS_LOST",
+    "model_type": "statistic",
+    "name": "Duels Lost",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 1492,
+    "code": "promotion-world-cup-play-offs",
+    "developer_name": "PROMOTION_WORLD_CUP_PLAY_OFFS",
+    "model_type": "standing_rule",
+    "name": "Promotion - World Cup (Play Offs)",
+    "stat_group": null
+  },
+  {
+    "id": 1493,
+    "code": "promotion-europa-league-playoffs",
+    "developer_name": "PROMOTION_EUROPA_LEAGUE_PLAYOFFS",
+    "model_type": "standing_rule",
+    "name": "Promotion - Europa League (Play Offs)",
+    "stat_group": null
+  },
+  {
+    "id": 1494,
+    "code": "ranking-of-third-placed-teams",
+    "developer_name": "RANKING_OF_THIRD_PLACED_TEAMS",
+    "model_type": "standing_rule",
+    "name": "Ranking of third-placed teams",
+    "stat_group": null
+  },
+  {
+    "id": 1495,
+    "code": "roughing",
+    "developer_name": "ROUGHING",
+    "model_type": "sub_event",
+    "name": "Roughing",
+    "stat_group": null
+  },
+  {
+    "id": 1496,
+    "code": "foul",
+    "developer_name": "FOUL",
+    "model_type": "sub_event",
+    "name": "Foul",
+    "stat_group": null
+  },
+  {
+    "id": 1497,
+    "code": "argument",
+    "developer_name": "ARGUMENT",
+    "model_type": "sub_event",
+    "name": "Argument",
+    "stat_group": null
+  },
+  {
+    "id": 1498,
+    "code": "violent-conduct",
+    "developer_name": "VIOLENT_CONDUCT",
+    "model_type": "sub_event",
+    "name": "Violent conduct",
+    "stat_group": null
+  },
+  {
+    "id": 1499,
+    "code": "handball",
+    "developer_name": "HANDBALL",
+    "model_type": "sub_event",
+    "name": "Handball",
+    "stat_group": null
+  },
+  {
+    "id": 1500,
+    "code": "dangerous-play",
+    "developer_name": "DANGEROUS_PLAY",
+    "model_type": "sub_event",
+    "name": "Dangerous play",
+    "stat_group": null
+  },
+  {
+    "id": 1501,
+    "code": "time-wasting",
+    "developer_name": "TIME_WASTING",
+    "model_type": "sub_event",
+    "name": "Time wasting",
+    "stat_group": null
+  },
+  {
+    "id": 1502,
+    "code": "persistent-fouling",
+    "developer_name": "PERSITENT_FOULING",
+    "model_type": "sub_event",
+    "name": "Persistent fouling",
+    "stat_group": null
+  },
+  {
+    "id": 1503,
+    "code": "simulation",
+    "developer_name": "SIMULATION",
+    "model_type": "sub_event",
+    "name": "Simulation",
+    "stat_group": null
+  },
+  {
+    "id": 1504,
+    "code": "entering_field_unallowed",
+    "developer_name": "ENTERING_FIELD_UNALLOWED",
+    "model_type": "sub_event",
+    "name": "Entering field unallowed",
+    "stat_group": null
+  },
+  {
+    "id": 1505,
+    "code": "professional-last-man-foul",
+    "developer_name": "PROFESSIONAL_LAST_MAN_FOUL",
+    "model_type": "sub_event",
+    "name": "Professional last man foul",
+    "stat_group": null
+  },
+  {
+    "id": 1506,
+    "code": "off-the-ball-foul",
+    "developer_name": "OFF_THE_BALL_FOUL",
+    "model_type": "sub_event",
+    "name": "Off the ball foul",
+    "stat_group": null
+  },
+  {
+    "id": 1507,
+    "code": "penalty-scored",
+    "developer_name": "PENALTY_SCORED",
+    "model_type": "sub_event",
+    "name": "Penalty Scored",
+    "stat_group": null
+  },
+  {
+    "id": 1508,
+    "code": "penalty-shot-off-target",
+    "developer_name": "PENALTY_SHOT_OFF_TARGET",
+    "model_type": "sub_event",
+    "name": "Penalty shot off target",
+    "stat_group": null
+  },
+  {
+    "id": 1509,
+    "code": "penalty-saved-by-goalkeeper",
+    "developer_name": "PENALTY_SAVED_BY_GOALKEEPER",
+    "model_type": "sub_event",
+    "name": "Penalty saved by  goalkeeper",
+    "stat_group": null
+  },
+  {
+    "id": 1510,
+    "code": "hit-the-post",
+    "developer_name": "HIT_THE_POST",
+    "model_type": "sub_event",
+    "name": "Hit the post",
+    "stat_group": null
+  },
+  {
+    "id": 1511,
+    "code": "holding",
+    "developer_name": "HOLDING",
+    "model_type": "sub_event",
+    "name": "Holding",
+    "stat_group": null
+  },
+  {
+    "id": 1512,
+    "code": "goal-disallowed",
+    "developer_name": "GOAL_DISALLOWED",
+    "model_type": "sub_event",
+    "name": "Goal Disallowed",
+    "stat_group": null
+  },
+  {
+    "id": 1513,
+    "code": "elbowing",
+    "developer_name": "ELBOWING",
+    "model_type": "sub_event",
+    "name": "Elbowing",
+    "stat_group": null
+  },
+  {
+    "id": 1514,
+    "code": "offside",
+    "developer_name": "OFFSIDE",
+    "model_type": "sub_event",
+    "name": "Offside",
+    "stat_group": null
+  },
+  {
+    "id": 1515,
+    "code": "diving",
+    "developer_name": "DIVING",
+    "model_type": "sub_event",
+    "name": "Diving",
+    "stat_group": null
+  },
+  {
+    "id": 1516,
+    "code": "tripping",
+    "developer_name": "TRIPPING",
+    "model_type": "sub_event",
+    "name": "Tripping",
+    "stat_group": null
+  },
+  {
+    "id": 1517,
+    "code": "handling",
+    "developer_name": "HANDLING",
+    "model_type": "sub_event",
+    "name": "Handling",
+    "stat_group": null
+  },
+  {
+    "id": 1518,
+    "code": "taking-of-shirt",
+    "developer_name": "TAKING_OF_SHIRT",
+    "model_type": "sub_event",
+    "name": "Taking of shirt",
+    "stat_group": null
+  },
+  {
+    "id": 1519,
+    "code": "free-kick",
+    "developer_name": "FREE_KICK",
+    "model_type": "sub_event",
+    "name": "Free Kick",
+    "stat_group": null
+  },
+  {
+    "id": 1520,
+    "code": "long-distance-shot",
+    "developer_name": "LONG_DISTANCE_SHOT",
+    "model_type": "sub_event",
+    "name": "Long distance shot",
+    "stat_group": null
+  },
+  {
+    "id": 1521,
+    "code": "left-foot-shot",
+    "developer_name": "LEFT_FOOT_SHOT",
+    "model_type": "sub_event",
+    "name": "Left foot shot",
+    "stat_group": null
+  },
+  {
+    "id": 1522,
+    "code": "right-foot-shot",
+    "developer_name": "RIGHT_FOOT_SHOT",
+    "model_type": "sub_event",
+    "name": "Right foot shot",
+    "stat_group": null
+  },
+  {
+    "id": 1523,
+    "code": "tactical-sub",
+    "developer_name": "TACTICAL_SUB",
+    "model_type": "sub_event",
+    "name": "Tactical sub",
+    "stat_group": null
+  },
+  {
+    "id": 1524,
+    "code": "sub-because-of-injury",
+    "developer_name": "SUB_BECAUSE_OF_INJURY",
+    "model_type": "sub_event",
+    "name": "Substitution because of injury",
+    "stat_group": null
+  },
+  {
+    "id": 1525,
+    "code": "current",
+    "developer_name": "CURRENT",
+    "model_type": "period",
+    "name": "Current",
+    "stat_group": null
+  },
+  {
+    "id": 1526,
+    "code": "goal-difference-goals-scored",
+    "developer_name": "GOAL_DIFFERENCE_GOALS_SCORED",
+    "model_type": "tie_breaker_rule",
+    "name": "Goal Difference, Goals Scored",
+    "stat_group": null
+  },
+  {
+    "id": 1527,
+    "code": "counter-attacks",
+    "developer_name": "COUNTER_ATTACKS",
+    "model_type": "statistic",
+    "name": "Counter Attacks",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 1533,
+    "code": "successful-crosses-percentage",
+    "developer_name": "SUCCESSFUL_CROSSES_PERCENTAGE",
+    "model_type": "statistic",
+    "name": "Successful Crosses Percentage",
+    "stat_group": "overall"
+  },
+  {
+    "id": 1535,
+    "code": "goalkeeper-goals-conceded",
+    "developer_name": "GOALKEEPER_GOALS_CONCEDED",
+    "model_type": "statistic",
+    "name": "Goalkeeper Goals Conceded",
+    "stat_group": "defensive"
+  },
+  {
+    "id": 1584,
+    "code": "accurate-passes-percentage",
+    "developer_name": "ACCURATE_PASSES_PERCENTAGE",
+    "model_type": "statistic",
+    "name": "Accurate Passes Percentage",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 1585,
+    "code": "corners-over-under-10_5-probability",
+    "developer_name": "CORNERS_OVER_UNDER_10_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Corners Over/Under 10.5 Probability",
+    "stat_group": null
+  },
+  {
+    "id": 1600,
+    "code": "penalty-topscorer",
+    "developer_name": "PENALTY_TOPSCORER",
+    "model_type": "statistic",
+    "name": "Penalty Topscorer",
+    "stat_group": null
+  },
+  {
+    "id": 1601,
+    "code": "missed-penalty-topscorer",
+    "developer_name": "MISSED_PENALTY_TOPSCORER",
+    "model_type": "statistic",
+    "name": "Missed Penalty Topscorer",
+    "stat_group": null
+  },
+  {
+    "id": 1675,
+    "code": "highlight",
+    "developer_name": "HIGHLIGHT",
+    "model_type": "event",
+    "name": "Highlight",
+    "stat_group": null
+  },
+  {
+    "id": 1677,
+    "code": "shots",
+    "developer_name": "SHOTS",
+    "model_type": "statistic",
+    "name": "Shots",
+    "stat_group": "offensive"
+  },
+  {
+    "id": 1678,
+    "code": "head-to-head-ranking-prev-stage",
+    "developer_name": "HEAD_TO_HEAD_RANKING_PREV_STAGE",
+    "model_type": "tie_breaker_rule",
+    "name": "Head to Head + Ranking Previous Stage",
+    "stat_group": null
+  },
+  {
+    "id": 1679,
+    "code": "over-under-4_5-probability",
+    "developer_name": "OVER_UNDER_4_5_PROBABILITY",
+    "model_type": "prediction",
+    "name": "Over/Under 4.5 Probability",
+    "stat_group": null
+  }
+]
