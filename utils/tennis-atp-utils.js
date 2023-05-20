@@ -3357,7 +3357,7 @@ const CreateDBFiles = async () => {
     JSON.stringify(internalFile, null, 2),
     'utf-8'
   );
-  await MongoConnection.close();
+  // await MongoConnection.close();
 };
 
 //// make check slugs
