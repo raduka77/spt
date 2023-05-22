@@ -22,7 +22,9 @@ const MakePreview = async (match, homeData, awayData) => {
   if (match.status.type === 'notstarted') {
     const h2h = await WtaH2H(homeData.id, awayData.id);
     // console.log(h2h);
-    console.log(`=============${match.id}====================`);
+    console.log(
+      `=============${match.id}===${homeData.id}===${awayData.id}==============`
+    );
     // console.log(match.id);
     let homeLastMatch;
     let awayLastMatch;
