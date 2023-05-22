@@ -46,10 +46,10 @@ const Start = async () => {
   console.log(
     `\n******************\nEnding at ${new Date()}\n******************`
   );
-  await MongoConnection.close();
 };
 
 await Start();
+await MongoConnection.close();
 // const RunUpdater = async ({ interval = 60, callback }) => {
 //   console.log(
 //     `Started ATP match updater with interval of `,
