@@ -2,6 +2,7 @@ import { MongoConnection, MongoDbName } from './mongo-tennis.js';
 
 const AtpH2H = async (homeTeam, awayTeam) => {
   // console.log('starting AtpH2H');
+  await MongoConnection.connect();
   const db = MongoConnection.db(MongoDbName);
   const col = db.collection('atpMatches');
   let matches = [];

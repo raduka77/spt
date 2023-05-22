@@ -3431,6 +3431,7 @@ const makeCheckSlugsATP = function () {
 /// fetch all season matches
 
 const FetchMatches = async () => {
+  await MongoConnection.connect();
   let matches = [];
   const db = MongoConnection.db(MongoDbName);
   const col = db.collection('atpMatches');
@@ -3468,6 +3469,7 @@ const FetchMatches = async () => {
 /// fetch all players
 
 const FetchPlayers = async () => {
+  await MongoConnection.connect();
   const db = MongoConnection.db(MongoDbName);
   const col = db.collection('playersATP');
   let players = [];

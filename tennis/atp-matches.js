@@ -49,7 +49,7 @@ const Start = async () => {
 };
 
 await Start();
-MongoConnection.close();
+await MongoConnection.close();
 // const RunUpdater = async ({ interval = 60, callback }) => {
 //   console.log(
 //     `Started ATP match updater with interval of `,

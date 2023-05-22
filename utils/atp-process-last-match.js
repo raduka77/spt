@@ -36,6 +36,7 @@ const ATPProcessLastMatch = async (matchId, playerId) => {
   };
 
   if (typeof matchId !== 'undefined') {
+    await MongoConnection.connect();
     const db = MongoConnection.db(MongoDbName);
     const col = db.collection('atpMatches');
 
