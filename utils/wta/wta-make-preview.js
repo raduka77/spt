@@ -39,8 +39,10 @@ const MakePreview = async (match, homeData, awayData) => {
       console.log('sending ' + homeData.properName);
       homeLastMatch = await WTAProcessLastMatch(lastHmatch, homeData.id);
       // console.log(homeLastMatch);
+    } else {
+      homeLastMatch = await WTAProcessLastMatch(undefined, homeData.id);
     }
-    console.log(awayData);
+
     if (
       typeof awayData.recentMatches !== 'undefined' &&
       awayData.recentMatches !== null &&
