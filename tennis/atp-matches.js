@@ -9,7 +9,7 @@ const playersATPInternal = JSON.parse(
   fs.readFileSync('../json_tennis/atp-internal-players-db.json', 'utf8')
 );
 
-const Start = async () => {
+const Start = async closeConn => {
   console.log(
     `\n******************\nstarting at ${new Date()}\n******************`
   );
@@ -46,10 +46,18 @@ const Start = async () => {
   console.log(
     `\n******************\nEnding at ${new Date()}\n******************`
   );
+
+  if (typeof closeConn == 'function') {
+    closeConn();
+  }
 };
 
-await Start();
-await MongoConnection.close();
+function closeConnection() {
+  MongoConnection.close();
+}
+
+await Start(closeConnection);
+
 // const RunUpdater = async ({ interval = 60, callback }) => {
 //   console.log(
 //     `Started ATP match updater with interval of `,
