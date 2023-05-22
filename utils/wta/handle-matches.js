@@ -108,7 +108,7 @@ const handleFinished = async (match, homeData, awayData) => {
 
     if (fs.existsSync(`${homeTeamPath}/matches.json`)) {
       console.log('********* match file found, updating...');
-      console.log(`Home path: ${homeTeamPath}/matches.json`);
+      console.log(`Home matches file path: ${homeTeamPath}/matches.json`);
       /// loading match json
       const priorHomeMatches = JSON.parse(
         fs.readFileSync(`${homeTeamPath}/matches.json`, 'utf8')
@@ -136,6 +136,7 @@ const handleFinished = async (match, homeData, awayData) => {
 
     if (!fs.existsSync(`${homeTeamPath}/matches.json`)) {
       console.log('!!!! match file NOT found, creating one...');
+      console.log(`Home matches file path: ${homeTeamPath}/matches.json`);
       /// declaring match obj
       const hm = {
         matchSlug: `${homeData.playerSlug}-vs-${awayData.playerSlug}`,
@@ -159,7 +160,7 @@ const handleFinished = async (match, homeData, awayData) => {
 
     if (fs.existsSync(`${awayTeamPath}/matches.json`)) {
       console.log('********* match file found, updating...');
-      console.log(`Away path: ${awayTeamPath}/matches.json`);
+      console.log(`Away matches file path: ${awayTeamPath}/matches.json`);
       /// loading match json
       const priorAwayMatches = JSON.parse(
         fs.readFileSync(`${awayTeamPath}/matches.json`, 'utf8')
@@ -187,6 +188,7 @@ const handleFinished = async (match, homeData, awayData) => {
 
     if (!fs.existsSync(`${awayTeamPath}/matches.json`)) {
       console.log('!!!! match file NOT found, creating one...');
+      console.log(`Away matches file path: ${awayTeamPath}/matches.json`);
       /// declaring match obj
       const am = {
         matchSlug: `${homeData.playerSlug}-vs-${awayData.playerSlug}`,
