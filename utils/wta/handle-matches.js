@@ -71,7 +71,7 @@ const handleFinished = async (match, homeData, awayData) => {
 
   if (fs.existsSync(matchFullPath)) {
     console.log(`loading previous json...`);
-
+    console.log(matchFullPath);
     const matchJson = JSON.parse(fs.readFileSync(matchFullPath, 'utf8'));
 
     console.log('file loaded succesfully');
@@ -95,7 +95,7 @@ const handleFinished = async (match, homeData, awayData) => {
 
     fs.writeFileSync(matchFullPath, JSON.stringify(updated, null, 2), 'utf-8');
   } else {
-    console.log('match json not found');
+    console.log('!!!!____________________________ match json not found');
   }
 
   ///// HANDLE TEAMS MATCHES JSON
