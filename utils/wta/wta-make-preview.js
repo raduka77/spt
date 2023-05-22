@@ -47,11 +47,12 @@ const MakePreview = async (match, homeData, awayData) => {
       awayData.recentMatches !== null &&
       awayData.recentMatches.length > 0
     ) {
+      console.log(awayData.recentMatches);
       const lastAmatch = awayData.recentMatches.at(-1);
 
       console.log('sending ' + awayData.properName);
       awayLastMatch = await WTAProcessLastMatch(lastAmatch, awayData.id);
-      console.log(awayLastMatch);
+      // console.log(awayLastMatch);
     }
 
     // // console.log(h2h);
