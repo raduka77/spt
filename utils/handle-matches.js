@@ -95,6 +95,7 @@ const handleFinished = async (match, homeData, awayData) => {
     console.log(matchFullPath);
     fs.writeFileSync(matchFullPath, JSON.stringify(updated, null, 2), 'utf-8');
   } else {
+    console.log(match);
     console.log('match json not found');
   }
 
