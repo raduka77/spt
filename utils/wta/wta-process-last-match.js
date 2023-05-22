@@ -153,7 +153,7 @@ const WTAProcessLastMatch = async (matchId, playerId) => {
       }
     }
   });
-
+  console.log(lastMatch);
   return lastMatch;
 };
 
