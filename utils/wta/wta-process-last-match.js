@@ -38,7 +38,7 @@ const WTAProcessLastMatch = async (matchId, playerId) => {
   if (typeof matchId !== 'undefined') {
     const db = MongoConnection.db(MongoDbName);
     const col = db.collection('wtaMatches');
-    console.log(playerId, matchId);
+    // console.log(playerId, matchId);
     let matches = [];
 
     const options = {
