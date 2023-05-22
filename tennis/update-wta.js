@@ -25,6 +25,8 @@ const Start = async () => {
   process.exit(0);
 };
 
+await Start();
+
 // const RunUpdater = async ({ interval = 60, callback }) => {
 //   console.log(
 //     `Started WTA match updater with interval of `,

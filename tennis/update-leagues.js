@@ -25,6 +25,7 @@ const Start = async () => {
   process.exit(0);
 };
 
+await Start();
 // const RunUpdater = async ({ interval = 60, callback }) => {
 //   console.log(`Started match updater with interval of `, interval, ` seconds`);
 //   const MilisecondInterval = interval * 1000;
