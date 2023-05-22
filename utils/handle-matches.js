@@ -92,7 +92,7 @@ const handleFinished = async (match, homeData, awayData) => {
     };
 
     console.log('>>>> updating match file...');
-
+    console.log(matchFullPath);
     fs.writeFileSync(matchFullPath, JSON.stringify(updated, null, 2), 'utf-8');
   } else {
     console.log('match json not found');
@@ -107,7 +107,7 @@ const handleFinished = async (match, homeData, awayData) => {
     console.log(`*** HOME player directory found, checking for match file...`);
 
     if (fs.existsSync(`${homeTeamPath}/matches.json`)) {
-      console.log('********* match file found, updating...');
+      console.log('********* player match file found, updating...');
       console.log(`Home path: ${homeTeamPath}/matches.json`);
       /// loading match json
       const priorHomeMatches = JSON.parse(
@@ -136,7 +136,7 @@ const handleFinished = async (match, homeData, awayData) => {
 
     if (!fs.existsSync(`${homeTeamPath}/matches.json`)) {
       console.log(`Home path: ${homeTeamPath}/matches.json`);
-      console.log('!!!! match file NOT found, creating one...');
+      console.log('!!!! player match file NOT found, creating one...');
       /// declaring match obj
       const hm = {
         matchSlug: `${homeData.playerSlug}-vs-${awayData.playerSlug}`,
@@ -159,7 +159,7 @@ const handleFinished = async (match, homeData, awayData) => {
     console.log(`*** AWAY Player directory found, checking for match file...`);
 
     if (fs.existsSync(`${awayTeamPath}/matches.json`)) {
-      console.log('********* match file found, updating...');
+      console.log('********* player match file found, updating...');
       console.log(`Away path: ${awayTeamPath}/matches.json`);
       /// loading match json
       const priorAwayMatches = JSON.parse(
@@ -187,7 +187,7 @@ const handleFinished = async (match, homeData, awayData) => {
     }
 
     if (!fs.existsSync(`${awayTeamPath}/matches.json`)) {
-      console.log('!!!! match file NOT found, creating one...');
+      console.log('!!!! player match file NOT found, creating one...');
       console.log(`Home path: ${awayTeamPath}/matches.json`);
       /// declaring match obj
       const am = {
