@@ -22,10 +22,8 @@ const MakePreview = async (match, homeData, awayData) => {
 
   //// handle NOT STARTED matches
   if (match.status.type === 'notstarted') {
+    console.log(`=======${match.id}==========================`);
     const h2h = await AtpH2H(homeData.id, awayData.id);
-
-    console.log('=================================');
-    // console.log(match.id);
     let homeLastMatch;
     let awayLastMatch;
     let formOnSurface;
@@ -40,6 +38,8 @@ const MakePreview = async (match, homeData, awayData) => {
       console.log('sending ' + homeData.properName);
       homeLastMatch = await ATPProcessLastMatch(lastHmatch, homeData.id);
       // console.log(homeLastMatch);
+    } else {
+      homeLastMatch = await ATPProcessLastMatch(undefined, homeData.id);
     }
 
     if (
@@ -52,6 +52,8 @@ const MakePreview = async (match, homeData, awayData) => {
       console.log('sending ' + awayData.properName);
       awayLastMatch = await ATPProcessLastMatch(lastAmatch, awayData.id);
       // console.log(awayLastMatch);
+    } else {
+      awayLastMatch = await ATPProcessLastMatch(undefined, awayData.id);
     }
 
     // console.log(h2h);
