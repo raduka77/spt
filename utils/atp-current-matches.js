@@ -36,7 +36,7 @@ const startInterval = currentTime - 86400; //86400
 const endInterval = currentTime + 172800; // 172800
 
 const ATPFetchCurrentMatches = async () => {
-  await MongoConnection.connect();
+  // await MongoConnection.connect();
   let matches = [];
   const db = MongoConnection.db(MongoDbName);
   const col = db.collection('atpMatches');

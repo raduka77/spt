@@ -50,23 +50,3 @@ const Start = async () => {
 };
 
 await Start();
-
-// const RunUpdater = async ({ interval = 60, callback }) => {
-//   console.log(
-//     `Started ATP match updater with interval of `,
-//     interval,
-//     ` seconds`
-//   );
-//   const MilisecondInterval = interval * 1000;
-
-//   let timerId = setTimeout(async function tick() {
-//     console.log(`Updating ATP MATCHES...`);
-//     await Start();
-
-//     timerId = setTimeout(tick, MilisecondInterval); // (*)
-//   }, 1);
-// };
-
-// await RunUpdater({
-//   interval: 3600, // in seconds - 3600 - 1 hour
-// });

@@ -8,6 +8,6 @@ const MongoConnection = new MongoClient(uri, {
   UseUnifiedTopology: true,
 });
 
-// await MongoConnection.connect();
+await MongoConnection.connect();
 
 export { MongoConnection, MongoDbName };

@@ -46,25 +46,25 @@ const Start = async () => {
   console.log(
     `\n******************\nEnding at ${new Date()}\n******************`
   );
-  MongoConnection.close();
+  process.exit(0);
 };
 
-const RunUpdater = async ({ interval = 60, callback }) => {
-  console.log(
-    `Started WTA match updater with interval of `,
-    interval,
-    ` seconds`
-  );
-  const MilisecondInterval = interval * 1000;
+// const RunUpdater = async ({ interval = 60, callback }) => {
+//   console.log(
+//     `Started WTA match updater with interval of `,
+//     interval,
+//     ` seconds`
+//   );
+//   const MilisecondInterval = interval * 1000;
 
-  let timerId = setTimeout(async function tick() {
-    console.log(`Updating WTA MATCHES...`);
-    await Start();
+//   let timerId = setTimeout(async function tick() {
+//     console.log(`Updating WTA MATCHES...`);
+//     await Start();
 
-    timerId = setTimeout(tick, MilisecondInterval); // (*)
-  }, 1);
-};
+//     timerId = setTimeout(tick, MilisecondInterval); // (*)
+//   }, 1);
+// };
 
-RunUpdater({
-  interval: 3600, // in seconds - 3600 - 1 hour
-});
+// RunUpdater({
+//   interval: 3600, // in seconds - 3600 - 1 hour
+// });
