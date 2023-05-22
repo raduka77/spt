@@ -51,7 +51,7 @@ const MakePreview = async (match, homeData, awayData) => {
 
       console.log('sending ' + awayData.properName);
       awayLastMatch = await WTAProcessLastMatch(lastAmatch, awayData.id);
-      // console.log(awayLastMatch);
+      console.log(awayLastMatch);
     }
 
     // // console.log(h2h);
