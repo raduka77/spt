@@ -91,7 +91,7 @@ const WTAProcessLastMatch = async (matchId, playerId) => {
     lastMatch.date = calculateEpoch(doc.startTimestamp);
 
     if (doc.winnerCode == 0) {
-      lastMatch.walkover = 'true';
+      lastMatch.walkover = true;
     }
 
     if (typeof doc.groundType !== 'undefined' && doc.groundType !== null) {
