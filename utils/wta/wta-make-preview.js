@@ -20,12 +20,11 @@ const MakePreview = async (match, homeData, awayData) => {
 
   //// handle NOT STARTED matches
   if (match.status.type === 'notstarted') {
-    const h2h = await WtaH2H(homeData.id, awayData.id);
     // console.log(h2h);
     console.log(
       `=============${match.id}===${homeData.id}===${awayData.id}==============`
     );
-    // console.log(match.id);
+    const h2h = await WtaH2H(homeData.id, awayData.id);
     let homeLastMatch;
     let awayLastMatch;
     let formOnSurface;
@@ -41,7 +40,7 @@ const MakePreview = async (match, homeData, awayData) => {
       homeLastMatch = await WTAProcessLastMatch(lastHmatch, homeData.id);
       // console.log(homeLastMatch);
     }
-    console.log(awayData.properName);
+    console.log(awayData);
     console.log(awayData.recentMatches);
     if (
       typeof awayData.recentMatches !== 'undefined' &&
