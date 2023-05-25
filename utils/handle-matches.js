@@ -53,18 +53,226 @@ const handleFinished = async (match, homeData, awayData) => {
   let homeMatches = [];
   let awayMatches = [];
   let finalScoreArr = [];
-  let setScore = {
+  let setScore1 = {
     home: 0,
     away: 0,
     won: '',
   };
+  let setScore2 = {
+    home: 0,
+    away: 0,
+    won: '',
+  };
+  let setScore3 = {
+    home: 0,
+    away: 0,
+    won: '',
+  };
+  let setScore4 = {
+    home: 0,
+    away: 0,
+    won: '',
+  };
+  let setScore5 = {
+    home: 0,
+    away: 0,
+    won: '',
+  };
+  let matchStatus = '';
+
+  ///// Preparing scores
+
+  if (match.status.description === 'Walkover') {
+    matchStatus = 'walkover';
+  }
+  if (match.status.description === 'Retired') {
+    matchStatus = 'retired';
+  }
+  if (match.status.description === 'Ended') {
+    matchStatus = 'ok';
+  }
+
+  /// period 1
+  if (
+    typeof match.homeScore.period1 !== 'undefined' &&
+    typeof match.awayScore.period1 !== 'undefined'
+  ) {
+    if (typeof match.homeScore.period1TieBreak !== 'undefined') {
+      if (match.homeScore.period1TieBreak > match.awayScore.period1TieBreak) {
+        setScore1.home = 7;
+        setScore1.away = 6;
+        setScore1.won = 'home';
+      }
+      if (match.homeScore.period1TieBreak < match.awayScore.period1TieBreak) {
+        setScore1.home = 6;
+        setScore1.away = 7;
+        setScore1.won = 'away';
+      }
+    }
+
+    if (match.homeScore.period1 > match.awayScore.period1) {
+      setScore1.home = match.homeScore.period1;
+      setScore1.away = match.awayScore.period1;
+      setScore1.won = 'home';
+    }
+
+    if (match.homeScore.period1 < match.awayScore.period1) {
+      setScore1.home = match.homeScore.period1;
+      setScore1.away = match.awayScore.period1;
+      setScore1.won = 'away';
+    }
+
+    finalScoreArr.push(setScore1);
+  }
+
+  /// period 2
+  if (
+    typeof match.homeScore.period2 !== 'undefined' &&
+    typeof match.awayScore.period2 !== 'undefined'
+  ) {
+    if (typeof match.homeScore.period2TieBreak !== 'undefined') {
+      if (match.homeScore.period2TieBreak > match.awayScore.period2TieBreak) {
+        setScore2.home = 7;
+        setScore2.away = 6;
+        setScore2.won = 'home';
+        // finalScoreArr.push(setScore);
+      }
+      if (match.homeScore.period2TieBreak < match.awayScore.period2TieBreak) {
+        setScore2.home = 6;
+        setScore2.away = 7;
+        setScore2.won = 'away';
+        // finalScoreArr.push(setScore);
+      }
+    }
+
+    if (match.homeScore.period2 > match.awayScore.period2) {
+      setScore2.home = match.homeScore.period2;
+      setScore2.away = match.awayScore.period2;
+      setScore2.won = 'home';
+      // finalScoreArr.push(setScore);
+    }
+
+    if (match.homeScore.period2 < match.awayScore.period2) {
+      setScore2.home = match.homeScore.period2;
+      setScore2.away = match.awayScore.period2;
+      setScore2.won = 'away';
+    }
+    finalScoreArr.push(setScore2);
+  }
+
+  /// period 3
+  if (
+    typeof match.homeScore.period3 !== 'undefined' &&
+    typeof match.awayScore.period3 !== 'undefined'
+  ) {
+    if (typeof match.homeScore.period3TieBreak !== 'undefined') {
+      if (match.homeScore.period3TieBreak > match.awayScore.period3TieBreak) {
+        setScore3.home = 7;
+        setScore3.away = 6;
+        setScore3.won = 'home';
+        // finalScoreArr.push(setScore);
+      }
+      if (match.homeScore.period3TieBreak < match.awayScore.period3TieBreak) {
+        setScore3.home = 6;
+        setScore3.away = 7;
+        setScore3.won = 'away';
+        // finalScoreArr.push(setScore);
+      }
+    }
+
+    if (match.homeScore.period3 > match.awayScore.period3) {
+      setScore3.home = match.homeScore.period3;
+      setScore3.away = match.awayScore.period3;
+      setScore3.won = 'home';
+      // finalScoreArr.push(setScore);
+    }
+
+    if (match.homeScore.period3 < match.awayScore.period3) {
+      setScore3.home = match.homeScore.period3;
+      setScore3.away = match.awayScore.period3;
+      setScore3.won = 'away';
+    }
+    finalScoreArr.push(setScore3);
+  }
+
+  /// period 4
+  if (
+    typeof match.homeScore.period4 !== 'undefined' &&
+    typeof match.awayScore.period4 !== 'undefined'
+  ) {
+    if (typeof match.homeScore.period4TieBreak !== 'undefined') {
+      if (match.homeScore.period4TieBreak > match.awayScore.period4TieBreak) {
+        setScore4.home = 7;
+        setScore4.away = 6;
+        setScore4.won = 'home';
+        // finalScoreArr.push(setScore);
+      }
+      if (match.homeScore.period4TieBreak < match.awayScore.period4TieBreak) {
+        setScore4.home = 6;
+        setScore4.away = 7;
+        setScore4.won = 'away';
+        // finalScoreArr.push(setScore);
+      }
+    }
+
+    if (match.homeScore.period4 > match.awayScore.period4) {
+      setScore4.home = match.homeScore.period4;
+      setScore4.away = match.awayScore.period4;
+      setScore4.won = 'home';
+      // finalScoreArr.push(setScore);
+    }
+
+    if (match.homeScore.period4 < match.awayScore.period4) {
+      setScore4.home = match.homeScore.period4;
+      setScore4.away = match.awayScore.period4;
+      setScore4.won = 'away';
+    }
+    finalScoreArr.push(setScore4);
+  }
+
+  /// period 5
+  if (
+    typeof match.homeScore.period5 !== 'undefined' &&
+    typeof match.awayScore.period5 !== 'undefined'
+  ) {
+    if (typeof match.homeScore.period5TieBreak !== 'undefined') {
+      if (match.homeScore.period5TieBreak > match.awayScore.period5TieBreak) {
+        setScore5.home = 7;
+        setScore5.away = 6;
+        setScore5.won = 'home';
+        // finalScoreArr.push(setScore);
+      }
+      if (match.homeScore.period5TieBreak < match.awayScore.period5TieBreak) {
+        setScore5.home = 6;
+        setScore5.away = 7;
+        setScore5.won = 'away';
+        // finalScoreArr.push(setScore);
+      }
+    }
+
+    if (match.homeScore.period5 > match.awayScore.period5) {
+      setScore5.home = match.homeScore.period5;
+      setScore5.away = match.awayScore.period5;
+      setScore5.won = 'home';
+      // finalScoreArr.push(setScore);
+    }
+
+    if (match.homeScore.period5 < match.awayScore.period5) {
+      setScore5.home = match.homeScore.period5;
+      setScore5.away = match.awayScore.period5;
+      setScore5.won = 'away';
+    }
+    finalScoreArr.push(setScore5);
+  }
+
+  ////// end scores and states
+
   console.log(
     `------- Updating finished match ${match.id} and matches for players ${homeData.lastName} / ${awayData.lastName}`
   );
+
   //// HANDLE MATCH JSON
   ///// check if json exists
-
-  ///// Preparing scores
 
   let matchPath = '';
   const htName = homeData.playerSlug;
@@ -100,6 +308,8 @@ const handleFinished = async (match, homeData, awayData) => {
       predictionH2H: matchJson.predictionH2H,
       predictionRank: matchJson.predictionRank,
       predictionOdds: matchJson.predictionOdds,
+      matchStatus: matchStatus,
+      matchScoreArray: finalScoreArr,
     };
 
     console.log('>>>> updating match file...');
