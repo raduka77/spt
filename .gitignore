@@ -1,4 +1,5 @@
 /node_modules
 /json_tennis
+/local_test
 /db
 paths.js

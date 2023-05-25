@@ -47,14 +47,25 @@ const handleNotStarted = async matchObj => {
   }
 };
 
+/////// handle FINISHED MATCH
+
 const handleFinished = async (match, homeData, awayData) => {
   let homeMatches = [];
   let awayMatches = [];
+  let finalScoreArr = [];
+  let setScore = {
+    home: 0,
+    away: 0,
+    won: '',
+  };
   console.log(
     `------- Updating finished match ${match.id} and matches for players ${homeData.lastName} / ${awayData.lastName}`
   );
   //// HANDLE MATCH JSON
   ///// check if json exists
+
+  ///// Preparing scores
+
   let matchPath = '';
   const htName = homeData.playerSlug;
 

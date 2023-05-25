@@ -1,5 +1,5 @@
-1 * * * * cd /node_s/spt/tennis && node update-atp.js >> /node_s/log/update-atp.log 2>&1
-1 * * * * cd /node_s/spt/tennis && node update-wta.js >> /node_s/log/update-wta.log 2>&1
-1 * * * * cd /node_s/spt/tennis && node update-leagues.js >> /node_s/log/update-tennis-leagues.log 2>&1
-12 * * * * cd /node_s/spt/tennis && node atp-matches.js >> /node_s/log/atp-matches.log 2>&1
-12 * * * * cd /node_s/spt/tennis && node wta-matches.js >> /node_s/log/wta-matches.log 2>&1
+1 * * * * cd /node_s/spt/tennis && /usr/local/bin/node update-atp.js >> /node_s/log/update-atp.log 2>&1
+1 * * * * cd /node_s/spt/tennis && /usr/local/bin/node update-wta.js >> /node_s/log/update-wta.log 2>&1
+1 * * * * cd /node_s/spt/tennis && /usr/local/bin/node update-leagues.js >> /node_s/log/update-tennis-leagues.log 2>&1
+16 * * * * cd /node_s/spt/tennis && /usr/local/bin/node atp-matches.js >> /node_s/log/atp-matches.log 2>&1
+16 * * * * cd /node_s/spt/tennis && /usr/local/bin/node wta-matches.js >> /node_s/log/wta-matches.log 2>&1
