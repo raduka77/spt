@@ -264,7 +264,7 @@ const handleFinished = async (match, homeData, awayData) => {
     finalScoreArr.push(setScore5);
   }
 
-  ////// end scores and states
+  ////// end scores and states, commit
 
   console.log(
     `------- Updating finished match ${match.id} and matches for players ${homeData.lastName} / ${awayData.lastName}`
