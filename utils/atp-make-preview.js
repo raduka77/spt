@@ -1,5 +1,5 @@
 'use strict';
-
+import fs from 'fs';
 import { AtpH2H } from './make-h2h-atp.js';
 import { ATPProcessLastMatch } from './atp-process-last-match.js';
 import { predictionByRank } from './atp-pred-by-rank.js';
@@ -11,8 +11,6 @@ import { TextForLastMatch } from './atp-text-last-match.js';
 import { predictionByOdds } from './atp-pred-by-odds.js';
 import { predictionByH2H } from './atp-pred-by-h2h.js';
 import { handleNotStarted, handleFinished } from './handle-matches.js';
-
-import fs from 'fs';
 
 /// this function generates the match json
 

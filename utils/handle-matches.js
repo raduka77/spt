@@ -1,5 +1,7 @@
 import { path } from '../paths.js';
 import fs from 'fs';
+/// for local test
+// let all = [];
 
 const handleNotStarted = async matchObj => {
   /// save the match
@@ -312,11 +314,21 @@ const handleFinished = async (match, homeData, awayData) => {
       matchScoreArray: finalScoreArr,
     };
 
+    //// local test
+    // all.push(updated);
+    // fs.writeFileSync(
+    //   `../local_test/tennis.json`,
+    //   JSON.stringify(all, null, 2),
+    //   'utf-8'
+    // );
+    //// end local test
     console.log('>>>> updating match file...');
     console.log(matchFullPath);
     fs.writeFileSync(matchFullPath, JSON.stringify(updated, null, 2), 'utf-8');
   } else {
-    console.log('!!!!____________________________ match json not found');
+    console.log(
+      '!!!! XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX match json not found'
+    );
   }
 
   ///// HANDLE TEAMS MATCHES JSON

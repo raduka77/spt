@@ -225,7 +225,7 @@ const predictionByH2H = function (h2h, homeData, awayData, ground) {
       h2s.byH2H_ES = `${awayData.lastName} tiene una ventaja significativa en el historial de enfrentamientos directos contra ${homeData.lastName}.`;
       h2s.byH2H_PT = `${awayData.lastName} tem uma vantagem significativa no registo frente a frente contra ${homeData.lastName}.`;
       h2s.byH2H_FR = `${awayData.lastName} détient un avantage significatif dans les confrontations directes avec ${homeData.lastName}.`;
-      h2s.byH2H_DE = `${AuswärtsDaten.Nachname} hat einen deutlichen Vorsprung in der direkten Bilanz gegen ${HeimatDaten.Nachname}.`;
+      h2s.byH2H_DE = `${awayData.lastName} hat einen deutlichen Vorsprung in der direkten Bilanz gegen ${homeData.lastName}.`;
       h2s.byH2H_CZ = `${awayData.lastName} má výraznou převahu ve vzájemných zápasech proti ${homeData.lastName}.`;
       h2s.byH2H_PL = `${awayData.lastName}posiada znaczącą przewagę w rekordzie head-to-head przeciwko ${homeData.lastName}.`;
     }
@@ -1174,7 +1174,7 @@ const predictionByH2H = function (h2h, homeData, awayData, ground) {
       ` ${awayData.lastName} détient l'avantage sur ${homeData.lastName} dans les matchs disputés en finale de tournoi, avec un score de ${h2h.awayWinsInFinals}-${h2h.homeWinsInFinals}.`;
     h2s.byH2H_DE =
       h2s.byH2H_DE +
-      ` ${AuswärtsDaten.Nachname} hat den Vorteil gegenüber ${HeimDaten.Nachname} in Spielen, die in Turnierfinalen ausgetragen werden, mit einem Punktestand von ${h2h.AuswärtsSiegeImFinale}-${h2h.HeimSiegeImFinale}.`;
+      ` ${awayData.lastName} hat den Vorteil gegenüber ${homeData.lastName} in Spielen, die in Turnierfinalen ausgetragen werden, mit einem Punktestand von ${h2h.awayWinsInFinals}-${h2h.homeWinsInFinals}.`;
     h2s.byH2H_CZ =
       h2s.byH2H_CZ +
       ` ${awayData.lastName} má výhodu nad ${homeData.lastName} v zápasech odehraných ve finále turnaje se skóre ${h2h.awayWinsInFinals}-${h2h.homeWinsInFinals}.`;
