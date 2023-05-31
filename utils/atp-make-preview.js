@@ -15,6 +15,33 @@ import { handleNotStarted, handleFinished } from './handle-matches.js';
 /// this function generates the match json
 
 const MakePreview = async (match, homeData, awayData) => {
+  /// load tournaments names and slugs
+  const tourSlugs = JSON.parse(
+    fs.readFileSync('../slugs/atp-leagues-slugs.json', 'utf8')
+  );
+
+  const toursATP = JSON.parse(
+    fs.readFileSync('../json_tennis/atp-leagues.json', 'utf8')
+  );
+
+  //// find tournaments proper names
+
+  let tourName;
+  let tourSlug;
+
+  if (typeof match.matchTour !== 'undefined') {
+    const theTour = tourSlugs.find(e => e.id == match.matchTour);
+
+    if (theTour) {
+      tourSlug = theTour.slug;
+    }
+
+    const theName = toursATP.find(e => e.id == match.matchTour);
+    if (theName) {
+      tourName = theName.properName;
+    }
+  }
+
   const internalId = `${homeData.id}@${awayData.id}`;
   const matchSlug = `${homeData.playerSlug}-vs-${awayData.playerSlug}`;
 
@@ -97,6 +124,8 @@ const MakePreview = async (match, homeData, awayData) => {
       internalId: internalId,
       matchSlug: matchSlug,
       match: match,
+      tourName: tourName,
+      tourSlug: tourSlug,
       homePlayerData: homeData,
       awayPlayerData: awayData,
       H2H: h2h,

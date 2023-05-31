@@ -21,8 +21,6 @@ const Start = async () => {
       match.matchOdds !== null &&
       match.matchOdds.length > 0
     ) {
-      //// init match id internal
-
       /// identify teams
       const homePlayerData = playersATPInternal.find(
         e => e.id == match.homeTeam.id
