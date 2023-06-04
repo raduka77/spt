@@ -298,6 +298,8 @@ const handleFinished = async (match, homeData, awayData) => {
       match: match,
       tourName: matchJson.tourName,
       tourSlug: matchJson.tourSlug,
+      startDate: matchJson.startDate,
+      startHour: matchJson.startHour,
       homePlayerData: matchJson.homePlayerData,
       awayPlayerData: matchJson.awayPlayerData,
       H2H: matchJson.H2H,

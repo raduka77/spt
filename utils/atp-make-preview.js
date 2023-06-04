@@ -1,5 +1,6 @@
 'use strict';
 import fs from 'fs';
+import { DateTime } from 'luxon';
 import { AtpH2H } from './make-h2h-atp.js';
 import { ATPProcessLastMatch } from './atp-process-last-match.js';
 import { predictionByRank } from './atp-pred-by-rank.js';
@@ -11,6 +12,30 @@ import { TextForLastMatch } from './atp-text-last-match.js';
 import { predictionByOdds } from './atp-pred-by-odds.js';
 import { predictionByH2H } from './atp-pred-by-h2h.js';
 import { handleNotStarted, handleFinished } from './handle-matches.js';
+
+/// time
+const calculateHour = current => {
+  const matchDate = DateTime.fromSeconds(current, { zone: 'utc' }).toFormat(
+    'HH:mm',
+    {
+      setZone: true,
+    }
+  );
+
+  return matchDate;
+};
+
+/// date
+const calculateEpoch = current => {
+  const matchDate = DateTime.fromSeconds(current, { zone: 'utc' }).toFormat(
+    'dd MMM yyyy',
+    {
+      setZone: true,
+    }
+  );
+
+  return matchDate;
+};
 
 /// this function generates the match json
 
@@ -107,6 +132,9 @@ const MakePreview = async (match, homeData, awayData) => {
       }
     }
 
+    const startDate = calculateEpoch(match.startTimestamp);
+    const startHour = calculateHour(match.startTimestamp);
+
     const predByH2H = predictionByH2H(
       h2h,
       homeData,
@@ -126,6 +154,8 @@ const MakePreview = async (match, homeData, awayData) => {
       match: match,
       tourName: tourName,
       tourSlug: tourSlug,
+      startDate: startDate,
+      startHour: startHour,
       homePlayerData: homeData,
       awayPlayerData: awayData,
       H2H: h2h,
