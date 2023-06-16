@@ -1,6 +1,28 @@
 import { path } from '../../paths.js';
 import fs from 'fs';
 
+function makeYoutubeEmbed(videoUrl) {
+  if (typeof videoUrl !== 'string') {
+    return undefined;
+  }
+
+  const getId = url => {
+    const regExp =
+      /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+    const match = url.match(regExp);
+
+    if (match && match[2].length == 11) {
+      return match[2];
+    }
+  };
+
+  const id = getId(videoUrl);
+
+  if (id) {
+    return 'https://www.youtube.com/embed/' + id;
+  }
+}
+
 const handleNotStarted = async matchObj => {
   /// save the match
 
@@ -266,6 +288,18 @@ const handleFinished = async (match, homeData, awayData) => {
 
   ////// end scores and states, commit
 
+  ////// handle media urls
+
+  let medias = [];
+  if (match.matchMedia !== null) {
+    match.matchMedia.forEach(media => {
+      if (media.url.includes('youtu')) {
+        const embedUrl = makeYoutubeEmbed(media.url);
+        medias.push(embedUrl);
+      }
+    });
+  }
+
   console.log(
     `------- Updating finished match ${match.id} and matches for players ${homeData.lastName} / ${awayData.lastName}`
   );
@@ -311,6 +345,7 @@ const handleFinished = async (match, homeData, awayData) => {
       predictionOdds: matchJson.predictionOdds,
       matchStatus: matchStatus,
       matchScoreArray: finalScoreArr,
+      newMedia: medias,
     };
 
     console.log('>>>> updating match file...');

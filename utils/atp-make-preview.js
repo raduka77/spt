@@ -13,6 +13,10 @@ import { predictionByOdds } from './atp-pred-by-odds.js';
 import { predictionByH2H } from './atp-pred-by-h2h.js';
 import { handleNotStarted, handleFinished } from './handle-matches.js';
 
+/// local ONLY!
+let local = [];
+///
+
 /// time
 const calculateHour = current => {
   const matchDate = DateTime.fromSeconds(current, { zone: 'utc' }).toFormat(
@@ -167,7 +171,14 @@ const MakePreview = async (match, homeData, awayData) => {
       predictionOdds: predByOdds,
     };
 
-    // console.log(matchObj);
+    // LOCAL ONLY!!!!!!!!!!!
+    local.push(matchObj);
+    fs.writeFileSync(
+      `../local_test/tennis-ns.json`,
+      JSON.stringify(local, null, 2),
+      'utf-8'
+    );
+    //////////////////////////
 
     await handleNotStarted(matchObj);
     console.log('=================================');
