@@ -3281,11 +3281,9 @@ const CreateDBFiles = async () => {
       `Player: ${player.properName} (id: ${player.id}), item ${index} from ${arr.length}`
     );
     const theSlug = playersATPSlugs.find(e => e.id == player.id);
-
     if (theSlug) {
       let teamPath = '';
       const playerSlug = theSlug.slug;
-
       const lettersTeam = playerSlug.slice(0, 2);
       console.log(lettersTeam);
       //// taie "-" din path (de obicei e al doilea caracter)
@@ -3294,14 +3292,11 @@ const CreateDBFiles = async () => {
       } else {
         teamPath = `${path}/tennis/teams/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
       }
-
       let teamFullPath = `${teamPath}/${player.id}`;
-
       if (!fs.existsSync(teamFullPath)) {
         //// make dir if dir doesn't exist and write file
         console.log(`directory doesn't exist, making dir, writing file`);
         fs.mkdirSync(teamFullPath, { recursive: true });
-
         const x = {
           ...player,
           ...makePlayerStats(player.id),
@@ -3309,7 +3304,6 @@ const CreateDBFiles = async () => {
           dbLocation: `${teamFullPath}/${player.id}.json`,
           dbFolder: `${teamFullPath}`,
         };
-
         //// write db file
         fs.writeFileSync(
           `${teamFullPath}/${player.id}.json`,
@@ -3327,7 +3321,6 @@ const CreateDBFiles = async () => {
       } else {
         /// just write file
         console.log(`directory EXIST, just writing file`);
-
         const x = {
           ...player,
           ...makePlayerStats(player.id),
@@ -3352,11 +3345,7 @@ const CreateDBFiles = async () => {
       }
     }
   });
-  fs.writeFileSync(
-    `../json_tennis/atp-internal-players-db.json`,
-    JSON.stringify(internalFile, null, 2),
-    'utf-8'
-  );
+
   // await MongoConnection.close();
 };
 
