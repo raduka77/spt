@@ -1,7 +1,7 @@
 import { path } from '../paths.js';
 import fs from 'fs';
 /// for local test
-// let all = [];
+let all = [];
 
 function makeYoutubeEmbed(videoUrl) {
   if (typeof videoUrl !== 'string') {

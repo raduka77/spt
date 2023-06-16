@@ -3337,15 +3337,14 @@ const CreateDBFiles = async () => {
         };
         internalFile.push(y);
         //// write db file
-        fs.writeFileSync(
-          `${teamFullPath}/${player.id}.json`,
-          JSON.stringify(x, null, 2),
-          'utf-8'
-        );
       }
     }
   });
-
+  fs.writeFileSync(
+    `../json_tennis/atp-internal-players-db.json`,
+    JSON.stringify(internalFile, null, 2),
+    'utf-8'
+  );
   // await MongoConnection.close();
 };
 
