@@ -16,29 +16,29 @@ const Start = async () => {
   const atpMatches = await ATPFetchCurrentMatches();
 
   for await (const match of atpMatches) {
-    if (
-      typeof match.matchOdds !== 'undefined' &&
-      match.matchOdds !== null &&
-      match.matchOdds.length > 0
-    ) {
-      /// identify teams
-      const homePlayerData = playersATPInternal.find(
-        e => e.id == match.homeTeam.id
-      );
-      const awayPlayerData = playersATPInternal.find(
-        e => e.id == match.awayTeam.id
-      );
+    // if (
+    //   typeof match.matchOdds !== 'undefined' &&
+    //   match.matchOdds !== null &&
+    //   match.matchOdds.length > 0
+    // ) {
+    /// identify teams
+    const homePlayerData = playersATPInternal.find(
+      e => e.id == match.homeTeam.id
+    );
+    const awayPlayerData = playersATPInternal.find(
+      e => e.id == match.awayTeam.id
+    );
 
-      /// load team data
-      const homePlayer = JSON.parse(
-        fs.readFileSync(`${homePlayerData.dbLocation}`, 'utf8')
-      );
+    /// load team data
+    const homePlayer = JSON.parse(
+      fs.readFileSync(`${homePlayerData.dbLocation}`, 'utf8')
+    );
 
-      const awayPlayer = JSON.parse(
-        fs.readFileSync(`${awayPlayerData.dbLocation}`, 'utf8')
-      );
-      await MakePreview(match, homePlayer, awayPlayer);
-    }
+    const awayPlayer = JSON.parse(
+      fs.readFileSync(`${awayPlayerData.dbLocation}`, 'utf8')
+    );
+    await MakePreview(match, homePlayer, awayPlayer);
+    // }
   }
   console.log('finished');
   console.log(

@@ -382,7 +382,7 @@ const handleFinished = async (match, homeData, awayData) => {
         matchDate: match.startTimestamp,
       };
 
-      homeNewArr.push(hm);
+      homeNewArr.unshift(hm);
 
       fs.writeFileSync(
         `${homeTeamPath}/matches.json`,
@@ -401,7 +401,7 @@ const handleFinished = async (match, homeData, awayData) => {
         matchName: `${homeData.lastName} vs ${awayData.lastName}`,
         matchDate: match.startTimestamp,
       };
-      homeMatches.push(hm);
+      homeMatches.unshift(hm);
 
       fs.writeFileSync(
         `${homeTeamPath}/matches.json`,
@@ -434,7 +434,7 @@ const handleFinished = async (match, homeData, awayData) => {
         matchDate: match.startTimestamp,
       };
 
-      awayNewArr.push(am);
+      awayNewArr.unshift(am);
 
       fs.writeFileSync(
         `${awayTeamPath}/matches.json`,
@@ -453,7 +453,7 @@ const handleFinished = async (match, homeData, awayData) => {
         matchName: `${homeData.lastName} vs ${awayData.lastName}`,
         matchDate: match.startTimestamp,
       };
-      awayMatches.push(am);
+      awayMatches.unshift(am);
 
       fs.writeFileSync(
         `${awayTeamPath}/matches.json`,

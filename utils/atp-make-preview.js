@@ -14,7 +14,7 @@ import { predictionByH2H } from './atp-pred-by-h2h.js';
 import { handleNotStarted, handleFinished } from './handle-matches.js';
 
 /// local ONLY!
-// let local = [];
+let local = [];
 ///
 
 /// time

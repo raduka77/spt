@@ -16,31 +16,31 @@ const Start = async () => {
   const wtaMatches = await WTAFetchCurrentMatches();
 
   for await (const match of wtaMatches) {
-    if (
-      typeof match.matchOdds !== 'undefined' &&
-      match.matchOdds !== null &&
-      match.matchOdds.length > 0
-    ) {
-      //// init match id internal
+    // if (
+    //   typeof match.matchOdds !== 'undefined' &&
+    //   match.matchOdds !== null &&
+    //   match.matchOdds.length > 0
+    // ) {
+    //// init match id internal
 
-      /// identify teams
-      const homePlayerData = playersWTAInternal.find(
-        e => e.id == match.homeTeam.id
-      );
-      const awayPlayerData = playersWTAInternal.find(
-        e => e.id == match.awayTeam.id
-      );
+    /// identify teams
+    const homePlayerData = playersWTAInternal.find(
+      e => e.id == match.homeTeam.id
+    );
+    const awayPlayerData = playersWTAInternal.find(
+      e => e.id == match.awayTeam.id
+    );
 
-      /// load team data
-      const homePlayer = JSON.parse(
-        fs.readFileSync(`${homePlayerData.dbLocation}`, 'utf8')
-      );
+    /// load team data
+    const homePlayer = JSON.parse(
+      fs.readFileSync(`${homePlayerData.dbLocation}`, 'utf8')
+    );
 
-      const awayPlayer = JSON.parse(
-        fs.readFileSync(`${awayPlayerData.dbLocation}`, 'utf8')
-      );
-      await MakePreview(match, homePlayer, awayPlayer);
-    }
+    const awayPlayer = JSON.parse(
+      fs.readFileSync(`${awayPlayerData.dbLocation}`, 'utf8')
+    );
+    await MakePreview(match, homePlayer, awayPlayer);
+    // }
   }
   console.log('finished');
   console.log(
