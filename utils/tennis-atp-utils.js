@@ -3293,6 +3293,7 @@ const CreateDBFiles = async () => {
         teamPath = `${path}/tennis/teams/${lettersTeam[0]}/${lettersTeam[0]}${lettersTeam[1]}`;
       }
       let teamFullPath = `${teamPath}/${player.id}`;
+
       if (!fs.existsSync(teamFullPath)) {
         //// make dir if dir doesn't exist and write file
         console.log(`directory doesn't exist, making dir, writing file`);
@@ -3304,6 +3305,7 @@ const CreateDBFiles = async () => {
           dbLocation: `${teamFullPath}/${player.id}.json`,
           dbFolder: `${teamFullPath}`,
         };
+
         //// write db file
         fs.writeFileSync(
           `${teamFullPath}/${player.id}.json`,
@@ -3328,6 +3330,12 @@ const CreateDBFiles = async () => {
           dbLocation: `${teamFullPath}/${player.id}.json`,
           dbFolder: `${teamFullPath}`,
         };
+        //// write db file
+        fs.writeFileSync(
+          `${teamFullPath}/${player.id}.json`,
+          JSON.stringify(x, null, 2),
+          'utf-8'
+        );
         /// internal object
         const y = {
           id: player.id,
@@ -3462,6 +3470,7 @@ const FetchPlayers = async () => {
   const col = db.collection('playersATP');
   let players = [];
   let newPlayers = [];
+
   const options = {
     projection: {
       _id: 0,
@@ -3477,6 +3486,7 @@ const FetchPlayers = async () => {
   players.forEach(player => {
     let recentMatches = [];
     let theFullName = '';
+    let playerCountry;
     if (player.fullName.includes(',')) {
       theFullName = player.fullName.split(', ');
     } else {
@@ -3497,12 +3507,17 @@ const FetchPlayers = async () => {
 
     delete player.recentForm;
 
+    if (player.country.alpha2) {
+      playerCountry = player.country.alpha2.toLowerCase();
+    }
+    console.log(playerCountry);
     const x = {
       ...player,
       properName: `${theFullName[1]} ${theFullName[0]}`,
       firstName: theFullName[1],
       lastName: theFullName[0],
       recentMatches: recentMatches,
+      countryImg: `/img/flags/${playerCountry}.svg`,
     };
 
     newPlayers.push(x);

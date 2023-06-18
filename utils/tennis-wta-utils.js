@@ -3335,6 +3335,12 @@ const CreateDBFiles = async () => {
           dbLocation: `${teamFullPath}/${player.id}.json`,
           dbFolder: `${teamFullPath}`,
         };
+        //// write db file
+        fs.writeFileSync(
+          `${teamFullPath}/${player.id}.json`,
+          JSON.stringify(x, null, 2),
+          'utf-8'
+        );
         /// internal object
         const y = {
           id: player.id,
@@ -3488,6 +3494,8 @@ const FetchPlayers = async () => {
   players.forEach(player => {
     let recentMatches = [];
     let theFullName = '';
+    let playerCountry;
+
     if (player.fullName.includes(',')) {
       theFullName = player.fullName.split(', ');
     } else {
@@ -3508,12 +3516,17 @@ const FetchPlayers = async () => {
 
     delete player.recentForm;
 
+    if (player.country.alpha2) {
+      playerCountry = player.country.alpha2.toLowerCase();
+    }
+
     const x = {
       ...player,
       properName: `${theFullName[1]} ${theFullName[0]}`,
       firstName: theFullName[1],
       lastName: theFullName[0],
       recentMatches: recentMatches,
+      countryImg: `/img/flags/${playerCountry}.svg`,
     };
 
     newPlayers.push(x);
