@@ -353,12 +353,12 @@ const handleFinished = async (match, homeData, awayData) => {
     };
 
     //// local test
-    all.push(updated);
-    fs.writeFileSync(
-      `../local_test/tennis.json`,
-      JSON.stringify(all, null, 2),
-      'utf-8'
-    );
+    // all.push(updated);
+    // fs.writeFileSync(
+    //   `../local_test/tennis.json`,
+    //   JSON.stringify(all, null, 2),
+    //   'utf-8'
+    // );
     //// end local test
     console.log('>>>> updating match file...');
     console.log(matchFullPath);
