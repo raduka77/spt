@@ -172,12 +172,12 @@ const MakePreview = async (match, homeData, awayData) => {
     };
 
     // LOCAL ONLY!!!!!!!!!!!
-    // local.push(matchObj);
-    // fs.writeFileSync(
-    //   `../local_test/tennis-ns.json`,
-    //   JSON.stringify(local, null, 2),
-    //   'utf-8'
-    // );
+    local.push(matchObj);
+    fs.writeFileSync(
+      `../local_test/tennis-ns.json`,
+      JSON.stringify(local, null, 2),
+      'utf-8'
+    );
     //////////////////////////
 
     await handleNotStarted(matchObj);

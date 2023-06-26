@@ -4,19 +4,31 @@ import { MongoConnection, MongoDbName } from './mongo-tennis.js';
 import { DateTime } from 'luxon';
 import slugify from 'slugify';
 import { path } from '../paths.js';
+import convert from 'convert-units';
 
 const year2023Start = 1672531200;
 const year2023End = 1704067199;
 
-const CalculateEpoch = current => {
-  const matchDate = DateTime.fromSeconds(current, { zone: 'utc' }).toFormat(
-    'dd-MMM-yyyy',
-    {
-      setZone: true,
-    }
-  );
+const calculateBirthDate = current => {
+  const res = DateTime.fromSeconds(current).toFormat('dd MMM yyyy', {
+    setZone: true,
+  });
 
-  return matchDate;
+  return res;
+};
+
+const calculateYear = current => {
+  const res = DateTime.fromSeconds(current).toFormat('yyyy', {
+    setZone: true,
+  });
+
+  return res;
+};
+
+const CurrentTime = function () {
+  let now = new Date().getTime();
+  let currentTime = Math.floor(now / 1000);
+  return currentTime;
 };
 
 const ausOpen = function (statsArr, isHome) {
@@ -3249,12 +3261,30 @@ const makePlayerStats = function (playerId) {
     GrassStats.tieBreaks = seasonTieBreaksGrass.reduce((a, b) => a + b);
   }
 
-  /////sdds
+  //// add all stats object
+  const allTitles = HOTitles.concat(HITitles, ClayTitles, GrassTitles);
+  const allMatches = HOMatches + HIMatches + ClayMatches + GrassMatches;
+  const allWins =
+    HOMatchesWon + HIMatchesWon + ClayMatchesWon + GrassMatchesWon;
+  const winPercAll = Number(((allWins / allMatches) * 100).toFixed(2));
+  const allLost =
+    HOMatchesLost + HIMatchesLost + ClayMatchesLost + GrassMatchesLost;
+
+  let TotalStats = {
+    allTitles: allTitles,
+    allMatches: allMatches,
+    wonMatches: allWins,
+    lostMatches: allLost,
+    allWinPerc: winPercAll,
+  };
+
+  /////final obj
   const x = {
     hardcourtOutdoorStats: HOStats,
     hardcourtIndoorStats: HIStats,
     redClayStats: ClayStats,
     grassStats: GrassStats,
+    totalStats: TotalStats,
   };
 
   console.log('making stats for ' + playerId);
@@ -3483,10 +3513,97 @@ const FetchPlayers = async () => {
 
   console.log(players.length);
 
+  /// load exchange rate
+  const rate = JSON.parse(fs.readFileSync('../json_tennis/rate.json', 'utf8'));
+
   players.forEach(player => {
     let recentMatches = [];
     let theFullName = '';
     let playerCountry;
+
+    let plMeta = {
+      yearOfStats: '',
+      playerAge: 0,
+      playerBirthDate: '',
+      playerPrizeUSDCurr: 0,
+      playerPrizeUSDAll: 0,
+      playerLbs: 0,
+      playerHeightUS: '-',
+    };
+
+    //// current year of stats
+    const timeNow = CurrentTime();
+    plMeta.yearOfStats = calculateYear(timeNow);
+
+    /// set wins in USD
+    if (
+      typeof player.playerTeamInfo !== 'undefined' &&
+      typeof player.playerTeamInfo.prizeCurrent !== 'undefined'
+    ) {
+      plMeta.playerPrizeUSDCurr = Math.round(
+        player.playerTeamInfo.prizeCurrent * rate.rate
+      );
+    }
+
+    if (
+      typeof player.playerTeamInfo !== 'undefined' &&
+      typeof player.playerTeamInfo.prizeTotal !== 'undefined'
+    ) {
+      plMeta.playerPrizeUSDAll = Math.round(
+        player.playerTeamInfo.prizeTotal * rate.rate
+      );
+    }
+
+    //// set birthday date
+    if (
+      typeof player.playerTeamInfo !== 'undefined' &&
+      typeof player.playerTeamInfo.birthDateTimestamp !== 'undefined'
+    ) {
+      plMeta.playerBirthDate = calculateBirthDate(
+        player.playerTeamInfo.birthDateTimestamp
+      );
+    }
+
+    //// set age
+
+    if (
+      typeof player.playerTeamInfo !== 'undefined' &&
+      typeof player.playerTeamInfo.birthDateTimestamp !== 'undefined'
+    ) {
+      const currDate = CurrentTime();
+
+      const timeDiff = currDate - player.playerTeamInfo.birthDateTimestamp;
+
+      plMeta.playerAge = Math.floor(timeDiff / 31536000);
+    }
+
+    //// set units in US format
+    //// heigth
+    if (
+      typeof player.playerTeamInfo !== 'undefined' &&
+      typeof player.playerTeamInfo.height !== 'undefined'
+    ) {
+      const heightCm = player.playerTeamInfo.height * 100;
+      const resH = convert(heightCm).from('cm').to('ft-us');
+
+      const formatH = resH.toFixed(1).split('.');
+
+      plMeta.playerHeightUS = `${formatH[0]}'${formatH[1]}''`;
+    }
+
+    //// weigth
+    if (
+      typeof player.playerTeamInfo !== 'undefined' &&
+      typeof player.playerTeamInfo.weight !== 'undefined'
+    ) {
+      const resW = convert(player.playerTeamInfo.weight).from('kg').to('lb');
+      plMeta.playerLbs = Math.round(resW);
+    }
+
+    // console.log(plMeta);
+
+    //// set names and recent match array
+
     if (player.fullName.includes(',')) {
       theFullName = player.fullName.split(', ');
     } else {
@@ -3510,7 +3627,7 @@ const FetchPlayers = async () => {
     if (player.country.alpha2) {
       playerCountry = player.country.alpha2.toLowerCase();
     }
-    console.log(playerCountry);
+
     const x = {
       ...player,
       properName: `${theFullName[1]} ${theFullName[0]}`,
@@ -3518,6 +3635,7 @@ const FetchPlayers = async () => {
       lastName: theFullName[0],
       recentMatches: recentMatches,
       countryImg: `/img/flags/${playerCountry}.svg`,
+      frontMeta: plMeta,
     };
 
     newPlayers.push(x);
