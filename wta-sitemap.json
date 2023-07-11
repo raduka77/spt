@@ -1,0 +1,46 @@
+[
+  {
+    "matchId": "1234@1234",
+    "url": "https://www.sportpredictions.net/wta-tennis-predictions/",
+    "changefreq": "hourly",
+    "priority": 0.8,
+    "links": [
+      {
+        "lang": "en",
+        "url": "https://www.sportpredictions.net/wta-tennis-predictions/"
+      },
+      {
+        "lang": "it",
+        "url": "https://www.sportpredictions.net/it/pronostici-tennis-wta/"
+      },
+      {
+        "lang": "es",
+        "url": "https://www.sportpredictions.net/es/pronosticos-tenis-wta/"
+      },
+      {
+        "lang": "pt",
+        "url": "https://www.sportpredictions.net/pt/previsoes-tenis-wta/"
+      },
+      {
+        "lang": "fr",
+        "url": "https://www.sportpredictions.net/fr/pronos-tennis-wta/"
+      },
+      {
+        "lang": "ro",
+        "url": "https://www.sportpredictions.net/ro/pronosticuri-tenis-wta/"
+      },
+      {
+        "lang": "de",
+        "url": "https://www.sportpredictions.net/de/wta-tennis-vorhersagen/"
+      },
+      {
+        "lang": "cs",
+        "url": "https://www.sportpredictions.net/cs/wta-tenisove-predpovedi/"
+      },
+      {
+        "lang": "pl",
+        "url": "https://www.sportpredictions.net/pl/prognozy-tenisowe-wta/"
+      }
+    ]
+  }
+]

@@ -11,7 +11,9 @@ import { formOfPlayersOnGrass } from './atp-form-on-grass.js';
 import { TextForLastMatch } from './atp-text-last-match.js';
 import { predictionByOdds } from './atp-pred-by-odds.js';
 import { predictionByH2H } from './atp-pred-by-h2h.js';
+import { makeSchemaData } from './schema-time.js';
 import { handleNotStarted, handleFinished } from './handle-matches.js';
+import { path } from '../paths.js';
 
 /// local ONLY!
 let local = [];
@@ -51,6 +53,10 @@ const MakePreview = async (match, homeData, awayData) => {
 
   const toursATP = JSON.parse(
     fs.readFileSync('../json_tennis/atp-leagues.json', 'utf8')
+  );
+
+  const siteMapUrls = JSON.parse(
+    fs.readFileSync(`${path}/tennis/atp-sitemap.json`, 'utf8')
   );
 
   //// find tournaments proper names
@@ -169,10 +175,87 @@ const MakePreview = async (match, homeData, awayData) => {
       predictionH2H: predByH2H,
       predictionRank: predByRank,
       predictionOdds: predByOdds,
+      ...(await makeSchemaData(match)),
     };
 
+    let langSitemap = [];
+    const enSlug = {
+      lang: 'en',
+      url: `https://www.sportpredictions.net/atp-tennis-predictions/${matchSlug}-prediction-live-stream/`,
+    };
+
+    const itSlug = {
+      lang: 'it',
+      url: `https://www.sportpredictions.net/it/pronostici-tennis-atp/${matchSlug}-pronostico-live-stream/`,
+    };
+
+    const esSlug = {
+      lang: 'es',
+      url: `https://www.sportpredictions.net/es/pronosticos-tenis-atp/${matchSlug}-prediccion-en-vivo/`,
+    };
+
+    const ptSlug = {
+      lang: 'pt',
+      url: `https://www.sportpredictions.net/pt/previsoes-tenis-atp/${matchSlug}-previsao-ao-vivo/`,
+    };
+
+    const frSlug = {
+      lang: 'fr',
+      url: `https://www.sportpredictions.net/fr/pronos-tennis-atp/${matchSlug}-prono-stream/`,
+    };
+
+    const roSlug = {
+      lang: 'ro',
+      url: `https://www.sportpredictions.net/ro/pronosticuri-tenis-atp/${matchSlug}-pronostic-stream-direct/`,
+    };
+
+    const deSlug = {
+      lang: 'de',
+      url: `https://www.sportpredictions.net/de/atp-tennis-vorhersagen/${matchSlug}-vorhersage-live-stream/`,
+    };
+
+    const czSlug = {
+      lang: 'cs',
+      url: `https://www.sportpredictions.net/cs/atp-tenisove-predpovedi/${matchSlug}-predikce-live-stream/`,
+    };
+
+    const plSlug = {
+      lang: 'pl',
+      url: `https://www.sportpredictions.net/pl/prognozy-tenisowe-atp/${matchSlug}-prognoza-na-zywo/`,
+    };
+
+    langSitemap.push(
+      enSlug,
+      itSlug,
+      esSlug,
+      ptSlug,
+      frSlug,
+      roSlug,
+      deSlug,
+      czSlug,
+      plSlug
+    );
+
+    let siteMapObj = {
+      matchId: internalId,
+      url: `https://www.sportpredictions.net/atp-tennis-predictions/${matchSlug}-prediction-live-stream/`,
+      links: langSitemap,
+    };
+
+    const isUrl = siteMapUrls.find(e => e.matchId === internalId);
+
+    if (!isUrl) {
+      siteMapUrls.push(siteMapObj);
+
+      fs.writeFileSync(
+        `${path}/tennis/atp-sitemap.json`,
+        JSON.stringify(siteMapUrls, null, 2),
+        'utf-8'
+      );
+    }
+
     // LOCAL ONLY!!!!!!!!!!!
-    // local.push(matchObj);
+    local.push(matchObj);
     // fs.writeFileSync(
     //   `../local_test/tennis-ns.json`,
     //   JSON.stringify(local, null, 2),

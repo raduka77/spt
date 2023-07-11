@@ -379,7 +379,7 @@
   },
   {
     "id": 283070,
-    "name": "Holger Vitus Nodskov Rune",
+    "name": "Holger Rune",
     "dbLocation": "/Users/radulazar1/OneDrive/spt/db/tennis/teams/h/ho/283070/283070.json",
     "dbFolder": "/Users/radulazar1/OneDrive/spt/db/tennis/teams/h/ho/283070"
   },
@@ -11200,5 +11200,11 @@
     "name": "Johannus Monday",
     "dbLocation": "/Users/radulazar1/OneDrive/spt/db/tennis/teams/j/jo/313822/313822.json",
     "dbFolder": "/Users/radulazar1/OneDrive/spt/db/tennis/teams/j/jo/313822"
+  },
+  {
+    "id": 267242,
+    "name": "Harry Wendelken",
+    "dbLocation": "/Users/radulazar1/OneDrive/spt/db/tennis/teams/h/ha/267242/267242.json",
+    "dbFolder": "/Users/radulazar1/OneDrive/spt/db/tennis/teams/h/ha/267242"
   }
 ]

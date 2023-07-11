@@ -11,6 +11,8 @@ import { TextForLastMatch } from './wta-text-last-match.js';
 import { predictionByOdds } from './wta-pred-by-odds.js';
 import { predictionByH2H } from './wta-pred-by-h2h.js';
 import { handleNotStarted, handleFinished } from './handle-matches.js';
+import { makeSchemaData } from './schema-time.js';
+import { path } from '../../paths.js';
 
 /// time
 const calculateHour = current => {
@@ -46,6 +48,10 @@ const MakePreview = async (match, homeData, awayData) => {
 
   const toursWTA = JSON.parse(
     fs.readFileSync('../json_tennis/wta-leagues.json', 'utf8')
+  );
+
+  const siteMapUrls = JSON.parse(
+    fs.readFileSync(`${path}/tennis/wta-sitemap.json`, 'utf8')
   );
 
   //// find tournaments proper names
@@ -167,7 +173,85 @@ const MakePreview = async (match, homeData, awayData) => {
       predictionH2H: predByH2H,
       predictionRank: predByRank,
       predictionOdds: predByOdds,
+      ...(await makeSchemaData(match)),
     };
+
+    //// begin saving match to all matches for sitemap
+    let langSitemap = [];
+    const enSlug = {
+      lang: 'en',
+      url: `https://www.sportpredictions.net/wta-tennis-predictions/${matchSlug}-prediction-live-stream/`,
+    };
+
+    const itSlug = {
+      lang: 'it',
+      url: `https://www.sportpredictions.net/it/pronostici-tennis-wta/${matchSlug}-pronostico-live-stream/`,
+    };
+
+    const esSlug = {
+      lang: 'es',
+      url: `https://www.sportpredictions.net/es/pronosticos-tenis-wta/${matchSlug}-prediccion-en-vivo/`,
+    };
+
+    const ptSlug = {
+      lang: 'pt',
+      url: `https://www.sportpredictions.net/pt/previsoes-tenis-wta/${matchSlug}-previsao-ao-vivo/`,
+    };
+
+    const frSlug = {
+      lang: 'fr',
+      url: `https://www.sportpredictions.net/fr/pronos-tennis-wta/${matchSlug}-prono-stream/`,
+    };
+
+    const roSlug = {
+      lang: 'ro',
+      url: `https://www.sportpredictions.net/ro/pronosticuri-tenis-wta/${matchSlug}-pronostic-stream-direct/`,
+    };
+
+    const deSlug = {
+      lang: 'de',
+      url: `https://www.sportpredictions.net/de/wta-tennis-vorhersagen/${matchSlug}-vorhersage-live-stream/`,
+    };
+
+    const czSlug = {
+      lang: 'cs',
+      url: `https://www.sportpredictions.net/cs/wta-tenisove-predpovedi/${matchSlug}-predikce-live-stream/`,
+    };
+
+    const plSlug = {
+      lang: 'pl',
+      url: `https://www.sportpredictions.net/pl/prognozy-tenisowe-wta/${matchSlug}-prognoza-na-zywo/`,
+    };
+
+    langSitemap.push(
+      enSlug,
+      itSlug,
+      esSlug,
+      ptSlug,
+      frSlug,
+      roSlug,
+      deSlug,
+      czSlug,
+      plSlug
+    );
+
+    let siteMapObj = {
+      matchId: internalId,
+      url: `https://www.sportpredictions.net/wta-tennis-predictions/${matchSlug}-prediction-live-stream/`,
+      links: langSitemap,
+    };
+
+    const isUrl = siteMapUrls.find(e => e.matchId === internalId);
+
+    if (!isUrl) {
+      siteMapUrls.push(siteMapObj);
+
+      fs.writeFileSync(
+        `${path}/tennis/wta-sitemap.json`,
+        JSON.stringify(siteMapUrls, null, 2),
+        'utf-8'
+      );
+    }
 
     // // console.log(matchObj);
 

@@ -19,7 +19,11 @@
     "mongodb": "^5.2.0",
     "number-to-words": "^1.2.4",
     "openai": "^3.2.1",
+    "path": "^0.12.7",
+    "sitemap": "^7.1.1",
     "slugify": "^1.6.6",
-    "sync-request": "^6.1.0"
+    "stream": "^0.0.2",
+    "sync-request": "^6.1.0",
+    "zlib": "^1.0.5"
   }
 }
